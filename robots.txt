@@ -1,1 +1,1 @@
-Sitemap: https://lmu-osc.github.io/train-the-trainer-student-track-OS/sitemap.xml
+Sitemap: https://lmu-osc.github.io/teaching-material-for-novices/sitemap.xml
