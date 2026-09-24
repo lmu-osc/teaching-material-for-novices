@@ -50,7 +50,7 @@ When you click the following button, it takes you to the first developed module 
 
 Of course, the context in which you are teaching may vary greatly and you may need to adapt the materials in terms of content, level of difficulty, duration and practical exercises. If you **want to adapt the materials to fit your audience**, you can **export the slides as PowerPoint** (.pptx format) corresponding to the materials and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. You also have the option to **export the slides in pdf format**. 
 
-In addition, you can also obtain the materials from our [LMU OSC GitHub repository](https://lmu-osc.github.io/train-the-trainer-student-track-OS/). You can [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository to adapt the materials to your needs, or [create a new branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the materials in parallel. Within this repository, you have direct access to the **Quarto .qmd files** that support all of our materials. 
+In addition, you can also obtain the materials from our [LMU OSC GitHub repository](https://lmu-osc.github.io/teaching-material-for-novices/). You can [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository to adapt the materials to your needs, or [create a new branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the materials in parallel. Within this repository, you have direct access to the **Quarto .qmd files** that support all of our materials. 
 
 ## How can I give feedback on the materials?
 
@@ -65,7 +65,7 @@ Have you spotted a **way to improve our materials**, or would like to add or **c
 
 1. **What previous knowledge do I need about open research to teach with those slideS?**
 
-  - No prior open research knowledge is required! You can acquire the open research skills yourself by going through the slides and practical activities, or you can also complete the self-paced tutorials on these topics in the [self learning catalogue](https://lmu-osc.github.io/training/self-learning.html). In addition, you can acquire and [develop your teaching skills here](https://lmu-osc.github.io/train-the-trainer-student-track-pedagogy/). 
+  - No prior open research knowledge is required! You can acquire the open research skills yourself by going through the slides and practical activities, or you can also complete the self-paced tutorials on these topics in the [self learning catalogue](https://lmu-osc.github.io/training/self-learning.html). In addition, you can acquire and [develop your teaching skills here](https://lmu-osc.github.io/train-the-trainer-open-research/). 
   
 2. **Who can I teach with these materials?**
 
@@ -86,7 +86,7 @@ Please get in touch with the program coordinator [Sarah von Grebmer](mailto:s.gr
 
 ::: {.callout-note}
 ## How to cite these materials while they are work in progress
-Von Grebmer Zu Wolfsthurn, S., Middleton S., Ihle, M., & Schönbrodt, F. (2026). *Educational resources for teaching open research to novices*. LMU Open Science Center. Retrieved February 18, 2026, from [https://lmu-osc.github.io/train-the-trainer-student-track-OS/](https://lmu-osc.github.io/train-the-trainer-student-track-OS/)
+Von Grebmer Zu Wolfsthurn, S., Middleton S., Ihle, M., & Schönbrodt, F. (2026). *Educational resources for teaching open research to novices*. LMU Open Science Center. Retrieved February 18, 2026, from [https://lmu-osc.github.io/teaching-material-for-novices/](https://lmu-osc.github.io/teaching-material-for-novices/)
 :::
 
 Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a **CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
