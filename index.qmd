@@ -27,6 +27,7 @@ Detailed **presenter notes** (intended narrative of the presentation), further *
 The materials are completely **free to use**, given that you give appropriate credit.
 
 ::: {.callout-tip collapse="false"}
+## Adapting the materials
 **You want to adapt the materials for your audience**? The source code for the materials as well as PowerPoint files are available for download to tailor the materials to your exact audience.
 :::
 
@@ -36,7 +37,7 @@ The materials are completely **free to use**, given that you give appropriate cr
 
 **As a self-learner**: Select your topic of choice from the navigation menu on the left. Follow along the slides and complete the practical exercises in your own time. You can navigate the slides in full screen using the arrow key, or by viewing the slides in the *Speaker View* together with the **presenter and instructor notes** to understand and reflect on the content of the materials (recommended, see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information). Make sure to always **familiarize** yourself with the **prerequisites** before starting a new topic. The materials can be downloaded as pdf or MS PowerPoint documents. *Note*: Group exercises are not possible in an asynchronous setting, but can be completed individually.
 
-::: {.callout-warning collapse="false"}
+::: {.callout-important collapse="false"}
 ## Read the introductory page for each topic
 When selecting a topic, you will be redirected to a separate website with all the materials. Please ensure to **read** the **About these materials** section, as well as details about the **intended target audience**, the **prerequisites** to complete the topic and the **learning objectives**. You can also find the contributor list, the license details and the citation statement on each website.
 :::
@@ -70,16 +71,15 @@ Have you spotted a **way to improve our materials**, or would like to add or **c
 
 - **The pro way** (involves GitHub): Navigate to the GitHub repository and open an issue, see [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) for instructions on how to do this. Provide a descriptive title for your feedback, and describe your feedback in greater detail in the text box. Include which materials you want to provide feedback on, what the issue is and if it is low, medium or high priority. Tag Sarah von Grebmer (using her GitHub username [SvonGrebmer](https://github.com/SvonGrebmer)).
 
-
 ## Frequently asked questions
 
-1. **What previous knowledge do I need about open research to teach with those slideS?**
+1. **What previous knowledge do I need about open research to teach with those slides?**
 
-  - No prior open research knowledge is required! You can acquire the open research skills yourself by going through the slides and practical activities, or you can also complete the self-paced tutorials on these topics in the [self learning catalogue](https://lmu-osc.github.io/training/self-learning.html). In addition, you can acquire and [develop your teaching skills here](https://lmu-osc.github.io/train-the-trainer-open-research/). 
+  - No prior open research knowledge is required! You can first acquire the open research skills yourself by going through the slides and practical activities, or you can also complete the self-paced tutorials on these topics in the [self learning catalogue](https://lmu-osc.github.io/training/self-learning.html). In addition, you can [develop your teaching skills here](https://lmu-osc.github.io/train-the-trainer-open-research/). 
   
 2. **Who can I teach with these materials?**
 
-  - The materials can be flexibly adapted to bachelor students, master students and early career researchers (PhD, PostDocs) who are new to open research or have not had prior training on these topics.
+  - The materials can be flexibly adapted to bachelor students, master students or early career researchers (PhD, PostDocs) who are new to open research or have not had prior training on these topics.
 
 3. **I am not a member of the LMU Open Science Center, can I still teach with these slides?**
 
