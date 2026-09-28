@@ -1797,9 +1797,9 @@ Ensure the link is accessible through the course platform or slide deck.
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
 This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0)
 
-His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Tejaswini Sharma](https://orcid.org/0009-0000-0305 9751), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895), and [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029).
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Tejaswini Sharma](https://orcid.org/0009-0000-0305 9751), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895).
 
-Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T,., Rieger, D., Waterfield, E., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I)
+Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D., Waterfield, E., Middleton, S., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I)
 </div>
 
 

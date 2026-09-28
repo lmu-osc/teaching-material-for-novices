@@ -30,7 +30,7 @@ Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S.
 - **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -38,7 +38,7 @@ Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S.
 | UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
 </div>
 
-## Learning goals
+### Learning objectives
 
 At the end of this session, you or your learners will be able to ...
 
@@ -69,7 +69,7 @@ You can export these slides as MS PowerPoint or pdf by clicking the button below
 
 </div>
 
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
@@ -85,5 +85,5 @@ You can export these slides as MS PowerPoint or pdf by clicking the button below
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-These slides and materials were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) and are licensed under a[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0) 
+These slides and materials were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) and are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0) 
 </div>

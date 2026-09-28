@@ -100,12 +100,10 @@ Please get in touch with the program coordinator [Sarah von Grebmer](mailto:s.gr
 
 ::: {.callout-note}
 ## How to cite these materials while they are work in progress
-Von Grebmer Zu Wolfsthurn, S., Middleton S., Ihle, M., & Schönbrodt, F. (2026). *Educational resources for teaching open research to novices*. LMU Open Science Center. Retrieved September 28, 2026, from [https://github.com/lmu-osc/teaching-material-for-novices](https://github.com/lmu-osc/teaching-material-for-novices)
+Von Grebmer Zu Wolfsthurn, S., Middleton S.,Ihle, M., & Schönbrodt, F. (2026). *Educational resources for teaching open research to novices*. LMU Open Science Center. Retrieved September 28, 2026, from [https://github.com/lmu-osc/teaching-material-for-novices](https://github.com/lmu-osc/teaching-material-for-novices)
 :::
 
-Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a **CC-BY-SA-4.0** [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)**. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-Note that code embedded in these materials is licenced under a **CC0 [Creative Commons 0 Public Domain License](https://creativecommons.org/public-domain/cc0/)**. This licence enables the creators of these materials to waive their copyright and related rights worldwide, placing a work as close as legally possible into the public domain so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.
+Unless otherwise specified, the text, images and supplementary materials on these pages is licenced under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (**CC-BY-SA-4.0**). Note that code embedded in these materials is licensed under a [Creative Commons 0 Public Domain License](https://creativecommons.org/public-domain/cc0/) (**CC0 1.0**).
 
 ## List of current contributors
 
@@ -121,9 +119,11 @@ Note that code embedded in these materials is licenced under a **CC0 [Creative C
 
 - Elizabeth Waterfield, [ORCID 0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730), LMU Open Science Center
 
+- David Rieger, [ORCID 0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101), LMU Open Science Center
+
 - Tejaswini Sharma, [ORCID 0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751), LMU Open Science Center
 
-- David Rieger, [ORCID 0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101), LMU Open Science Center
+- Caterina Luz Sanchez Steinhagen [ORCID 0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110), LMU Open Science Center
 
 
 ## Funding and partners

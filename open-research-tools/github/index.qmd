@@ -1,0 +1,78 @@
+---
+title: "Collaborative coding with GitHub"
+---
+
+> Building reproducible research projects.
+
+[Click here to see the materials in full screen](github-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="github-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Waterfield, E., Ihle, M., & Von Grebmer Zu Wolfsthurn (2026). *Collaborative coding with GitHub* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github)
+:::
+
+**Welcome!** This workshop is intended to introduce learners to the **essential skills** for **collaborating on shared projects** using **GitHub and RStudio**. It will guide learners step‑by‑step through the core parts of a collaborative **GitHub workflow**, including how to navigate GitHub’s interface, fork and clone repositories to work locally, and use **Git commands to commit, push, and pull changes**. Simultaneously, this workshop prepares learners to actively use reproducible research practices and how to **design a simple collaborative workflow** that keeps everyone’s work synchronized and traceable.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite | Description | Where to find it |
+|---|---|---|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Advanced R skills | Introduction to R - Part II | [Access here]() |
+| Basic Git skills | Introduction to version control with Git in RStudio | [Access here]() |
+| GitHub account | Your own GitHub account | [Join GitHub](https://github.com/join) |
+| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Navigate** GitHub to collaborate on shared projects.
+- **Fork** and **clone** repositories to work locally without altering the main branch.
+- **Commit**, **push**, and **pull** changes to keep your project tracked and synchronized.
+- **Design** a collaborative workflow that enhances the openness and reproducibility of your own projects.
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="github-slides.pdf"
+   download="github-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+## Contributors and licence details
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

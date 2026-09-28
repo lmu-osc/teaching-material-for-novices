@@ -5,25 +5,30 @@ date: "today"
 date-format: "DD/MM/YYYY"
 format: 
   revealjs:
-    css: ../../../slides-custom.css
+    css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
       - left=30mm
-  pptx:
-    incremental: true 
-    # reference-doc: template.pptx
+  pptx: default
 
+revealjs-plugins:
+  - tabset
+
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
 
 execute:
   echo: true
   eval: true
   engine: knitr
----
 
+filters: 
+  - timer
+---
 
 <!-- 
 Possible future improvements:
@@ -35,55 +40,10 @@ Possible future improvements:
 
  -->
 
-## Licence
-
-<br>
-
-<p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
-</p>
-
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Felix Schönbrodt and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-</div>
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 licence. With a CC0 licence users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-:::
-
----
-
-## Contribution statement
-
-<br>
-
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
-
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
-
-**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. An example for an accessibility tip could be: When demonstrating Git commands, speak aloud what you are typing. Do not rely solely on the terminal output or visual cues on the screen.
-:::
-
----
-
 ## Prerequisites
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read about the prerequisites.
+Before completing this session, please carefully read about the prerequisites.
 :::
 
 <br>
@@ -100,12 +60,17 @@ Before completing this submodule, please carefully read about the prerequisites.
 </div>
 
 ::: {.notes}
-**Presenter Notes**: The basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous submodules R Part I and Part II is also a prerequisite. Specifically, learners are expected to have an intermediate familiarity with R, for example with data wrangling, reshaping, subsetting, plotting and creating basic R functions. Finally, for this submodule, learners will need their own GitHub account, which is free to create on github.com.
+**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+
+The basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous sessions R Part I and Part II is also a prerequisite. Specifically, learners are expected to have an intermediate familiarity with R, for example with data wrangling, reshaping, subsetting, plotting and creating basic R functions. Finally, for this session, learners will need their own GitHub account, which is free to create on github.com.
 
 <!-- TODO: I wonder if this proposed lesson plan could/should be on a visible slide.
 It is easy to miss for instructors ... 
 Maybe add a reminder before or at the slide "Creating an RStudio Project" that from here on (optionally) the homework starts SvG: added a note on the landing page about the length of this lesson and that a lesson plan can be found in the instructor notes at the beginning! -->
-**Instructor Notes**: Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. **Additional important tip**: This submodule is designed for a 3-hour slot. If you are planning to deliver these slides synchronously in a class of 90 minutes, here is a proposed lesson plan for + homework assignment):
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+Before you get started on this session with your audience, you need to ensure that the audience fulfills these criteria. **Additional important tip**: This session is designed for a 3-hour slot. If you are planning to deliver these slides synchronously in a class of 90 minutes, here is a proposed lesson plan for + homework assignment):
 
 -	3 minutes to situate this new class within the overall course, clarify questions from the previous class etc. 
 
@@ -128,11 +93,12 @@ Maybe add a reminder before or at the slide "Creating an RStudio Project" that f
           5.	Committing changes <br>
           6.	Connecting the local repository to GitHub
 
+**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. An example for an accessibility tip could be: When demonstrating Git commands, speak aloud what you are typing. Do not rely solely on the terminal output or visual cues on the screen.
 :::
 
 ---
 
-## Questions from the previous submodule
+## Questions from the previous session
 
 <br>
 <br>
@@ -147,7 +113,7 @@ Any remaining questions about the most recent content and/or practical exercises
 **Presenter Notes**: Are there any questions that were left unanswered from the previous session?
 
 **Instructor Notes**: <br>
-- **Aim**:  This slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. You may need to add slides depending on the homework assignment and if you could already foresee difficulties. This reflection moment is critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop.
+- **Aim**:  This slide is dedicated to clarifying questions from the previous session and/or to discuss assignments. You may need to add slides depending on the homework assignment and if you could already foresee difficulties. This reflection moment is critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop.
 :::
 
 ---
@@ -174,14 +140,16 @@ Any remaining questions about the most recent content and/or practical exercises
 
 **Instructor Notes**: <br>
 
-- **Aim**: Place the topic of the current submodule within a broader context.
+- **Aim**: Place the topic of the current session within a broader context.
 
 - Remind learners what you are working towards and what the bigger picture is.
 :::
 
 ---
 
-## Learning goals
+## Learning objectives
+
+By the end of this session, you will be able to: 
 
 ::: incremental
 - **Understand** the problem(s) that can be solved by version control
@@ -205,7 +173,6 @@ Any remaining questions about the most recent content and/or practical exercises
 **Instructor Notes**:
 
 - **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
-
 
 **Accessibility Tips**: Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
 :::
@@ -420,7 +387,7 @@ f. None of the above (are you *sure*?)
 :::
 
 ::: {.notes}
- **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-submodule survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
+ **Instructor Notes**: For a more interactive delivery, use free tools such as [Particify](https://www.particify.de/en/)] to create interactive surveys before you deliver this lesson. The pre-session survey serves to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
 
 **Accessibility Tip**: Note that this slide only works for a synchronous in-class setting. Skip the survey as appropriate.
 :::
@@ -1193,25 +1160,11 @@ With these steps complete, **your Git and GitHub setup is now secure and ready t
 
 ---
 
-## Pre-break survey
+## Pre-break survey: **Your Turn!**
 
-Brief check-in: **Your Turn!**
+::: {.panel-tabset}
 
-::: {.notes}
-**Presenter Notes**: Before we head into the break, let us do a quick check-in to see where we are at. Scan this QR code and select the pre-break survey option. Answer a few questions to check your current understanding of version control and the topics we discussed in this first part of the class. 
-
-**Instructor Notes**: Make use of Particify or another free software for this part. This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. Guidance on interpreting the results:
-
-- If more than 80% of the learners select the correct response option, show which one it is and move on.
-
-- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
-
-- If more than 30% select a specific distractor answer, discuss it in class.
-
-**Accessibility Tip**: This slide only works in a synchronous setting, skip if appropriate. Ensure to prepare the survey in advance.
-:::
-
----
+### Question 1
 
 **What is the main purpose of using Git in a project?**
 
@@ -1220,12 +1173,7 @@ b. To automatically test and debug programs
 c. To track changes and collaborate on code with version control
 d. To back up files to the cloud without version history
 
-
-::: {.notes}
-**Instructor Notes**: C is the correct answer: Git is a version control system that helps you track changes, manage versions, and collaborate with others on the same project safely.
-:::
-
----
+### Question 2
 
 **Why do we add an SSH key to our GitHub account when setting up Git?**
 
@@ -1234,9 +1182,24 @@ b. To allow our computer to connect securely to GitHub without entering a passwo
 c. To make Git automatically commit our changes
 d. To enable GitHub to edit our files directly on our computer
 
+:::
 
 ::: {.notes}
-**Instructor Notes**: B is the correct answer: Adding an SSH key lets your computer authenticate with GitHub securely, so you can push and pull code without typing your password every time.
+**Presenter Notes**: Before we head into the break, let us do a quick check-in to see where we are at. Answer a few questions to check your current understanding of version control and the topics we discussed in this first part of the class. 
+
+Question 1: C is the correct answer: Git is a version control system that helps you track changes, manage versions, and collaborate with others on the same project safely.
+
+Question 2: B is the correct answer: Adding an SSH key lets your computer authenticate with GitHub securely, so you can push and pull code without typing your password every time.
+
+**Instructor Notes**: Make use of Particify or another free software for this part. This pre-break survey serves to examine learners' current understanding of key concepts of the session. Guidance on interpreting the results:
+
+- If more than 80% of the learners select the correct response option, show which one it is and move on.
+
+- If less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).
+
+- If more than 30% select a specific distractor answer, discuss it in class.
+
+**Accessibility Tip**: This slide only works in a synchronous setting, skip if appropriate. Ensure to prepare the survey in advance.
 :::
 
 ---
@@ -2145,23 +2108,9 @@ It is all about practise until you develop a routine.
 
 ## To conclude: Survey time!
 
+::: {.panel-tabset}
 
-::: {.notes}
-**Presenter Notes**: Before we end for today, let us do a quick check-in to see where we are at now at the end of class. Scan this QR code and select the finishing survey option. Answer a few questions to check your current understanding of version control and the topics we discussed today. 
- 
-**Instructor Notes**: Prepare this survey in advance in Particify or the software of your choice. 
-
-- **Aim**: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic.
-
-- Use identical questions as in the pre-submodule survey to be able to directly compare
-
-- Exchange the QR-code to match your own survey and test beforehand. 
-
-**Accessibility Tip**: This slide is only applicable to a synchronous classroom setting. Skip if not applicable.
-
-:::
-
----
+### Question 1
 
 **Which of the following concepts or skills do you *now* feel more confident about in relation to version control? (Select all that apply)**
 
@@ -2171,7 +2120,7 @@ c. Repositories
 d. RStudio Project
 e. I am (still) not sure about any of these concepts.
 
----
+### Question 2
 
 **On a scale of 1 to 5, how comfortable are you with using Git for version control? (1 = Not comfortable at all, 5 = Very comfortable)**
 
@@ -2184,6 +2133,23 @@ c. 3
 d. 4
 
 e. 5
+
+:::
+
+::: {.notes}
+**Presenter Notes**: Before we end for today, let us do a quick check-in to see where we are at now at the end of class. Answer a few questions to check your current understanding of version control and the topics we discussed today. 
+ 
+**Instructor Notes**: Prepare this survey in advance in Particify or the software of your choice. 
+
+- **Aim**: This post-session survey serves to examine learners' current knowledge about the sumodule's topic.
+
+- Use identical questions as in the pre-session survey to be able to directly compare
+
+- Exchange the QR-code to match your own survey and test beforehand. 
+
+**Accessibility Tip**: This slide is only applicable to a synchronous classroom setting. Skip if not applicable.
+
+:::
 
 ---
 
@@ -2206,7 +2172,6 @@ What do we see in the results and how do they compare to the previous ratings?
 
 - Use visuals from the survey to highlight specific answers.
 :::
-
 
 ---
 
@@ -2253,17 +2218,11 @@ If you get stuck, there is plently of help available:
 
 ---
 
-# Thanks! <br>
-Ready for the next session? 😊
-
----
-
 ## Troubleshooting
 
 Some general pointers on where learners could run into issues:
 
 - **Mistyping the Git commands**: Correct spelling (including spaces) matters, else Git will not recognize the command
-
 
 ---
 
@@ -2278,3 +2237,39 @@ Here a collection of some general questions from users:
 - **Do I need to save my files before committing the changes?**: Committing means taking a snapshot of the state your current files are in, if you have not saved your work you have not made any "actual" changes to a file. Committing an unsaved file would result in committing the same file as per prior commit.
 
 ---
+
+## Contribution statement
+
+<br>
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+---
+
+## Licence and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Mike Croucher](https://github.com/mikecroucher) under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It was subsequently adapted by [Malika Ihle](https://www.osc.uni-muenchen.de/about_us/coordinator/index.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Felix Schönbrodt and Malika Ihle is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0 ). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+
+Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). *Introduction to version control with Git in RStudio* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::

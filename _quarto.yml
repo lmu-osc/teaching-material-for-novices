@@ -39,13 +39,13 @@ website:
       - section: "Open Research Tools"
         contents:
           - href: open-research-tools/r-part-I/index.qmd
-           #- href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S3-R-Part-II.qmd
-           #- href: materials/OS-M3/OS-M3-S4-Git/OS-M3-S4-Git.qmd
-           #- href: materials/OS-M3/OS-M3-S5-GitHub/OS-M3-S5-GitHub.qmd
-           #- href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
-           #- href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # moved from 1 to this spot
+           #- href: open-research-tools/r-part-II/index.qmd
+          - href: open-research-tools/git/index.qmd
+          #- href: open-research-tools/github/index.qmd
+          #- href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
+          #- href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # moved from 1 to this spot
            #- href: materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.qmd
-      - section: "Open Materials"#
+      - section: "Open Materials"
         contents:
           - href: open-materials/open-access/index.qmd
 format:

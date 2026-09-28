@@ -5,88 +5,57 @@ date: "today"
 date-format: "DD/MM/YYYY"
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
- # pdf:
-   # geometry:
-    #  - top=30mm
-    #  - left=30mm
-  #pptx: 
-    #css: ../../../slides-custom.css # looks for css file in root
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: default
+
+revealjs-plugins:
+  - tabset
+
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
 
 execute:
   echo: true
   eval: true
   engine: knitr
+
+filters: 
+  - timer
 ---
 
-## Licence
-
-<br>
-
-<p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
-</p>
-
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-</div>
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
-:::
-
----
-
-## Contribution statement
-
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
-
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-::: {.notes}
-**Presenter Notes**: Speaker notes may act as a guiding script for delivering the presentation. These notes contain key information, such as phrases, explanations, or transitions, that can be said aloud to clarify concepts, emphasize important points, or maintain the flow of information.
-
-**Instructor Notes**: Instructor notes provide teaching support but are not intended to be communicated to the learners directly. These notes contain additional context, such as learning objectives, common issues, and pedagogical tips, to help the instructor adapt their teaching to the learner's needs as well as anticipate challenges.
-
-**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
-
----
-
-### Prerequisites
+## Prerequisites
 
 ::: {.callout-important}
 ## Prerequisites
 
-Before completing this submodule, please carefully read about the necessary prerequisites.
+Before completing this session, please carefully read about the necessary prerequisites.
 :::
 
-<br>
-
-<div style="font-size: 0.5em;"> 
-| Prerequisite   |  Description  | Where to find it   |
-|------------|------------|------------|
-| R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
-| Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
-| Advanced R skills | 3.3. Introduction to R - Part II |  Module 3.3. |
-| Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
-| GitHub account | Create a personal account on GitHub | [github.com](github.com) |
-| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | See next slide
+<div style="font-size: 0.6em;">
+| Prerequisite | Description | Where to find it |
+|---|---|---|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Advanced R skills | Introduction to R - Part II | [Access here]() |
+| Basic Git skills | Introduction to version control with Git in RStudio | [Access here]() |
+| GitHub account | Your own GitHub account | [Join GitHub](https://github.com/join) |
+| Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | |
 
 </div>
 
-
 ::: {.notes}
-**Presenter Notes**: Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this submodule and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiarity with Git and that the audience has also completed that submodule. We also assume that, through the previous workshops, participants have downloaded and installed R and RStudio on their local machines. Lastly, the instructor should create a fork of the LMU OSC Collaborative-RStudio-GitHub repository. This will be the main repository for the class session and activities (that is, this forked repository is the repository that the learners will fork and where the contributions will go when merged).
+Let us first take a look at these prerequisites. These are important steps to be able to understand what will be covered in this session and complete the exercises. Usually, the instructor will set up the practice repository, but learners completing this lesson independently may also create it themselves.
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
 :::
 
 ---
@@ -114,7 +83,7 @@ You have copied all the materials from the LMU OSC Collaborative-RStudio-GitHub 
 
 ---
 
-## Questions from the previous submodule
+## Questions from the previous session
 
 <br>
 <br>
@@ -129,34 +98,19 @@ Any remaining questions about the most recent content and/or practical exercises
 **Presenter Notes**: Are there any questions from what was discussed during the last session? Are there any remaining thoughts or discussion points?
 
 **Instructor  Notes**:
-- Aim: clarify questions from the previous submodule and/or to discuss assignments. <br>
+- Aim: clarify questions from the previous session and/or to discuss assignments. <br>
 - Additional slides may need to be added depending on the nature of the homework assignments. <br>
 - It is critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop. <br>
-- Not applicable if this set of slides corresponds to the first submodule of a new module or if this slide deck is used in an asynchronous way. 
+- Not applicable if this set of slides corresponds to the first session of a new module or if this slide deck is used in an asynchronous way. 
 :::
 
 ---
 
 ## Before we start: Survey time!
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+::: {.panel-tabset}
 
-::: callout-note
-## Starting Survey
-
-Please complete survey labeled "OS-M3-S5-GitHub-starting_survey".
-:::
-
-::: {.notes}
-**Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Scan the QR code and go to the "starting survey" question series. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
-
-**Instructor Notes**:
-- Aim: the pre-submodule survey serves to examine learners' prior knowledge about the submodule's topic. <br>
-- Scanning the QR code would take them to a room on Particify with multiple question series. Direct the learners to take the one labeled "OS-M3-S5-GitHub-starting_survey". <br>
-- Use free survey software such as Particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
-:::
-
----
+### Question 1
 
 **What is your level of familiarity with working on GitHub?**
 
@@ -168,7 +122,7 @@ c. I have basic understanding and experience with it.
 
 d. I am very familiar and have worked with it extensively.
 
----
+### Question 2
 
 **Which of the following concepts or skills do you feel most confident about in relation to Git and GitHub? (Select all that apply)**
 
@@ -186,7 +140,7 @@ f. Forking a repository and working on my own copy.
 
 g. I am not sure about any of these concepts.
 
----
+### Question 3
 
 **On a scale of 1 to 5, how comfortable are you with using Git and GitHub for collaborative coding and version control? (1 = Not comfortable at all, 5 = Very comfortable)**
 
@@ -200,7 +154,7 @@ d. 4
 
 e. 5
 
----
+### Question 4
 
 **Which statement best describes your experience with *pushing* and *pulling* in the context of working collaboratively on GitHub?**
 
@@ -211,6 +165,16 @@ b. I have heard about these concepts before, but do not remember the exact detai
 c. I have a conceptual understanding of these concepts, but have not actively integrated them into my workflow. 
 
 d. I have a conceptual understanding of both concepts and actively integrate them into my workflow.  
+
+:::
+
+::: {.notes}
+**Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+
+**Instructor Notes**:
+- Aim: the pre-session survey serves to examine learners' prior knowledge about the session's topic. <br>
+- Use free survey software such as Particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
+:::
 
 ---
 
@@ -225,7 +189,7 @@ What do we see in the results?
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-submodule survey to examine understanding and learning progress.
+**Presenter Notes**: Looking at the results from this small survey, what can we take from this? There will be a similar post-session survey to examine understanding and learning progress.
 
 **Instructor Notes**:
 
@@ -233,7 +197,7 @@ What do we see in the results?
 
 - Use visuals from the survey to highlight specific answers.
 
-- Make it clear to the group that there will be a similar post-submodule survey to examine understanding and learning progress.
+- Make it clear to the group that there will be a similar post-session survey to examine understanding and learning progress.
 :::
 
 ---
@@ -264,7 +228,7 @@ What do we see in the results?
 
 **Instructor Notes**:
 
-- Aim: Place the topic of the current submodule within a broader context.
+- Aim: Place the topic of the current session within a broader context.
 
 - Consider GitHub as a solution to some existing challenges in Open Research to remind learners what they are working towards and what the bigger picture is.
 :::
@@ -311,7 +275,7 @@ At the end of this session, you should be able to:
 **Presenter Notes**: This session will be an introduction on how to navigate GitHub and the language (coding) used to communicate with GitHub using your RStudio terminal. What follows are essentially commands you can use to collaborate with others on projects by accessing the files, making changes without affecting anyone else's progress, keeping your work updated, and more. 
 
 **Instructor Notes**:
-- Aim: To establish the core theoretical introduction of submodule topics.
+- Aim: To establish the core theoretical introduction of session topics.
 
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
 
@@ -404,7 +368,7 @@ Think about your past experience working collaboratively in a team. Did you face
 **Presenter Notes**: GitHub is a collaborative hub for open and transparent research. Using it for a collaborative project can solve the challenges we just looked at. GitHub improves communication with features like commit messages that describe the changes made and the option to have discussions alongside the code. By allowing teams to host and share repositories online, everyone can contribute from anywhere. This connects all the contributors on a shared online workspace without overwriting each other's work. This also includes hosting and sharing project materials like the code used and anlysis scripts so that they can be visible by the public or only accessible by the team. By doing this, people can see the evolution of the research and how analyses were done. Ultimately, GitHub supports the core principles of Open Science: openness, transparency, and reproducibility.
 
 **Instructor Notes**: <br>
-- Aim: Core theoretical introduction of submodule topic and how it can provide solutions to real problems that researchers face.
+- Aim: Core theoretical introduction of session topic and how it can provide solutions to real problems that researchers face.
 :::
 
 ---
@@ -512,7 +476,7 @@ By **repo on GitHub** we mean one of two things: <br>
 
 ## Practical exercise 1: Fork a repo
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-button.png){fig-align="center" fig-alt="An image highlighting the Fork button on the toolbar in a GitHub repository."}
+<!-- ![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/fork-button.png){fig-align="center" fig-alt="An image highlighting the Fork button on the toolbar in a GitHub repository."} -->
 
 - [ ] Click on "`Fork`" in the top-right toolbar
 
@@ -881,23 +845,10 @@ Refresh the page of your forked repository on GitHub and you should see your new
 
 ## Pre-break quiz
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+::: {.panel-tabset}
 
-::: callout-note
-## Pre-break quiz
 
-Please complete survey labeled "OS-M3-S5-GitHub-prebreak_quiz".
-:::
-
-::: {.notes}
-**Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. Scan the QR code again and find the quiz titled "Os-M3-S5-Github-prebreak_quiz". This quiz has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
-
-**Instructor Notes**: It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson. <br>
-- Aim: This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. <br>
-- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
-:::
-
----
+### Question 1
 
 **What is GitHub mainly used for by a team working on the same project?**
 
@@ -909,11 +860,7 @@ c. Sending emails and important messages to team members
 
 d. Backing up personal files only
 
-::: {.notes}
-**Instructor Notes**: The correct answer is b.
-:::
-
----
+### Question 2
 
 **On GitHub, why would you fork a repository?**
 
@@ -925,11 +872,7 @@ c. To create your own remote copy of someone else’s repository on GitHub
 
 d. To merge your work into the main branch and have everyone's work in one folder
 
-::: {.notes}
-**Instructor Notes**: The correct answer is c.
-:::
-
----
+### Question 3
 
 **What does it mean to clone a repository?**
 
@@ -941,11 +884,7 @@ c. You make your repository private
 
 d. You copy code into a new file then upload it to GitHub
 
-::: {.notes}
-**Instructor Notes**: The correct answer is a.
-:::
-
----
+### Question 4
 
 **When you make changes to a file then commit it, what happens?**
 
@@ -957,11 +896,7 @@ c. It saves your changes locally (on your device)
 
 d. It approves changes made by other collaborators
 
-::: {.notes}
-**Instructor Notes**: The correct answer is c.
-:::
-
----
+### Question 5
 
 **After I made changes and committed it, why would I then push the changes?**
 
@@ -973,8 +908,16 @@ c. To notify my teammates that I made changes
 
 d. To upload the work I saved locally to GitHub 
 
+:::
+
+
+
 ::: {.notes}
-**Instructor Notes**: The correct answer is d.
+**Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This quiz has a few simple recap questions about what we’ve learned so far about using GitHub for collaboration on projects. The goal isn’t to test you, but to help you reflect on what you’ve learned and to see if anything needs a bit more clarification.
+
+**Instructor Notes**: It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson. <br>
+- Aim: This pre-break survey serves to examine learners' current understanding of key concepts of the session. <br>
+- Use free survey software such as  or other survey software (particify, formR) to establish the following questions (shown on separate slides)
 :::
 
 ---
@@ -1170,7 +1113,7 @@ All the contributions that were merged into this repository should show up in th
 
 ## How to merge changes
 
-![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/knit.png){fig-alt="A screenshot of an R Markdown file in RStudio showing the Knit button highlighted in a red box and example code for an HTML document." fig-align="center"}
+![](https://raw.githubusercontent.com/lmu-osc/Collaborative-RStudio-GitHub/main/assets/render.png){fig-alt="A screenshot of a Quarto file in RStudio showing the Render button highlighted in a red box and example code for an HTML document." fig-align="center"}
 
 
 - Then, the owner will locate and open the "`plot-trait-evolution.Rmd`" file in the repository which sources all the contributed files. 
@@ -1497,23 +1440,9 @@ A suggestion is to design an assignment giving learners the opportunity to learn
 
 ## To conclude: Survey time!
 
-![](images/00_Particify_Survey_Rooms.png){fig-align="center" fig-alt="An image of a QR code that leads to a survey."}
+::: {.panel-tabset}
 
-::: callout-note
-## Final survey
-
-Please complete survey labeled "OS-M3-S5-GitHub-finishing_survey".
-:::
-
-::: {.notes}
-**Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. Scan the QR code once more and go to the OS-M3-S5-GitHub-finishing_survey.
-
-*Instructor Notes* <br>
-- Aim: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic. <br>
-- Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):
-:::
-
----
+### Question 1
 
 **Which of the following concepts or skills do you feel MOST confident about in relation to Git and GitHub? (Select all that apply)**
 
@@ -1529,7 +1458,7 @@ e. Pulling or fetching updates from a remote repository.
 
 g. I am still not sure about any of these concepts.
 
----
+### Question 2
 
 **On a scale of 1 to 5, how comfortable are you right now with using Git and GitHub for collaborative coding and version control? (1 = Not comfortable at all, 5 = Very comfortable)**
 
@@ -1543,7 +1472,7 @@ d. 4
 
 e. 5
 
----
+### Question 3
 
 **When you worked collaboratively on this GitHub project, what aspect did you find most challenging?**
 
@@ -1554,6 +1483,16 @@ b. Remembering all the steps
 c. Navigating the GitHub interface
 
 d. Other
+
+:::
+
+::: {.notes}
+**Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our understanding of using GitHub and what we can focus on more moving forward to become more proficient in using it for collaborative work. 
+
+*Instructor Notes* <br>
+- Aim: This post-session survey serves to examine learners' current knowledge about the sumodule's topic. <br>
+- Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):
+:::
 
 ---
 
@@ -1603,19 +1542,36 @@ Here are some topics that are related to this session
 
 ---
 
-## Attribution and license details UNFINISHED
+## Contribution statement
 
-- This slide should contain information about the license and attribution details of this current set of slides. 
+<br>
 
-- The default for the created materials is [CC-BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/)
-  - = Creative Commons license that allows others to **share, adapt, and build upon** the original work
-  - **only** if they attribute the creator and also share their new work under the **same terms**
-  - allows for both **commercial and non-commercial** use of the licensed material
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
-- Components of attributions: 
-  - `Title`
-  - `Author`
-  - `Source`
-  - `License`
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ---
+
+## Licence and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence (original repository)](https://github.com/RSE-Sheffield/collaborative_github_exercise). It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of Adam Kenny. This work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+
+Please cite these materials as: Waterfield, E., Ihle, M., & Von Grebmer Zu Wolfsthurn (2026). *Collaborative coding with GitHub* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::

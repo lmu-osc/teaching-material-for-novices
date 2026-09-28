@@ -24,7 +24,7 @@ Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schö
 - **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -32,7 +32,7 @@ Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schö
 | UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
 </div>
 
-## Learning goals
+### Learning objectives
 
 At the end of this session, you or your learners will be able to ...
 
@@ -70,5 +70,5 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
+This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).  Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0). 
 </div>

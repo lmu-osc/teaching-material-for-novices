@@ -24,7 +24,7 @@ Please cite these materials as: Ihle, M. & Von Grebmer zu Wolfsthurn, S.  (2026)
 - **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
@@ -33,7 +33,7 @@ Please cite these materials as: Ihle, M. & Von Grebmer zu Wolfsthurn, S.  (2026)
 | Introduction to reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability) |
 </div>
 
-## Learning goals
+### Learning objectives
 
 At the end of this session, you or your learners will be able to ...
 
