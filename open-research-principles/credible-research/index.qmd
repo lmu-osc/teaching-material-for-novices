@@ -14,7 +14,7 @@ title: "Credible research"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Von Grebmer zu Wolfsthurn, S., & Ihle, M. (2026). *Credible research* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research)
+Please cite these materials as: Ihle, M. & Von Grebmer zu Wolfsthurn, S.  (2026). *About credible and open research* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research)
 :::
 
 **Welcome!** This workshop is intended to provide learners with an **introduction to open research**, its core **values**, **principles** and **key open open research practices** with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through *a priori* study planning and tools such as **preregistration**, **registered reports** and **data simulation methods**, researchers can reduce their own biases and produce more reliable studies. Through data sharing and increasing **computational reproducibility**, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can ultimately produce more **credible and transparent research**. 
@@ -34,11 +34,11 @@ Please cite these materials as: Von Grebmer zu Wolfsthurn, S., & Ihle, M. (2026)
 </div>
 
 
-## Learning goals - ADD
+## Learning goals
+
+At the end of this session, you or your learners will be able to ...
 
 - *Unfinished section - work in progress*
-
-
 
 ### Export slides
 
@@ -53,8 +53,8 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
  
 ## Contributors and licence details
 
-**Creators**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895)), Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Creators**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981)), Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 <br>
 
@@ -65,5 +65,5 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This current work by Sarah von Grebmer zu Wolfsthurn, and Malika Ihle is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
+This current work by Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
 </div>

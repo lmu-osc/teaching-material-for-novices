@@ -48,7 +48,7 @@ Before completing this session, please carefully read about the prerequisites.
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
 </div>
 
 ::: {.notes}
@@ -2242,7 +2242,6 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 
 ---
 
-
 ## Contribution statement
 
 <br>
@@ -2253,14 +2252,6 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 **Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
 **Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
-
-**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
 
 ---
 
@@ -2276,7 +2267,6 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
 This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
-
 
 Please cite as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/)
 </div>

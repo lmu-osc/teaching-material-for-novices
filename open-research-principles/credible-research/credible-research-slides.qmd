@@ -1,6 +1,6 @@
 ---
 title: "About credible and open research"
-author: "Malika Ihle & Sarah von Grebmer"
+author: "Malika Ihle and Sarah von Grebmer zu Wolfsthurn"
 date: "today"
 date-format: "DD/MM/YYYY"
 draft: true
@@ -28,54 +28,27 @@ filters:
   - timer
 ---
 
-## Licence
-
-![](images/cc-by-sa.png){width="10%" fig-align="center"}
-
-<small>This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and subsequently adapted by Sarah von Grebmer zu Wolfsthurn and Malika Ihle. This current work licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</small>
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-:::
-
----
-
-## Contribution statement
-
-**Creator**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
-
-**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
-
----
-
 ## Prerequisites - EDIT
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read about the prerequisites.
+Before completing this session, please carefully read about the prerequisites.
 :::
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
-| Introduction to the reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | **ADD Link to slide deck** |
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| Introduction to reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability) |
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Script for the slide here. 
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other submodules etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead. 
+For this session, it is important that you are familiar with key issues in current research, particularly around replicability and reproducibility, since this session is building up on that.
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+These are the prerequisites for this session. Before you get started on this session with your audience, you need to ensure that the audience fulfills these criteria.
 :::
 
 ---
@@ -85,19 +58,15 @@ Before completing this submodule, please carefully read about the prerequisites.
 ::: {.notes}
 **Instructor Notes**:  
 
-- **Aim**:  This slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments. 
+- **Aim**:  This slide is dedicated to clarifying questions from the previous session and/or to discuss assignments. 
 - Additional slides may need to be added depending on the nature of the homework assignments. 
 - Critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop. 
-- Not applicable if this set of slides corresponds to the first submodule of a new module. 
+- Not applicable if this set of slides corresponds to the first session of a new module. 
 :::
 
 ---
 
 ## Quiz!
-
-QR code here
-
----
 
 ### Refreshing our memories...
 
@@ -176,10 +145,6 @@ The Research Life Cycle from the [Open Science Framework](https://osf.io/).
 ---
 
 ## Before we start: Survey time!
-
-QR Code here
-
----
 
 ### Remember: There are no correct answers!
 
@@ -891,10 +856,6 @@ And finally, by doing this I basically have my script ready to directly feed my 
 
 ## Pre-break quiz
 
-QR code here
-
----
-
 ::: {.panel-tabset}
 
 ### Question 1
@@ -940,7 +901,7 @@ d. To explore how different assumptions about the data and analysis may affect t
 ::: {.notes}
 **Instructor Notes**: Correct answers: 1b, 2c, 3d
 
-This pre-break survey serves to examine learners' current understanding of key concepts of the submodule. Guidance on interpreting the results:
+This pre-break survey serves to examine learners' current understanding of key concepts of the session Guidance on interpreting the results:
 
 - If more than 80% of the learners select the correct response option, show which one it is and move on.
 
@@ -1677,10 +1638,6 @@ Such preventive and transparent system make studies unbiased, systematic and obj
 
 ## Quiz!
 
-QR code here
-
----
-
 ::: {.panel-tabset}
 
 ### Question 1
@@ -1806,22 +1763,6 @@ After this session, learners will be able to:
 
 ## To conclude: Survey time!
 
-QR code here
-
-::: {.notes}
-**Presenter Notes**: Script for the slide here. 
-
-**Instructor Notes**:
-
-- **Aim**: This post-submodule survey serves to examine learners' current knowledge about the sumodule's topic.
-
-- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
-
-- Use identical questions as in the pre-submodule survey to be able to directly compare
-:::
-
----
-
 **Which of the following concepts or skills do you feel most familiar with in relation to computational reproducibility? (Select all that apply)**
 
 a. Creating and using RStudio projects
@@ -1837,6 +1778,18 @@ e. Using Quarto to combine code, text, figures etc. in one location
 f. Version control with Git
 
 g. None of the above
+
+::: {.notes}
+**Presenter Notes**: Script for the slide here. 
+
+**Instructor Notes**:
+
+- **Aim**: This post-session survey serves to examine learners' current knowledge about the sumodule's topic.
+
+- Use free survey software such as  particify or formR to establish the following questions (shown on separate slides)
+
+- Use identical questions as in the pre-session survey to be able to directly compare
+:::
 
 ---
 
@@ -1867,13 +1820,43 @@ g. None of the above
 - [ ] Sort out speaker notes and make more accessible
 - [ ] Sort out references
 
-
 ---
 
 ## References
 
 ::: {#refs}
 :::
+
+---
+
+## Licence and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and subsequently adapted by Sarah von Grebmer zu Wolfsthurn and Malika Ihle. This current work by Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+
+Please cite as: Von Grebmer zu Wolfsthurn, S. & Ihle, M. (2026). *Credible research* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/credible-research/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reprocredible-research/)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::
+
+---
+
+## Contribution statement
+
+**Creators**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981)), Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 ---
 
@@ -1901,89 +1884,24 @@ is transparent about methods used to reach this conclusion. Has no conflict of i
 
 ---
 
-## Additional resources: OSC self-paced tutorials - FIX
+## Additional resources: OSC self-paced tutorials
 
-<!-- <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.7em; margin-top: 0.8em; font-size: 0.72em;"> -->
 
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #4C9BC4;"> -->
-
-<!-- ### 🧪 Simulation -->
-
-<!-- **Preregistration** -->
-
-<!-- Simulate data to explore and plan your statistical analysis. -->
-
-<!-- **[→ Tutorial](https://lmu-osc.github.io/Introduction-Simulations-in-R/)** -->
-
-<!-- </div> -->
-
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #28658C;"> -->
-
-<!-- ### 📊 Simulation -->
-
-<!-- **Power analysis** -->
-
-<!-- Use simulation to explore sample size and statistical power. -->
-
-<!-- **[→ Tutorial](https://lmu-osc.github.io/Simulations-for-Advanced-Power-Analyses/)** -->
-
-<!-- </div> -->
-
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #6B8E23;"> -->
-
-<!-- ### 💻 R -->
-
-<!-- **Introduction to R** -->
-
-<!-- Learn the basics of R for data analysis and visualization. -->
-
-<!-- **[→ Tutorial](https://lmu-osc.github.io/introduction-to-R/)** -->
-
-<!-- </div> -->
-
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #8B6BB1;"> -->
-
-<!-- ### 🌿 Git & GitHub -->
-
-<!-- **Version control** -->
-
-<!-- Learn Git and GitHub within RStudio. -->
-
-<!-- **[→ Tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)** -->
-
-<!-- </div> -->
-
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #B86B77;"> -->
-
-<!-- ### 🤝 Collaboration -->
-
-<!-- **GitHub workflows** -->
-
-<!-- Learn how to collaborate using forks, commits, and pull requests. -->
-
-<!-- **[→ Tutorial](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/)** -->
-
-<!-- </div> -->
-
-<!-- <div style="background: #f2f7fa; padding: 0.8em; border-radius: 8px; border-top: 5px solid #777; display: flex; align-items: center; justify-content: center;"> -->
-
-<!-- <div style="text-align: center; color: #666;"> -->
-
-<!-- ### 🎓 Self-paced -->
-
-<!-- **Learn at your own pace** -->
-
-<!-- Open science tutorials from the LMU OSC. -->
-
-<!-- </div> -->
-
-<!-- </div> -->
-
-<!-- </div> -->
+| Tutorial | Access |
+|---|---|
+| Teaching and leading in Open Research | [Educational resources](https://lmu-osc.github.io/train-the-trainer-open-research/) |
+| Introduction to R | [Self-paced tutorial](https://lmu-osc.github.io/introduction-to-R/) |
+| Introduction to Version Control within RStudio | [Self-paced tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/) |
+| Collaborative Coding with GitHub and RStudio | [Self-paced tutorial](https://lmu-osc.github.io/Collaborative-RStudio-GitHub/) |
+| Introduction to Quarto | [Self-paced tutorial](https://lmu-osc.github.io/introduction-to-Quarto/) |
+| Introduction to Zotero | [Self-paced tutorial](https://lmu-osc.github.io/introduction-to-zotero/) |
+| Introduction to `{renv}` | [Self-paced tutorial](https://lmu-osc.github.io/introduction-to-renv/) |
+| Code Publishing | [Self-paced tutorial](https://lmu-osc.github.io/code-publishing/) |
+| Introduction to Data Simulations in R | [Self-paced tutorial](https://lmu-osc.github.io/Introduction-Simulations-in-R/) |
+| Simulations for Advanced Power Analyses | [Self-paced tutorial](https://lmu-osc.github.io/Simulations-for-Advanced-Power-Analyses/) |
+| FAIR Data Management | [Self-paced tutorial](https://lmu-osc.github.io/FAIR-Data-Management/) |
 
 ::: {.notes}
-**Presenter Notes**: ADDD
+**Presenter Notes**: Importantly, here an overview with all the self-paced tutorials developed by the LMU Open Science Center, including educational resources for educators and instructors to expand on their teaching and leadership skills in an open research context ("How do I teach about Open Research" and "How do I lead in Open Research")-
 :::
-
----
 
