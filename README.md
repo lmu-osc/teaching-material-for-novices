@@ -1,1 +1,1 @@
-# train-the-trainer-student-track
+# teaching-materials-for-novices
