@@ -2266,7 +2266,7 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).
 
 Please cite as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/)
 </div>

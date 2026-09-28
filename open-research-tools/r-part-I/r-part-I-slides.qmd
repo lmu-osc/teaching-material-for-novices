@@ -1,103 +1,64 @@
 ---
 title: "Introduction to R: Part I"
-author: "LMU Open Science Center"
+author: "Caterina Luz Sanchez Steinhagen, David Rieger and Elizabeth Waterfield"
 date: "today"
 date-format: "DD/MM/YYYY"
 draft: true
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
       - left=30mm
-  #pptx: 
-   # reference-doc: ../../../assets/template.pptx
+  pptx: default
 
-#bibliography: ../../assets/references.bib
-#csl: ../../assets/apa.csl
+revealjs-plugins:
+  - tabset
+
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
 
 execute:
   echo: true
   eval: true
   engine: knitr
+
+filters: 
+  - timer
 ---
 
-## Licence and citation {.smaller}
-
-<p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0 SA"
-  style="width:160px;" />
-</p>
-
-
-This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/).
-
-His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Tejaswini Sharma](https://orcid.org/0009-0000-0305 9751), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895), and [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029).
-
-Please cite as ADD ZENODO REPO.
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-:::
-
----
-
-## Contribution statement
-  
-**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
-
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/0009-0000-0305 9751))
-
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
-
-**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
-
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-**Reviewer**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0001-5307-8029))
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
-
-**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
-
----
-
-## Prerequisites - CHECK versions
+## Prerequisites
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read about the prerequisites.
+Before completing this session, please carefully read about the prerequisites.
 :::
 
 <div style="font-size: 0.6em;"> 
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
 | RStudio installed | Version Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
-| R installed | Version 4.5.2 or higher | [Download](https://www.r-project.org/) |
+| R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
 | Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Before starting this submodule, there are two important technical prerequisites.  
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+
+Before starting this session, there are two important technical prerequisites.  
 First, you should have R installed, and second, you should have RStudio installed. These are the tools we will use to run and explore simulations during the tutorial.  
 The table on the slide shows the recommended versions and where you can download them if needed. If you already worked with R before, you likely already have these installed.  
 If not, you can install them using the links provided. If you run into issues, this is a good moment to ask for help before we move on to the tutorial.”
  
-**Instructor Notes**: Quickly verify whether learners have the required software installed before moving to the practical tutorial. If several students do not have the software yet, briefly explain that they can still follow conceptually and install it later. Avoid spending too much class time on troubleshooting installations unless the session is designed for setup.
+**Instructor Notes**: **Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.
 
-**Accessibility Tips:**  
+Quickly verify whether learners have the required software installed before moving to the practical tutorial. If several students do not have the software yet, briefly explain that they can still follow conceptually and install it later. Avoid spending too much class time on troubleshooting installations unless the session is designed for setup.
+
+**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+
 Consider pairing students if someone does not have the software installed. Refer to the accessibility sheet in the download section.
 :::
 
@@ -105,23 +66,9 @@ Consider pairing students if someone does not have the software installed. Refer
 
 ## Before we start: Survey time!
 
-<br>
+::: {.panel-tabset}
 
-<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
-
-**Let us find out where are you at!**
-
-</div>
-
-::: {.notes}
-**Presenter Notes**:  
-Before we move on, we’ll take a short survey. The aim here is to understand your current familiarity with specific elements of this session. In the next few slides, you’ll see some questions that invite you to reflect on where you are starting from. This is not a test, and it is not about getting the right answers. If you are unsure, that is completely fine, just respond based on what feels closest to your current understanding.
-
-**Instructor Notes**:  
-Set a low-stakes, supportive tone before beginning the survey. Emphasize that uncertainty is expected and valuable for measuring learning progress. 
-:::
-
----
+### Question 1
 
 **What is your level of familiarity with R and RStudio?**
 
@@ -133,7 +80,7 @@ c. I have basic understanding and experience with it
 
 d. I am very familiar and have worked with it extensively
 
----
+### Question 2
 
 **On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio)?** <br>
 *(1 = Not intimidated at all, 5 = Very intimidated)*
@@ -148,7 +95,7 @@ d. 4
 
 e. 5
 
----
+### Question 3
 
 **Have you used any programming language (R, Python, JavaScript, C) before?**
 
@@ -159,6 +106,16 @@ b. Yes, a little (e.g., basic commands)
 c. Yes, moderately (e.g., small projects)
 
 d. Yes, extensively (e.g., on an almost daily basis)
+
+:::
+
+::: {.notes}
+**Presenter Notes**:  
+Before we move on, we’ll take a short survey. The aim here is to understand your current familiarity with specific elements of this session. In the next few slides, you’ll see some questions that invite you to reflect on where you are starting from. This is not a test, and it is not about getting the right answers. If you are unsure, that is completely fine, just respond based on what feels closest to your current understanding.
+
+**Instructor Notes**:  
+Set a low-stakes, supportive tone before beginning the survey. Emphasize that uncertainty is expected and valuable for measuring learning progress. 
+:::
 
 ---
 
@@ -182,15 +139,16 @@ What do we see in the results?
 
 ## Learning goals
 
-::: incremental
-- To **navigate** the RStudio interface (Console, Environment, Script, and Output panes).
-- To **differentiate** between basic data types in R (numeric, character, logical, integer) and how they are used.
-- To **execute** operations in the Console and R Script using appropriate operators.
-- To **assign** and **re-assign** values, vectors, and lists to objects. 
-- To **specify** arguments within functions to modify how the function produces its output.
-- To **index** dataframes to access and retrieve specific information.
-:::
+At the end of this session, you will be able to ...
 
+::: incremental
+- **Navigate** the RStudio interface (Console, Environment, Script, and Output panes).
+- **Differentiate** between basic data types in R (numeric, character, logical, integer) and how they are used.
+- **Execute** operations in the Console and R Script using appropriate operators.
+- **Assign** and **re-assign** values, vectors, and lists to objects. 
+- **Specify** arguments within functions to modify how the function produces its output.
+- **Index** dataframes to access and retrieve specific information.
+:::
 
 ::: {.notes}
 **Presenter Notes**: This slide outlines the learning goals for the session. At this stage, you are not expected to fully understand or master all of these points. Think of them as a roadmap rather than a checklist; they show where we’re headed, not what you already need to know. You can use these goals to keep track of your learning, notice what feels clear, and identify areas where you might want to ask questions later.
@@ -945,23 +903,12 @@ If you are curious, try running the `round()` function without specifying the `d
 
 ## Pre-break quiz
 
-::: {.notes}
-**Presenter Notes**: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of R, RStudio, and the key ideas we’ve covered in this first part of the session.
 
-**Instructor Notes**: Use this pre-break survey to gauge learners’ understanding of the submodule’s core concepts.
+::: {.panel-tabset}
 
-- If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.
+### Question 1
 
-- If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.
-
-- If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.
-
-**Accessibility Tip**: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.
-:::
-
----
-
-**1. What does the `#` symbol do in R?**
+**What does the `#` symbol do in R?**
 
 a. Runs the code  
 b. Creates a variable  
@@ -973,9 +920,9 @@ d. Multiplies numbers
 The answer for this question is c
 :::
 
----
+### Question 2
 
-**2. What happens when you “run” code in R?**
+**What happens when you “run” code in R?**
 
 a. The code is deleted  
 b. R executes the command  
@@ -987,9 +934,9 @@ d. RStudio closes automatically
 The answer for this question is b
 :::
 
----
+### Question 3
 
-**3. What will R return for this comparison?**
+**What will R return for this comparison?**
 
 `49 < 50`
 
@@ -1003,9 +950,9 @@ d. ERROR
 The answer for this question is a
 :::
 
----
+### Question 4
 
-**4. Which of the following is a character value in R?**
+**Which of the following is a character value in R?**
 
 a. TRUE
 b. 5
@@ -1017,9 +964,9 @@ d. 4.2
 The answer for this question is c
 :::
 
----
+### Question 5
 
-**5. Why does the following produce an error?**
+**Why does the following produce an error?**
 
 `4 + "five"`
 
@@ -1031,6 +978,22 @@ d. R cannot numerically add different data types together
 ::: {.notes}
 **Instructor notes**: 
 The answer for this question is d
+:::
+
+:::
+
+::: {.notes}
+**Presenter Notes**: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of R, RStudio, and the key ideas we’ve covered in this first part of the session.
+
+**Instructor Notes**: Use this pre-break survey to gauge learners’ understanding of the session’s core concepts.
+
+- If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.
+
+- If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.
+
+- If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.
+
+**Accessibility Tip**: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.
 :::
 
 ---
@@ -1606,15 +1569,19 @@ Keep the discussion supportive and brief,nfocusing on clarifying concepts rather
 
 ## To conclude: Survey time!
 
-::: {.notes}
-**Presenter Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the submodule. Please answer honestly based on how confident you feel now. 
 
-**Instructor Notes**: The purpose is to compare pre- and post-submodule responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
+::: {.panel-tabset}
+
+
+::: {.notes}
+**Presenter Notes**: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the session. Please answer honestly based on how confident you feel now. 
+
+**Instructor Notes**: The purpose is to compare pre- and post-session responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.
 :::
 
----
+### Question 1
 
-**1. On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio) after completing this session?**
+**On a scale of 1–5, how intimidated do you feel by programming or coding (e.g., R/RStudio) after completing this session?**
 (1 = Not intimidated at all, 5 = Very intimidated)
 
 a. 1
@@ -1623,9 +1590,9 @@ c. 3
 d. 4
 e. 5
 
----
+### Question 2
 
-**2. How confident do you feel using the RStudio environment after this session?**
+**How confident do you feel using the RStudio environment after this session?**
 
 a. Not confident at all  
 b. Slightly confident  
@@ -1633,19 +1600,9 @@ c. Moderately confident
 d. Very confident  
 e. Extremely confident  
 
----
+### Question 3
 
-**3. How comfortable do you feel about using R and RStudio for mathematical operations?**
-
-a. Not comfortable at all  
-b. Slightly comfortable  
-c. Moderately comfortable  
-d. Very comfortable  
-e. Extremely comfortable
-
----
-
-**3. How comfortable do you feel using R objects (e.g., vectors and data frames) to organize and manipulate your research data?**
+**How comfortable do you feel about using R and RStudio for mathematical operations?**
 
 a. Not comfortable at all  
 b. Slightly comfortable  
@@ -1653,13 +1610,25 @@ c. Moderately comfortable
 d. Very comfortable  
 e. Extremely comfortable
 
----
+### Question 4
 
-**3. What part of the lesson, if any, still feels confusing or unclear?**
+**How comfortable do you feel using R objects (e.g., vectors and data frames) to organize and manipulate your research data?**
 
----
+a. Not comfortable at all  
+b. Slightly comfortable  
+c. Moderately comfortable  
+d. Very comfortable  
+e. Extremely comfortable
+
+### Question 5
+
+**What part of the lesson, if any, still feels confusing or unclear?**
+
+### Question 6
 
 **4. Was there a practical exercise or example that helped your understanding the most? Why?**
+
+:::
 
 ---
 
@@ -1795,3 +1764,47 @@ Ensure the link is accessible through the course platform or slide deck.
 
 ---
 
+## Contribution statement
+  
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/0009-0000-0305 9751))
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+
+**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0001-5307-8029))
+
+---
+
+## License and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0)
+
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Tejaswini Sharma](https://orcid.org/0009-0000-0305 9751), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895), and [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029).
+
+Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T,., Rieger, D., Waterfield, E., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I)
+</div>
+
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::

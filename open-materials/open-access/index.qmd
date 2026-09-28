@@ -1,0 +1,89 @@
+---
+title: "Open Access"
+---
+
+> Opening up your research
+
+[Click to view the slides in full screen](open-access.pdf)
+
+```{=html}
+<iframe
+  class="slide-deck"
+  src="open-access.pdf"
+  height="420"
+  width="747"
+  style="border: 1px solid #2e3846;">
+</iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Out in the open: Open access, preprints & postprints* [Quarto slides]. *Developed for the LMU Open Science Summer School 2026.* [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access)
+:::
+
+**Welcome!** These slides are intended to provide learners with an **introduction to the current academic publishing *system**, the different **types of open access**, the lifecycle of **open research papers** and what each and everyone can contribute to more transparent research.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+## Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+</div>
+
+## Learning goals
+
+At the end of this session, you or your learners will be able to ...
+
+- **Understand** the publishing system (and how publishers make $$$$)
+- **Scrutinize** different Open Access policies and types, and **assess** their implications for both authors and readers
+- **Explain** the process of publishing an original manuscript as a preprint
+- **(Re-)Evaluate** the purpose of preprints and your *own role* in the academic publishing world
+
+### Export slides
+
+You can export these slides as MS PowerPoint or pdf by clicking the button below.
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+  <a href="open-access.pptx"
+     download="open-access.pptx"
+     class="btn btn-primary"
+     style="min-width: 180px;">
+    Download slides as pptx
+  </a>
+
+  <a href="open-access.pdf"
+     download="open-access.pdf"
+     class="btn btn-primary"
+     style="min-width: 180px;">
+    Download slides as pdf
+  </a>
+
+</div>
+
+# Contributors and licence details
+
+**Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+These slides and materials were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) and are licensed under a[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0) 
+</div>

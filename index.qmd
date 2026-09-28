@@ -123,7 +123,7 @@ Note that code embedded in these materials is licenced under a **CC0 [Creative C
 
 - Tejaswini Sharma, [ORCID 0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751), LMU Open Science Center
 
-- David Rieger, [ORCID EDIT](EDIT), LMU Open Science Center
+- David Rieger, [ORCID 0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101), LMU Open Science Center
 
 
 ## Funding and partners
