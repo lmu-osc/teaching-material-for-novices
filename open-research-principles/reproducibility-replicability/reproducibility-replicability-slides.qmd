@@ -1,26 +1,25 @@
 ---
-title: "Threats to credible research: Where are we at?"
+title: "Threats to credible research: <br> Where are we at?"
 author: "Sarah von Grebmer zu Wolfsthurn"
 date: "today"
 date-format: "DD/MM/YYYY"
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-  #pdf:
-  #  geometry: 
-   #   - top=30mm
-   #   - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: default
 
 revealjs-plugins:
   - tabset
 
-bibliography: ../../../assets/references.bib
-csl: ../../../assets/apa.csl
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
 
 execute:
   echo: true
@@ -40,51 +39,10 @@ filters:
 
  -->
 
-## Licence
-
-<br>
-
-<p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
-</p>
-
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-</div>
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
-:::
-
----
-
-## Contribution statement
-
-<br>
-
-**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
-
-**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
-
-**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
-
----
-
 ## Prerequisites
 
 ::: {.callout-important}
-Before completing this submodule, please carefully read about the prerequisites.
+Before completing this session, please carefully read about the prerequisites.
 :::
 
 <div style="font-size: 0.8em;">
@@ -94,9 +52,13 @@ Before completing this submodule, please carefully read about the prerequisites.
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Since this is the introductory submodule of this module, there are no formal prerequisites for this session. If you will, today we are all starting on a blank page. The UNESCO Recommendation on Open Science is an optional prerequisite which sets the scene for what this course will be all about. The UNESCO Recommendation on Open Science is a landmark international framework adopted by UNESCO Member States in November 2021. It represents the first global standard-setting instrument for open research. The recommendation provides a shared definition, core values, guiding principles, and a set of action areas designed to help shape policies and practices that make science more accessible, transparent, inclusive, and equitable. Reading at least part of the recommendations before starting this course can provide a global context and shared language for understanding the concepts and goals that underlie open science practices. This helps ensure discussions are grounded in internationally recognized standards. It also clarifies the broad scope of open science, which goes beyond open access to publications and data to include cultural change, policy, education, societal engagement, and ethical considerations. The recommendations highlight the rationale and potential impact of open science, particularly in terms of equity, inclusiveness, and the capacity to address complex global challenges through enhanced collaboration and information sharing.
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
 
-**Instructor Notes**: Since this is the introductory submodule of this module, there are no formal prerequisites. However, to get a small kick-start into the topic, learners are advised to have skimmed the UNESCO Recommendations on Open Science, particularly pages 6-19. 
+Since this is the introductory session, there are no formal prerequisites for this session. If you will, today we are all starting on a blank page. The UNESCO Recommendation on Open Science is an optional prerequisite which sets the scene for what this course will be all about. The UNESCO Recommendation on Open Science is a landmark international framework adopted by UNESCO Member States in November 2021. It represents the first global standard-setting instrument for open research. The recommendation provides a shared definition, core values, guiding principles, and a set of action areas designed to help shape policies and practices that make science more accessible, transparent, inclusive, and equitable. Reading at least part of the recommendations before starting this course can provide a global context and shared language for understanding the concepts and goals that underlie open science practices. This helps ensure discussions are grounded in internationally recognized standards. It also clarifies the broad scope of open science, which goes beyond open access to publications and data to include cultural change, policy, education, societal engagement, and ethical considerations. The recommendations highlight the rationale and potential impact of open science, particularly in terms of equity, inclusiveness, and the capacity to address complex global challenges through enhanced collaboration and information sharing.
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+Since this is the introductory session, there are no formal prerequisites. However, to get a small kick-start into the topic, learners are advised to have skimmed the UNESCO Recommendations on Open Science, particularly pages 6-19. 
 :::
 
 ---
@@ -106,7 +68,7 @@ Before completing this submodule, please carefully read about the prerequisites.
 ::: {.notes}
 **Presenter Notes**: Before we get started, I would like to  explore your previous knowledge around Open Research. Perhaps some of you have read the recommendations by UNESCO, perhaps some have never heard of the term Open Research before. On the following slides you will find some questions which aim to capture how much you know already. You can scan the QR code, which will take you to a survey tool where you can click your way through the questions. We will then briefly discuss the questions in the plenum. Some of these questions I will ask again towards the end of this session, to get an understanding of whether anything has changed in terms of your knowledge or understanding during this session. 
 
-**Instructor Notes**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic. Use free survey software such as Particify to establish the following questions (shown on separate slides). *Note*: This survey component does not work in an asynchronous setting.
+**Instructor Notes**: The pre-session survey serves to examine students' prior knowledge about the session's topic. Use free survey software such as Particify to establish the following questions (shown on separate slides). *Note*: This survey component does not work in an asynchronous setting.
 :::
 
 ::: {.panel-tabset}
@@ -181,7 +143,7 @@ NOTE Felix: Unnecessary filler slide.
 
 **Instructor Notes**:
 
-- **Aim**: Place the topic of the current submodule within a broader context.
+- **Aim**: Place the topic of the current session within a broader context.
 
 - Remind students what you are working towards and what the bigger picture is.
 :::
@@ -197,7 +159,7 @@ NOTE Felix: Unnecessary filler slide.
 ### Think (2 min)
 - For yourself: Write down a definition for those terms: *Replicability*, *Replication*, *Reproduction*, *p-hacking* <br>[(without internet search - your current understanding)]{.smallnote}
 
-:::{.timer #think1 seconds=120 starton=interaction size=50% sound=true}
+:::{.timer #think1 seconds=120 starton=interaction size=40% sound=true}
 ::: 
 
 :::
@@ -209,7 +171,7 @@ NOTE Felix: Unnecessary filler slide.
 
 <br>
 
-:::{.timer #pair1 seconds=120 starton=interaction size=50% sound=true}
+:::{.timer #pair1 seconds=120 starton=interaction size=40% sound=true}
 :::
 
 :::
@@ -221,15 +183,15 @@ NOTE Felix: Unnecessary filler slide.
 
 <br>
 
-:::{.timer #share1 seconds=120 starton=interaction size=50% sound=true}
+:::{.timer #share1 seconds=120 starton=interaction size=40% sound=true}
 :::
 
 :::
 
 ::::
 
-::: {.callout-note title="Note - this is not a test!"}
-These terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is.
+:::footer
+**This is not a test**! These terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is.
 :::
 
 ---
@@ -270,8 +232,6 @@ By the end of this session, you will be able to:
 - **Key Term 3**: Definition
 
 ::: {.notes}
-**Presenter Notes**: Add script for slide here.
-
 **Instructor  Notes**: Introduce key terms and definitions that learners will come across throughout the session. Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. 
 ::: 
 
@@ -292,7 +252,7 @@ Else, UNCOMMENT the following slides.
 
 ---
 
-## Practical exercise 1
+## Your turn! Research... what?
 
 **Task**: Collect your thoughts with your neighbor.
 
@@ -300,6 +260,10 @@ Else, UNCOMMENT the following slides.
 <br> 
 
 **What does "research" mean to you?**
+
+:::footer
+Take 2 minutes to collect your thoughts first, then discuss with your partner.
+:::
 
 ::: {.notes}
 **Presenter Notes**: Let's start from the beginning! What does research mean to you? What concepts to you connect with it? How would you describe it? Think about this for yourself for a few minutes, write down some notes. Then form pairs and discuss with your partner what they linked to this term. We will then share our ideas in the group.
@@ -378,13 +342,17 @@ DBR English greyscaler (Design-based research cycle)” by Sarah Zloklikovits, l
 
 ---
 
-## Practical exercise 2
+## Your turn! Stages of the research cycle
 
 The battery life of phones gradually decreases during the day (= **the phenomenon**). You have noticed that in winter, you need to charge your phone more often compared to the summer (= **the observation**). You now wonder if the battery life of your phone is somehow connected to the surrounding temperatures.
 
 <br>
 
 **Task**: For the this **observation**, map out the individual steps of the research cycle.
+
+:::footer
+Work in pairs. Take 10 minutes for this exercise.
+:::
 
 ::: {.notes}
 **Presenter Notes**: To make the research cycle more concrete, we will apply it to a simple everyday example. The **phenomenon** is that phone batteries gradually lose charge over time during normal use. From this broader phenomenon, you make a specific **observation**: your phone seems to require charging more often in the winter than in the summer.
@@ -561,7 +529,7 @@ Afterwards, we will connect these ideas to research. Just as buyers need ways to
 > "For many non-scientists, learning that transparency is not the norm in science comes as a surprise. [...] it must seem obvious that **scientists should be held to a higher standard than used car salespeople**."
 :::
 
-::: footer
+:::footer
 Quotes from Vazire, S. ([2017](https://doi.org/10.1525/collabra.74)).
 :::
 
@@ -575,7 +543,6 @@ The author has access to much more information about how the study was conducted
 When important information is not shared, such as the raw data, the original analysis plan, or alternative analyses that were explored, it becomes difficult for readers to fully evaluate the quality and reliability of the research. In the same way that a used car buyer cannot be certain about the quality of a car if important information about its history is hidden, research consumers cannot be fully certain about the quality of findings if key parts of the research process remain invisible.
 
 For many people outside of science, it may be surprising that transparency is not always the default in research. Given the role that scientific findings play in decision-making, one could argue that scientists should be held to an even higher standard of transparency and accountability than used car sellers.
-
 :::
 
 ---
@@ -638,8 +605,7 @@ Inspired by a Tweet from Daniel Lakens; Image from ChatGPT
  -->
 
 <!-- 
-## Practical exercise 3
-
+## Your turn! Making your research trustworthy
 
 As a researcher, what can *you* do to make your phone experiment **trustworthy**?
 
@@ -647,8 +613,13 @@ As a researcher, what can *you* do to make your phone experiment **trustworthy**
 Think about your approach when **formulating your hypothesis**, when **conducting** your experiment, when **analyzing your data**, when **writing up** your findings; but also about potential **confounding variables** or hurdles you could encounter during the research process. 
 :::
 
+
+:::footer
+Work in pairs. Take 5 minutes for this exercise.
+:::
+
 ::: {.notes}
-**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous exercise. What steps do you think you can already take to make your own experiment more trustworthy?
+**Presenter Notes**: Think about the discussions we just had about trust. Then connect it to the experiment that you just planned in the previous exercise. What steps do you think you can already take to make your own experiment more trustworthy? Work in pairs and take 4 minutes for this exercise.
 
 **Instructor  Notes**: There are several possible answers, depending on the exact approach. Since Open Research practices are new to many at this stage, broader answers are completely acceptable for the purpose of this exercise. Some example answers could be:
 
@@ -893,7 +864,7 @@ ggplot(df, aes(x = Category, y = Value, fill = Result)) +
 ```
 
 
-::: footer
+:::footer
 Begley, C. G., & Ellis, L. M. (2012); Camerer et al (2016); Chang & Li (2015); Cova et al. (2018); Open Science Collaboration (2015); Social Science: Combined sample of systematically sampled projects (RPP, SSRP, EERP); Prinz, F., Schlange, T., & Asadullah, K. (2011); Protzko et al. (2023)
 :::
 
@@ -909,9 +880,7 @@ As you can see here, the dark red bars represents the percentage of studies whic
 
 ## Replication rates in the social and behavioural sciences
 
-**Tyner et al. (2026)**:
-
-- Authors attempted **replications of 274 claims of positive results** from 164 quantitative papers (published between 2009 and 2018)
+- Tyner et al. (2026) attempted **replications of 274 claims of positive results** from 164 quantitative papers (published between 2009 and 2018)
 - **~55% of positive claims replicated successfully**
 
 <style>
@@ -1035,7 +1004,7 @@ Given that in a given study $p < .05$: What is the probability that a real effec
 
 ---
 
-## False Discovery Rate 1
+## False discovery rates (I)
 
 ![](images/FDR_graph1.png)
 
@@ -1055,8 +1024,7 @@ The key issue is statistical power. Here, the power is only 35%, meaning that wh
 
 ---
 
-
-## False Discovery Rate 2
+## False discovery rates (II)
 ![](images/FDR_graph2.png)
 
 ::: {.footer}
@@ -1073,15 +1041,12 @@ However, the remaining 65% of the 300 tests, or 195 tests, fail to detect the re
 
 ---
 
-
-## False Discovery Rate 3
+## False discovery rates (III)
 ![](images/FDR_graph3.png)
-
 
 ::: {.footer}
 Nuzzo, R. (2014). Statistical errors. Nature. Colquhoun, D. (2014). An investigation of the false discovery rate and the misinterpretation of p-values. Royal Society Open Science, 1(3), 140216–140216. [http://doi.org/10.1073/pnas.1313476110](http://doi.org/10.1073/pnas.1313476110)
 :::
-
 
 ::: {.notes}
 **Presenter Notes**: With an alpha level of 5%, we expect 5% of these tests to be statistically significant just by chance. That gives us 35 significant results that are actually false positives. The remaining 665 are true negatives.
@@ -1097,7 +1062,6 @@ So, the key takeaway from this example is that ‘p < 0.05’ should not be inte
 :::
 
 ---
-
 
 ## Applied to neuroscience
 ![](images/FDR_article1.png)
@@ -1127,8 +1091,7 @@ Schönbrodt, F. D. & Wagenmakers, E.-J. (2018). Bayes Factor Design Analysis: Pl
 :::
 
 ::: {.notes}
-**Presenter Notes**: 
-
+**Presenter Notes**: Add.
 :::
 
 ---
@@ -1254,7 +1217,7 @@ Fanelli, D. (2010). “Positive” results increase down the hierarchy of the sc
 
   <!-- Left side: single image -->
   <div style="flex: 1; text-align: center;">
-    <img src="images/file-drawer.png" style="width: 100%;" />
+    <img src="images/file-drawer.png" style="width: 70%;" />
   </div>
   
 ```
@@ -1379,9 +1342,7 @@ The authors also note that positive trials were published in journals with highe
 
 ---
 
-## Practical exercise
-
-**Task**: Match the bias to its description.
+## Your turn! Match the bias to the description
 
 <div style="font-size:0.6em;">
 
@@ -1396,9 +1357,13 @@ The authors also note that positive trials were published in journals with highe
 
 </div>
 
+:::footer
+Work in pairs. Take 5 minutes for this exercise.
+:::
+
 
 ::: {.notes}
-**Presenter Notes**: Time for another exercises, To consolidate the different biases a little, let's  atry and match the biases to their respective descriptions. Then we discuss in the group. 
+**Presenter Notes**: Time for another exercises, To consolidate the different biases a little, let's  try and match the biases to their respective descriptions. Work in pairs for 5 minutes. Then we discuss in the group. 
 
 **Instructor  Notes**: Solutions: 1E, 2F, 3D, 4C, 5A, 6B. Give about 5 minutes for this exercise and 2 minutes for discussing the correct results. 
 :::
@@ -1769,7 +1734,7 @@ The so-called "hacks" on the past few slides represent **questionable research p
 ---
 
 ## Practice *p*-hacking yourself
-### with the P-Hacker App
+### ...with the P-Hacker app!
 
 <http://shinyapps.org/apps/p-hacker/>
 
@@ -1777,7 +1742,7 @@ The so-called "hacks" on the past few slides represent **questionable research p
 
 ---
 
-## Practical exercise
+## Your turn! Identifying p-hacking
 
 :::incremental
 **Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
@@ -1797,13 +1762,19 @@ The so-called "hacks" on the past few slides represent **questionable research p
 **Which potential p-hacking strategies are at play here?**
 :::
 
+:::footer
+Work in pairs. Take 5 minutes for this exercise.
+:::
+
 ::: {.notes}
-**Presenter Notes**: Let us get to work! I now have a task for you to reflect on different biases and/ or questionable research practises. Imagine that you are reviewing a study examining whether drinking white tea improves short-term memory. In the report, you read the information provided here. Which potential p-hacking strategies can you identify?
+**Presenter Notes**: Let us get to work! I now have a task for you to reflect on different biases and/ or questionable research practices. Imagine that you are reviewing a study examining whether drinking white tea improves short-term memory. In the report, you read the information provided here. Which potential p-hacking strategies can you identify? Work in pairs, take 5 minutes for this task.
+
+**Instructor notes**: Plan about 5 minutes for the discussion of this exercise.
 :::
 
 ---
 
-## Practical exercise - solutions
+## Exercise - solutions
 
 **Scenario**: You are reviewing a study examining whether drinking white tea improves short-term memory, where the researchers report:
 
@@ -2196,7 +2167,7 @@ Emsley, R. (2023). ChatGPT: These are not hallucinations - they’re fabrication
 
 ## Now what?
 
-![](images/crossroads.png){fig-align=center width=100% fig-alt="crossroads"}
+![](images/crossroads.png){fig-align=center width="80%" fig-alt="crossroads"}
 
 ::: footer
 This image was taken from the [Geograph project collection](https://www.geograph.org.uk/). The copyright on this image is owned by Chris Martin and is licensed for reuse under the Creative Commons Attribution-ShareAlike 2.0 license.
@@ -2271,7 +2242,54 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 
 ---
 
-# Thanks! <br>
+
+## Contribution statement
+
+<br>
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+::: {.notes}
+**Presenter Notes**: These are the **presenter notes**. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+**Acessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
+:::
+
+---
+
+## License and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+
+
+Please cite as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::
+
+---
+
+# Additional content
 
 ---
 
@@ -2331,8 +2349,6 @@ Decide whether each scenario in the following slides is an example of **reproduc
 
 ## What is (academic) "trust" in research?
 
-<!-- This slide is a bit tangential - maybe move to a different stage? -->
-
 ::: incremental
 - Trust is **essential for effective collaboration** among researchers (includes co-authorship, peer review, data sharing, replication, teaching, mentoring, etc.). We operate under the assumption of good faith.
 
@@ -2353,14 +2369,12 @@ Likewise, when scientists read published research, they trust that the study was
 
 ---
 
-
 ## Psychology: The Replication Database by FORRT
 
 - Collects replication results across different psychological fields
 - Provide detailed overview of the original findings and the replication outcomes
 
 ![](images/FORRT_Replication_Database.png){fig-align=center width=100% fig-alt="An image of the landing page of the FORRT Replication database"}
-
 
 ::: footer
 **FORRT Replication Database** ([https://forrt-replications.shinyapps.io/fred_explorer/](https://forrt-replications.shinyapps.io/fred_explorer/))
@@ -2371,18 +2385,6 @@ Likewise, when scientists read published research, they trust that the study was
 ## Why should we trust researchers?
 
 ![](images/01_snakesman_researcher.png){fig-align=center width=100% fig-alt="snakesman analogy"}
-
-
-
-## ...right? MOVE
-
-![](images/07_holy_grail.png){fig-align=center width=50% fig-alt="chasing significance"}
-
-
-
-## Decide where to add - maybe not needed?
-
-**Ideal scenario: Balancing the desire to stay truthful to research with the necessity to publish?**
 
 ---
 
@@ -2407,8 +2409,6 @@ Likewise, when scientists read published research, they trust that the study was
 ::: {.callout-note title="Note - this is not a test!"}
 These terms probably have not been covered in your courses yet. We just want to see what your current understanding of these terms is.
 :::
-
----
 
 <!-- 
 

@@ -10,11 +10,17 @@ On this page you will find **ready-to-use materials** and educational resources 
 
 ## Who are these materials for?
 
-**Educators** in higher higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **delivering individual workshops** on specific open research topics to audiences with **no or limited prior experience** with open research, and aiming to:
+**Educators** in higher higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **delivering individual workshops** on specific open research topics to audiences with **no or limited prior experience** with open research, aiming to:
 
 - **Integrate** open research into an existing course syllabus or **develop and deliver** a full open research course
 - **Develop** a basic understanding of core principles in open research in their learners
 - **Equip** learners with foundational skills and experience with open research practices
+
+**Self-learners** with no prior experience in open research, aiming to:
+
+- **Develop** basic skills in open research topics
+- **Obtain** hands-on practical experience with core open research practices
+- **Build-up** on existing open research skills
 
 ## What materials are there?
 
@@ -89,7 +95,6 @@ Have you spotted a **way to improve our materials**, or would like to add or **c
 ## Cannot find the answer you are looking for?
 Please get in touch with the program coordinator [Sarah von Grebmer](mailto:s.grebmer@lmu.de).
 :::
-
 
 ## Licence and citation statement
 

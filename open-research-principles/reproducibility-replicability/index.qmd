@@ -19,33 +19,27 @@ Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schö
 
 **Welcome!** This workshop is intended to provide learners with an introduction to **key challenges and threats in scientific research**. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the workshop encourages **critical analysis** of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of **developing** more **transparent and robust approaches** to conducting and evaluating research.
 
+### Who are these materials for?
 
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-
-**Welcome!** 
-
-## Who are these materials for?
-
-The target audience of this workshop is twofold:
-
-- **Self-learners** with no prior experience with Open Science and/or issues around reproducibility and replicability, who are interested in diving deeper into these topics through a combination of real-world scenarios and practical exercises. You can follow these materials by chronologically going through the slides and following along the practical exercises. You go at your own pace and within your own timeframe. *Presenter notes* will help you to understand and reflect on the content of the materials. Note: Group exercises are *not* possible in this asynchronous setting. 
-
-- **Instructors** in higher education (e.g., universities, colleges) aiming to convey the content of these materials to their learners in a synchronous (in-person, virtual or hybrid) class-room setting. The slides can be directly presented in full screen below, with presenter and instructor notes providing detailed information about the content of the materials and valuable pedagogical tips how to convey the materials to your learners. You can also download the PowerPoint corresponding to the materials below and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. 
 ## Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| UNESCO Recommendations on Open Science | Recommended reading: pp 6-19 | [Download Link](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
 </div>
-
 
 ## Learning goals
 
+At the end of this session, you or your learners will be able to ...
+
+- **Reflect** on the role of trust in scientific research
 - **Recognize** different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from
 - **Analyze** research scenarios to identify potential research biases and questionable research practices
 - **Reflect** on the current threats for research and on the need for alternative approaches to conducting research
-
 
 ### Export slides
 
@@ -58,12 +52,12 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
   Download slides as PDF
 </a>
  
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
 **Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
@@ -71,10 +65,10 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 
 <p style="text-align:center;">
   <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
+  alt="Creative Commons Attribution 4.0 SA"
   style="width:160px;" />
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a CC-BY 4.0 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en). It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
 </div>
