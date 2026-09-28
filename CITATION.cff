@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you refer to this tutorial, please cite it as below."
+authors:
+  - family-names: "von Grebmer zu Wolfsthurn"
+    given-names: "Sarah"
+    orcid: "https://orcid.org/0000-0002-6413-3895"
+    affiliation: "LMU Open Science Center, Ludwig-Maximilians-Universität München"
+  - family-names: "Middleton"
+    given-names: "Sara"
+    orcid: "https://orcid.org/0000-0001-5307-8029"
+    affiliation: "LMU Open Science Center, Ludwig-Maximilians-Universität München"
+title: "Teaching materials for novices"
+version: 0.0.1
+date-released: 2026-08-28
+repository-code: "https://github.com/lmu-osc/teaching-materials-for-novices"
+url: "https://lmu-osc.github.io/teaching-materials-for-novices/"

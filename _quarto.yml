@@ -1,34 +1,42 @@
 project:
-  type: website
-  output-dir: docs
+  type: tutorial-template
+
+repo-url: https://github.com/lmu-osc/teaching-materials-for-novices
 
 website:
   title: "Educational resources for teaching Open Research to novices"
-  page-navigation: true
+  page-footer:
+    border: false
+    center: © 2026 Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt. Published by LMU Open Science Center. Licensed under CC BY-SA 4.0.
+  repo-url: https://github.com/lmu-osc/teaching-materials-for-novices
+
   navbar:
     right:
       - about.qmd
     left:
       - href: index.qmd
         text: Home
-      - href: help.qmd
-        text: Help
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/lmu-osc/teaching-materials-for-novices
+          - text: Report a Bug
+            href: https://github.com/lmu-osc/teaching-materials-for-novices/issues
+      - icon: house-heart
+        url: https://www.osc.lmu.de/
+
   sidebar:
     style: "docked"
-    collapse-level: 1
     contents:
-      - section: "Template Module"
-        contents:
-          #- href: materials/OS-template-module/OS-template.qmd
-      - section: "Module 1: Open Research Principles"
+      - text: "Overview"
+        href: index.qmd
+      - section: "Open Research Principles"
         contents:
           # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0-Module-Intro.qmd
-          - href: materials/OS-M1/OS-M1-S1-Reproducibility-Replicability/OS-M1-S1-Replicability.qmd
-          - href: materials/OS-M1/OS-M1-S2-Credibility/OS-M1-S2-Credibility.qmd
-      - section: "Module 2: Open Research Methodological Foundations"
-        contents:
-          # - href: materials/OS-M2/OS-M2-S0-Module-Intro/OS-M2-S0_Module-Intro.qmd
-      - section: "Module 3: Open Research Software Tools"
+          - href: open-research-principles/reproducibility-replicability/index.qmd
+          - href: open-research-principles/credible-research/index.qmd
+      - section: "Open Research Tools"
         contents:
            - href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S2-R-Part-I.qmd
            #- href: materials/OS-M3/OS-M3-S2-R-Part-I/OS-M3-S3-R-Part-II.qmd
@@ -37,17 +45,16 @@ website:
            - href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
            - href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # moved from 1 to this spot
            - href: materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.qmd
-      - section: "Module 4: Open Code and Open Data"
-        contents:
-      - section: "Module 5: Open Results"
-        contents:
 
 format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: website-custom.css
-    toc: true
+  tutorial-template-html+tutorial:
+    css:
+      - footer/footer-style.css
     include-in-header:
       - file: matomo-analytics.html
+    include-after-body:
+      - file: footer/footer.html
+
+editor: source
+
+bibliography: assets/references.bib

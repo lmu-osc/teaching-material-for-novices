@@ -52,10 +52,12 @@ rsconnect/
 /.quarto/
 _site/
 _freeze/
-**_files/
 
 # .DS_Store
 **/.DS_Store
 
 **/*.quarto_ipynb
 .positai
+
+# ignore posit assistant settings
+.posit/assistant
