@@ -4,9 +4,9 @@ title: "Educational resources for teaching open research to novices"
 
 ## Welcome!
 
-Are you interested in **conveying foundational open research knowledge and skills** in the context of an open research course? Are you looking for **materials on a specific open research topic** to use in **your own teaching**? Or are you **new to open research** as a whole and are trying **acquire and practice some skills** by yourself? **Then you are in the right place**!
+Are you interested in **conveying foundational open research knowledge and skills** in the context of an open research course? Are you looking for **teaching materials on a specific open research topic** to use in **your own teaching**? Or are you **new to open research** as a whole and are trying **acquire and practice some open research skills** by yourself? **Then you are in the right place**!
 
-On this page you will find **ready-to-use materials** and educational resources for **teaching open research practices** to novices or students on topics including **foundations of Open Science, computational reproducibility, tools for collaborative working, data management and data sharing** in a **synchronous class-room setting** (in-person, virtual or hybrid).
+On this page you will find **ready-to-use materials** and educational resources for **teaching open research practices** to novices or students on topics including **foundations of Open Science, computational reproducibility, tools for collaborative working, data management and data sharing** in a **synchronous class-room setting** (in-person, virtual or hybrid) or to use offline to learn at your own pace.
 
 ## Who are these materials for?
 
@@ -18,15 +18,15 @@ On this page you will find **ready-to-use materials** and educational resources 
 
 **Self-learners** with no prior experience in open research, aiming to:
 
-- **Develop** basic skills in open research topics
+- **Develop** basic open research skills
 - **Obtain** hands-on practical experience with core open research practices
 - **Build-up** on existing open research skills
 
 ## What materials are there?
 
-The materials consist of **slide decks** with **theoretical elements**, **hands-on exercises**, **cheatsheets**, **homework assignments** and **practical tips** for the delivery of the materials. 
+The materials consist of **slide decks** with **theoretical elements**, **hands-on exercises**, **cheatsheets**, **homework assignments** and **practical tips** on the content. 
 
-Each slide deck on a given topic is **designed for a 90-minute session** in a classroom setting (in-person, virtual, or hybrid), but can be **flexibly adapted** depending on your audience. 
+Each slide deck on a given topic is **designed for a 90-minute session** in a classroom setting (in-person, virtual, or hybrid), and can be **flexibly adapted** depending on your audience and timeframe. 
 
 Detailed **presenter notes** (intended narrative of the presentation), further **instructor notes** (additional guidance intended only for the presenter) and **accessibility tips** (where applicable) are available for each topic and are directly integrated into the materials.
 
@@ -39,9 +39,9 @@ The materials are completely **free to use**, given that you give appropriate cr
 
 ## How can I use these materials?
 
-**As an educator aiming to teach about open research**: The materials are ready for immediate use in a classroom setting (duration: approx. 90 minutes). You can choose to **deliver a full course** with the existing materials, *or* you can **pick-and-choose specific open research topics** to incorporate into an existing course. To access to materials, use the navigation menu on the left. The materials are arranged in a **chronological order**, meaning that they logically build up on one another. The slides can be directly presented in the browser in full screen or can be downloaded as pdf or MS PowerPoint if you want to **edit and adapt** them. **Presenter notes**, **instructor notes** and **accessibility tips** provide important information about the content of the materials and valuable pedagogical tips how to convey the materials to your audience. If you opt for the pick-and-choose option, make sure to thoroughly **read the prerequisites** for each topic and **go through the content and exercises yourself**. If you re-use the materials for your own teaching, make sure to give appropriate credit to the original authors.
+**As an educator aiming to teach about open research**: The materials are ready for immediate use in a classroom setting (timeframe: approx. 90 minutes per topic). You can choose to **deliver a full course** with the existing materials, *or* you can **pick-and-choose specific open research topics** to incorporate into an existing course. To access to materials, use the navigation menu on the left. The materials are arranged in a **chronological order**, meaning that they logically build up on one another. The slides can be directly presented in the browser in full screen or can be downloaded as pdf or MS PowerPoint if you want to **edit** them or present the materials offline. **Presenter notes**, **instructor notes** and **accessibility tips** provide important information about the content of the materials and valuable pedagogical tips how to convey the materials to your audience. If you opt for the pick-and-choose option, make sure to thoroughly **read the prerequisites** for each topic and **go through the content and exercises yourself**. If you re-use the materials for your own teaching, make sure to give appropriate credit to the original authors.
 
-**As a self-learner**: Select your topic of choice from the navigation menu on the left. Follow along the slides and complete the practical exercises in your own time. You can navigate the slides in full screen using the arrow key, or by viewing the slides in the *Speaker View* together with the **presenter and instructor notes** to understand and reflect on the content of the materials (recommended, see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information). Make sure to always **familiarize** yourself with the **prerequisites** before starting a new topic. The materials can be downloaded as pdf or MS PowerPoint documents. *Note*: Group exercises are not possible in an asynchronous setting, but can be completed individually.
+**As a self-learner**: Select your **topic of choice** from the navigation menu on the left. Follow along the slides and **complete the practical exercises** in your own time. You can navigate the slides in full screen using the arrow key, or by viewing the slides in the *Speaker View* together with the **presenter and instructor notes** to understand and reflect on the content of the materials (recommended, see [here](https://quarto.org/docs/presentations/revealjs/presenting.html) for more information). Make sure to always **familiarize** yourself with the **prerequisites** before starting a new topic. The materials can be downloaded as pdf or MS PowerPoint documents. *Note*: Group exercises are not possible in an asynchronous setting, but can be completed individually.
 
 ::: {.callout-important collapse="false"}
 ## Read the introductory page for each topic
@@ -60,12 +60,12 @@ When you click the following button, it takes you directly to the first topic. E
           text-decoration:none;
           border-radius:8px;
           font-weight:bold;">
-  Get started!
+  Start here!
 </a>
 
 ## How can I adapt the materials?
 
-Of course, the context in which you are teaching may vary greatly and you may need to adapt the materials in terms of content, level of difficulty, duration and practical exercises. If you **want to adapt the materials to fit your audience**, you can **export the slides as MS PowerPoint** (.pptx format) corresponding to the materials and adapt the materials to your learners. Make sure to give appropriate credit to the original authors. You also have the option to **export the slides in pdf format**. 
+Of course, the context in which you are teaching may vary greatly and you may need to **adapt the materials** in terms of your audience, content, level of difficulty or timeframe. If you **want to adapt the materials**, you can **export the slides as MS PowerPoint** (.pptx format) corresponding to the materials and adapt the materials to your specific teaching context. Make sure to give appropriate credit to the original authors. You also have the option to **export the slides in pdf format**. 
 
 In addition, you can also obtain the materials from our [LMU OSC GitHub repository](https://lmu-osc.github.io/train-the-trainer-student-track-OS/). You can [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository to adapt the materials to your needs, or [create a new branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to work on the materials in parallel. Within this repository, you have direct access to the **Quarto .qmd files** that support all of our materials. 
 
@@ -98,7 +98,7 @@ Please get in touch with the program coordinator [Sarah von Grebmer](mailto:s.gr
 
 ## Licence and citation statement
 
-::: {.callout-note}
+::: {.callout-tip}
 ## How to cite these materials while they are work in progress
 Von Grebmer Zu Wolfsthurn, S., Middleton S.,Ihle, M., & Schönbrodt, F. (2026). *Educational resources for teaching open research to novices*. LMU Open Science Center. Retrieved September 28, 2026, from [https://github.com/lmu-osc/teaching-material-for-novices](https://github.com/lmu-osc/teaching-material-for-novices)
 :::
@@ -124,7 +124,6 @@ Unless otherwise specified, the text, images and supplementary materials on thes
 - Tejaswini Sharma, [ORCID 0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751), LMU Open Science Center
 
 - Caterina Luz Sanchez Steinhagen [ORCID 0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110), LMU Open Science Center
-
 
 ## Funding and partners
 

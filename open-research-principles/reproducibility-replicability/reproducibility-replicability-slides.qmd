@@ -2028,7 +2028,7 @@ I want to point out here that these are only errors of the statistical type, oth
 
 ## Reproducibility success
 
-- Crüwell et al. (2022), Psychology: Numerical results of **less than 30% of papers** can be **reproduced** [@cruwellWhatsBadgeComputational2022]
+- Crüwell et al. (2023), Psychology: Numerical results of **less than 30% of papers** can be **reproduced** [@cruwellWhatsBadgeComputational2023]
 - Krähmer et al. (2026), Sociology:
   - Only ***3% of authors** share analysis **code proactively**
   - Upon request, 34% shared their code.

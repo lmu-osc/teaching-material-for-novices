@@ -60,7 +60,6 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
   Download slides as PDF
 </a>
 
-
 ### Supplementary files
 
 <div style="display: flex; gap: 1rem;">

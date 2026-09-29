@@ -1,0 +1,95 @@
+---
+title: "Running simulations and power analysis in R"
+---
+
+> Explore experiments before running them.
+
+[Click here to see the materials in full screen](simulations-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="simulations-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). *Running simulations and power analysis in R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations)
+:::
+
+**Welcome!** This workshop is intended to **introduce** the **principles and practical use of simulations** in research using **R**. Learners will first get familiar with **what simulations are** and **why they are widely used** in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also **introduce power analysis**, explaining how to **determine appropriate sample sizes** for experiments. Through a subsequent self-paced practical tutorial, learners will work through the **full simulation workflow in R**, including generating random data, repeating simulations, and analyzing results.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| R basics | e.g., how to select a value in a data frame, how to create a vector | [OSC tutorial link](https://lmu-osc.github.io/introduction-to-R/) |
+| Familiarity with basic statistical concepts | e.g., hypothesis testing, descriptive statistics, data analysis | [Cheatsheet Link](assets/cheatsheet.pdf) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Understand** the concept of simulations
+- **Explain** the purpose of simulations in research
+- **Summarize** how simulations support hypothesis testing and experimentation
+- **Perform** the simulation process in the context of a fictional experiment
+- **Understand** the concept of power analysis
+- **Explain** the purpose of power analysis in research
+- **Summarize** how power analysis supports hypothesis testing and experimentation
+- Successfully **perform** a simulation in R
+
+## Download materials
+
+Access the self-paced tutorial here: [https://lmu-osc.github.io/Introduction-Simulations-in-R/](https://lmu-osc.github.io/Introduction-Simulations-in-R/).
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="simulations-slides.pdf"
+   download="simulations-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+### Supplementary files
+
+<div style="display: flex; gap: 1rem;">
+  <a href="assets/cheatsheet.pdf"
+     download="simulations-cheatsheet.pdf"
+     class="btn btn-primary"
+     style="flex: 1; text-align: center;">
+    Download the activity sheet
+  </a>
+</div>
+
+## Contributors and licence details
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) based on materials from [Joel Pick](https://joelpick.github.io/), [Hadley Wickham](https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham), and [Kevin Hallgren](https://www.tqmp.org/RegularArticles/vol09-2/p043/), with contributions from [James Smith](https://github.com/worcjamessmith).
+This current work by Tejaswini Sharma, Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0 ). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

@@ -45,6 +45,15 @@ At the end of this session, you or your learners will be able to ...
 - **Specify** arguments within functions to modify how the function produces its output.
 -**Index** dataframes to access and retrieve specific information.
 
+## Download materials
+
+Download the accessibility sheet for computers below:
+<a href="assets/computer-accessibility-sheet.pdf"
+   download="computer-accessibility-sheet.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
 ### Export slides
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.

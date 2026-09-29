@@ -42,7 +42,7 @@ Before completing this session, please carefully read about the prerequisites.
 |------------|------------|------------|
 | RStudio installed | Version Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
 | R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
-| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf)
 </div>
 
 ::: {.notes}
