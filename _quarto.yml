@@ -40,7 +40,8 @@ website:
         contents:
           - href: open-research-tools/r-part-I/index.qmd
            #- href: open-research-tools/r-part-II/index.qmd
-          - href: open-research-tools/git/index.qmd
+          - href: open-research-tools/git/index.
+          - href: open-research-tools/github/index.qmd
           - href: open-research-tools/zotero/index.qmd
           - href: open-research-tools/quarto/index.qmd
           - href: open-research-tools/simulations/index.qmd
