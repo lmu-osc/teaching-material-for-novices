@@ -40,9 +40,8 @@ Before completing this session, please carefully read about the prerequisites.
 <div style="font-size: 0.6em;"> 
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
-| RStudio installed | Version Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
-| R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
-| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf)
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf) |
 </div>
 
 ::: {.notes}

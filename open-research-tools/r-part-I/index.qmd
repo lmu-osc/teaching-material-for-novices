@@ -31,7 +31,7 @@ Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D
 |------------|------------|------------|
 | RStudio installed | Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
 | R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
-| Accessibility sheet for computers | Fundamentals of computer literacy | [Download here ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download here ](assets/Accessibility_sheet_for_computers_OSSS26.pdf) |
 </div>
 
 ### Learning objectives
@@ -47,13 +47,6 @@ At the end of this session, you or your learners will be able to ...
 
 ## Download materials
 
-Download the accessibility sheet for computers below:
-<a href="assets/computer-accessibility-sheet.pdf"
-   download="computer-accessibility-sheet.pdf"
-   class="btn btn-primary">
-  Download slides as PDF
-</a>
-
 ### Export slides
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
@@ -61,6 +54,15 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 <!-- download as pdf button -->
 <a href="r-part-I-slides.pdf"
    download="r-part-I-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+### Accessibility sheet
+
+Download the accessibility sheet for computers below:
+<a href="assets/computer-accessibility-sheet.pdf"
+   download="computer-accessibility-sheet.pdf"
    class="btn btn-primary">
   Download slides as PDF
 </a>

@@ -33,13 +33,12 @@ website:
         href: index.qmd
       - section: "Open Research Principles"
         contents:
-          # - href: materials/OS-M1/OS-M1-S0-Module-Intro/OS-M1-S0-Module-Intro.qmd
           - href: open-research-principles/reproducibility-replicability/index.qmd
           - href: open-research-principles/credible-research/index.qmd
       - section: "Open Research Tools"
         contents:
           - href: open-research-tools/r-part-I/index.qmd
-           #- href: open-research-tools/r-part-II/index.qmd
+          - href: open-research-tools/r-part-II/index.qmd
           - href: open-research-tools/git/index.
           - href: open-research-tools/github/index.qmd
           - href: open-research-tools/zotero/index.qmd
