@@ -3,66 +3,32 @@ title: "Introduction to literate programming with Quarto"
 author: "Elizabeth Waterfield"
 date: "today"
 date-format: "DD/MM/YYYY"
+draft: true
 format: 
   revealjs:
-    css: ../../../slides-custom.css # looks for css file in root
+    css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
-  #pdf:
-    #geometry: 
-     # - top=30mm
-     # - left=30mm
-  pptx: 
-    css: ../../../slides-custom.css # looks for css file in root
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: default
+
+revealjs-plugins:
+  - tabset
+
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
 
 execute:
   echo: true
   eval: true
   engine: knitr
----
 
-## Licence
-
-<br>
-
-<p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0"
-  style="width:160px;" />
-</p>
-
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.4em;">
-This work was originally created by [Anna Krystalli](https://github.com/annakrystalli) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [MIT licence](https://opensource.org/license/mit) (original repository). It was subsequently adapted by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) during her time at [Reproducible Research Oxford](https://ox.ukrn.org/), with the contributions of [Adam Kenny](https://github.com/Kennyanthro). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). The exercice is based on the research of [Jen Bright](https://x.com/MorphobeakGeek) who also kindly provided the gifs used in the exercice. It is now maintained by [Malika Ihle](https://www.lmu.de/psyedu/de/personen/kontaktseite/malika-ihle-1f381483.html) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895) at the [LMU Open Science Center](https://www.osc.uni-muenchen.de/index.html).  This current work by Elizabeth Waterfield, Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA-4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) licence. It permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-</div>
-
-::: {.notes}
-**Presenter Notes**: The Creative Commons Attribution–ShareAlike 4.0 license, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights. Code snippets are dedicated to the public domain and licenced under a CC0 1.0 meaning that users can use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
-:::
-
----
-
-## Contribution statement
-
-**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
-
-**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
-
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Acknowledgments**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
-
-
-::: {.notes}
-**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
-
-**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
-
-**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
-:::
-
+filters: 
+  - timer
 ---
 
 ## Prerequisites
@@ -70,24 +36,30 @@ Code snippets are dedicated to the public domain and licenced under a CC0 1.0 [C
 ::: {.callout-important}
 ## Prerequisites
 
-Before completing this submodule, please carefully read about the necessary prerequisites.
+Before completing this session, please carefully read about the necessary prerequisites.
 :::
 
 <div style="font-size: 0.6em;"> 
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
-| Basic R skills | 3.2. Introduction to R - Part I |  Module 3.2. |
-| Advanced R skills | 3.3. Introduction to R - Part II|  Module 3.3. |
-| Basic Git skills | 3.4. Introduction version control (Git) with RStudio |  Module 3.4. |
-| Collaboration on GitHub | 3.5. Introduction to collaborative coding with GitHub |  Module 3.5. |
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Advanced R skills | Introduction to R - Part II | [Access here]() |
+| Basic Git skills | Introduction to version control with Git in RStudio | [Access here]() |
+| Collaborating on GitHub | Introduction to collaborative coding with GitHub |  [Access here]() |
 | Zotero | Reference Management Tool | [Download Link](https://www.zotero.org/) |
-
 </div>
 
 ::: {.notes}
-**Presenter Notes**: Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this submodule. 
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.
 
-**Instructor Notes**: These are the prerequisites for this submodule. Before you get started on this submodule with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those submodules. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero. 
+Let us first take a look at these prerequisites. These are important to complete in order to fully understand what will be covered in this session. 
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+These are the prerequisites for this session. Before you get started on this session with your audience, you need to ensure that the audience fulfills these criteria. In this session, we will assume that your audience has basic R skills and completed the corresponding workshops. We also assume familiariy with Git and GitHub and that the audience has also completed those sessions. Finally, we assume that, through the previos workshops, participants have downloaded and installed R and RStudio on their local machines, and also have the desktop app for Zotero. 
+
+**Accessibility Tips**: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. 
 :::
 
 ---
@@ -115,38 +87,29 @@ Make sure to have a recent version of [R](https://www.r-project.org/) (Version 4
 
 ---
 
-## Questions from previous submodule?
+## Questions from previous session?
 
 ::: {.notes}
 **Presenter Notes**: Are there any questions from what we discussed during the last session? Are there any remaining thoughts or discussion points?
 
 **Instructor  Notes**:
 
--  **Aim**: clarify questions from the previous submodule and/or to discuss assignments.
+-  **Aim**: clarify questions from the previous session and/or to discuss assignments.
 
 - Additional slides may need to be added depending on the nature of the homework assignments.
 
 - It is critical for the learning process to ensure that students are on the same page and have been able to achieve the learning goals of the previous workshop.
 
-- Not applicable if this set of slides corresponds to the first submodule of a new module.
+- Not applicable if this set of slides corresponds to the first session of a new module.
 :::
 
 ---
 
 ## Before we start: Survey time!
 
+::: {.panel-tabset}
 
-::: {.notes}
-**Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
-
-**Instructor Notes**: 
-
--  **Aim**: The pre-submodule survey serves to examine students' prior knowledge about the submodule's topic.
-
-- Use free survey software such as Particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
-:::
-
----
+### Question 1
 
 **On a scale of 1 to 5, what is your level of familiarity with Quarto (e.g., Quarto concepts, tools within Quarto)? (1 = Not familiar at all, 5 = Very familiar)**
 
@@ -160,8 +123,7 @@ d. 4
 
 e. 5
 
----
-
+### Question 2
 
 **Which of the following concepts or skills do you feel most confident about when using Quarto? (Select all that apply)**
 
@@ -179,6 +141,17 @@ f. Including citations and bibliographies via a citation manager
 
 g. None of the above
 
+:::
+
+::: {.notes}
+**Presenter Notes**: Let's start the session by gauging where our Quarto skills are at this point. Please answer honestly and don't worry about having little to no prior knowledge about Quarto. This lesson is for beginners. 
+
+**Instructor Notes**: 
+
+-  **Aim**: The pre-session survey serves to examine students' prior knowledge about the session's topic.
+
+- Use free survey software such as Particify to establish this. You can use the example survey, edit it or create your own. Make sure to have a QR code for easy scanning, as well as the link displayed on the slides. 
+:::
 
 ---
 
@@ -233,7 +206,7 @@ What do we see in the results?
 ::: {.notes}
 **Presenter Notes**: Previously, you have gained skills and experience with R, RStudio, version control with Git, and collaborative work on GitHub. Next, we are moving to a new tool: Quarto. Here, you will learn about a platform that can combine text, code, and media all into one document. We will cover how to create a simple website using different functionalities that Quarto offers.
 
-**Instructor Notes**: Place the topic of the current submodule within a broader context. Consider Quarto as a solution to some existing challenges in Open Research to remind learners what they are working towards and what the bigger picture is.
+**Instructor Notes**: Place the topic of the current session within a broader context. Consider Quarto as a solution to some existing challenges in Open Research to remind learners what they are working towards and what the bigger picture is.
 :::
 
 ---
@@ -255,7 +228,7 @@ What do we see in the results?
 
 **Instructor Notes**: 
 
-- **Aim**: To establish the core theoretical introduction of submodule topics.
+- **Aim**: To establish the core theoretical introduction of session topics.
 
 - Pair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).
 
@@ -382,13 +355,9 @@ You can always check out the [Quarto Website](https://quarto.org/) to learn more
 
 ## So, why Quarto?
 
-<!-- TODO:
-Comment Felix: Not sure if this side A / side B comparison is the relevant one. Isn't the actual comparison that of a separate code file and a MS Word manuscript, where it is unclear which result comes from which computation? So, the step of integrating both code and narrative text is the crucial one. Comparing the "raw quarto code view" with the "rendered Quarto view" is a bit pointless for me. SvG: agreed, changed it into a table and put emphasis more on the workflow differences. 
- -->
-
 1. **Readability**: Research is more **accessible** when text, analyses, results and code are combined within the same document
 
-
+<div style="font-size: 0.6em;"> 
 | Step            | Traditional workflow | Quarto workflow |
 | --------------- | -------------------- | --------------- |
 | Write text      | e.g., in an MS Word  document   | Same file       |
@@ -397,7 +366,7 @@ Comment Felix: Not sure if this side A / side B comparison is the relevant one. 
 | Generate figure  | in statistical programme          | Same file |
 | Update results  | Manual redo          | Re-run document |
 | Update figure  | Manual redo          | Re-run document |
-
+</div>
 
 ::: {.notes}
 **Presenter Notes**: Let's first answer the question, "How can using Quarto solve common challenges in research?" Research can be messy and scattered sometimes, especially when you want to use different elements like text, code, and media. Researchers often follow a copy-paste workflow, whereby the produce for example a figure with a particular program, then copy the figure over to the manuscript, perhaps in MS word. _so, the results are being explicitly moved to the document. If the results are updated, you have to recompile the figure and re-paste it into the manuscript. This workflow, as you can imagine, is more error prone since it involves a lot of manual labor. 
@@ -981,15 +950,9 @@ Here's a quick recap of what we have learned in this lesson so far:
 
 ## Pre-break quiz: Your turn!
 
+::: {.panel-tabset}
 
-::: {.notes}
-**Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.
-
-**Instructor Notes**: Aim: This pre-break survey serves to examine students' current understanding of key concepts of the submodule <br>
-- Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson.
-:::
-
----
+### Question 1
 
 **What's the typical format of Quarto Markdown document?**
 
@@ -1001,8 +964,7 @@ c. .docx file
 
 d. .mp3 file
 
-
----
+### Question 2
 
 **In a Quarto document, what is the YAML header?**
 
@@ -1014,7 +976,7 @@ c. The title of the document
 
 d. The "settings" of the document
 
----
+### Question 3
 
 **In a Quarto document, which component is primarily responsible for formatting narrative text (e.g., headings, bold text, lists, and paragraphs)?**
 
@@ -1025,6 +987,15 @@ b. YAML header
 c. Code chunks
 
 d. All of the above
+
+:::
+
+::: {.notes}
+**Presenter Notes**: Before the break, let's take a moment to review the things we covered in the first part of this lesson. This survey has a few simple recap questions about what we’ve learned so far about using Quarto. The goal isn’t to test you, but to help you reflect on what you’ve learned and for me to see if anything needs a bit more clarification.
+
+**Instructor Notes**: Aim: This pre-break survey serves to examine students' current understanding of key concepts of the session <br>
+- Use free survey software such as or other survey software (Menti, particify, formR) to establish the following questions. It's important to have an idea of these key terms because they will reappear many times throughout the rest of this lesson.
+:::
 
 ---
 
@@ -1432,7 +1403,7 @@ A great option to share your document is **publishing to GitHub**.
 **GitHub Pages** enables you to publish content based on source code managed within a GitHub repository.
 
 :::incremental
-**3 methods** to publish a Quarto document to GitHub Pages:
+**Three methods** to publish a Quarto document to GitHub Pages:
 
 1. Rendering your output to the `docs` directory and pushing it to your repository
 2. Using the `quarto publish` command 
@@ -1673,7 +1644,7 @@ git push -u origin main
 :::
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download 
+  <a href="assets/quarto-cheatsheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
             text-decoration:none; font-weight:500;">
     Download the Quarto cheatsheet
@@ -1737,7 +1708,7 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 - **Build confidence** in editing YAML header, adding code chunks, and customizing the layout
 
 <div style="text-align: center;">
-  <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download 
+  <a href="assets/quarto-activity-sheet.pdf" download 
      style="background-color:#007ACC; color:white; padding:8px 14px; border-radius:4px; 
             text-decoration:none; font-weight:500;">
     Download the Quarto Activity Sheet
@@ -1759,20 +1730,11 @@ After learning about Quarto in today's lesson, use this homework assignment to:
 
 ---
 
-## To conclude: Survey/Quiz time!
+## To conclude: Survey time!
 
-Let's end this session with a short quiz on topics covered in this lesson. 
+::: {.panel-tabset}
 
-
-
-::: {.notes}
-**Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it. 
-
-*Instructor Notes* Aim- This post-submodule survey serves to examine students' current knowledge about the sumodule's topic. <br>
-- Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs):
-:::
-
----
+### Question 1
 
 **On a scale of 1 to 5, what is your level of familiarity with Quarto now after the session (e.g., Quarto concepts, tools within Quarto)? (1 = Not familiar at all, 5 = Very familiar)**
 
@@ -1786,8 +1748,7 @@ d. 4
 
 e. 5
 
-
----
+### Question 2
 
 **Which of the following best describes Quarto?**
 
@@ -1799,7 +1760,7 @@ c. Quarto is a code editor
 
 d. Quarto is a version control system
 
----
+### Question 3
 
 **Which components are combined in the authoring process of Quarto documents?**
 
@@ -1811,10 +1772,9 @@ c. Both YAML and Markdown
 
 d. None of the above
 
----
+### Question 4
 
 **Which of these are examples of Markdown text formatting? (Select all that apply)**
-
 
 a. Bold text
 
@@ -1824,7 +1784,7 @@ c. Hyperlinks
 
 d. Italic text
 
----
+### Question 5
 
 **What is the purpose of code chunks in Quarto documents?**
 
@@ -1836,7 +1796,7 @@ c. To insert references at the end of the document
 
 d. To format text in a clear and concise manner
 
----
+### Question 6
 
 **Why is including code in research documents important?**
 
@@ -1847,6 +1807,15 @@ b. To ensure only the author can reproduce results
 c. To replace data collection
 
 d. To make research reproducible and transparent
+
+:::
+
+::: {.notes}
+**Presenter Notes**: To end this lesson, let's use this survey to see where we stand in our knowledge of Quarto and what we can focus on more moving forward to become more proficient in literate programming with it. 
+
+*Instructor Notes* Aim- This post-session survey serves to examine students' current knowledge about the sumodule's topic. <br>
+- Use free survey software such as or other survey software (particify, formR) to establish the following questions (these are examples that can be adapted to suit your needs).
+:::
 
 ---
 
@@ -1862,7 +1831,7 @@ d. To make research reproducible and transparent
 
 ## References
 
-::: {.small}
+<div style="font-size: 0.6em;">
 - Allaire, J., Teague, C., Scheidegger, C., Xie, Y., Dervieux, C., & Woodhull, G. (2025). Quarto (Version 1.8) [Computer software]. https://doi.org/10.5281/zenodo.5960048
 
 - Bregendahl, K., Sell, J., & Zimmerman, D. (2002). Effect of low-protein diets on growth performance and body composition of broiler chicks. *Poultry Science*, *81*(8), 1156–1167. [https://doi.org/10.1093/ps/81.8.1156](https://doi.org/10.1093/ps/81.8.1156)
@@ -1878,21 +1847,16 @@ d. To make research reproducible and transparent
 - Ryba, R., Doubleday, Z. A., Dry, M. J., Semmler, C., & Connell, S. D. (2021). Better Writing in Scientific Publications Builds Reader Confidence and Understanding. *Frontiers in Psychology*, *12*, 714321. [https://doi.org/10.3389/fpsyg.2021.714321](https://doi.org/10.3389/fpsyg.2021.714321)
 
 - Tierney, N. (2025). Quarto for scientists. https://qmd4sci.njtierney.com/
-:::
+</div>
 
----
-
-# Thanks! <br>
-
-See you next class :)
 
 ---
 
 ## Pedagogical add-on tools for instructors
 
 - Relevant practical exercises follow each section to encourage students to learn-by-doing
-- <a href="assets/OS-M3-S6-Quarto-Cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
-- <a href="assets/OS-M3-S6-Quarto-Activity_Sheet.pdf" download>Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
+- <a href="assets/quarto-cheatsheet.pdf" download>Downloadable cheatsheet as a PDF</a> for a compact summary of all the topics covered in the session 
+- <a href="assets/quarto-activity-sheet.pdf" download>Downloadable activity sheet as a PDF</a> to learn additional Quarto features, designed with slightly less guidance so that students are encouraged to apply their knowledge and skills more independently. 
 - [Link to advanced Quarto activities](https://lmu-osc.github.io/introduction-to-Quarto/quarto_exercises.html) for faster learners who want to gain deeper knowledge on Quarto and its possibilities
 
 ---
@@ -1909,3 +1873,37 @@ See you next class :)
   - [Video on crafting presentations with R and Quarto](https://www.youtube.com/watch?v=01KifhHDkFk)
 
 ---
+
+## Contribution statement
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
+
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
+
+**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Acknowledgments**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+---
+
+## Licence and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.4em;">
+This work was originally created by Florian Pargent, Florian Kohrt, and Phillip Sckopke from the [Faculty of Psychology at LMU Munich](https://www.lmu.de/psy/de/lehrstuehle/methoden/). This current work by Elizabeth Waterfield, Malika Ihle, Felix Schönbrodt and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA-4.0 ). Code snippets are dedicated to the public domain and licensed under a  [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+
+Please cite these materials as: Waterfield, E., Ihle, M., Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to literate programming with Quarto* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a  [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::
