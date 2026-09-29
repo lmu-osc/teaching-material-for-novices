@@ -42,7 +42,7 @@ website:
            #- href: open-research-tools/r-part-II/index.qmd
           - href: open-research-tools/git/index.qmd
           #- href: open-research-tools/github/index.qmd
-          #- href: materials/OS-M3/OS-M3-S6-Quarto/OS-M3-S6-Quarto.qmd
+          - href: open-research-tools/quarto/index.qmd
           #- href: materials/OS-M3/OS-M3-S1-Zotero/OS-M3-S1-Zotero.qmd # moved from 1 to this spot
            #- href: materials/OS-M3/OS-M3-S8-Simulations/OS-M3-S8-Simulations.qmd
       - section: "Open Materials"

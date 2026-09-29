@@ -1880,9 +1880,9 @@ d. To make research reproducible and transparent
 
 **Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
 
-**Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
 
-**Acknowledgments**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 ---
 
@@ -1897,7 +1897,7 @@ d. To make research reproducible and transparent
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.4em;">
-This work was originally created by Florian Pargent, Florian Kohrt, and Phillip Sckopke from the [Faculty of Psychology at LMU Munich](https://www.lmu.de/psy/de/lehrstuehle/methoden/). This current work by Elizabeth Waterfield, Malika Ihle, Felix Schönbrodt and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA-4.0 ). Code snippets are dedicated to the public domain and licensed under a  [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+This work was originally created by Florian Pargent, Florian Kohrt, and Phillip Sckopke from the [Faculty of Psychology at LMU Munich](https://www.lmu.de/psy/de/lehrstuehle/methoden/). This current work by Elizabeth Waterfield, Malika Ihle, Felix Schönbrodt and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA-4.0 ). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
 
 Please cite these materials as: Waterfield, E., Ihle, M., Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to literate programming with Quarto* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto)
 </div>

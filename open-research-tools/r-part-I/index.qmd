@@ -24,7 +24,7 @@ Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D
 - **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-## Prerequisites
+### Prerequisites
 
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Where to find it   |
@@ -34,7 +34,7 @@ Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D
 | Accessibility sheet for computers | Fundamentals of computer literacy | [Download here ](assets/Accessibility_sheet_for_computers_OSSS26.pdf)
 </div>
 
-## Learning goals
+### Learning objectives
 
 At the end of this session, you or your learners will be able to ...
 
@@ -56,7 +56,7 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
   Download slides as PDF
 </a>
 
-# Contributors and licence details
+## Contributors and licence details
 
 **Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
@@ -83,5 +83,5 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
 This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
-His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Tejaswini Sharma, [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Tejaswini Sharma, [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
 </div>
