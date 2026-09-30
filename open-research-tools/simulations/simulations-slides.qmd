@@ -42,7 +42,7 @@ Before completing this session, please carefully read about the prerequisites.
 |------------|------------|------------|
 | R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
 | R basics | e.g., how to select a value in a data frame, how to create a vector | [OSC tutorial link](https://lmu-osc.github.io/introduction-to-R/) |
-| Familiarity with basic statistical concepts | e.g., hypothesis testing, descriptive statistics, data analysis | [Cheatsheet Link](assets/cheatsheet.pdf) |
+| Familiarity with basic statistical concepts | e.g., hypothesis testing, descriptive statistics, data analysis | [Cheatsheet Link](assets/statistics-cheatsheet.pdf) |
 </div>
 
 ::: {.notes}

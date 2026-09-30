@@ -65,8 +65,8 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 ### Supplementary files
 
 <div style="display: flex; gap: 1rem;">
-  <a href="assets/cheatsheet.pdf"
-     download="simulations-cheatsheet.pdf"
+  <a href="assets/statistics-cheatsheet.pdf"
+     download="statistics-cheatsheet.pdf"
      class="btn btn-primary"
      style="flex: 1; text-align: center;">
     Download the activity sheet
