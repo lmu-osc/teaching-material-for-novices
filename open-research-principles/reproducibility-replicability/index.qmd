@@ -1,0 +1,74 @@
+---
+title: "Challenges in research reproducibility and replicability"
+---
+
+> Scientific research practices under the microscope
+
+[Click here to see the materials in full screen](reproducibility-replicability-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="reproducibility-replicability-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Challenges in research reproducibility and replicability* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability)
+:::
+
+**Welcome!** This workshop is intended to provide learners with an introduction to **key challenges and threats in scientific research**. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the workshop encourages **critical analysis** of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of **developing** more **transparent and robust approaches** to conducting and evaluating research.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Reflect** on the role of trust in scientific research
+- **Recognize** different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from
+- **Analyze** research scenarios to identify potential research biases and questionable research practices
+- **Reflect** on the current threats for research and on the need for alternative approaches to conducting research
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="reproducibility-replicability-slides.pdf"
+   download="reproducibility-replicability-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+ 
+## Contributors and licence details
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).  Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0). 
+</div>

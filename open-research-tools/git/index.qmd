@@ -1,0 +1,100 @@
+---
+title: "Introduction to version control with Git in RStudio"
+---
+
+> Git it together.
+
+[Click here to see the materials in full screen](git-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="git-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). *Introduction to version control with Git in RStudio* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git)
+:::
+
+**Welcome!** This workshop is intended with a foundational **understanding of version control** and practical skills to **apply version control** to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by **tracking the changes we make** to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process. 
+
+::: {.callout-important}
+## Longer delivery time for these materials
+In contrast to other materials, the estimate delivery time for these materials is approximately **3 hours**. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.
+:::
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| Laptop/PC with internet access | Admin rights for downloading/installing software | - |
+| R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Advanced R skills | Introduction to R - Part II | [Access here]()  |
+| GitHub account | Your own GitHub account | Join at [https://github.com/join](https://github.com/join) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Understand** the problem(s) that can be solved by version control
+- **Install** and **configure** Git 
+- **Set up** the connection between your computer and GitHub
+- **Create** an RStudio Project under version control for a reproducible workflow
+- **Make** changes within RStudio and **commit** changes locally
+- **Connect** local and remote repositories for your work
+
+### Supplementary files
+
+<a href="assets/example_data.csv"
+   download="example_data.csv"
+   class="btn btn-primary">
+  Download the example data as csv file
+</a>
+
+<a href="assets/practice_data.csv"
+   download="practice_data.csv"
+   class="btn btn-primary">
+  Download the practice data as csv file
+</a>
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="git-slides.pdf"
+   download="git-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+## Contributors and licence details
+
+**Creator**: Von Grebmer zu Wolfsthurn, Sarah (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[ 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+**Reviewer**: Ihle, Malika (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Consultant**: Edelsbrunner, Peter (![ORCID Logo](https://orcid.org/sites/default/files/images/orcid_16x16.png)[0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png"
+       alt="CC BY 4.0"
+       style="height:50px;">
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by [Mike Croucher ](https://github.com/mikecroucher) under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). It was subsequently adapted by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Malika Ihle and Felix Schönbrodt  is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA-4.0). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

@@ -1,0 +1,93 @@
+---
+title: "Introduction to R: Part II"
+---
+
+> Something nice here
+
+[Click here to see the materials in full screen](r-part-I-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="r-part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, C. L., Middleton, S., & Von Grebmer Zu Wolfsthurn, S. (2026). *Introduction to R: Part II* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II)
+:::
+
+**Welcome!** This workshop is intended to provide learners with a **practical introduction** to working with R and RStudio for basic **data handling and  data visualization**. Learners practice how to **set a working directory**, **install and load packages**, **import and inspect data**, **subsetting** data, deriving **summary statistics**, and creating **histograms**. Through reflection, discussion, and a hands-on assignment using an R dataset, learners develop confidence in **applying** these more advanced **programming skills** to future data analysis tasks and their **own research work**.
+
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.6em;"> 
+| Prerequisite   |  Description  | Where to find it   |
+|------------|------------|------------|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Identify** and **set** the correct working directory on your computer
+- **Install** and **load** R packages to extend R's functionality
+- **Import** external data into the R environment
+- **Inspect** data structures and **extract** specific columns
+- **Compute** basic statistical summaries on a dataset
+- **Visualize** data distributions using simple histograms
+
+## Download materials
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="r-part-II-slides.pdf"
+   download="r-part-II-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+### R dataset
+
+Download the `characters`dataset:
+<a href="assets/characters.rds"
+   download="characters.rds"
+   class="btn btn-primary">
+  Download dataset
+</a>
+
+## Contributors and licence details
+
+**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0004-3701-3101))
+
+**Consultant**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
+
+**Reviewer**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
+
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483). It was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [David Rieger](https://orcid.org/0009-0004-3701-3101), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). The current work is licensed under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

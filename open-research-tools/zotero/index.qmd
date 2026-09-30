@@ -1,0 +1,79 @@
+---
+title: "Introduction to Zotero"
+---
+
+> Citing like a pro and more time for your writing.
+
+[Click here to see the materials in full screen](zotero-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="zotero-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Sharma, T., & Von Grebmer Zu Wolfsthurn, S. (2026). *Citing made simple: A practical guide for Zotero* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero)
+:::
+
+**Welcome!** This workshop is intended to provide learners with the theoretical background and the hands-on experience with **using free citation tools** such as **Zotero** to **organize research materials**, **add and manage references**, and **create formatted bibliographies** across different writing environments. They will also learn **how Zotero integrates** with **Quarto and RStudio** to support reproducible workflows and streamline the process of adding and formatting citations in academic documents.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;"> 
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Zotero and Zotero Connector | Citation tool and extension | [Download Link](https://www.zotero.org/download/) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Explain** the importance of citing scientific literature and citation tools
+- **Familiarize yourself** with different citation formats (CSL)
+- **Set up and organize** a personal Zotero library
+- **Apply and develop** a referencing workflow in Quarto and RStudio
+- **Apply and develop** a referencing workflow in MS Word
+
+## Access and download materials
+
+You can access the self-paced tutorial via this link: [https://lmu-osc.github.io/introduction-to-zotero/](https://lmu-osc.github.io/introduction-to-zotero/).
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="zotero-slides.pdf"
+   download="zotero-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+## Contributors and licence details
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[00009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by Pat Callahan and Dejana Damjanovic under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY 4.0) and a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0) for code snippets. It was subsequently adapted and revised by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). This current work by [Tejaswini Sharma](https://orcid.org/0009-0000-0305 9751) and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

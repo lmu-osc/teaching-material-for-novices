@@ -1,0 +1,98 @@
+---
+title: "Introduction to R - Part I"
+---
+
+> Welcome to the R side.
+
+[Click here to see the materials in full screen](r-part-I-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="r-part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D., Waterfield, E., Middleton, S., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I)
+:::
+
+**Welcome!** This workshop is intended to provide learners with an **introduction to R and RStudio**. Through hands-on exercises, you will learn how to **navigate the RStudio interface** and **use basic R programming skills** to work efficiently with your data. We will also learn how to **create and manipulate objects**, execute code, use functions with arguments, and access information stored in data frames within the R environment.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Where to find it   |
+|------------|------------|------------|
+| RStudio installed | Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
+| R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
+| Accessibility sheet for computers | Fundamentals of computer literacy | [Download here ](assets/Accessibility_sheet_for_computers_OSSS26.pdf) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Navigate** the RStudio interface (Console, Environment, Script, and Output panes).
+- **Differentiate** between basic data types in R (numeric, character, logical, integer) and how they are used.
+- **Execute** operations in the Console and R Script using appropriate operators.
+- **Assign** and **re-assign** values, vectors, and lists to objects. 
+- **Specify** arguments within functions to modify how the function produces its output.
+-**Index** dataframes to access and retrieve specific information.
+
+## Download materials
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="r-part-I-slides.pdf"
+   download="r-part-I-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+### Accessibility sheet
+
+Download the accessibility sheet for computers below:
+<a href="assets/computer-accessibility-sheet.pdf"
+   download="computer-accessibility-sheet.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+## Contributors and licence details
+
+**Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
+
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
+
+**Creator**: Rieger, David (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101))
+
+**Consultant**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
+
+**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Nicklas Hafiz](https://orcid.org/0000-0001-9035-4483) and is licenced under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
+His work was subsequently adapted by [Caterina Luz Sanchez Steinhagen](https://orcid.org/0009-0006-4783-1110), Tejaswini Sharma, [David Rieger](https://orcid.org/0009-0004-3701-3101), [Elizabeth Waterfield](https://orcid.org/0009-0006-3725-6730), [Sara Lil Middleton](https://orcid.org/0000-0001-5307-8029) and [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>

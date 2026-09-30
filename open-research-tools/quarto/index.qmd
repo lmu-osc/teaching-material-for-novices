@@ -1,0 +1,101 @@
+---
+title: "Introduction to Quarto"
+---
+
+> Create, cite, and publish your research with Quarto.
+
+[Click here to see the materials in full screen](quarto-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="quarto-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Waterfield, E., Ihle, M., Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Introduction to literate programming with Quarto* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto)
+:::
+
+**Welcome!** This workshop is intended to **introduce Quarto**, an open-source publishing system that allows users to **combine text, code, and other outputs** to create **reproducible reports**, **presentations**, and **websites**. Learners will experience the basic **workflow of creating and editing Quarto documents**, **rendering** them into different formats, and using Quarto within an R-based research workflow. Learners will focus on practicing different Quarto elements to structure documents, include analysis results, and control the appearance of their outputs. In addition, the session demonstrates **how to add citations** and automatically generate a bibliography using Zotero. Through this guided, hands-on tutorial, learners will **create their own Quarto document**, render it into a finished output, and learn how to **publish and share** their work online using **GitHub Pages**. 
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;"> 
+| Prerequisite   |  Description  | Where to find it   |
+|------------|------------|------------|
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
+| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Advanced R skills | Introduction to R - Part II | [Access here]() |
+| Basic Git skills | Introduction to version control with Git in RStudio | [Access here]() |
+| Collaborating on GitHub | Introduction to collaborative coding with GitHub |  [Access here]() |
+| Zotero | Reference Management Tool | [Download Link](https://www.zotero.org/) |
+</div>
+
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Create**, **edit**, and **render** Quarto documents
+- **Use key Quarto features** like code chunks, YAML headers, citations, and output formatting
+- **Insert citations** and **generate a bibliography** with Zotero directly into the Quarto document
+- **Publish** and **share** your work using GitHub Pages 
+
+## Download materials
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="quarto-slides.pdf"
+   download="quarto-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+### Supplementary files
+
+<div style="display: flex; gap: 1rem;">
+  <a href="assets/quarto-activity-sheet.pdf"
+     download="quarto-activity-sheet.pdf"
+     class="btn btn-primary"
+     style="flex: 1; text-align: center;">
+    Download the activity sheet
+  </a>
+
+  <a href="assets/quarto-cheatsheet.pdf"
+     download="quarto-cheatsheet.pdf"
+     class="btn btn-primary"
+     style="flex: 1; text-align: center;">
+    Download the Quarto cheatsheet
+  </a>
+</div>
+
+## Contributors and licence details
+
+**Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/my-orcid?orcid=0009-0006-3725-6730))
+
+**Reviewer**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+
+**Reviewer**: von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-6413-3895](https://orcid.org/my-orcid?orcid=0000-0002-6413-3895))
+
+**Consultant**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0 SA"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
+This work was originally created by Florian Pargent, Florian Kohrt, and Phillip Sckopke from the [Faculty of Psychology at LMU Munich](https://www.lmu.de/psy/de/lehrstuehle/methoden/). This current work by Elizabeth Waterfield, Malika Ihle, Felix Schönbrodt and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA-4.0 ). Code snippets are dedicated to the public domain and licensed under a  [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+</div>
