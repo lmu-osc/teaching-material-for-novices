@@ -1,0 +1,2339 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<link href="../../site_libs/quarto-contrib/quarto-project/lmu-osc/tutorial-template/_extensions/lmu-osc/osc-brand/lmu-osc-favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="David Rieger and Elizabeth Waterfield">
+  <title>Educational resources for teaching Open Research to novices – Introduction to R: Part II</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2801d109f9c864a5074d1f05d189f622.css">
+  <link rel="stylesheet" href="../../assets/slides-custom.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Introduction to R: Part II</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+David Rieger and Elizabeth Waterfield
+</div>
+</div>
+</div>
+
+  <p class="date">30/09/2026</p>
+</section>
+<section id="prerequisites" class="slide level2">
+<h2>Prerequisites</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Before completing this session, please carefully read about the prerequisites.</p>
+</div>
+</div>
+</div>
+<div style="font-size: 0.6em;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Prerequisite</th>
+<th>Description</th>
+<th>Where to find it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R and RStudio installed</td>
+<td>Latest versions of both R and RStudio</td>
+<td><a href="https://posit.co/download/rstudio-desktop/">Download RStudio</a></td>
+</tr>
+<tr class="even">
+<td>Accessibility sheet for computers</td>
+<td>Fundamentals of computer literacy</td>
+<td><a href="assets/computer-accessibility-sheet.pdf">Download</a></td>
+</tr>
+<tr class="odd">
+<td>Basic R skills</td>
+<td>Introduction to R - Part I</td>
+<td><a href="">Access here</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class="footer">
+<ul>
+<li>R: https://www.r-project.org/</li>
+</ul>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: These are the <strong>presenter notes</strong>. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.</p>
+<p>Welcome back! Before we dive into Part II, please make sure you still have R and RStudio installed and ready to go. You should also be familiar with the basic concepts we covered in Part I, like the RStudio interface and creating simple objects.</p>
+<p><strong>Instructor Notes</strong>: There are also <strong>instructor notes</strong>. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.</p>
+<p>Quickly verify whether learners have the required software open. Remind them that they can open the R scripts they saved during the last session.</p>
+<p><strong>Accessibility Tips</strong>: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities.</p>
+<p>Consider pairing learners who might need a quick refresher on Part I with those who feel very confident.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="questions-from-previous-sessions" class="slide level2">
+<h2>Questions from previous sessions</h2>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>Are there any open questions regarding <strong>Introduction to R - Part I</strong>?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before we start with new topics, are there any lingering questions from Part I? For example, anything regarding data types, logical comparisons, or saving your scripts?</p>
+<p><strong>Instructor Notes</strong>: This slide is dedicated to clarifying questions from the previous session and/or to discuss assignments. It is critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning objectives of the previous workshop.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lets-refresh-our-memories" class="slide level2">
+<h2>Let’s refresh our memories!</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Question 1</a></li><li><a href="#tabset-1-2">Question 2</a></li><li><a href="#tabset-1-3">Question 3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><strong>Which of the following creates an object named <code>my_data</code> containing the number <code>42</code>?</strong></p>
+<ol type="a">
+<li><p><code>my_data == 42</code></p></li>
+<li><p><code>my_data &lt;- 42</code></p></li>
+<li><p><code>my_data &lt; - 42</code></p></li>
+<li><p><code>42 &lt;- my_data</code></p></li>
+</ol>
+</div>
+<div id="tabset-1-2">
+<p><strong>What is the result of the following logical comparison?</strong></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-label="1"></a>(<span class="dv">5</span> <span class="sc">&gt;</span> <span class="dv">3</span>) <span class="sc">&amp;</span> (<span class="dv">10</span> <span class="sc">==</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol type="a">
+<li><p>TRUE</p></li>
+<li><p>FALSE</p></li>
+<li><p>Error</p></li>
+</ol>
+</div>
+<div id="tabset-1-3">
+<p><strong>How do you access a column named age from a data frame called people_data?</strong></p>
+<ol type="a">
+<li><p>people_data[age]</p></li>
+<li><p>people_data(age)</p></li>
+<li><p>people_data$age</p></li>
+<li><p>age$people_data</p></li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To get our brains back into “R mode”, let’s do a very quick quiz on two core concepts from our last session. Feel free to just call out the answers!</p>
+<p>Question 1: The correct answer is B. The standard assignment arrow points to the left without any spaces. Option A uses a double equals sign, which is a logical operator that checks if an existing object is exactly 42, rather than assigning it. Option C contains a space between the less-than sign and the minus sign, which R interprets as a logical question asking if the object <code>my_data</code> is smaller than negative 42. Option D places the raw number on the left side of the arrow, which causes an error because the object name receiving the data must always be on the left.</p>
+<p>Question 2: The correct answer is B, FALSE. While 5 is indeed greater than 3 (which is TRUE), 10 does not equal 5 (which is FALSE). Since we used the AND operator (&amp;), both conditions must be true for the final result to be TRUE.</p>
+<p>Question 3: The correct answer is C. The dollar sign ($) is used to extract a specific column from a data frame by its name. Option A is missing the necessary quotation marks for basic bracket indexing. Option B incorrectly uses parentheses, which are reserved for functions. Option D reverses the order; the data frame name must always precede the dollar sign.</p>
+<p><strong>Instructor Notes</strong>: Use these two quiz slides to actively engage learners instead of just reading out a recap. Ensure everyone understands the assignment operator and basic logical checks before moving on.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="before-we-start-survey-time" class="slide level2">
+<h2>Before we start: Survey time!</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Question 1</a></li><li><a href="#tabset-2-2">Question 2</a></li><li><a href="#tabset-2-3">Question 3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p><strong>What is your level of familiarity with “Packages” in R?</strong></p>
+<ol type="a">
+<li>I have never heard of them.</li>
+<li>I have heard of them but never installed or loaded one.</li>
+<li>I have basic experience installing and loading them.</li>
+<li>I am very familiar and use them regularly.</li>
+</ol>
+</div>
+<div id="tabset-2-2">
+<p><strong>Have you ever imported a dataset (e.g., an Excel, CSV, or SPSS file) into a statistical software program?</strong></p>
+<ol type="a">
+<li>No, never.</li>
+<li>Yes, using menus (point-and-click).</li>
+<li>Yes, using code/commands.</li>
+</ol>
+</div>
+<div id="tabset-2-3">
+<p><strong>How familiar are you with creating data visualizations (e.g., histograms or scatter plots)?</strong></p>
+<ol type="a">
+<li>I have never done this before.</li>
+<li>I have done it using point-and-click tools (e.g., Excel or SPSS).</li>
+<li>I have done it using code (e.g., in R or Python).</li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now that we’ve refreshed Part I, let’s take a short survey regarding today’s topics. In Part II, we are moving away from R as a simple calculator and starting to work with real data. In the next few slides, you’ll see some questions about concepts we will cover today. As always, this isn’t a test. If you have never heard these terms, that is exactly why we are here!</p>
+<p><strong>Instructor Notes</strong>: Set a low-stakes, supportive tone. Emphasize that uncertainty is expected and valuable for measuring learning progress.</p>
+<p>For Question 3: Ask the learners about their experience with creating data visualizations, such as histograms or scatter plots. In Part II, we will cover how to create simple histograms.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="discussion-of-survey-results" class="slide level2">
+<h2>Discussion of survey results</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
+<p><strong>Instructor Notes</strong>: The aim is to understand the group’s current standing in terms of knowledge and familiarity. Emphasize explicitly that the survey is not about correct or incorrect answers. Avoid evaluating answers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="moving-forward-from-part-i-to-part-ii" class="slide level2">
+<h2>Moving forward: From Part I to Part II</h2>
+<ul>
+<li class="fragment"><strong>Part I (the basics)</strong>:
+<ul>
+<li class="fragment">R as a calculator</li>
+<li class="fragment">Data types</li>
+<li class="fragment">Basic functions</li>
+<li class="fragment">Writing basic scripts</li>
+</ul></li>
+<li class="fragment"><strong>Part II (the application)</strong>: Transitioning from calculating to analyzing
+<ul>
+<li class="fragment">Understanding where files are saved (<em>working directories</em>).</li>
+<li class="fragment">Using tools built by others (<em>packages</em>).</li>
+<li class="fragment">Bringing in real data (<em>importing &amp; inspecting</em>).</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: In Part I, we learned the alphabet of R: data types, math operators, functions, and how to save a script. Today, we start writing sentences. We are shifting from treating R like a calculator to using it as a data analysis tool. By the end of this session, you will know how to load your own research data into R and start exploring it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning objectives</h2>
+<p>At the end of this session, you will be able to…</p>
+<ul>
+<li class="fragment"><strong>Identify</strong> and <strong>set</strong> the correct working directory on your computer</li>
+<li class="fragment"><strong>Install</strong> and <strong>load</strong> R packages to extend R’s functionality</li>
+<li class="fragment"><strong>Import</strong> external data into the R environment</li>
+<li class="fragment"><strong>Inspect</strong> data structures and <strong>extract</strong> specific columns</li>
+<li class="fragment"><strong>Compute</strong> basic statistical summaries on a dataset</li>
+<li class="fragment"><strong>Visualize</strong> data distributions using simple histograms</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: This slide outlines the learning objectives for today’s session. Just like last time, think of them as a roadmap. They show where we’re headed today. You can use these objectives to keep track of your learning and identify areas where you might want to ask questions later.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions" class="slide level2">
+<h2>Key terms and definitions</h2>
+<ul>
+<li><strong>Working directory</strong></li>
+<li><strong>Package</strong></li>
+<li><strong>Dataframe</strong></li>
+<li><strong>Subsetting</strong></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.</p>
+<p><strong>Instructor Notes</strong>: Use a think-pair-share approach. First, have learners reflect individually on their associations with each term for a few minutes, then discuss in pairs for a few minutes, and finally share with the group. Allow about 10 minutes for this activity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="key-terms-and-definitions-1" class="slide level2">
+<h2>Key terms and definitions</h2>
+<ul>
+<li class="fragment"><strong>Working directory</strong>: The default folder on your computer where R looks for files to read and where it saves your output.</li>
+<li class="fragment"><strong>Package</strong>: A collection of additional R functions, data, and code that extends the basic capabilities of R.</li>
+<li class="fragment"><strong>Dataframe</strong>: A table-like structure in R where rows represent observations and columns represent variables.</li>
+<li class="fragment"><strong>Subsetting</strong>: The process of extracting a specific portion of a dataset, such as selecting specific columns or filtering rows.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter notes</strong>: Let’s go through what these key terms mean:</p>
+<ul>
+<li>The Working directory is the folder R is currently focused on. It reads files from here and saves outputs here.</li>
+<li>Packages are add-ons. They contain tools and functions created by the R community that expand what base R can do.</li>
+<li>A dataframe is the standard way to store data in R. Think of it like a spreadsheet where each column is a variable and each row is an observation.</li>
+<li>Subsetting allows us to isolate the exact data we need. Instead of working with an entire dataset, we extract only the relevant rows or columns.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-working-directory" class="slide level2">
+<h2>The working directory</h2>
+
+<img data-src="images/folder-icon.png" class="quarto-figure quarto-figure-center r-stretch" alt="An image of the folder icon."></section>
+<section id="what-is-the-working-directory" class="slide level2">
+<h2>What <em>is</em> the working directory?</h2>
+<ul>
+<li class="fragment">The <strong>working directory (WD)</strong> is the default folder on your computer.
+<ul>
+<li class="fragment">It is the <em>location where R looks for files to read</em>.</li>
+<li class="fragment">It is the <em>location where R saves files</em> you “produce” (e.g., plots, exported data).</li>
+</ul></li>
+<li class="fragment"><strong>Rule:</strong> Always verify your working directory before beginning an analysis to get an idea in which environment you are in.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The working directory is your anchor point. If you tell R to open a dataset without specifying the full path on your computer, R looks in the working directory. If you tell R to save a plot, it saves it there. Setting it correctly prevents “file not found” errors.</p>
+<p><strong>Instructor Notes</strong>: Use the analogy of a physical desk. If you ask someone to hand you a paper, they will look on the desk they are currently standing at. If the paper is in another room, they won’t find it unless you point them to the correct room.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="setting-the-working-directory-i" class="slide level2">
+<h2>Setting the working directory (I)</h2>
+<blockquote>
+<p>Method 1: Using the top menu bar in RStudio</p>
+</blockquote>
+<div style="font-size: 0.8em;">
+<ol type="1">
+<li class="fragment">Click <strong>Session</strong></li>
+<li class="fragment">Hover over <strong>Set Working Directory</strong></li>
+<li class="fragment">Select <strong>Choose Directory…</strong></li>
+<li class="fragment">Navigate to your desired folder and click <strong>Open</strong>.</li>
+</ol>
+</div>
+
+<img data-src="images/wd_session_menu.png" class="quarto-figure quarto-figure-center r-stretch" style="width:45.0%" alt="Screenshot of the RStudio session tab menu with red circles around the steps to set the working directory"><div class="footer">
+<p><strong>Open RStudio on your own machines</strong>. We will use it for later exercises.</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: This is the standard graphical way to set your directory. It opens your operating system’s standard file browser.</p>
+<p><strong>Instructor Notes</strong>: Briefly demonstrate this live. Ensure learners know how to navigate their local file system (e.g., finding their Documents or Desktop folder). Encourage learners to open their own RStudio to follow along during the later exercises.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="setting-the-working-directory-ii" class="slide level2">
+<h2>Setting the working directory (II)</h2>
+<blockquote>
+<p>Method 2: Using the output pane (bottom right in default RStudio layout)</p>
+</blockquote>
+<div style="font-size: 0.8em;">
+<ol type="1">
+<li class="fragment">Navigate to your desired folder in the <strong>output</strong> pane.</li>
+<li class="fragment">Click the <strong>More</strong> button (gear icon).</li>
+<li class="fragment">Select <strong>Set As Working Directory</strong>.</li>
+</ol>
+</div>
+
+<img data-src="images/wd_files_pane.png" class="quarto-figure quarto-figure-center r-stretch" style="width:45.0%" alt="Screenshot of the RStudio output pane showing the steps to set the working directory"><aside class="notes">
+<p><strong>Presenter Notes</strong>: This method is often faster if you already see your files in the bottom right corner of RStudio. Clicking ‘Set As Working Directory’ locks R to that specific folder.</p>
+<p><strong>Instructor Notes</strong>: Remind learners that simply navigating to a folder in the output pane does not automatically set it as the working directory. They must explicitly execute the “Set As Working Directory” command.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="checking-the-working-directory" class="slide level2">
+<h2>Checking the working directory</h2>
+<div style="font-size: 0.8em;">
+<p>Verify the current working directory by looking at the top of the <strong>console</strong> pane (bottom left):</p>
+</div>
+
+<img data-src="images/wd_console_top.png" class="quarto-figure quarto-figure-center r-stretch" style="width:45.0%" alt="Screenshot of the RStudio console pane"><div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Alternatively, type <code>getwd()</code> in the console and press Enter to print the exact working directory path.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: You can always verify your current location by checking the gray text at the top of your console. If it shows the wrong path, your file imports will fail. You can also run the command <code>getwd()</code>, which stands for “get working directory”.</p>
+<p><strong>Accessibility Tips</strong>: Read the console path structure aloud (e.g., “C drive, Users, Documents”) to help learners orient themselves.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-1" class="slide level2">
+<h2>Practical exercise 1</h2>
+<p><strong>Setting the working directory</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Generate a new folder for this session’s files</label></li>
+<li><label><input type="checkbox">Open RStudio</label></li>
+<li><label><input type="checkbox">In RStudio, set the new folder as your working directory using <em>either</em> Method 1 or Method 2</label></li>
+<li><label><input type="checkbox">Verify that the correct path is displayed at the top of your console</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Open RStudio. Take a minute to create and set your working directory to the folder for today’s session. We will need this set correctly when we start importing data later today.</p>
+<p><strong>Instructor Notes</strong>: Verifying the working directory is a critical step. Do not proceed until all learners have successfully set their directory. Check for common issues like OneDrive/Cloud sync folders causing path errors on Windows machines, or learners not typing the command correctly.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="packages" class="slide level2">
+<h2>Packages</h2>
+
+<img data-src="images/packages.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%" alt="An image of the packages icon."></section>
+<section id="what-are-packages" class="slide level2">
+<h2>What are packages?</h2>
+<ul>
+<li class="fragment">R comes with many built-in functions (<strong>Base R</strong>)</li>
+<li class="fragment"><strong>Packages</strong> provide thousands of additional, specialized functions</li>
+<li class="fragment">They are created and shared by the R community to extend functionality</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: While Base R is powerful, the real strength of R lies in its packages. These are bundles of code written by other users that add new capabilities, from advanced statistical models to data import tools.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="installing-packages" class="slide level2">
+<h2>Installing packages</h2>
+<div style="font-size: 0.9em;">
+<ul>
+<li>Packages must be <strong>installed once</strong> (<em>or after updating R</em>).</li>
+<li>Use the <code>install.packages()</code> function. The package name must be in quotation marks.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a aria-label="1"></a><span class="fu">install.packages</span>(<span class="st">"haven"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ul>
+<li>Alternatively: Use the <strong>Packages</strong> tab in the <strong>output</strong> pane (bottom right) of RStudio and click <strong>Install</strong>.</li>
+</ul>
+</div>
+
+<img data-src="images/packages_install_pane.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"><aside class="notes">
+<p><strong>Presenter Notes</strong>: You only need to install a package once on your computer. Note that the package name must be enclosed in quotation marks when installing. You can also use the Packages tab in RStudio to install them graphically.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="loading-packages" class="slide level2">
+<h2>Loading packages</h2>
+<ul>
+<li>Once installed, a package must be <strong>loaded every time</strong> you open a new R session.</li>
+<li>Use the <code>library()</code> function. Quotation marks are not required here.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a aria-label="1"></a><span class="fu">library</span>(haven)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Think of installing a package like buying a book and putting it on your shelf. You only buy it once. Loading a package with the library function is like taking the book off the shelf to read it today. You have to do this every time you start a new session in R.</p>
+<p><strong>Instructor Notes</strong>: Emphasize the difference between installing (quotes needed, done once) and loading (no quotes needed, done every session). This is a very common point of confusion for beginners.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-2" class="slide level2">
+<h2>Practical exercise 2</h2>
+<p><strong>Packages</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">In your working directory, create a new R Script with <code>File &gt; New File &gt; R SCript</code></label></li>
+<li><label><input type="checkbox">Install the package <code>haven</code>. This package is useful for reading in data files from other software like SPSS, Stata, and SAS.</label></li>
+<li><label><input type="checkbox">Load the package <code>haven</code> so it is ready to use in your current session.</label></li>
+<li><label><input type="checkbox">Add the command to install and load the package to your R script.</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Take a moment to install the haven package and then load it. We will need this package later if we want to import specialized data formats.</p>
+<p><strong>Instructor Notes</strong>: Give learners about 3 minutes. Remind them to look at the console to see the installation progress.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-2-solution" class="slide level2">
+<h2>Practical exercise 2: Solution</h2>
+<p>This is what you should add to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a aria-label="1"></a><span class="co"># 1. Install the package (run only once)</span></span>
+<span id="cb4-2"><a aria-label="2"></a><span class="fu">install.packages</span>(<span class="st">"haven"</span>)</span>
+<span id="cb4-3"><a aria-label="3"></a></span>
+<span id="cb4-4"><a aria-label="4"></a><span class="co"># 2. Load the package (run every session)</span></span>
+<span id="cb4-5"><a aria-label="5"></a><span class="fu">library</span>(haven)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: First, we use <code>install.packages</code> with quotation marks to download the package to our computer. Then, we use <code>library</code> without quotation marks to load it into our current session.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="getting-started-with-data" class="slide level2">
+<h2>Getting started with data</h2>
+
+<img data-src="images/data-icon.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%" alt="An image of the data icon."></section>
+<section id="preparation-to-work-with-data" class="slide level2">
+<h2>Preparation to work with data</h2>
+<ul>
+<li>To start analyzing data, we first need to download it to our local machine.</li>
+<li>Click <a href="https://github.com/nickhaf/r_tutorial/tree/main/raw_data"><strong>here</strong></a> to download the <code>characters.rds</code> file use the link below.</li>
+</ul>
+<p><a href="https://github.com/nickhaf/r_tutorial/tree/main/raw_data" class="uri">https://github.com/nickhaf/r_tutorial/tree/main/raw_data</a></p>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before we can load and inspect data, we need to have it on our computers. Please use the link or scan the QR code to download the <code>characters.rds</code> file. This dataset contains fun information about TV show characters, specifically from “Brooklyn Nine-Nine” and “Community”, including variables like their show’s name and a “notability” score. We will use this dataset to practice data exploration and visualization.</p>
+<p><strong>Instructor Notes</strong>: Ensure learners do not skip this step. The specific instructions for moving the file and setting the directory follow on the next slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-3" class="slide level2">
+<h2>Practical exercise 3</h2>
+<p><strong>Setting up the data</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Download the dataset <code>characters.rds</code> using the link from the previous slide or click <a href="https://github.com/nickhaf/r_tutorial/tree/main/raw_data">here</a></label></li>
+<li><label><input type="checkbox">Move the dataset into <strong>your working directory</strong></label></li>
+<li><label><input type="checkbox">Verify your working directory once more</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Once downloaded, make sure to move the file out of your general Downloads folder and into a new R folder with your files for this session. Finally, verify that RStudio is pointing to that exact folder as your working directory.</p>
+<p><strong>Instructor Notes</strong>: This step often causes friction as learners may struggle to locate their downloads or move files. Use the upcoming break to help anyone who is stuck here. Ensure they do not leave the file in their standard “Downloads” folder, as this will cause paths issues later.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="loading-data-into-r" class="slide level2">
+<h2>Loading data into R</h2>
+<p>Once your <strong>working directory is set</strong>, you can <strong>load your data</strong> into RStudio. Check the file extension:</p>
+<ul>
+<li><strong><code>.rds</code> files:</strong> R’s native data format. We use the <code>readRDS()</code> function to load them.</li>
+<li><strong><code>.csv</code> files:</strong> The most common text-based data format. Usually loaded with functions from the <code>readr</code> package.</li>
+<li><strong>Other formats (SPSS, Excel, SAS):</strong> Require specific packages (e.g., the <code>haven</code> package you installed earlier!).</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Point-and-Click Import</strong></p>
+</div>
+<div class="callout-content">
+<p>You don’t always have to write the code from scratch! You can go to <strong>File <span class="math inline">\(\rightarrow\)</span> Import Dataset</strong> in the top menu to point-and-click your way through the import process. RStudio will even generate the correct code for you.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now that R knows where to look, let’s load some data. The function you use depends on the file type. Because we downloaded an <code>.rds</code> file, which is R’s native format, we will use the <code>readRDS</code> function. For other common formats like CSVs, or files from SPSS and Excel, you will need different functions and sometimes extra packages like <code>haven</code>. If you ever forget how to load a specific file type, simply Google “how to open xlsx in RStudio”. Alternatively, you can use the “Import Dataset” button in the menu, which is highly recommended because it gives you a preview of the data and writes the code for you.</p>
+<p><strong>Instructor Notes</strong>: Briefly demonstrate the “Import Dataset” feature via screen share if time permits, showing how it populates the console with code. Emphasize that Googling for specific file type imports is standard practice.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-4" class="slide level2">
+<h2>Practical exercise 4</h2>
+<p><strong>Loading the data</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">In your R script, create a new section using a comment (e.g., <code># Loading Data</code>).</label></li>
+<li><label><input type="checkbox">Use the <code>readRDS()</code> function to read the <code>characters.rds</code> file. Remember to put the file name in quotation marks!</label></li>
+<li><label><input type="checkbox"><strong>Assign</strong> the output of this function to a new object called <code>characters</code>.</label></li>
+<li><label><input type="checkbox">Run the code and check your Environment pane.</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: It is time to start our main data analysis script! We will build on this script for the rest of the session, so you can save it and use it as a cheat sheet for your own future projects. Start by writing the code to load the <code>characters.rds</code> file and assign it to an object named <code>characters</code>.</p>
+<p><strong>Instructor Notes</strong>: Give learners about 3-5 minutes. Remind them that if they get a “file not found” error, it almost certainly means their Working Directory is not set to the folder where the file actually lives, or they made a typo in the file name.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-4-solutions" class="slide level2">
+<h2>Practical exercise 4: Solutions</h2>
+<p>This is what you should add to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a aria-label="1"></a><span class="co"># Loading Data</span></span>
+<span id="cb5-2"><a aria-label="2"></a>characters <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"characters.rds"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here is the solution. We use the assignment arrow to store the data in an object called characters. The readRDS function tells R to look for the file named “characters.rds” inside our Working Directory. If everything worked correctly, you should now see a new object appear in the top right Environment pane, showing that it has hundreds of rows and several variables.</p>
+<p><strong>Instructor Notes</strong>: Have the participants confirm they see the dataset in their Environment. Do not move forward until everyone has successfully loaded the data, as the rest of the workshop depends on it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="inspecting-data-structures" class="slide level2">
+<h2>Inspecting data structures</h2>
+<div style="font-size: 0.85em;">
+<p>Before analyzing data, you must <strong>familiarize yourself</strong> with its <strong>structure</strong>. Built-in functions allow you to verify variables and data types:</p>
+</div>
+<div style="font-size: 0.8em;">
+<ul>
+<li class="fragment"><strong><code>names()</code></strong>: Returns the column names.</li>
+<li class="fragment"><strong><code>str()</code></strong>: Displays the internal structure (number of rows/columns, data types, and the first few values of each variable).</li>
+<li class="fragment"><strong><code>head()</code></strong>: Returns the first six rows of the dataset for a quick preview.</li>
+<li class="fragment"><strong><code>summary()</code></strong>: Provides a brief statistical summary of each variable (adapts output based on data type).</li>
+</ul>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Codebooks</strong></p>
+</div>
+<div class="callout-content">
+<div style="font-size: 0.8em;">
+<p>Variable names are often abbreviated. It is highly advisable to use a <strong>codebook</strong> for precise definitions. Check out our training material on data dictionaries: <a href="https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html">https://lmu-osc.github.io/data-documentation-validation-R/02-data-dictionaries/page1.html</a> to learn more!</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Once the data is loaded, we need to look at it. You should never start analyzing without knowing what variables you have. We use four main functions for this. <code>names</code> gives you the column headers. Keep in mind that column names are often short, so having a codebook explaining what each variable means is highly recommended. <code>str</code> shows the structure, including whether variables are numbers or text. <code>head</code> shows the first six rows. <code>summary</code> provides basic statistics, like means for numeric data or counts for categorical data.</p>
+<p><strong>Instructor Notes</strong>: Emphasize the importance of a codebook. Novices often assume variable names are self-explanatory, which leads to analytical errors.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-5" class="slide level2">
+<h2>Practical exercise 5</h2>
+<p><strong>Inspecting the dataset</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Add a new comment in your R script (e.g., <code># Inspecting Data</code>).</label></li>
+<li><label><input type="checkbox">Run <code>names(characters)</code>.</label></li>
+<li><label><input type="checkbox">Run <code>str(characters)</code>.</label></li>
+<li><label><input type="checkbox">Run <code>head(characters)</code>.</label></li>
+<li><label><input type="checkbox">Run <code>summary(characters)</code>.</label></li>
+</ul>
+<p><strong>Question:</strong> Based on the console outputs, can you guess what the data in this dataset is about?</p>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us apply these functions to the dataset we just loaded. Run each function on the <code>characters</code> object and look closely at the output in the console. Based on what you see—the variable names and the specific text values—can anyone guess what this dataset is actually about?</p>
+<p><strong>Instructor Notes</strong>: Give learners 5 minutes to run the code and read the outputs. Ask the room to share their guesses regarding the dataset’s content.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-5-solutions" class="slide level2">
+<h2>Practical exercise 5: Solutions</h2>
+<p>This is what you should add to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-label="1"></a><span class="co"># Inspecting Data</span></span>
+<span id="cb6-2"><a aria-label="2"></a><span class="fu">names</span>(characters)</span>
+<span id="cb6-3"><a aria-label="3"></a><span class="fu">str</span>(characters)</span>
+<span id="cb6-4"><a aria-label="4"></a><span class="fu">head</span>(characters)</span>
+<span id="cb6-5"><a aria-label="5"></a><span class="fu">summary</span>(characters)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Running these four lines provides a complete overview of the dataset without having to open it like a spreadsheet.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pre-break-quiz" class="slide level2">
+<h2>Pre-break quiz</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Question 1</a></li><li><a href="#tabset-3-2">Question 2</a></li><li><a href="#tabset-3-3">Question 3</a></li><li><a href="#tabset-3-4">Question 4</a></li><li><a href="#tabset-3-5">Question 5</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<p><strong>1. What is the primary purpose of the Working Directory in RStudio?</strong></p>
+<ol type="a">
+<li>It is the only folder where you are allowed to install R.</li>
+<li>It is the default folder where R looks for files to read and saves outputs.</li>
+<li>It is a specific R package used for data manipulation.</li>
+<li>It is the console pane where R executes commands.</li>
+</ol>
+</div>
+<div id="tabset-3-2">
+<p><strong>2. Which function is used to load an already installed package into your current R session?</strong></p>
+<ol type="a">
+<li><code>install.packages()</code></li>
+<li><code>load.package()</code></li>
+<li><code>open()</code></li>
+<li><code>library()</code></li>
+</ol>
+</div>
+<div id="tabset-3-3">
+<p><strong>3. Which command correctly loads an .rds file named <code>characters.rds</code> into an object named <code>my_data</code>?</strong></p>
+<ol type="a">
+<li><code>my_data &lt;- readRDS("characters.rds")</code></li>
+<li><code>readRDS &lt;- my_data("characters.rds")</code></li>
+<li><code>my_data == readRDS("characters.rds")</code></li>
+<li><code>my_data &lt;- read_csv("characters.rds")</code></li>
+</ol>
+</div>
+<div id="tabset-3-4">
+<p><strong>Which function provides the internal structure of a dataset, including the number of rows/columns and the data types of each variable?</strong></p>
+<ol type="a">
+<li><code>names()</code></li>
+<li><code>head()</code></li>
+<li><code>summary()</code></li>
+<li><code>str()</code></li>
+</ol>
+</div>
+<div id="tabset-3-5">
+<p><strong>What does the <code>head()</code> function output when applied to a dataset?</strong></p>
+<ol type="a">
+<li>The column names of the dataset.</li>
+<li>The first six rows of the dataset.</li>
+<li>A statistical summary of the numeric variables.</li>
+<li>The total number of variables in the dataset.</li>
+</ol>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Before we head into the break, let’s do a quick check-in to see how things are going so far. The questions are designed to help you reflect on your current understanding of the key concepts we just covered: working directories, packages, loading data, and inspecting data structures.</p>
+<p>Question 1: The correct answer for this question is B. Question 2: The correct answer for this question is D. Question 3: The correct answer for this question is A. Question 4: The correct answer for this question is D. Question 5: The answer for this question is B.</p>
+<p><strong>Instructor Notes</strong>: Use this pre-break survey to gauge learners’ understanding of the session’s core concepts.</p>
+<ul>
+<li><p>If more than 80% of learners select the correct answer, briefly confirm the correct response and continue.</p></li>
+<li><p>If fewer than 80% answer correctly, give learners 1–2 minutes to discuss their reasoning with a partner before re-running the question. If results improve above 80%, continue; otherwise, explain the correct answer and address common misunderstandings.</p></li>
+<li><p>If a large portion of learners select the same distractor answer, pause to discuss why that option may seem plausible and clarify the misconception.</p></li>
+</ul>
+<p><strong>Accessibility Tip</strong>: This activity is designed for synchronous teaching settings and may be skipped or adapted if needed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section>
+<section>
+<section id="break-15-minutes" class="title-slide slide level1 center">
+<h1>Break! 15 minutes</h1>
+
+</section>
+<section id="post-break-quiz-discussion" class="slide level2">
+<h2>Post-break quiz discussion</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
+<p><strong>Instructor Notes</strong>: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers. Serves to clarify concepts and aspects that are not yet understood. Highlight specific answers given during the survey.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="data-exploration" class="slide level2">
+<h2>Data exploration</h2>
+
+<img data-src="images/magnifying-glass-icon.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%" alt="An image of a magnifying glass representing data exploration"></section>
+<section id="accessing-and-subsetting-columns" class="slide level2">
+<h2>Accessing and subsetting columns</h2>
+<p>As discussed in <strong>Part I</strong>, we can use <strong>indexing tools</strong> (<code>$</code> and <code>[]</code>) to access specific parts of our data. In real-world analysis, we apply this to <strong>extract entirely new subsets</strong>.</p>
+<div style="font-size: 0.8em;">
+<ul>
+<li class="fragment"><strong>Accessing a column:</strong> Just like in Part I, use the <code>$</code> operator to isolate a single variable (e.g., <code>characters$uni_name</code>).</li>
+<li class="fragment"><strong>Filtering rows:</strong> Use <code>dataframe[condition, ]</code> to select specific rows while keeping all columns.</li>
+<li class="fragment"><strong>Logical operators:</strong> Build conditions using <code>==</code> (checks for exact equality) and <code>|</code> (logical OR, meaning either condition can be true).</li>
+<li class="fragment"><strong>Preserving data:</strong> Always assign your subset to a <strong>new object</strong> (e.g., <code>relevant_data &lt;- ...</code>). Overwriting the original object deletes your raw data from the environment.</li>
+</ul>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: As you might remember from Part I, indexing allows us to point R to specific data. When working with data frames, subsetting is central because we usually want to focus on specific subgroups rather than the whole dataset. We can access a specific column using the dollar sign, just like last time. To filter rows based on characteristics, we use the square brackets. By placing our logical conditions before the comma, we tell R which rows to keep. We build these conditions using double equals for exact matches and the vertical pipe for “OR”. Most importantly, we save this subset as a new object so our original dataset remains untouched.</p>
+<p><strong>Instructor Notes</strong>: Clearly link this back to the indexing exercises from Part I to build confidence. Emphasize how <code>$</code> points to the variable inside the condition.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-6" class="slide level2">
+<h2>Practical exercise 6</h2>
+<p><strong>Subsetting by conditions</strong></p>
+<div style="font-size: 0.8em;">
+<ul class="task-list">
+<li><label><input type="checkbox">Create a new section in your R script using a comment.</label></li>
+<li><label><input type="checkbox">Apply your indexing knowledge from Part I to filter the rows of the <code>characters</code> data frame to include only observations where the <code>uni_name</code> is exactly <code>"Brooklyn Nine-Nine"</code> <strong>OR</strong> <code>"Community"</code>.</label></li>
+<li><label><input type="checkbox">Assign this subset to a new object named <code>relevant_data</code>.</label></li>
+<li><label><input type="checkbox">Run the code, then use the <code>table()</code> function on <code>relevant_data$uni_name</code> to check how many characters from each show are in your new subset.</label></li>
+</ul>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Syntax Hint</strong></p>
+</div>
+<div class="callout-content">
+<p>Remember to specify the data frame for each condition (e.g., <code>data$column == "A" | data$column == "B"</code>).</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s apply what we learned in Part I to create our subset. We want to isolate characters from Brooklyn Nine-Nine and Community. Use your indexing knowledge, the dollar sign, and the logical operators we just discussed. After you assign it to the new object <code>relevant_data</code>, use the <code>table()</code> function on the <code>uni_name</code> column of your new subset to verify that it worked.</p>
+<p><strong>Instructor Notes</strong>: Give learners 5-7 minutes. Monitor for the three common pitfalls: missing the trailing comma inside the brackets, using a single equals sign, or failing to repeat <code>characters$uni_name</code> after the OR operator.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-6-solutions" class="slide level2">
+<h2>Practical exercise 6: Solutions</h2>
+<p>This is an example of what you could have added to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a aria-label="1"></a><span class="co"># Accessing and subsetting columns</span></span>
+<span id="cb7-2"><a aria-label="2"></a>relevant_data <span class="ot">&lt;-</span> characters[characters<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Brooklyn Nine-Nine"</span> <span class="sc">|</span></span>
+<span id="cb7-3"><a aria-label="3"></a>    characters<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Community"</span>, ]</span>
+<span id="cb7-4"><a aria-label="4"></a></span>
+<span id="cb7-5"><a aria-label="5"></a><span class="co"># Verify the subset</span></span>
+<span id="cb7-6"><a aria-label="6"></a><span class="fu">table</span>(relevant_data<span class="sc">$</span>uni_name)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here is one correct way of solving this exercise. We specify the row conditions before the comma. Notice that we have to tell R exactly where to look for both sides of the OR condition by writing characters$uni_name twice. Finally, running table() on the newly created object confirms that we only have characters from those two shows.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="basic-summary-functions" class="slide level2">
+<h2>Basic summary functions</h2>
+<div style="font-size: 0.85em;">
+<p>After isolating the relevant data, we can <strong>compute descriptive statistics</strong> for specific variables.</p>
+</div>
+<div style="font-size: 0.8em;">
+<ul>
+<li class="fragment"><strong>Numeric variables:</strong> We can apply functions like <code>mean()</code> or <code>sd()</code> to a single column using the <code>$</code> operator (e.g., <code>mean(data$column)</code>).</li>
+<li class="fragment"><strong>Categorical variables:</strong> We can use the <code>table()</code> function to count the frequency of specific text or factor values.</li>
+<li class="fragment"><strong>Combined operations:</strong> We can subset rows and select a specific column simultaneously within a function using <code>dataframe[condition, "column_name"]</code>.</li>
+</ul>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Now that the subset is established, we can compute basic statistics. We combine summary functions with the dollar sign operator. For numeric data, we apply <code>mean()</code> and <code>sd()</code>. For categorical data, we use <code>table()</code> to count occurrences. Indexing can be nested directly inside functions to calculate statistics for specific subgroups without generating new objects.</p>
+<p><strong>Instructor Notes</strong>: Ensure learners recognize that executing <code>mean(data)</code> directly on a data frame fails. They must isolate a numeric vector using <code>$</code>.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-7" class="slide level2">
+<h2>Practical exercise 7</h2>
+<p><strong>Comparing group means</strong></p>
+<div style="font-size: 0.8em;">
+<ul class="task-list">
+<li><label><input type="checkbox">Add a new section in your script using a comment.</label></li>
+<li><label><input type="checkbox">Calculate the overall <code>mean()</code> and standard deviation (<code>sd()</code>) of the <code>notability</code> column in the <code>relevant_data</code> object.</label></li>
+<li><label><input type="checkbox">Calculate the mean notability exclusively for <code>"Brooklyn Nine-Nine"</code> characters.</label></li>
+<li><label><input type="checkbox">Calculate the mean notability exclusively for <code>"Community"</code> characters.</label></li>
+</ul>
+</div>
+<p><strong>Question:</strong> Which show features characters with a higher average notability?</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Syntax Hint</strong></p>
+</div>
+<div class="callout-content">
+<p>To compute the mean for a subgroup, place the row condition before the comma, and the target column name after the comma: <code>mean(data[condition, "column_name"])</code>.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s execute the commands to determine the overall dispersion and central tendency for the notability variable. We will follow this by extracting the mean notability for each show independently. We can utilize bracket subsetting logic directly inside the mean function.</p>
+<p><strong>Instructor Notes</strong>: Give learners 5 minutes. Monitor for syntax errors when nesting bracket indexing inside the parentheses of the <code>mean()</code> function.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-7-solutions" class="slide level2">
+<h2>Practical exercise 7: Solutions</h2>
+<p>This is an example of what you could have added to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-label="1"></a><span class="co"># Basic summary functions</span></span>
+<span id="cb8-2"><a aria-label="2"></a><span class="fu">mean</span>(relevant_data<span class="sc">$</span>notability)</span>
+<span id="cb8-3"><a aria-label="3"></a><span class="fu">sd</span>(relevant_data<span class="sc">$</span>notability)</span>
+<span id="cb8-4"><a aria-label="4"></a></span>
+<span id="cb8-5"><a aria-label="5"></a><span class="co"># Mean notability for Brooklyn Nine-Nine</span></span>
+<span id="cb8-6"><a aria-label="6"></a><span class="fu">mean</span>(relevant_data[relevant_data<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Brooklyn Nine-Nine"</span>, <span class="st">"notability"</span>])</span>
+<span id="cb8-7"><a aria-label="7"></a></span>
+<span id="cb8-8"><a aria-label="8"></a><span class="co"># Mean notability for Community</span></span>
+<span id="cb8-9"><a aria-label="9"></a><span class="fu">mean</span>(relevant_data[relevant_data<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Community"</span>, <span class="st">"notability"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The dollar sign operator extracts the full vector for overall statistics. To calculate group-specific means, we nest the row condition inside the mean() function and specify “notability” in the column position after the comma.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="simple-plotting-histograms" class="slide level2">
+<h2>Simple plotting: Histograms</h2>
+<div style="font-size: 0.8em;">
+<p>Beyond calculating numbers, we can <strong>visualize our data</strong> to gain insights quickly. A great starting point for numeric data is a <strong>histogram</strong>.</p>
+<ul>
+<li class="fragment"><strong>Visualizing distributions:</strong> A histogram groups numeric data into “bins” and shows the frequency (or count) of values falling into each bin.</li>
+<li class="fragment"><strong>The <code>hist()</code> function:</strong> We apply this function directly to a numeric vector to generate a plot in the bottom-right <strong>Plots</strong> pane of RStudio.</li>
+<li class="fragment"><strong>Customizing plots:</strong> You can add arguments like <code>main</code> for the title and <code>xlab</code> for the x-axis label to make your plots easier to read.</li>
+<li class="fragment"><strong>Why it matters:</strong> While means and standard deviations tell us the average, a histogram shows us the actual shape of the data (e.g., are most values clustered in the middle, or skewed to one side?).</li>
+</ul>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Numbers are great, but visualizing data often makes it much easier to understand. A histogram is one of the most common plots for numeric variables. It shows us how often different values occur in our dataset. We create it using the <code>hist()</code> function. When we run this code, the plot will automatically appear in the output pane in the bottom right corner of RStudio. We can also customize these plots, for example by changing the title or the axis labels, so they look clean and don’t overlap. Histograms are incredibly useful because they show us the entire distribution and actual shape of the data, not just a single summary number like the mean.</p>
+<p><strong>Instructor Notes</strong>: Ensure learners know to look at the bottom-right pane for their output. If their output pane is too small, RStudio might throw a “figure margins too large” error. Tell them to simply drag the pane borders to make it larger if that happens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-8" class="slide level2">
+<h2>Practical exercise 8</h2>
+<p><strong>Visualizing distributions</strong></p>
+<div style="font-size: 0.8em;">
+<ul class="task-list">
+<li><label><input type="checkbox">Add a new section in your script using a comment.</label></li>
+<li><label><input type="checkbox">Copy and run the hint below to allow two plots to be shown side-by-side.</label></li>
+<li><label><input type="checkbox">Create a histogram (<code>hist()</code>) showing the <code>notability</code> of <code>"Brooklyn Nine-Nine"</code> characters.</label></li>
+<li><label><input type="checkbox">Create a second histogram showing the <code>notability</code> of <code>"Community"</code> characters.</label></li>
+</ul>
+</div>
+<p><strong>Question:</strong> By looking at the plots, how do the distributions of the two shows compare?</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Side-by-side plots hint</strong></p>
+</div>
+<div class="callout-content">
+<p>Run <code>par(mfrow = c(1, 2))</code> <em>before</em> creating your histograms. This tells R to split the plotting window into 1 row and 2 columns so we can easily compare both graphs next to each other!</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s visualize the data we just summarized. We will create two separate histograms—one for each show. Before you plot the data, make sure to run the <code>par</code> code provided in the hint to show them side-by-side. Then, nest your subsetting code inside the <code>hist()</code> function.</p>
+<p><strong>Instructor Notes</strong>: Give learners 5-7 minutes. Reassure them that they can reuse the exact subsetting syntax (<code>relevant_data[condition, "column_name"]</code>) they already wrote for the <code>mean()</code> exercise.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-8-solutions" class="slide level2">
+<h2>Practical exercise 8: Solutions</h2>
+<p>This is an example of what you could have added to your R script:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a aria-label="1"></a><span class="co"># Simple Plotting / Histograms</span></span>
+<span id="cb9-2"><a aria-label="2"></a></span>
+<span id="cb9-3"><a aria-label="3"></a><span class="co"># Set up the plotting area to show 2 plots side-by-side</span></span>
+<span id="cb9-4"><a aria-label="4"></a><span class="fu">par</span>(<span class="at">mfrow =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>))</span>
+<span id="cb9-5"><a aria-label="5"></a></span>
+<span id="cb9-6"><a aria-label="6"></a><span class="co"># Histogram for Brooklyn Nine-Nine</span></span>
+<span id="cb9-7"><a aria-label="7"></a><span class="fu">hist</span>(relevant_data[relevant_data<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Brooklyn Nine-Nine"</span>, <span class="st">"notability"</span>],</span>
+<span id="cb9-8"><a aria-label="8"></a>    <span class="at">main =</span> <span class="st">"Brooklyn Nine-Nine"</span>,</span>
+<span id="cb9-9"><a aria-label="9"></a>    <span class="at">xlab =</span> <span class="st">"Notability"</span></span>
+<span id="cb9-10"><a aria-label="10"></a>)</span>
+<span id="cb9-11"><a aria-label="11"></a></span>
+<span id="cb9-12"><a aria-label="12"></a><span class="co"># Histogram for Community</span></span>
+<span id="cb9-13"><a aria-label="13"></a><span class="fu">hist</span>(relevant_data[relevant_data<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Community"</span>, <span class="st">"notability"</span>],</span>
+<span id="cb9-14"><a aria-label="14"></a>    <span class="at">main =</span> <span class="st">"Community"</span>,</span>
+<span id="cb9-15"><a aria-label="15"></a>    <span class="at">xlab =</span> <span class="st">"Notability"</span></span>
+<span id="cb9-16"><a aria-label="16"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Here is the solution. By reusing our subsetting logic, we can directly plot the notability for each specific show. Notice that we snuck in two extra arguments here: <code>main</code> and <code>xlab</code>. If you ran your code without them, you probably saw a very long, messy default title generated by R. By adding these arguments, we get clean, readable plots without overlapping text.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-8-r-output" class="slide level2">
+<h2>Practical exercise 8: R output</h2>
+
+<img data-src="images/notability_histograms.png" style="width:90.0%" class="r-stretch"><aside class="notes">
+<p><strong>Presenter Notes</strong>: This is what your output should look like in the output pane. Looking at the plots, you can visually confirm what the means calculated earlier suggested: the distributions are different, and we can now actually see where the majority of characters fall on the notability scale for each universe. Here you can clearly see the side-by-side comparison of both distributions.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="best-practices-and-context" class="slide level2">
+<h2>Best practices and context</h2>
+
+<img data-src="images/light-icon.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%" alt="An image of a light bulb representing the human thinking process"></section>
+<section id="common-mistakes-and-troubleshooting" class="slide level2">
+<h2>Common mistakes and troubleshooting</h2>
+<p>Errors are a <strong>normal part of programming</strong>. When R throws an error, check for these common culprits first:</p>
+<ul>
+<li class="fragment"><strong>Wrong capitalization:</strong> R is strictly case-sensitive. <code>Characters</code> is not the same as <code>characters</code>.</li>
+<li class="fragment"><strong>Forgetting quotation marks:</strong> Text values and file names must be wrapped in quotes (e.g., <code>"Community"</code>, not <code>Community</code>).</li>
+<li class="fragment"><strong>Other typos:</strong> A missing comma, an unclosed parenthesis, or spelling <code>notablity</code> instead of <code>notability</code> will cause failures.</li>
+<li class="fragment"><strong>Assignment issues:</strong> Ensure the assignment arrow (<code>&lt;-</code>) points to the object name on the left, and check if you accidentally overwrote your data.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Programming involves making mistakes constantly. When R gives you a red error message, do not panic. Most of the time, it is a simple typo. R is strictly case-sensitive, meaning a capital C is completely different from a lowercase c.&nbsp;Another frequent issue is forgetting quotation marks around text. If you type Community without quotes, R thinks you are looking for an object named Community, not the text string. Always double-check your spelling, missing commas, and ensure your assignment arrows are pointing the right way.</p>
+<p><strong>Instructor Notes</strong>: Normalize errors. Remind learners that the console output usually gives a hint about what went wrong (e.g., “object not found” usually means a typo or missing quotes).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-9-spot-the-errors" class="slide level2">
+<h2>Practical exercise 9: Spot the errors</h2>
+<p>What is wrong with the following lines of code?</p>
+<p><br></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a aria-label="1"></a><span class="co"># 1. Loading data</span></span>
+<span id="cb10-2"><a aria-label="2"></a>my_data <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(characters.rds)</span>
+<span id="cb10-3"><a aria-label="3"></a></span>
+<span id="cb10-4"><a aria-label="4"></a><span class="co"># 2. Calculating a mean</span></span>
+<span id="cb10-5"><a aria-label="5"></a><span class="fu">Mean</span>(my_data<span class="sc">$</span>notability)</span>
+<span id="cb10-6"><a aria-label="6"></a></span>
+<span id="cb10-7"><a aria-label="7"></a><span class="co"># 3. Subsetting</span></span>
+<span id="cb10-8"><a aria-label="8"></a>brooklyn_data <span class="ot">&lt;-</span> my_data[my_data<span class="sc">$</span>uni_name <span class="sc">==</span> Brooklyn Nine<span class="sc">-</span>Nine]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="footer">
+<p>Write your correctd version into your R script.</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s look at this code. There are three lines, and each contains typical beginner mistakes. Take a moment to read through them and see if you can spot what would cause R to throw an error.</p>
+<p><strong>Instructor Notes</strong>: Use this only if time permits. It is a highly effective way to test syntax recognition without requiring participants to write new code.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="practical-exercise-9-solutions" class="slide level2">
+<h2>Practical exercise 9: Solutions</h2>
+<p>Some possible corrections of the previous code:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a aria-label="1"></a><span class="co"># 1. Loading data</span></span>
+<span id="cb11-2"><a aria-label="2"></a>my_data <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"characters.rds"</span>)</span>
+<span id="cb11-3"><a aria-label="3"></a></span>
+<span id="cb11-4"><a aria-label="4"></a><span class="co"># 2. Calculating a mean</span></span>
+<span id="cb11-5"><a aria-label="5"></a><span class="fu">mean</span>(my_data<span class="sc">$</span>notability)</span>
+<span id="cb11-6"><a aria-label="6"></a></span>
+<span id="cb11-7"><a aria-label="7"></a><span class="co"># 3. Subsetting</span></span>
+<span id="cb11-8"><a aria-label="8"></a>brooklyn_data <span class="ot">&lt;-</span> my_data[my_data<span class="sc">$</span>uni_name <span class="sc">==</span> <span class="st">"Brooklyn Nine-Nine"</span>, ]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s go through the solutions. Line 1 was missing quotation marks around the file name. Line 2 used a capital M for the mean function, but R functions are lowercase. Line 3 was missing quotation marks around the show name AND was missing the crucial comma inside the brackets.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-big-picture-r-in-data-science" class="slide level2">
+<h2>The Big Picture: R in data science</h2>
+<p>Today, you <strong>learned the foundational skills of data handling</strong>.</p>
+<ul>
+<li class="fragment"><strong>Import:</strong> Reading data from various sources (e.g., <code>.rds</code>, <code>.csv</code>, Excel). <em>(We did this!)</em></li>
+<li class="fragment"><strong>Wrangle and transform:</strong> Subsetting, cleaning, and reshaping data to fit your needs. <em>(We did this!)</em></li>
+<li class="fragment"><strong>Visualize:</strong> Creating plots to understand distributions and patterns. <em>(We did this!)</em></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let’s take a step back and look at the big picture. What we did today—loading data, subsetting it, and creating histograms—are the exact first steps of any professional data analysis pipeline. R is not just a calculator; it is an entire ecosystem. You start by importing data, then you wrangle and transform it. After that, you visualize it to understand what you are working with. Finally, you model the data statistically and communicate the results. In fact, this entire presentation was created using R!</p>
+<p><strong>Instructor Notes</strong>: Use this slide to bridge the gap between the simple exercises done today and the real-world utility of R. Highlight that the skills learned today are the actual foundation of professional workflows.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="looking-to-the-future" class="slide level2">
+<h2>Looking to the future</h2>
+<div style="text-align: center; margin-top: 1em; margin-bottom: 1em; font-weight: bold;">
+<p>Import <span class="math inline">\(\rightarrow\)</span> Tidy / (<em>Part I</em>) <br> Transform <span class="math inline">\(\rightarrow\)</span> Visualize / (<em>Part II</em>) <br> Model <span class="math inline">\(\rightarrow\)</span> Communicate</p>
+</div>
+<p><strong>Building up</strong> on your data handling skills in the future …</p>
+<ul>
+<li class="fragment"><strong>Model:</strong> Running complex statistical analyses and machine learning algorithms.</li>
+<li class="fragment"><strong>Communicate:</strong> Generating automated reports, interactive dashboards, or even <strong>these exact presentation slides</strong> using Quarto/RMarkdown!</li>
+</ul>
+<div class="footer">
+<p>Sneak peak of writing interactive reports and scientific manuscripts in Quarto for more experienced researchers: <a href="https://lmu-osc.github.io/introduction-to-Quarto/">https://lmu-osc.github.io/introduction-to-Quarto/</a></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: What we did not cover yet are some more advanced aspects of using R for research. Building up on your data wrangling skills, you can also use R to run complex statistical analyses and machine learning algorithms. -You can also use R to generate automated reports, research manuscripts, interactive dashboards, or even <strong>these exact presentation slides</strong> using Quarto/RMarkdown! This last aspect is something we will cover in a following session.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-power-of-r-what-could-be-next" class="slide level2">
+<h2>The power of R: What could be next…?</h2>
+<p>Mastering the basics opens the door to highly <strong>advanced, publication-ready tools</strong>:</p>
+<ul>
+<li class="fragment"><strong>Advanced visualizations:</strong> Packages like <a href="https://ggplot2.tidyverse.org/"><code>ggplot2</code></a> <a href="https://ggplot2.tidyverse.org/">https://ggplot2.tidyverse.org/</a> allow you to create stunning, highly customized graphics</li>
+<li class="fragment"><strong>Interactivity:</strong> Packages like <a href="https://shiny.posit.co/"><code>shiny</code></a> <a href="https://shiny.posit.co/">https://shiny.posit.co/</a> let you build interactive web applications for your data</li>
+<li class="fragment"><strong>Reproducibility:</strong> By scripting your analysis, anyone (including future you) can re-run your exact steps with zero guesswork</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: As you continue learning, you will discover that R is incredibly powerful. You can move from simple base R histograms to stunning, publication-ready graphics using packages like ggplot2. You can even build interactive websites using packages like shiny. If you’re curious about either of these packages, both ggplot2 and shiny are clickable links on this slide that will take you straight to their official websites. Most importantly, by writing scripts instead of clicking through menus, your research becomes 100% reproducible.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="final-words-of-wisdom" class="slide level2">
+<h2>Final words (of wisdom)</h2>
+<p>Learning R is exactly like learning a new language. It <strong>takes time, practice, and patience</strong>.</p>
+<ul>
+<li class="fragment"><strong>Syntax errors are normal:</strong> Even advanced programmers make typos and get error messages every single day.</li>
+<li class="fragment"><strong>AI is a helpful tool:</strong> Using AI to write code, navigate complex documentation, or troubleshoot errors is becoming increasingly widespread. However, the foundational understanding you built today is essential to verify and adapt the output.</li>
+<li class="fragment"><strong>Keep practicing:</strong> Save the script you wrote today and use it as a cheat sheet for your next projects.</li>
+</ul>
+<div style="text-align: center; font-weight: bold; margin-top: 1em; font-size: 1.2em;">
+<p>Great job today!</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To wrap up, remember that learning R is like learning a new language. It feels unfamiliar at first, and syntax errors are completely normal. Even professionals use AI constantly to write scripts, bypass lengthy documentation, and troubleshoot errors. However, the foundational understanding you gained today is what allows you to actually evaluate and verify the solutions it provides. Do not get discouraged by red text in the console. Save the script you built today, use it as a reference, and keep practicing. Great job today!</p>
+<p><strong>Instructor Notes</strong>: End on a high note. Emphasize that the frustration of learning a new syntax is universal and temporary.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="using-ai-as-a-coding-assistant" class="slide level2">
+<h2>Using AI as a coding assistant</h2>
+<p>AI tools can hinder or help your learning progress - <strong>do not outsource the thinking</strong>! <br> <br> <strong>If you do not know what you did, you cannot evaluate or explain the output, defeating the point of credible research.</strong></p>
+<ul>
+<li class="fragment"><strong>Verify everything:</strong> AI can hallucinate or suggest outdated functions. You must still read, understand, evaluate and test the code it generates. For this, you must also <strong>know what questions to ask</strong>!</li>
+<li class="fragment"><strong>Data privacy is critical:</strong> Never paste sensitive, personal, or unpublished research data into public AI chatbots!</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: As AI tools become deeply integrated into programming workflows, it’s important to use them responsibly. They are excellent co-pilots for troubleshooting red text in the console or figuring out how to approach a new task. However, they are not infallible. You must understand the foundations of R to verify if the AI’s code actually does what you need. When it comes to tools, you can use standalone chatbots, or integrations directly within your programming environment (also called an IDE, like RStudio). Integrations have the benefit of “seeing” your entire script, so you don’t have to copy-paste as much context. Most importantly, remind learners about data privacy: public AI models often train on user inputs, so sensitive data should never be shared with them!</p>
+<p><strong>Instructor Notes</strong>: Frame AI as an assistant, not a replacement for learning the basics. The core message is that acquiring foundational coding skills is the only way for transparent and credible research, because one must understand the question they are asking and be able to evaluate the output they are receiving.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="take-home-messages" class="slide level2">
+<h2>Take-home messages</h2>
+<ul>
+<li class="fragment">Working directories and packages → <strong>essential prerequisites</strong> for accessing files and expanding R’s capabilities.</li>
+<li class="fragment">Subsetting data → allows you to <strong>filter and isolate</strong> the exact observations you need for your analysis.</li>
+<li class="fragment">Summary functions and visualizations → provide a <strong>quick and comprehensive understanding</strong> of your data structures and distributions.</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To conclude this part, there are three key ideas to remember. First, correctly setting your Working Directory and loading necessary packages are the non-negotiable first steps of any R session. Without them, you cannot access your data or advanced tools.</p>
+<p>Second, subsetting is central to data analysis. You rarely work with a full raw dataset at once; instead, you filter specific rows based on logical conditions to answer targeted questions. And third, basic statistics and visualizations go hand in hand. Using summary functions alongside plots like histograms gives you a complete picture of your data’s shape and distribution.</p>
+<p><strong>Instructor Notes</strong>: Keep this slide concise and use it as a clear closure of the R part 2 section.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="learning-objectives-check-in" class="slide level2">
+<h2>Learning objectives: Check-in</h2>
+<p>At the end of this session, you should now be able to…</p>
+<ul class="task-list">
+<li class="fragment"><label><input type="checkbox"><strong>Identify</strong> and set the correct Working Directory on your computer</label></li>
+<li class="fragment"><label><input type="checkbox"><strong>Install</strong> and <strong>load</strong> R packages to extend R’s functionality</label></li>
+<li class="fragment"><label><input type="checkbox"><strong>Import</strong> external data into the R environment</label></li>
+<li class="fragment"><label><input type="checkbox"><strong>Inspect</strong> data structures and <strong>extract</strong> specific columns</label></li>
+<li class="fragment"><label><input type="checkbox"><strong>Compute</strong> basic statistical summaries on a dataset</label></li>
+<li class="fragment"><label><input type="checkbox"><strong>Visualize</strong> data distributions using simple histograms</label></li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us pause for a quick check-in. Take a moment to look back at the learning objectives and reflect on how comfortable you feel with each one. If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.</p>
+<p><strong>Instructor Notes</strong>: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all objectives at this stage. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="looking-into-the-future" class="slide level2">
+<h2>Looking into the future</h2>
+<ol type="1">
+<li><strong>Take a minute to think about the following questions, first for yourself, then in a pair:</strong></li>
+</ol>
+<ul>
+<li>Can you identify some <strong>practical benefits</strong> of using R/RStudio?</li>
+<li>What <strong>obstacles</strong> do you anticipate in using it consistently?</li>
+<li>How can R/RStudio support you in your <strong>upcoming projects</strong>?</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Share your thoughts with the group.</strong></li>
+</ol>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To wrap up, let’s take a moment to bring everything together and think about how this connects to your own work going forward. First, take about one minute to reflect individually on these questions. Then discuss them with a partner. Think about where R/RStudio could realistically support you, for example, in upcoming essays, group projects, or your thesis work. What benefits do you see in using it? What might make it difficult to use it consistently? And how could it fit into your current workflow?<br>
+After that, we’ll briefly share some of your thoughts with the group.</p>
+<p><strong>Instructor Notes</strong>: Allocate about 5-10 minutes total for this think-pair-share activity (1-2 minutes for individual reflection, 3-4 minutes in pairs, and the remainder for group discussion). Facilitate an open discussion focusing on application rather than theory. Encourage concrete examples from learners’ own academic context. Actively prompt for both benefits and barriers. Keep the discussion time-bound to avoid overextension at the end of the session.</p>
+<p><strong>Accessibility Tip</strong>: Allow silent reflection time before discussion. Summarize key contributions aloud for clarity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="assignment-consolidating-what-you-learned" class="slide level2">
+<h2>Assignment: Consolidating what you learned</h2>
+<p><strong>Create an R script that applies the data handling skills covered today</strong></p>
+<ul>
+<li>Set your Working Directory and load the <code>characters.rds</code> dataset.</li>
+<li>Create a new subset of the data using a logical condition of your choice (e.g., a different show).</li>
+<li>Calculate a summary statistic (e.g., <code>mean()</code> or <code>table()</code>) on a variable within your subset.</li>
+<li>Create a histogram (<code>hist()</code>) to visualize a numeric variable and customize its title.</li>
+<li>Include clear comments (<code>#</code>) explaining each step.</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Self-Assessment</strong></p>
+</div>
+<div class="callout-content">
+<p>Use this assignment to assess your learning of, and progress with, R/RStudio; reflect on any challenges you faced and how you overcame them.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To finish, you have a short home assignment that brings together everything we covered in Part II. You will create a script where you first set your working directory and load the characters dataset. Then, you will practice subsetting by filtering the data based on a condition of your choosing—perhaps explore characters from a different show. Next, compute a basic summary statistic like a mean or a frequency table on your new subset. Finally, visualize a numeric variable using a histogram and give it a custom title. Make sure to comment your code so you know exactly what each line does when you look at it later.</p>
+<p><strong>Instructor Notes</strong>: Clarify that this is a practice exercise rather than a graded assessment. Encourage learners to explore variables in the dataset they haven’t looked at yet. Reassure them that running into errors during subsetting is normal and part of the learning process.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="to-conclude-survey-time" class="slide level2">
+<h2>To conclude: Survey time!</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Question 1</a></li><li><a href="#tabset-4-2">Question 2</a></li><li><a href="#tabset-4-3">Question 3</a></li><li><a href="#tabset-4-4">Question 4</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<p><strong>How confident do you feel setting a Working Directory and loading external data into R?</strong></p>
+<ol type="a">
+<li>Not confident at all<br>
+</li>
+<li>Slightly confident<br>
+</li>
+<li>Moderately confident<br>
+</li>
+<li>Very confident<br>
+</li>
+<li>Extremely confident</li>
+</ol>
+</div>
+<div id="tabset-4-2">
+<p><strong>How comfortable do you feel using logical conditions (<code>==</code>, <code>|</code>) to subset data frames?</strong></p>
+<ol type="a">
+<li>Not comfortable at all<br>
+</li>
+<li>Slightly comfortable<br>
+</li>
+<li>Moderately comfortable<br>
+</li>
+<li>Very comfortable<br>
+</li>
+<li>Extremely comfortable</li>
+</ol>
+</div>
+<div id="tabset-4-3">
+<p><strong>Compared to the beginning of the workshop, how intimidated do you feel about working with R?</strong></p>
+<ol type="a">
+<li>Much more intimidated<br>
+</li>
+<li>Slightly more intimidated<br>
+</li>
+<li>About the same<br>
+</li>
+<li>Slightly less intimidated<br>
+</li>
+<li>Much less intimidated</li>
+</ol>
+</div>
+<div id="tabset-4-4">
+<p><strong>What part of today’s lesson still feels confusing, and which exercise helped your understanding the most?</strong></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: To conclude, we’ll take a short survey. This post-session survey helps us understand your current level of knowledge after completing the session. Please answer honestly based on how confident you feel now.</p>
+<p><strong>Instructor Notes</strong>: The purpose is to compare pre- and post-session responses to evaluate learning progress. Encourage the learnrs to share in class. Use this space to answer doubts, and provide learning or practice tips if the learners still feel under-confident in any areas.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="discussion-of-survey-results-1" class="slide level2">
+<h2>Discussion of survey results</h2>
+<p><br></p>
+<div style="background-color: #f0f0f0; padding: 0.1em; border-radius: 5px; font-size: 1em; text-align: center;">
+<p>What do we see in the results?</p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: Let us have a look at these results.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="additional-resources" class="slide level2">
+<h2>Additional resources</h2>
+<ul>
+<li>Datacamp offers a free, <a href="https://www.datacamp.com/courses/free-introduction-to-r">interactive course on R</a> online (https://www.datacamp.com/courses/free-introduction-to-r).</li>
+<li>The LMU Open Science Center provides a <a href="https://lmu-osc.github.io/introduction-to-R/">comprehensive, self-paced R tutorial</a> (https://lmu-osc.github.io/introduction-to-R/).</li>
+</ul>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: If you’d like to continue practicing R after this session, there are optional additional resources available.</p>
+<p>Datacamp offers a free, interactive introduction to R, where you can practice directly in your browser. We also highly recommend the LMU OSC’s own Introduction to R tutorial, which is a great comprehensive guide. These are useful ways to reinforce what we covered today and get more comfortable with writing code at your own pace.</p>
+<p>You are not required to complete them, but they can be helpful if you want extra practice or a more structured introduction to R outside of class.</p>
+<p><strong>Instructor Notes</strong>: Present these as optional extensions, not part of the core learning requirements. Avoid suggesting them as mandatory. Emphasise self-paced learning and reinforcement of basic R skills using both the interactive Datacamp course and the in-depth OSC material.</p>
+<p><strong>Accessibility Tips:</strong><br>
+Ensure the links are accessible through the course platform or slide deck.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="contribution-statement" class="slide level2">
+<h2>Contribution statement</h2>
+<p><strong>Creator</strong>: Rieger, David (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0004-3701-3101">0009-0004-3701-3101</a>)</p>
+<p><strong>Creator</strong>: Waterfield, Elizabeth (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0004-3701-3101">0009-0006-3725-6730</a>)</p>
+<p><strong>Consultant</strong>: Sanchez Steinhagen, Caterina Luz (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0009-0006-4783-1110">0009-0006-4783-1110</a>)</p>
+<p><strong>Reviewer</strong>: Middleton, Sara (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"> <a href="https://orcid.org/0000-0001-5307-8029">0000-0001-5307-8029</a>)</p>
+<p><strong>Reviewer</strong>: von Grebmer zu Wolfsthurn, Sarah (<img data-src="images/ORCID-iD_icon_16x16.png" alt="orcid logo"><a href="https://orcid.org/0000-0002-6413-3895">0000-0002-6413-3895</a>)</p>
+</section>
+<section id="licence-and-citation-statement" class="slide level2">
+<h2>Licence and citation statement</h2>
+<p><br></p>
+<p style="text-align:center;">
+<img src="images/cc-by-sa.png" alt="Creative Commons Attribution 4.0 SA" style="width:160px;">
+</p>
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.4em;">
+<p>This work was originally created by <a href="https://orcid.org/0000-0001-9035-4483">Nicklas Hafiz</a>. It was subsequently adapted by <a href="https://orcid.org/0009-0006-4783-1110">Caterina Luz Sanchez Steinhagen</a>, <a href="https://orcid.org/0009-0006-3725-6730">Elizabeth Waterfield</a>, <a href="https://orcid.org/0009-0004-3701-3101">David Rieger</a>, <a href="https://orcid.org/0000-0001-5307-8029">Sara Lil Middleton</a> and <a href="https://orcid.org/0000-0002-6413-3895">Sarah von Grebmer zu Wolfsthurn</a>. The current work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 SA International License</a> (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licensed under a <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Universal Licence</a> (CC0 1.0).</p>
+<p>Please cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, C. L., Middleton, S., &amp; Von Grebmer Zu Wolfsthurn, S. (2026). <em>Introduction to R: Part II</em> [Quarto slides]. <a href="https://www.osc.lmu.de/">LMU Open Science Center</a>. <a href="https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II">https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II</a></p>
+</div>
+<aside class="notes">
+<p><strong>Presenter Notes</strong>: The <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution 4.0 International SA License</a>, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.</p>
+<p>Code snippets are dedicated to the public domain and licensed under a <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Universal License</a> (CC0 1.0). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../../../../assets/logos/OSC_Logo.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>LMU Open Science Center</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-js-tabset/tabset.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealJsTabset, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/lmu-osc\.github\.io\/teaching-material-for-novices\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
