@@ -1,5 +1,5 @@
 ---
-title: "About credible and open research"
+title: "Moving towards credible and open research"
 author: "Malika Ihle and Sarah von Grebmer zu Wolfsthurn"
 date: "today"
 date-format: "DD/MM/YYYY"
@@ -1807,10 +1807,6 @@ g. None of the above
 
 ---
 
-# Thanks!
-
----
-
 ## TO DO  Sarah
 
 - [ ] Edit prerequisites
@@ -1840,9 +1836,9 @@ g. None of the above
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and subsequently adapted by Sarah von Grebmer zu Wolfsthurn and Malika Ihle. This current work by Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a CC-BY-SA 4.0 [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and was subsequently adapted by Sarah von Grebmer zu Wolfsthurn. This current work by Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a  [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).
 
-Please cite as: Von Grebmer zu Wolfsthurn, S. & Ihle, M. (2026). *Credible research* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/credible-research/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reprocredible-research/)
+Please cite these materials as: Ihle, M., & Von Grebmer zu Wolfsthurn, S.  (2026). *Moving towards credible and open research* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research)
 </div>
 
 ::: {.notes}
@@ -1877,15 +1873,11 @@ The snake oil salesman sells snake oil as an elixir that cures many diseases, fr
 In contrast, a researcher uses a sound scientific method which, in the long run, arguably arrives at an increasingly correct account of the world.
 Changes their mind in the light of new evidence.
 is transparent about methods used to reach this conclusion. Has no conflict of interests or if so discloses them. And researchers’ motto, at least of the world’s oldest scientific society is „Nullius in verba“ „Don’t trust my words“, implying ‘here, look at the evidence’.
-
-**Instructor Notes**: 
-
 :::
 
 ---
 
 ## Additional resources: OSC self-paced tutorials
-
 
 | Tutorial | Access |
 |---|---|

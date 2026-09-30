@@ -14,7 +14,7 @@ title: "Challenges in research reproducibility and replicability"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Challenges in research reproducibility and replicability* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability)
+Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability)
 :::
 
 **Welcome!** This workshop is intended to provide learners with an introduction to **key challenges and threats in scientific research**. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the workshop encourages **critical analysis** of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of **developing** more **transparent and robust approaches** to conducting and evaluating research.

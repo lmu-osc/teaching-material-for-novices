@@ -815,9 +815,9 @@ Feel free to use these resources at your own pace.
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.4em;">
 This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) based on materials from [Joel Pick](https://joelpick.github.io/), [Hadley Wickham](https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham), and [Kevin Hallgren](https://www.tqmp.org/RegularArticles/vol09-2/p043/), with contributions from [James Smith](https://github.com/worcjamessmith).
-This current work by Tejaswini Sharma, Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0 ). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+This current work by Tejaswini Sharma, Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
 
-Please cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). *Running simulations and power analysis in R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations)
+Please cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). *Introduction to simulations and power analysis in R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations)
 </div>
 
 ::: {.notes}

@@ -1,5 +1,5 @@
 ---
-title: "Running simulations and power analysis in R"
+title: "Introduction to simulations and power analysis in R"
 ---
 
 > Explore experiments before running them.
@@ -14,7 +14,7 @@ title: "Running simulations and power analysis in R"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). *Running simulations and power analysis in R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations)
+Please cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). *Introduction to simulations and power analysis in R* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations)
 :::
 
 **Welcome!** This workshop is intended to **introduce** the **principles and practical use of simulations** in research using **R**. Learners will first get familiar with **what simulations are** and **why they are widely used** in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also **introduce power analysis**, explaining how to **determine appropriate sample sizes** for experiments. Through a subsequent self-paced practical tutorial, learners will work through the **full simulation workflow in R**, including generating random data, repeating simulations, and analyzing results.
@@ -91,5 +91,5 @@ You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by c
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.8em;">
 This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) based on materials from [Joel Pick](https://joelpick.github.io/), [Hadley Wickham](https://www.yumpu.com/en/document/view/19077330/simulation-hadley-wickham), and [Kevin Hallgren](https://www.tqmp.org/RegularArticles/vol09-2/p043/), with contributions from [James Smith](https://github.com/worcjamessmith).
-This current work by Tejaswini Sharma, Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0 ). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
+This current work by Tejaswini Sharma, Malika Ihle and Sarah von Grebmer zu Wolfsthurn is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licensed under a [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0).
 </div>

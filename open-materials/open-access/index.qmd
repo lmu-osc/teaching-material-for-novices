@@ -20,7 +20,7 @@ title: "Open Access"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Out in the open: Open access, preprints & postprints* [Quarto slides]. *Developed for the LMU Open Science Summer School 2026.* [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access)
+Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Out in the open: Open access, preprints & postprints* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access)
 :::
 
 **Welcome!** These slides are intended to provide learners with an **introduction to the current academic publishing *system**, the different **types of open access**, the lifecycle of **open research papers** and what each and everyone can contribute to more transparent research.
@@ -71,9 +71,7 @@ You can export these slides as MS PowerPoint or pdf by clicking the button below
 
 ## Contributors and licence details
 
-**Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910)); Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
 <br>
@@ -85,5 +83,5 @@ You can export these slides as MS PowerPoint or pdf by clicking the button below
 </p>
 
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-These slides and materials were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) and are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0) 
+These slides were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Sarah von Grebmer zu Wolfsthurn](https://orcid.org/0000-0002-6413-3895) and are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0) 
 </div>
