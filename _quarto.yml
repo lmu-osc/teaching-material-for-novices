@@ -48,13 +48,12 @@ website:
         contents:
           - href: open-materials/open-access/index.qmd
 
-include-in-header:
-  - file: matomo-analytics.html
-
 format:
   tutorial-template-html+tutorial:
     css:
       - footer/footer-style.css
+    include-in-header:
+      - file: matomo-analytics.html
     include-after-body:
       - file: footer/footer.html
 
