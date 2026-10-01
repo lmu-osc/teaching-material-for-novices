@@ -4,7 +4,42 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n Back to top"
+    "text": "These materials were authored by Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt, Peter Edelsbrunner, Elizabeth Waterfield, David Rieger, Tejaswini Sharma, and Caterina Luz Sanchez Steinhagen. Edits and further contributions were made by the LMU Open Science Center team and the FORRT community. See the home page for the full list of contributors and their ORCID iDs."
+  },
+  {
+    "objectID": "about.html#contributors",
+    "href": "about.html#contributors",
+    "title": "About",
+    "section": "",
+    "text": "These materials were authored by Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt, Peter Edelsbrunner, Elizabeth Waterfield, David Rieger, Tejaswini Sharma, and Caterina Luz Sanchez Steinhagen. Edits and further contributions were made by the LMU Open Science Center team and the FORRT community. See the home page for the full list of contributors and their ORCID iDs."
+  },
+  {
+    "objectID": "about.html#licenses",
+    "href": "about.html#licenses",
+    "title": "About",
+    "section": "Licenses",
+    "text": "Licenses\nThe overall project is available under the CC BY-SA 4.0 license found at LICENSE; all code without any narrative text is also (at your option) available under the CC0 1.0 Universal license found at LICENSE-CODE.\nWhy two licenses? The CC BY-SA 4.0 license is for the content of the website, while the CC0 1.0 Universal license is for the code and configuration files. This is a common practice for websites that include code snippets and other content that may be reused in other projects, particularly because the CC BY-SA 4.0 license is not intended to be used with software."
+  },
+  {
+    "objectID": "about.html#notes",
+    "href": "about.html#notes",
+    "title": "About",
+    "section": "Notes",
+    "text": "Notes\nThese teaching materials were primarily written in 2026 using Quarto. Major changes to Quarto can be found at the Quarto website for the most up-to-date information, and to confirm that these materials are not out-of-date."
+  },
+  {
+    "objectID": "about.html#tutorial-template-quarto-extension",
+    "href": "about.html#tutorial-template-quarto-extension",
+    "title": "About",
+    "section": "Tutorial Template Quarto Extension",
+    "text": "Tutorial Template Quarto Extension\nThis site was written using the lmu-osc/tutorial-template Quarto extension (Callahan 2026).\n\n\nCallahan, Patrick. 2026. LMU Open Science Center Tutorial Template: A Quarto Extension. https://doi.org/10.5281/zenodo.21263721."
+  },
+  {
+    "objectID": "about.html#how-to-cite",
+    "href": "about.html#how-to-cite",
+    "title": "About",
+    "section": "How to Cite",
+    "text": "How to Cite\nTo cite these materials, please refer to the project’s CITATION.cff file or use the BibTeX citation provided in the appendix below."
   },
   {
     "objectID": "open-research-principles/reproducibility-replicability/index.html",
@@ -323,21 +358,36 @@
     "href": "open-research-tools/git/index.html",
     "title": "Introduction to version control with Git in RStudio",
     "section": "",
-    "text": "Git it together.\nClick here to see the materials in full screen"
+    "text": "Git it together.\nClick here to see the materials in full screen",
+    "crumbs": [
+      "Home",
+      "Open Research Tools",
+      "Introduction to version control with Git in RStudio"
+    ]
   },
   {
     "objectID": "open-research-tools/git/index.html#about-these-materials",
     "href": "open-research-tools/git/index.html#about-these-materials",
     "title": "Introduction to version control with Git in RStudio",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). Introduction to version control with Git in RStudio [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git\n\n\n\nWelcome! This workshop is intended with a foundational understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process.\n\n\n\n\n\n\nImportantLonger delivery time for these materials\n\n\n\nIn contrast to other materials, the estimate delivery time for these materials is approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.\n\n\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nLaptop/PC with internet access\nAdmin rights for downloading/installing software\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin at https://github.com/join\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the problem(s) that can be solved by version control\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible workflow\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\n\nSupplementary files\n Download the example data as csv file \n Download the practice data as csv file \n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF"
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). Introduction to version control with Git in RStudio [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git\n\n\n\nWelcome! This workshop is intended with a foundational understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process.\n\n\n\n\n\n\nImportantLonger delivery time for these materials\n\n\n\nIn contrast to other materials, the estimate delivery time for these materials is approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.\n\n\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nLaptop/PC with internet access\nAdmin rights for downloading/installing software\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin at https://github.com/join\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the problem(s) that can be solved by version control\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible workflow\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\n\nSupplementary files\n Download the example data as csv file \n Download the practice data as csv file \n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
+    "crumbs": [
+      "Home",
+      "Open Research Tools",
+      "Introduction to version control with Git in RStudio"
+    ]
   },
   {
     "objectID": "open-research-tools/git/index.html#contributors-and-licence-details",
     "href": "open-research-tools/git/index.html#contributors-and-licence-details",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Contributors and licence details",
-    "text": "Contributors and licence details\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nReviewer: Schönbrodt, Felix ( 0000-0002-8282-3910)\nConsultant: Edelsbrunner, Peter (0000-0001-9102-1090)\n\n\n\n\n\nThis work was originally created by Mike Croucher under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Malika Ihle and Felix Schönbrodt is licensed under a Creative Commons Attribution 4.0 International SA License (CC-BY-SA-4.0). Code snippets are dedicated to the public domain and are licensed under a Creative Commons Universal License (CC0 1.0)."
+    "text": "Contributors and licence details\nCreator: Von Grebmer zu Wolfsthurn, Sarah (0000-0002-6413-3895)\nReviewer: Ihle, Malika (0000-0002-3242-5981)\nReviewer: Schönbrodt, Felix ( 0000-0002-8282-3910)\nConsultant: Edelsbrunner, Peter (0000-0001-9102-1090)\n\n\n\n\n\nThis work was originally created by Mike Croucher under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Malika Ihle and Felix Schönbrodt is licensed under a Creative Commons Attribution 4.0 International SA License (CC-BY-SA-4.0). Code snippets are dedicated to the public domain and are licensed under a Creative Commons Universal License (CC0 1.0).",
+    "crumbs": [
+      "Home",
+      "Open Research Tools",
+      "Introduction to version control with Git in RStudio"
+    ]
   },
   {
     "objectID": "open-research-tools/github/index.html",
@@ -428,14 +478,105 @@
     "href": "footer/accessibilty.html",
     "title": "Accessibility",
     "section": "",
-    "text": "The Ludwig-Maximilians-Universität München strives to make its offers accessible in accordance with § 9 Act on Digitalisation in the Free State of Bavaria (Bayerisches Digitalgesetz – BayDig).\nThis Accessibility Statement applies to applications available at https://www.lmu.de/de/index.html, https://www.lmu.de/de/index.html and all subdomain pages.\n\nStatus of Compliance\nPartially compliant: This application partially corresponds to § 1 BayEGovV.\n\nLegal Name\nLudwig-Maximilians-Universität München\n\n\nWebsite(s):\nhttps://www.lmu.de/de/index.html, https://www.lmu.de/de/index.html and all subdomain pages.\n\n\n\nKnown Accessibility Issues\nList and explanation of the problems encountered when implementing the accessibility of these websites\n\nContent Not Accessible to People With Disabilities\n\nApart from the main pages, alternative text-based content for images and tables may be missing. There may also be errors in content hierarchy and links may be unintelligible.\nPDF documents created before 09/23/2018 have not yet been converted to a fully accessible format.\nSome documents have been provided by institutions of the LMU, which are not yet all available in a fully accessible version.\nMany of our videos also lack subtitles and audio descriptions. We will be adding written directions for the maps used to give directions.\nQuotes are often not indicated as such using the appropriate HTML tag.\nResponsive design (for viewing on mobile devices) is only partially available for the websites, screen orientation is otherwise limited to landscape format. For non-responsive pages, texts do not wrap correctly in a small viewport.\nFields for inputting user data are not always sufficiently designated as such.\nWords or passages in other languages are not always indicated as such.\nBecause of the Google Search plugin, the criteria for “valid HTML text” is not being fulfilled.\n\n\n\n\nExplanation\nAll LMU websites are currently undergoing a complete relaunch. It therefore no longer makes sense to revise the existing websites.\nThe deficiencies of the old website have been listed above.\nCreation Date: 09/22/2019\nMethodology: Self-assessment\n\n\nFeedback Mechanism\nAs a user, you can inform us of any shortcomings in complying with accessibility requirements or request information in an accessible format that is not required to be displayed in an accessible format.\n\nContact Information\nUnit VI.5 Internet Services\nMartiusstraße 4\n80802 Munich\nMail: it.internet@verwaltung.uni-muenchen.de\nPhone: +49 (0) 89 / 2180-9832\n\n\n\nEnforcement Procedure\nIf a request for contact remains unanswered in whole or in part within six weeks, the Landesamt für Digitalisierung, Breitband und Vermessung (Agency for Digitisation, High-Speed Internet and Surveying) will, at the request of the user, examine whether measures are necessary with regard to the monitoring of the obligated party.\n\nContact information of the agency responsible for the enforcement procedure\nLandesamt für Digitalisierung, Breitband und Vermessung Alexandrastraße 4\n80538 Munich\nPhone: +49 89 2129-1111\nFax: +49 89 2129-1113\nEmail:service@geodaten.bayern.de\nhttps://www.ldbv.bayern.de/service/kontakt/\n\n\nOther Help Services\nStudents with disabilities are supported by the Beratungsstelle für Studierende mit Behinderung und chronischer Erkrankung (Counselling Center for Students with Disabilities and Chronic Illnesses).\nThe Schwerbehindertenvertretung (Representative for Disabled Persons) (access protected on the service portal) can support employees.\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "The Ludwig-Maximilians-Universität München strives to make its offers accessible in accordance with § 9 Act on Digitalisation in the Free State of Bavaria (Bayerisches Digitalgesetz – BayDig).\nThis Accessibility Statement applies to applications available at https://www.lmu.de/de/index.html, https://www.lmu.de/de/index.html and all subdomain pages."
+  },
+  {
+    "objectID": "footer/accessibilty.html#status-of-compliance",
+    "href": "footer/accessibilty.html#status-of-compliance",
+    "title": "Accessibility",
+    "section": "Status of Compliance",
+    "text": "Status of Compliance\nPartially compliant: This application partially corresponds to § 1 BayEGovV.\n\nLegal Name\nLudwig-Maximilians-Universität München\n\n\nWebsite(s):\nhttps://www.lmu.de/de/index.html, https://www.lmu.de/de/index.html and all subdomain pages."
+  },
+  {
+    "objectID": "footer/accessibilty.html#known-accessibility-issues",
+    "href": "footer/accessibilty.html#known-accessibility-issues",
+    "title": "Accessibility",
+    "section": "Known Accessibility Issues",
+    "text": "Known Accessibility Issues\nList and explanation of the problems encountered when implementing the accessibility of these websites\n\nContent Not Accessible to People With Disabilities\n\nApart from the main pages, alternative text-based content for images and tables may be missing. There may also be errors in content hierarchy and links may be unintelligible.\nPDF documents created before 09/23/2018 have not yet been converted to a fully accessible format.\nSome documents have been provided by institutions of the LMU, which are not yet all available in a fully accessible version.\nMany of our videos also lack subtitles and audio descriptions. We will be adding written directions for the maps used to give directions.\nQuotes are often not indicated as such using the appropriate HTML tag.\nResponsive design (for viewing on mobile devices) is only partially available for the websites, screen orientation is otherwise limited to landscape format. For non-responsive pages, texts do not wrap correctly in a small viewport.\nFields for inputting user data are not always sufficiently designated as such.\nWords or passages in other languages are not always indicated as such.\nBecause of the Google Search plugin, the criteria for “valid HTML text” is not being fulfilled."
+  },
+  {
+    "objectID": "footer/accessibilty.html#explanation",
+    "href": "footer/accessibilty.html#explanation",
+    "title": "Accessibility",
+    "section": "Explanation",
+    "text": "Explanation\nAll LMU websites are currently undergoing a complete relaunch. It therefore no longer makes sense to revise the existing websites.\nThe deficiencies of the old website have been listed above.\nCreation Date: 09/22/2019\nMethodology: Self-assessment"
+  },
+  {
+    "objectID": "footer/accessibilty.html#feedback-mechanism",
+    "href": "footer/accessibilty.html#feedback-mechanism",
+    "title": "Accessibility",
+    "section": "Feedback Mechanism",
+    "text": "Feedback Mechanism\nAs a user, you can inform us of any shortcomings in complying with accessibility requirements or request information in an accessible format that is not required to be displayed in an accessible format.\n\nContact Information\nUnit VI.5 Internet Services\nMartiusstraße 4\n80802 Munich\nMail: it.internet@verwaltung.uni-muenchen.de\nPhone: +49 (0) 89 / 2180-9832"
+  },
+  {
+    "objectID": "footer/accessibilty.html#enforcement-procedure",
+    "href": "footer/accessibilty.html#enforcement-procedure",
+    "title": "Accessibility",
+    "section": "Enforcement Procedure",
+    "text": "Enforcement Procedure\nIf a request for contact remains unanswered in whole or in part within six weeks, the Landesamt für Digitalisierung, Breitband und Vermessung (Agency for Digitisation, High-Speed Internet and Surveying) will, at the request of the user, examine whether measures are necessary with regard to the monitoring of the obligated party.\n\nContact information of the agency responsible for the enforcement procedure\nLandesamt für Digitalisierung, Breitband und Vermessung Alexandrastraße 4\n80538 Munich\nPhone: +49 89 2129-1111\nFax: +49 89 2129-1113\nEmail:service@geodaten.bayern.de\nhttps://www.ldbv.bayern.de/service/kontakt/\n\n\nOther Help Services\nStudents with disabilities are supported by the Beratungsstelle für Studierende mit Behinderung und chronischer Erkrankung (Counselling Center for Students with Disabilities and Chronic Illnesses).\nThe Schwerbehindertenvertretung (Representative for Disabled Persons) (access protected on the service portal) can support employees."
   },
   {
     "objectID": "footer/imprint.html",
     "href": "footer/imprint.html",
     "title": "Imprint and Disclaimer",
     "section": "",
-    "text": "Information pursuant to § 5 Telemedia Law and § 18 Abs. 2 Medienstaatsvertrag (MStV)\nLudwig-Maximilians-Universität München is a state institution of the Free State of Bavaria and a legal entity under public law (Art. 4 (1) sentence 1 BayHIG). It is legally represented by its President, Professor Dr. med. Dr. h.c. Matthias H. Tschöp.\n\nAddress\nLudwig-Maximilians-Universität München\nGeschwister-Scholl-Platz 1\n80539 Munich\nPhone: +49 (0) 89 / 2180-0\nWeb presence: https://www.lmu.de/de/index.html\nContact: poststelle@verwaltung.uni-muenchen.de\nAddition contact information\n\n\nNotices for encrypted communication\nIn the event that you wish to send us an encrypted message, please use the following public X509-certificate for encryption of your message.\n\n\nAuthorized Oversight Agency\nBavarian State Ministry for Science and Art\nSalvatorstraße 2\n80333 Munich\nInternet: https://www.stmwk.bayern.de\n\n\nSales Tax ID Number of the LMU\nSales tax ID number pursuant to § 27 a Sales Tax Law:\nDE 811205325\n\n\nResponsible for content according to § 18 para. 2 MStV\nLudwig-Maximilians-Universität München\nFelix Schönbrodt\nEmail: felix.schoenbrodt@psy.lmu.de\n\n\nResponsible party for technical implementation\nThe webmaster of the facility is responsible for technical implementation. Technical implementation is handled by the Content Management System Fiona by Infopark AG.\n\n\nStatement of Release\nThe information herein is correct to the best of our knowledge, however, error cannot be avoided with absolute certainty. Solely the specifications in the pertinent legal bases (laws, orders, statutes) are legally binding.\nWe cannot assume any liability for the particular currency, accuracy, completeness and availability of the provided information.\nWe are not liable for damages caused by the use of this internet offer. This exclusion of liability shall not apply if the regulations of § 839 BGB (liability for violation of official duty) are involved. We are not liable for any damages caused by call-up or downloading of data by damaged software or by the installation or use of software.\nThis exclusion of liability does not apply to information that falls within the scope of the Order (EU) 2016/679 of the European Parliament and of the Council dated 27 April 2016 (General Data Protection Regulation). The accuracy and currency of this information is guaranteed.\n\n\nDisclaimer\nThe information offered by the LMU contains cross-references (“links”) to other internet offers by the LMU or by external, third-parties. Basically the internet pages will open automatically in a new window.\nThrough this cross-reference, the LMU handles access for use of this content (§ 5 Telemedia Law). We are not responsible for this “foreign” content since we do not initiate the transmission of the information, have not selected the addressee of the transmitted information and also have not selected or changed the transmitted information.\nAn automatic, short-term interim saving of this “foreign information” by the LMU does not occur due to the selected call-up and linking method, so that the LMU does not thereby assume any responsibility for this foreign content.\nHowever, upon initial linking with these internet offers, the LMU has checked the foreign content to determine whether it may trigger a potential responsibility under civil or penal law. But we do not receive any automatic information about changes to the foreign internet offers and thus cannot constantly monitor their content for any changes. Therefore we also cannot assume any responsibility for them. Solely the particular merchant of the foreign internet offer is liable for illegal, erroneous or incomplete content, and in particular for damages which arise from the use or non-use of information by third parties. However, we endeavor to check the included links regularly with regard to these named criteria.\n\n\n\n\n\n Back to top"
+    "text": "Information pursuant to § 5 Telemedia Law and § 18 Abs. 2 Medienstaatsvertrag (MStV)\nLudwig-Maximilians-Universität München is a state institution of the Free State of Bavaria and a legal entity under public law (Art. 4 (1) sentence 1 BayHIG). It is legally represented by its President, Professor Dr. med. Dr. h.c. Matthias H. Tschöp."
+  },
+  {
+    "objectID": "footer/imprint.html#address",
+    "href": "footer/imprint.html#address",
+    "title": "Imprint and Disclaimer",
+    "section": "Address",
+    "text": "Address\nLudwig-Maximilians-Universität München\nGeschwister-Scholl-Platz 1\n80539 Munich\nPhone: +49 (0) 89 / 2180-0\nWeb presence: https://www.lmu.de/de/index.html\nContact: poststelle@verwaltung.uni-muenchen.de\nAddition contact information"
+  },
+  {
+    "objectID": "footer/imprint.html#notices-for-encrypted-communication",
+    "href": "footer/imprint.html#notices-for-encrypted-communication",
+    "title": "Imprint and Disclaimer",
+    "section": "Notices for encrypted communication",
+    "text": "Notices for encrypted communication\nIn the event that you wish to send us an encrypted message, please use the following public X509-certificate for encryption of your message."
+  },
+  {
+    "objectID": "footer/imprint.html#authorized-oversight-agency",
+    "href": "footer/imprint.html#authorized-oversight-agency",
+    "title": "Imprint and Disclaimer",
+    "section": "Authorized Oversight Agency",
+    "text": "Authorized Oversight Agency\nBavarian State Ministry for Science and Art\nSalvatorstraße 2\n80333 Munich\nInternet: https://www.stmwk.bayern.de"
+  },
+  {
+    "objectID": "footer/imprint.html#sales-tax-id-number-of-the-lmu",
+    "href": "footer/imprint.html#sales-tax-id-number-of-the-lmu",
+    "title": "Imprint and Disclaimer",
+    "section": "Sales Tax ID Number of the LMU",
+    "text": "Sales Tax ID Number of the LMU\nSales tax ID number pursuant to § 27 a Sales Tax Law:\nDE 811205325"
+  },
+  {
+    "objectID": "footer/imprint.html#responsible-for-content-according-to-18-para.-2-mstv",
+    "href": "footer/imprint.html#responsible-for-content-according-to-18-para.-2-mstv",
+    "title": "Imprint and Disclaimer",
+    "section": "Responsible for content according to § 18 para. 2 MStV",
+    "text": "Responsible for content according to § 18 para. 2 MStV\nLudwig-Maximilians-Universität München\nFelix Schönbrodt\nEmail: felix.schoenbrodt@psy.lmu.de"
+  },
+  {
+    "objectID": "footer/imprint.html#responsible-party-for-technical-implementation",
+    "href": "footer/imprint.html#responsible-party-for-technical-implementation",
+    "title": "Imprint and Disclaimer",
+    "section": "Responsible party for technical implementation",
+    "text": "Responsible party for technical implementation\nThe webmaster of the facility is responsible for technical implementation. Technical implementation is handled by the Content Management System Fiona by Infopark AG."
+  },
+  {
+    "objectID": "footer/imprint.html#statement-of-release",
+    "href": "footer/imprint.html#statement-of-release",
+    "title": "Imprint and Disclaimer",
+    "section": "Statement of Release",
+    "text": "Statement of Release\nThe information herein is correct to the best of our knowledge, however, error cannot be avoided with absolute certainty. Solely the specifications in the pertinent legal bases (laws, orders, statutes) are legally binding.\nWe cannot assume any liability for the particular currency, accuracy, completeness and availability of the provided information.\nWe are not liable for damages caused by the use of this internet offer. This exclusion of liability shall not apply if the regulations of § 839 BGB (liability for violation of official duty) are involved. We are not liable for any damages caused by call-up or downloading of data by damaged software or by the installation or use of software.\nThis exclusion of liability does not apply to information that falls within the scope of the Order (EU) 2016/679 of the European Parliament and of the Council dated 27 April 2016 (General Data Protection Regulation). The accuracy and currency of this information is guaranteed."
+  },
+  {
+    "objectID": "footer/imprint.html#disclaimer",
+    "href": "footer/imprint.html#disclaimer",
+    "title": "Imprint and Disclaimer",
+    "section": "Disclaimer",
+    "text": "Disclaimer\nThe information offered by the LMU contains cross-references (“links”) to other internet offers by the LMU or by external, third-parties. Basically the internet pages will open automatically in a new window.\nThrough this cross-reference, the LMU handles access for use of this content (§ 5 Telemedia Law). We are not responsible for this “foreign” content since we do not initiate the transmission of the information, have not selected the addressee of the transmitted information and also have not selected or changed the transmitted information.\nAn automatic, short-term interim saving of this “foreign information” by the LMU does not occur due to the selected call-up and linking method, so that the LMU does not thereby assume any responsibility for this foreign content.\nHowever, upon initial linking with these internet offers, the LMU has checked the foreign content to determine whether it may trigger a potential responsibility under civil or penal law. But we do not receive any automatic information about changes to the foreign internet offers and thus cannot constantly monitor their content for any changes. Therefore we also cannot assume any responsibility for them. Solely the particular merchant of the foreign internet offer is liable for illegal, erroneous or incomplete content, and in particular for damages which arise from the use or non-use of information by third parties. However, we endeavor to check the included links regularly with regard to these named criteria."
   },
   {
     "objectID": "help.html",
@@ -602,7 +743,14 @@
     "href": "footer/privacy.html",
     "title": "Privacy Policy",
     "section": "",
-    "text": "For data collected by the LMU Open Science Center, LMU’s general privacy policy  applies.\nAdditionally, this site is hosted on the webhosting service GitHub Pages (https://docs.github.com/en/pages) with it’s own privacy policy available at https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement.\n\nMatomo Tracking Opt-Out\nThis opt-out is only for the Matomo web analytics tool in use directly the LMU Open Science Center website. It does not affect any other tracking or analytics tools that may be in use on this site, including those used by GitHub Pages.\n\n\n\n\n\n\n Back to top"
+    "text": "For data collected by the LMU Open Science Center, LMU’s general privacy policy  applies.\nAdditionally, this site is hosted on the webhosting service GitHub Pages (https://docs.github.com/en/pages) with it’s own privacy policy available at https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement."
+  },
+  {
+    "objectID": "footer/privacy.html#matomo-tracking-opt-out",
+    "href": "footer/privacy.html#matomo-tracking-opt-out",
+    "title": "Privacy Policy",
+    "section": "Matomo Tracking Opt-Out",
+    "text": "Matomo Tracking Opt-Out\nThis opt-out is only for the Matomo web analytics tool in use directly the LMU Open Science Center website. It does not affect any other tracking or analytics tools that may be in use on this site, including those used by GitHub Pages."
   },
   {
     "objectID": "LICENSE.html",
@@ -2366,7 +2514,7 @@
     "href": "open-research-principles/reproducibility-replicability/reproducibility-replicability-slides.html#license-and-citation-statement",
     "title": "Threats to credible research:  Where are we at?",
     "section": "License and citation statement",
-    "text": "License and citation statement\n\n\n\n\n\nThis work was originally created by Felix Schönbrodt under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a Creative Commons Attribution 4.0 SA International License (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a Creative Commons Universal Licence (CC0 1.0).\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). Threats to credible research: Where are we at? [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/\n\n\nPresenter Notes: The Creative Commons Attribution 4.0 International SA License, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.\nCode snippets are dedicated to the public domain and licensed under a CC0 1.0 Creative Commons Universal License. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind."
+    "text": "License and citation statement\n\n\n\n\n\nThis work was originally created by Felix Schönbrodt under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a Creative Commons Attribution 4.0 SA International License (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a Creative Commons Universal Licence (CC0 1.0).\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). Threats to credible research: Where are we at? [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability/\n\n\nPresenter Notes: The Creative Commons Attribution 4.0 International SA License, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.\nCode snippets are dedicated to the public domain and licensed under a CC0 1.0 Creative Commons Universal License. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind."
   },
   {
     "objectID": "open-research-principles/reproducibility-replicability/reproducibility-replicability-slides.html#additional-exercises-replicability-and-reproducibility",
