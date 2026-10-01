@@ -2268,7 +2268,7 @@ Research is **not "doomed" - on the contrary**. More on this in the *next* sessi
 <div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
 This work was originally created by [Felix Schönbrodt](https://www.nicebread.de/) under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0). This current work by Sarah von Grebmer zu Wolfsthurn, Malika Ihle and Felix Schönbrodt is licensed under a [Creative Commons Attribution 4.0 SA International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). Code snippets are dedicated to the public domain and licenced under a [Creative Commons Universal Licence](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0). 
 
-Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/](lmu-osc.github.io/teaching-materials-for-novices/open-research-principles/reproducibility-replicability/)
+Please cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). *Threats to credible research: Where are we at?* [Quarto slides]. LMU Open Science Center. [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability/](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability/)
 </div>
 
 ::: {.notes}

@@ -57,6 +57,13 @@ _freeze/
 # .DS_Store
 **/.DS_Store
 
+# Future-proofing: ignore commonly included files that should not be tracked
+# Inspired by usethis::git_vaccinate() options
+.DS_Store
+.Rproj.user
+.httr-oauth
+.quarto
+
 **/*.quarto_ipynb
 .positai
 

@@ -1,14 +1,14 @@
 project:
   type: tutorial-template
 
-repo-url: https://github.com/lmu-osc/teaching-materials-for-novices
+repo-url: https://github.com/lmu-osc/teaching-material-for-novices
 
 website:
   title: "Educational resources for teaching Open Research to novices"
   page-footer:
     border: false
     center: © 2026 Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt. Published by LMU Open Science Center. Licensed under CC BY-SA 4.0.
-  repo-url: https://github.com/lmu-osc/teaching-materials-for-novices
+  repo-url: https://github.com/lmu-osc/teaching-material-for-novices
 
   navbar:
     right:
@@ -20,9 +20,9 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            href: https://github.com/lmu-osc/teaching-materials-for-novices
+            href: https://github.com/lmu-osc/teaching-material-for-novices
           - text: Report a Bug
-            href: https://github.com/lmu-osc/teaching-materials-for-novices/issues
+            href: https://github.com/lmu-osc/teaching-material-for-novices/issues
       - icon: house-heart
         url: https://www.osc.lmu.de/
 
@@ -39,7 +39,7 @@ website:
         contents:
           - href: open-research-tools/r-part-I/index.qmd
           - href: open-research-tools/r-part-II/index.qmd
-          - href: open-research-tools/git/index.
+          - href: open-research-tools/git/index.qmd
           - href: open-research-tools/github/index.qmd
           - href: open-research-tools/zotero/index.qmd
           - href: open-research-tools/quarto/index.qmd
@@ -47,12 +47,14 @@ website:
       - section: "Open Materials"
         contents:
           - href: open-materials/open-access/index.qmd
+
+include-in-header:
+  - file: matomo-analytics.html
+
 format:
   tutorial-template-html+tutorial:
     css:
       - footer/footer-style.css
-    include-in-header:
-      - file: matomo-analytics.html
     include-after-body:
       - file: footer/footer.html
 
