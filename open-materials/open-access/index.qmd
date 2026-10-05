@@ -23,7 +23,7 @@ title: "Open Access"
 Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). *Out in the open: Open access, preprints & postprints* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access)
 :::
 
-**Welcome!** These slides are intended to provide learners with an **introduction to the current academic publishing *system**, the different **types of open access**, the lifecycle of **open research papers** and what each and everyone can contribute to more transparent research.
+**Welcome!** These slides are intended to provide learners with an **introduction to the current academic publishing system**, the different **types of open access**, the lifecycle of **open research papers** and what *everyone* can contribute to more transparent research.
 
 ### Who are these materials for?
 

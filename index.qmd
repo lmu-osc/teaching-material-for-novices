@@ -10,15 +10,16 @@ On this page you will find **ready-to-use materials** and educational resources 
 
 ## Who are these materials for?
 
-**Educators** in higher higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **delivering individual workshops** on specific open research topics to audiences with **no or limited prior experience** with open research, aiming to:
+**Educators** in higher higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **deliver individual workshops** on specific open research topics to audiences with **no or limited prior experience** with open research, aiming to:
 
-- **Integrate** open research into an existing course syllabus or **develop and deliver** a full open research course
-- **Develop** a basic understanding of core principles in open research in their learners
-- **Equip** learners with foundational skills and experience with open research practices
+- **Introduce** learners to the core principles of open research
+- **Equip** learners with foundational skills and hands-on experience with open research practices
+- **Deliver** individual workshops on specific open research topics or **integrate** open research topics into an existing course syllabus
+- **Develop** and **deliver** a full course on open research
 
 **Self-learners** with no prior experience in open research, aiming to:
 
-- **Develop** basic open research skills
+- **Develop** basic open research skills at your own pace
 - **Obtain** hands-on practical experience with core open research practices
 - **Build-up** on existing open research skills
 
@@ -107,23 +108,23 @@ Unless otherwise specified, the text, images and supplementary materials on thes
 
 ## List of current contributors
 
-- Sarah von Grebmer zu Wolfsthurn, [ORCID 0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895), LMU Open Science Center
+- Sarah von Grebmer zu Wolfsthurn, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895)), LMU Open Science Center
 
-- Sara Middleton, [ORCID 0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029), LMU Open Science Center
+- Sara Middleton, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029)), LMU Open Science Center
 
-- Malika Ihle, [ORCID 0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981), LMU Open Science Center
+- Malika Ihle, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981)), LMU Open Science Center
 
-- Felix Schönbrodt, [ORCID 0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910), LMU Open Science Center and Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy
+- Felix Schönbrodt, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910)), LMU Open Science Center and Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy
 
-- Peter Edelsbrunner, [ORCID 0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090), Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy
+- Peter Edelsbrunner, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090), Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy
 
-- Elizabeth Waterfield, [ORCID 0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730), LMU Open Science Center
+- Elizabeth Waterfield, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730), LMU Open Science Center
 
-- David Rieger, [ORCID 0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101), LMU Open Science Center
+- David Rieger, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0009-0004-3701-3101](https://orcid.org/0009-0004-3701-3101), LMU Open Science Center
 
-- Tejaswini Sharma, [ORCID 0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751), LMU Open Science Center
+- Tejaswini Sharma, (![](assets//logos/orcid-icon.png){fig-alt="orcid icon"} [0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751), LMU Open Science Center
 
-- Caterina Luz Sanchez Steinhagen [ORCID 0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110), LMU Open Science Center
+- Caterina Luz Sanchez Steinhagen [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110), LMU Open Science Center
 
 ## Funding and partners
 
