@@ -2,6 +2,11 @@
 title: "Introduction to Topic"
 ---
 
+::: {.callout-warning collapse="true"}
+## Copy templates - do not edit directly
+*This is a template landing page with an example slide deck embedded within. Create your own folder and **copy** these materials (index file, slides qmd, images and assets folders) - do **not** edit the template directly. Get inspiration from other landing pages and completed slide decks. Delete this call-out box when the materials are final.*
+:::
+
 > Catchy phrase here
 
 [Click here to see the materials in full screen](template-slides.qmd)

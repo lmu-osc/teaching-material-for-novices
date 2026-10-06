@@ -615,21 +615,21 @@ What do we see in the results?
 
 ---
 
+## Additional resources
+
+- Videos
+- Useful resources
+
+---
+
 ## Contribution statement
 
 **Creator**: Von Grebmer Zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Creator**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png)[0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
-
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
-[00009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
-
 **Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 **Consultant**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}[0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
-
-**Consultant**: Edelsbrunner, Peter (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-9102-1090](https://orcid.org/0000-0001-9102-1090))
 
 ---
 
@@ -658,26 +658,13 @@ Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [C
 
 ---
 
-## Pedagogical add-on tools for instructors
-
-- This section is dedicated to ideas on how to incorporate pedagogical tools into teaching for this specific session topic. This could mean:
-  - Information about the scientific evidence on the theory of the pedagogical add-on tool and the evidence for its efficacy.
-  - Discussion/reflection on how tools can be incorporated into the teaching for this particular content.
-  - Extra exercises for faster learners.	
+# End of slide deck	
 
 ---
 
-## Additional literature for instructors
+# Formatting elements for instructors - delete
 
-- References for content
-- References for pedagogical add-on tools	
-- Other resources (videos etc.)	
-
----
-
-# Formatting elements for instructors
-
-- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. 
+- **Aim**: This section contains templates for different formatting elements, which can be modified and adapted for the instructor's individual purposes. Delete when the slides are final.
 
 ---
 
@@ -763,13 +750,12 @@ However, the font size and the image size must be controlled in the PowerPoint t
 ::: {.column width="70%"}
 ![Figure 1: Penguin](images/penguin.png)
 
-: Figure 1: Penguin
 :::
 
 ::: {.column width="30%"}
 ![Figure 2: Seal](images/seal.png)
 
-: Figure 2: Seal
+
 :::
 :::
 

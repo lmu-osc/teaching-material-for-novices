@@ -47,6 +47,9 @@ website:
       - section: "Open Materials"
         contents:
           - href: open-materials/open-access/index.qmd
+      - section: "Templates"
+        contents:
+          - href: template-folder/example-topic/index.qmd
 
 format:
   tutorial-template-html+tutorial:
