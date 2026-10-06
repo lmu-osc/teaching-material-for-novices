@@ -672,7 +672,6 @@ Deliver this slide as a concise closing summary. Reinforce the connection betwee
 
 ## Learning objectives: Check-In 
 
-
 **Where are we at?**
 
 :::incremental
@@ -688,7 +687,7 @@ Deliver this slide as a concise closing summary. Reinforce the connection betwee
 
 If you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.
 
-**Instructor Notes**:   Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all objectives at this stage. Invite questions related to understanding the purpose of citations, the basics of creating citations and bibliographies, or the role of Zotero. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material.
+**Instructor Notes**: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all objectives at this stage. Invite questions related to understanding the purpose of citations, the basics of creating citations and bibliographies, or the role of Zotero. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material.
 :::
 
 ---

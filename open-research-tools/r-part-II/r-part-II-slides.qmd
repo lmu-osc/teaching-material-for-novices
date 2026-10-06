@@ -647,7 +647,7 @@ summary(characters)
 
 ### Question 1
 
-**1. What is the primary purpose of the Working Directory in RStudio?**
+**What is the primary purpose of the Working Directory in RStudio?**
 
 a. It is the only folder where you are allowed to install R.
 b. It is the default folder where R looks for files to read and saves outputs.
@@ -656,7 +656,7 @@ d. It is the console pane where R executes commands.
 
 ### Question 2
 
-**2. Which function is used to load an already installed package into your current R session?**
+**Which function is used to load an already installed package into your current R session?**
 
 a. `install.packages()`
 b. `load.package()`
@@ -665,7 +665,7 @@ d. `library()`
 
 ### Question 3
 
-**3. Which command correctly loads an .rds file named `characters.rds` into an object named `my_data`?**
+**Which command correctly loads an .rds file named `characters.rds` into an object named `my_data`?**
 
 a. `my_data <- readRDS("characters.rds")`
 b. `readRDS <- my_data("characters.rds")`
