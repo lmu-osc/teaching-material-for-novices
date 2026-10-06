@@ -130,7 +130,6 @@ e. 5
 **Presenter Notes**: Script for the slide here.  
 
 **Instructor Notes**: This survey serves to examine learners' prior knowledge about the topic. 
-
 For an interactive delivery, use free tools such as for example [Particify](https://www.particify.de/en/) to create interactive surveys with QR codes before you deliver this lesson. The pre-session survey should serve to examine learners' prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed. 
 :::
 
@@ -720,7 +719,6 @@ Include text here.
 
 ![This is a Penguin.](images/penguin.png "A penguin standing on ice")
 
-
 ::: {.notes}
 **Note for pptx template**: Images are usually centered by default in PPTX output.
 However, the font size and the image size must be controlled in the PowerPoint template, not in Markdown. The text in quotes represents the alt text that is visible when hovering over the image in the slides. The alt text does *not* appear in the pptx and has to be added manually in PowerPoint.
@@ -732,7 +730,9 @@ However, the font size and the image size must be controlled in the PowerPoint t
 
 ::: columns
 ::: {.column width="50%"}
-![](images/penguin.png)
+
+<!-- ![](images/penguin.png) -->
+
 :::
 
 ::: {.column width="50%"}
@@ -748,13 +748,14 @@ However, the font size and the image size must be controlled in the PowerPoint t
 
 ::: columns
 ::: {.column width="70%"}
-![Figure 1: Penguin](images/penguin.png)
+
+<!-- ![Figure 1: Penguin](images/penguin.png) -->
 
 :::
 
 ::: {.column width="30%"}
-![Figure 2: Seal](images/seal.png)
 
+<!-- ![Figure 2: Seal](images/seal.png) -->
 
 :::
 :::
@@ -765,9 +766,10 @@ However, the font size and the image size must be controlled in the PowerPoint t
 
 ::: columns
 ::: {.column width="30%"}
-![](images/penguin.png)
 
-![](images/seal.png)
+<!-- ![](images/penguin.png) -->
+
+<!-- ![](images/seal.png) -->
 :::
 
 ::: {.column width="70%"}
@@ -884,7 +886,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 ## Linking to video with thumbnail
 
-[![Click on the image to watch the video!](images/penguin.png)](https://www.youtube.com/watch?v=q3uXXh1sHcI)
+<!-- [![Click on the image to watch the video!](images/penguin.png)](https://www.youtube.com/watch?v=q3uXXh1sHcI) -->
 
 ---
 
