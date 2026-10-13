@@ -27,7 +27,7 @@ Please cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S.
 
 ### Who are these materials for?
 
-- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research** to **novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
 ### Prerequisites

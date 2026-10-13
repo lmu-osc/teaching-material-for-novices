@@ -10,7 +10,7 @@ On this page you will find **ready-to-use materials** and educational resources 
 
 ## Who are these materials for?
 
-**Educators** in higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **deliver individual workshops** on specific open research topics to audiences with **no or limited prior experience** with open research, aiming to:
+**Educators** in higher education (e.g., universities, colleges, research institutions), looking for **materials to teach a full course** on open research or **deliver individual workshops** on specific open research topics to novices with **no or limited prior experience** with open research, aiming to:
 
 - **Introduce** learners to the core principles of open research
 - **Equip** learners with foundational skills and hands-on experience with open research practices

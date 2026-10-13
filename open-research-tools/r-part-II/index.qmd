@@ -4,10 +4,10 @@ title: "Introduction to R: Part II"
 
 > Something nice here
 
-[Click here to see the materials in full screen](r-part-I-slides.qmd)
+[Click here to see the materials in full screen](r-part-II-slides.qmd)
 
 ```{=html}
-<iframe class="slide-deck" src="r-part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="r-part-II-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
@@ -19,10 +19,9 @@ Please cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, 
 
 **Welcome!** This workshop is intended to provide learners with a **practical introduction** to working with R and RStudio for basic **data handling and  data visualization**. Learners practice how to **set a working directory**, **install and load packages**, **import and inspect data**, **subsetting** data, deriving **summary statistics**, and creating **histograms**. Through reflection, discussion, and a hands-on assignment using an R dataset, learners develop confidence in **applying** these more advanced **programming skills** to future data analysis tasks and their **own research work**.
 
-
 ### Who are these materials for?
 
-- **Educators** in higher education with or without familiarity with open research planning to **teach open research novices**
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research** to **novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
 ### Prerequisites
@@ -32,7 +31,7 @@ Please cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, 
 |------------|------------|------------|
 | R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
 | Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf) |
-| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Basic R skills | Introduction to R - Part I | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/) |
 </div>
 
 ### Learning objectives

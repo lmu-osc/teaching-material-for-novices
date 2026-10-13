@@ -42,7 +42,7 @@ Before completing this session, please carefully read about the prerequisites.
 |------------|------------|------------|
 | R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
 | Accessibility sheet for computers | Fundamentals of computer literacy | [Download ](assets/computer-accessibility-sheet.pdf) |
-| Basic R skills | Introduction to R - Part I | [Access here]() |
+| Basic R skills | Introduction to R - Part I | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/) |
 </div>
 
 <br>
