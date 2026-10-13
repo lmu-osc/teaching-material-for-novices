@@ -2,98 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/about.html</loc>
-    <lastmod>2026-10-13T15:19:23.431Z</lastmod>
+    <lastmod>2026-10-13T16:27:47.900Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.665Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.153Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.529Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.008Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/template-folder/example-topic/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.745Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.741Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.735Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/github/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.436Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/LICENSE.html</loc>
-    <lastmod>2026-10-13T15:19:23.416Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/privacy.html</loc>
-    <lastmod>2026-10-13T15:19:23.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/index.html</loc>
-    <lastmod>2026-10-13T15:19:23.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/help.html</loc>
-    <lastmod>2026-10-13T15:19:23.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/imprint.html</loc>
-    <lastmod>2026-10-13T15:19:23.435Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/accessibilty.html</loc>
-    <lastmod>2026-10-13T15:19:23.434Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-materials/fair-data/index-reema-to-edit.html</loc>
-    <lastmod>2026-10-13T15:19:23.436Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/LICENSE-CODE.html</loc>
-    <lastmod>2026-10-13T15:19:23.416Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/github/github-slides.html</loc>
-    <lastmod>2026-10-13T15:19:23.691Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.242Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git/git-slides.html</loc>
-    <lastmod>2026-10-13T15:19:23.667Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/github/github-slides.html</loc>
+    <lastmod>2026-10-13T16:27:48.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/LICENSE-CODE.html</loc>
+    <lastmod>2026-10-13T16:27:47.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-materials/fair-data/index-reema-to-edit.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/accessibilty.html</loc>
+    <lastmod>2026-10-13T16:27:47.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/imprint.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/help.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/index.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/footer/privacy.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/LICENSE.html</loc>
+    <lastmod>2026-10-13T16:27:47.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access/index.html</loc>
+    <lastmod>2026-10-13T16:27:47.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/github/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.229Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lmu-osc.github.io/teaching-material-for-novices/wrap-up/where-to-next/index.html</loc>
+    <lastmod>2026-10-13T16:27:48.242Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/template-folder/example-topic/template-slides.html</loc>
-    <lastmod>2026-10-13T15:19:23.745Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.242Z</lastmod>
   </url>
   <url>
     <loc>https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability/reproducibility-replicability-slides.html</loc>
-    <lastmod>2026-10-13T15:19:23.665Z</lastmod>
+    <lastmod>2026-10-13T16:27:48.154Z</lastmod>
   </url>
 </urlset>
