@@ -47,6 +47,9 @@ website:
       - section: "Open Materials"
         contents:
           - href: open-materials/open-access/index.qmd
+      - section: "Wrapping up - what now?"
+        contents:
+          - href: wrap-up/where-to-next/index.qmd
       - section: "Template folder for material creators"
         contents:
           - href: template-folder/example-topic/index.qmd
