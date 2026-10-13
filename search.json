@@ -58,7 +58,7 @@
     "href": "open-research-principles/reproducibility-replicability/index.html#about-these-materials",
     "title": "Challenges in research reproducibility and replicability",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). Threats to credible research: Where are we at? [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to key challenges and threats in scientific research. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the workshop encourages critical analysis of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of developing more transparent and robust approaches to conducting and evaluating research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nReflect on the role of trust in scientific research\nRecognize different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from\nAnalyze research scenarios to identify potential research biases and questionable research practices\nReflect on the current threats for research and on the need for alternative approaches to conducting research\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Ihle, M., & Schönbrodt, F. (2026). Threats to credible research: Where are we at? [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to key challenges and threats in scientific research. It explores different forms of research bias, statistical uncertainties, and common sources of errors that can affect the reliability and reproducibility of research findings. Through practical examples and research scenarios, the workshop encourages critical analysis of questionable research practices and their impact on scientific integrity. It also reflects on current systemic challenges in research culture and discusses the importance of developing more transparent and robust approaches to conducting and evaluating research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nReflect on the role of trust in scientific research\nRecognize different types of challenges in research: research biases, statistical insecurities, errors and where they can arise from\nAnalyze research scenarios to identify potential research biases and questionable research practices\nReflect on the current threats for research and on the need for alternative approaches to conducting research\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
     "crumbs": [
       "Home",
       "Open Research Principles",
@@ -94,7 +94,7 @@
     "href": "open-research-principles/credible-research/index.html#about-these-materials",
     "title": "Credible research",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Ihle, M., & Von Grebmer zu Wolfsthurn, S. (2026). Moving towards credible and open research [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to open research, its core values, principles and key open open research practices with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through a priori study planning and tools such as preregistration, registered reports and data simulation methods, researchers can reduce their own biases and produce more reliable studies. Through data sharing and increasing computational reproducibility, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can ultimately produce more credible and transparent research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\nIntroduction to reproducibility and replicability\nBasic familiarity with current challenges in research and the effects on research quality\nhttps://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnfinished section - work in progress\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Ihle, M., & Von Grebmer zu Wolfsthurn, S. (2026). Moving towards credible and open research [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to open research, its core values, principles and key open open research practices with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through a priori study planning and tools such as preregistration, registered reports and data simulation methods, researchers can reduce their own biases and produce more reliable studies. Through data sharing and increasing computational reproducibility, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can ultimately produce more credible and transparent research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\nIntroduction to reproducibility and replicability\nBasic familiarity with current challenges in research and the effects on research quality\nhttps://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnfinished section - work in progress\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
     "crumbs": [
       "Home",
       "Open Research Principles",
@@ -114,6 +114,54 @@
     ]
   },
   {
+    "objectID": "template-folder/example-topic/index.html",
+    "href": "template-folder/example-topic/index.html",
+    "title": "Introduction to Topic",
+    "section": "",
+    "text": "WarningCopy this template - do not edit directly\n\n\n\n\n\nThis is a template landing page with an example slide deck embedded within. Create your own folder and copy these materials (index file, slides qmd, images and assets folders) - do not edit the template directly. Get inspiration from other landing pages and completed slide decks. Delete this call-out box when the materials are final.\nClick here to see the materials in full screen",
+    "crumbs": [
+      "Home",
+      "Template folder for material creators",
+      "Introduction to Topic"
+    ]
+  },
+  {
+    "objectID": "template-folder/example-topic/index.html#about-these-materials",
+    "href": "template-folder/example-topic/index.html#about-these-materials",
+    "title": "Introduction to Topic",
+    "section": "About these materials",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Name, E., Name, M., Name, F., & Name, S. (2026). Title of Slidedeck [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/topic\n\n\n\n[Example text for Quarto] Welcome! This workshop is intended to introduce Quarto, an open-source publishing system that allows users to combine text, code, and other outputs to create reproducible reports, presentations, and websites. Learners will experience the basic workflow of creating and editing Quarto documents, rendering them into different formats, and using Quarto within an R-based research workflow. Learners will focus on practicing different Quarto elements to structure documents, include analysis results, and control the appearance of their outputs. In addition, the session demonstrates how to add citations and automatically generate a bibliography using Zotero. Through this guided, hands-on tutorial, learners will create their own Quarto document, render it into a finished output, and learn how to publish and share their work online using GitHub Pages. ### Who are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nZotero\nReference Management Tool\nDownload Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero directly into the Quarto document\nPublish and share your work using GitHub Pages",
+    "crumbs": [
+      "Home",
+      "Template folder for material creators",
+      "Introduction to Topic"
+    ]
+  },
+  {
+    "objectID": "template-folder/example-topic/index.html#download-materials",
+    "href": "template-folder/example-topic/index.html#download-materials",
+    "title": "Introduction to Topic",
+    "section": "Download materials",
+    "text": "Download materials\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF \n\n\nSupplementary files\n\n Download the example cheatsheet",
+    "crumbs": [
+      "Home",
+      "Template folder for material creators",
+      "Introduction to Topic"
+    ]
+  },
+  {
+    "objectID": "template-folder/example-topic/index.html#contributors-and-licence-details",
+    "href": "template-folder/example-topic/index.html#contributors-and-licence-details",
+    "title": "Introduction to Topic",
+    "section": "Contributors and licence details",
+    "text": "Contributors and licence details\nCreator: Von Grebmer Zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nReviewer: Ihle, Malika ( 0000-0002-3242-5981)\nConsultant: Schönbrodt, Felix (0000-0002-8282-3910)\n\n\n\n\n\nThis work was originally created by FirstName Name under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 SA International License. It was subsequently adapted by FirstName Name. This current work by FirstName Name and FirstName Name is licensed under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International SA License. Code snippets are dedicated to the public domain and are licensed under a Creative Commons Universal License (CC0 1.0).",
+    "crumbs": [
+      "Home",
+      "Template folder for material creators",
+      "Introduction to Topic"
+    ]
+  },
+  {
     "objectID": "open-research-tools/r-part-I/index.html",
     "href": "open-research-tools/r-part-I/index.html",
     "title": "Introduction to R - Part I",
@@ -130,7 +178,7 @@
     "href": "open-research-tools/r-part-I/index.html#about-these-materials",
     "title": "Introduction to R - Part I",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D., Waterfield, E., Middleton, S., & Von Grebmer zu Wolfsthurn, S. (2026). Introduction to R: Part I [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to R and RStudio. Through hands-on exercises, you will learn how to navigate the RStudio interface and use basic R programming skills to work efficiently with your data. We will also learn how to create and manipulate objects, execute code, use functions with arguments, and access information stored in data frames within the R environment.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nRStudio installed\nVersion 2026.04.0+526 or higher\nDownload\n\n\nR installed\nVersion 4.6.0 or higher\nDownload\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nNavigate the RStudio interface (Console, Environment, Script, and Output panes).\nDifferentiate between basic data types in R (numeric, character, logical, integer) and how they are used.\nExecute operations in the Console and R Script using appropriate operators.\nAssign and re-assign values, vectors, and lists to objects.\nSpecify arguments within functions to modify how the function produces its output. -Index dataframes to access and retrieve specific information.",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D., Waterfield, E., Middleton, S., & Von Grebmer zu Wolfsthurn, S. (2026). Introduction to R: Part I [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I\n\n\n\nWelcome! This workshop is intended to provide learners with an introduction to R and RStudio. Through hands-on exercises, you will learn how to navigate the RStudio interface and use basic R programming skills to work efficiently with your data. We will also learn how to create and manipulate objects, execute code, use functions with arguments, and access information stored in data frames within the R environment.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nRStudio installed\nVersion 2026.04.0+526 or higher\nDownload\n\n\nR installed\nVersion 4.6.0 or higher\nDownload\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nNavigate the RStudio interface (Console, Environment, Script, and Output panes).\nDifferentiate between basic data types in R (numeric, character, logical, integer) and how they are used.\nExecute operations in the Console and R Script using appropriate operators.\nAssign and re-assign values, vectors, and lists to objects.\nSpecify arguments within functions to modify how the function produces its output. -Index dataframes to access and retrieve specific information.",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -178,7 +226,7 @@
     "href": "open-research-tools/zotero/index.html#about-these-materials",
     "title": "Introduction to Zotero",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sharma, T., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to Zotero [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero\n\n\n\nWelcome! This workshop is intended to provide learners with the theoretical background and the hands-on experience with using free citation tools such as Zotero to organize research materials, add and manage references, and create formatted bibliographies across different writing environments. They will also learn how Zotero integrates with Quarto and RStudio to support reproducible workflows and streamline the process of adding and formatting citations in academic documents.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nZotero and Zotero Connector\nCitation tool and extension\nDownload Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nExplain the importance of citing scientific literature and citation tools\nFamiliarize yourself with different citation formats (CSL)\nSet up and organize a personal Zotero library\nApply and develop a referencing workflow in Quarto and RStudio\nApply and develop a referencing workflow in MS Word",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sharma, T., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to Zotero [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/zotero\n\n\n\nWelcome! This workshop is intended to provide learners with the theoretical background and the hands-on experience with using free citation tools such as Zotero to organize research materials, add and manage references, and create formatted bibliographies across different writing environments. They will also learn how Zotero integrates with Quarto and RStudio to support reproducible workflows and streamline the process of adding and formatting citations in academic documents.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nZotero and Zotero Connector\nCitation tool and extension\nDownload Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nExplain the importance of citing scientific literature and citation tools\nFamiliarize yourself with different citation formats (CSL)\nSet up and organize a personal Zotero library\nApply and develop a referencing workflow in Quarto and RStudio\nApply and develop a referencing workflow in MS Word",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -226,7 +274,7 @@
     "href": "open-research-tools/quarto/index.html#about-these-materials",
     "title": "Introduction to Quarto",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Waterfield, E., Ihle, M., Schönbrodt, F., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to Quarto [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto\n\n\n\nWelcome! This workshop is intended to introduce Quarto, an open-source publishing system that allows users to combine text, code, and other outputs to create reproducible reports, presentations, and websites. Learners will experience the basic workflow of creating and editing Quarto documents, rendering them into different formats, and using Quarto within an R-based research workflow. Learners will focus on practicing different Quarto elements to structure documents, include analysis results, and control the appearance of their outputs. In addition, the session demonstrates how to add citations and automatically generate a bibliography using Zotero. Through this guided, hands-on tutorial, learners will create their own Quarto document, render it into a finished output, and learn how to publish and share their work online using GitHub Pages.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nBasic Git skills\nIntroduction to version control with Git in RStudio\nAccess here\n\n\nCollaborating on GitHub\nIntroduction to collaborative coding with GitHub\nAccess here\n\n\nZotero\nReference Management Tool\nDownload Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero directly into the Quarto document\nPublish and share your work using GitHub Pages",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Waterfield, E., Ihle, M., Schönbrodt, F., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to Quarto [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/quarto\n\n\n\nWelcome! This workshop is intended to introduce Quarto, an open-source publishing system that allows users to combine text, code, and other outputs to create reproducible reports, presentations, and websites. Learners will experience the basic workflow of creating and editing Quarto documents, rendering them into different formats, and using Quarto within an R-based research workflow. Learners will focus on practicing different Quarto elements to structure documents, include analysis results, and control the appearance of their outputs. In addition, the session demonstrates how to add citations and automatically generate a bibliography using Zotero. Through this guided, hands-on tutorial, learners will create their own Quarto document, render it into a finished output, and learn how to publish and share their work online using GitHub Pages.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nBasic Git skills\nIntroduction to version control with Git in RStudio\nAccess here\n\n\nCollaborating on GitHub\nIntroduction to collaborative coding with GitHub\nAccess here\n\n\nZotero\nReference Management Tool\nDownload Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nCreate, edit, and render Quarto documents\nUse key Quarto features like code chunks, YAML headers, citations, and output formatting\nInsert citations and generate a bibliography with Zotero directly into the Quarto document\nPublish and share your work using GitHub Pages",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -274,7 +322,7 @@
     "href": "open-research-tools/r-part-II/index.html#about-these-materials",
     "title": "Introduction to R: Part II",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, C. L., Middleton, S., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to R: Part II [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II\n\n\n\nWelcome! This workshop is intended to provide learners with a practical introduction to working with R and RStudio for basic data handling and data visualization. Learners practice how to set a working directory, install and load packages, import and inspect data, subsetting data, deriving summary statistics, and creating histograms. Through reflection, discussion, and a hands-on assignment using an R dataset, learners develop confidence in applying these more advanced programming skills to future data analysis tasks and their own research work.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nIdentify and set the correct working directory on your computer\nInstall and load R packages to extend R’s functionality\nImport external data into the R environment\nInspect data structures and extract specific columns\nCompute basic statistical summaries on a dataset\nVisualize data distributions using simple histograms",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Rieger, D., Waterfield, E., Sanchez-Steinhagen, C. L., Middleton, S., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to R: Part II [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II\n\n\n\nWelcome! This workshop is intended to provide learners with a practical introduction to working with R and RStudio for basic data handling and data visualization. Learners practice how to set a working directory, install and load packages, import and inspect data, subsetting data, deriving summary statistics, and creating histograms. Through reflection, discussion, and a hands-on assignment using an R dataset, learners develop confidence in applying these more advanced programming skills to future data analysis tasks and their own research work.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nAccessibility sheet for computers\nFundamentals of computer literacy\nDownload\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nIdentify and set the correct working directory on your computer\nInstall and load R packages to extend R’s functionality\nImport external data into the R environment\nInspect data structures and extract specific columns\nCompute basic statistical summaries on a dataset\nVisualize data distributions using simple histograms",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -322,7 +370,7 @@
     "href": "open-research-tools/simulations/index.html#about-these-materials",
     "title": "Introduction to simulations and power analysis in R",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to simulations and power analysis in R [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations\n\n\n\nWelcome! This workshop is intended to introduce the principles and practical use of simulations in research using R. Learners will first get familiar with what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how to determine appropriate sample sizes for experiments. Through a subsequent self-paced practical tutorial, learners will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nOSC tutorial link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Sharma, T., Ihle, M., & Von Grebmer Zu Wolfsthurn, S. (2026). Introduction to simulations and power analysis in R [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations\n\n\n\nWelcome! This workshop is intended to introduce the principles and practical use of simulations in research using R. Learners will first get familiar with what simulations are and why they are widely used in scientific research, including how they help researchers explore statistical behavior, test assumptions, and design studies before collecting real data. The workshop will also introduce power analysis, explaining how to determine appropriate sample sizes for experiments. Through a subsequent self-paced practical tutorial, learners will work through the full simulation workflow in R, including generating random data, repeating simulations, and analyzing results.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nR basics\ne.g., how to select a value in a data frame, how to create a vector\nOSC tutorial link\n\n\nFamiliarity with basic statistical concepts\ne.g., hypothesis testing, descriptive statistics, data analysis\nCheatsheet Link\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the concept of simulations\nExplain the purpose of simulations in research\nSummarize how simulations support hypothesis testing and experimentation\nPerform the simulation process in the context of a fictional experiment\nUnderstand the concept of power analysis\nExplain the purpose of power analysis in research\nSummarize how power analysis supports hypothesis testing and experimentation\nSuccessfully perform a simulation in R",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -370,7 +418,7 @@
     "href": "open-research-tools/git/index.html#about-these-materials",
     "title": "Introduction to version control with Git in RStudio",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). Introduction to version control with Git in RStudio [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git\n\n\n\nWelcome! This workshop is intended with a foundational understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process.\n\n\n\n\n\n\nImportantLonger delivery time for these materials\n\n\n\nIn contrast to other materials, the estimate delivery time for these materials is approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.\n\n\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nLaptop/PC with internet access\nAdmin rights for downloading/installing software\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin at https://github.com/join\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the problem(s) that can be solved by version control\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible workflow\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\n\nSupplementary files\n Download the example data as csv file \n Download the practice data as csv file \n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). Introduction to version control with Git in RStudio [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git\n\n\n\nWelcome! This workshop is intended with a foundational understanding of version control and practical skills to apply version control to their own workflows. Here, we will learn about tools that can help us increase the transparency of our work to ourselves and the people we work with, by tracking the changes we make to our work in a systematic manner. This way, others (and our future selves) can follow the steps and decision making process.\n\n\n\n\n\n\nImportantLonger delivery time for these materials\n\n\n\nIn contrast to other materials, the estimate delivery time for these materials is approximately 3 hours. If you have a shorter lesson slot, you can find a proposed lesson plan in the instructor notes in the slides.\n\n\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nLaptop/PC with internet access\nAdmin rights for downloading/installing software\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin at https://github.com/join\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the problem(s) that can be solved by version control\nInstall and configure Git\nSet up the connection between your computer and GitHub\nCreate an RStudio Project under version control for a reproducible workflow\nMake changes within RStudio and commit changes locally\nConnect local and remote repositories for your work\n\n\n\nSupplementary files\n Download the example data as csv file \n Download the practice data as csv file \n\n\nExport slides\nYou can export these slides as MS PowerPoint (.pptx - in progress) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.\n\n Download slides as PDF",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -406,7 +454,7 @@
     "href": "open-research-tools/github/index.html#about-these-materials",
     "title": "Introduction to collaborative coding with GitHub",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Waterfield, E., Ihle, M., & Von Grebmer Zu Wolfsthurn (2026). Introduction to collaborative coding with GitHub [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github\n\n\n\nWelcome! This workshop is intended to introduce learners to the essential skills for collaborating on shared projects using GitHub and RStudio. It will guide learners step‑by‑step through the core parts of a collaborative GitHub workflow, including how to navigate GitHub’s interface, fork and clone repositories to work locally, and use Git commands to commit, push, and pull changes. Simultaneously, this workshop prepares learners to actively use reproducible research practices and how to design a simple collaborative workflow that keeps everyone’s work synchronized and traceable.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nBasic Git skills\nIntroduction to version control with Git in RStudio\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin GitHub\n\n\nPractice GitHub repo\nFork the LMU OSC Collaborative-RStudio-GitHub repository to set up a practice repository for the exercises in this lesson\n\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nNavigate GitHub to collaborate on shared projects.\nFork and clone repositories to work locally without altering the main branch.\nCommit, push, and pull changes to keep your project tracked and synchronized.\nDesign a collaborative workflow that enhances the openness and reproducibility of your own projects.",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Waterfield, E., Ihle, M., & Von Grebmer Zu Wolfsthurn (2026). Introduction to collaborative coding with GitHub [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/github\n\n\n\nWelcome! This workshop is intended to introduce learners to the essential skills for collaborating on shared projects using GitHub and RStudio. It will guide learners step‑by‑step through the core parts of a collaborative GitHub workflow, including how to navigate GitHub’s interface, fork and clone repositories to work locally, and use Git commands to commit, push, and pull changes. Simultaneously, this workshop prepares learners to actively use reproducible research practices and how to design a simple collaborative workflow that keeps everyone’s work synchronized and traceable.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nWhere to find it\n\n\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nDownload RStudio\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nBasic Git skills\nIntroduction to version control with Git in RStudio\nAccess here\n\n\nGitHub account\nYour own GitHub account\nJoin GitHub\n\n\nPractice GitHub repo\nFork the LMU OSC Collaborative-RStudio-GitHub repository to set up a practice repository for the exercises in this lesson\n\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nNavigate GitHub to collaborate on shared projects.\nFork and clone repositories to work locally without altering the main branch.\nCommit, push, and pull changes to keep your project tracked and synchronized.\nDesign a collaborative workflow that enhances the openness and reproducibility of your own projects.",
     "crumbs": [
       "Home",
       "Open Research Tools",
@@ -454,7 +502,7 @@
     "href": "open-materials/open-access/index.html#about-these-materials",
     "title": "Open Access",
     "section": "About these materials",
-    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). Out in the open: Open access, preprints & postprints [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access\n\n\n\nWelcome! These slides are intended to provide learners with an introduction to the current academic publishing system, the different types of open access, the lifecycle of open research papers and what everyone can contribute to more transparent research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the publishing system (and how publishers make $$$$)\nScrutinize different Open Access policies and types, and assess their implications for both authors and readers\nExplain the process of publishing an original manuscript as a preprint\n(Re-)Evaluate the purpose of preprints and your own role in the academic publishing world\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint or pdf by clicking the button below.\n\n Download slides as pptx \n Download slides as pdf",
+    "text": "About these materials\n\n\n\n\n\n\nWarningCitation statement\n\n\n\n\n\nPlease cite these materials as: Schönbrodt, F., & Von Grebmer zu Wolfsthurn, S. (2026). Out in the open: Open access, preprints & postprints [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-access\n\n\n\nWelcome! These slides are intended to provide learners with an introduction to the current academic publishing system, the different types of open access, the lifecycle of open research papers and what everyone can contribute to more transparent research.\n\nWho are these materials for?\n\nEducators in higher education with or without familiarity with open research planning to teach open research to novices\nSelf-learners with no or limited familiarity with open research planning to develop and build up on their open research skills\n\n\n\nPrerequisites\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nUNESCO Recommendations on Open Science\nFor a first overview of Open Research, particularly pp 6-19\nDownload here\n\n\n\n\n\n\nLearning objectives\nAt the end of this session, you or your learners will be able to …\n\nUnderstand the publishing system (and how publishers make $$$$)\nScrutinize different Open Access policies and types, and assess their implications for both authors and readers\nExplain the process of publishing an original manuscript as a preprint\n(Re-)Evaluate the purpose of preprints and your own role in the academic publishing world\n\n\n\nExport slides\nYou can export these slides as MS PowerPoint or pdf by clicking the button below.\n\n Download slides as pptx \n Download slides as pdf",
     "crumbs": [
       "Home",
       "Open Materials",
@@ -528,7 +576,7 @@
     "href": "index.html#who-are-these-materials-for",
     "title": "Educational resources for teaching open research to novices",
     "section": "Who are these materials for?",
-    "text": "Who are these materials for?\nEducators in higher education (e.g., universities, colleges, research institutions), looking for materials to teach a full course on open research or deliver individual workshops on specific open research topics to audiences with no or limited prior experience with open research, aiming to:\n\nIntroduce learners to the core principles of open research\nEquip learners with foundational skills and hands-on experience with open research practices\nDeliver individual workshops on specific open research topics or integrate open research topics into an existing course syllabus\nDevelop and deliver a full course on open research\n\nSelf-learners with no prior experience in open research, aiming to:\n\nDevelop basic open research skills at your own pace\nObtain hands-on practical experience with core open research practices\nBuild-up on existing open research skills",
+    "text": "Who are these materials for?\nEducators in higher education (e.g., universities, colleges, research institutions), looking for materials to teach a full course on open research or deliver individual workshops on specific open research topics to novices with no or limited prior experience with open research, aiming to:\n\nIntroduce learners to the core principles of open research\nEquip learners with foundational skills and hands-on experience with open research practices\nDeliver individual workshops on specific open research topics or integrate open research topics into an existing course syllabus\nDevelop and deliver a full course on open research\n\nSelf-learners with no prior experience in open research, aiming to:\n\nDevelop basic open research skills at your own pace\nObtain hands-on practical experience with core open research practices\nBuild-up on existing open research skills",
     "crumbs": [
       "Home",
       "Overview"
@@ -1289,7 +1337,7 @@
     "href": "open-research-tools/git/git-slides.html#prerequisites",
     "title": "Introduction to version control with Git in RStudio",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this session, please carefully read about the prerequisites.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nBasic computer literacy\nMaking a folder; creating, saving or renaming files\n-\n\n\nLaptop/PC with internet access\nAdmin rights for download/install\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\n3.2 Introduction to R - Part I\nLINK\n\n\nAdvanced R skills\n3.3 Introduction to R - Part II\nLINK\n\n\nGitHub account\nFree account for GitHub\nJoin at https://github.com/join\n\n\n\n\n\nPresenter Notes: These are the presenter notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.\nThe basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous sessions R Part I and Part II is also a prerequisite. Specifically, learners are expected to have an intermediate familiarity with R, for example with data wrangling, reshaping, subsetting, plotting and creating basic R functions. Finally, for this session, learners will need their own GitHub account, which is free to create on github.com.\n\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.\nBefore you get started on this session with your audience, you need to ensure that the audience fulfills these criteria. Additional important tip: This session is designed for a 3-hour slot. If you are planning to deliver these slides synchronously in a class of 90 minutes, here is a proposed lesson plan for + homework assignment):\n\n3 minutes to situate this new class within the overall course, clarify questions from the previous class etc.\n5 minutes for the WHY of version control\nUse of interactive tools and group discussions to work out what challenges learners face and to get the curious about version control as a potential solution\n5 minutes for pre-content survey + survey discussion to explore how familiar learners are already with version control\n5 minutes introduction to Git and GitHub, exploration of the Git - GitHub workflow\nRemaining class (approx 60 minutes left): Setting up Git (= slides until the break)\n5 minutes before the end: Final survey (currently pre-break survey) to check where people are at\n2 minutes before the end: Homework assignment discussion - RStudio Project and Git (aka all content after the break in the slides as they are now):  1. Creating an RStudio Project  2. Setting up practice project  3. Getting your project under version control  4. Making changes to your project  5. Committing changes  6. Connecting the local repository to GitHub\n\nAccessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. An example for an accessibility tip could be: When demonstrating Git commands, speak aloud what you are typing. Do not rely solely on the terminal output or visual cues on the screen."
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this session, please carefully read about the prerequisites.\n\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nBasic computer literacy\nMaking a folder; creating, saving or renaming files\n-\n\n\nLaptop/PC with internet access\nAdmin rights for download/install\n-\n\n\nR and RStudio installed\nLatest versions of both R and RStudio\nhttps://posit.co/download/rstudio-desktop/\n\n\nBasic R skills\nIntroduction to R - Part I\nAccess here\n\n\nAdvanced R skills\nIntroduction to R - Part II\nAccess here\n\n\nGitHub account\nFree account for GitHub\nJoin at https://github.com/join\n\n\n\n\n\nPresenter Notes: These are the presenter notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.\nThe basic requirements to follow these slides are a laptop or desktop with admin rights to download and install software, and the latest installations of R and RStudio. Basic knowledge on R and RStudio, ideally as demonstrated through the completion of the two previous sessions R Part I and Part II is also a prerequisite. Specifically, learners are expected to have an intermediate familiarity with R, for example with data wrangling, reshaping, subsetting, plotting and creating basic R functions. Finally, for this session, learners will need their own GitHub account, which is free to create on github.com.\n\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.\nBefore you get started on this session with your audience, you need to ensure that the audience fulfills these criteria. Additional important tip: This session is designed for a 3-hour slot. If you are planning to deliver these slides synchronously in a class of 90 minutes, here is a proposed lesson plan for + homework assignment):\n\n3 minutes to situate this new class within the overall course, clarify questions from the previous class etc.\n5 minutes for the WHY of version control\nUse of interactive tools and group discussions to work out what challenges learners face and to get the curious about version control as a potential solution\n5 minutes for pre-content survey + survey discussion to explore how familiar learners are already with version control\n5 minutes introduction to Git and GitHub, exploration of the Git - GitHub workflow\nRemaining class (approx 60 minutes left): Setting up Git (= slides until the break)\n5 minutes before the end: Final survey (currently pre-break survey) to check where people are at\n2 minutes before the end: Homework assignment discussion - RStudio Project and Git (aka all content after the break in the slides as they are now):  1. Creating an RStudio Project  2. Setting up practice project  3. Getting your project under version control  4. Making changes to your project  5. Committing changes  6. Connecting the local repository to GitHub\n\nAccessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities. An example for an accessibility tip could be: When demonstrating Git commands, speak aloud what you are typing. Do not rely solely on the terminal output or visual cues on the screen."
   },
   {
     "objectID": "open-research-tools/git/git-slides.html#questions-from-the-previous-session",
@@ -2011,6 +2059,342 @@
     "title": "Introduction to version control with Git in RStudio",
     "section": "Licence and citation statement",
     "text": "Licence and citation statement\n\n\n\n\n\nThis work was originally created by Mike Croucher under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). It was subsequently adapted by Malika Ihle during her time at Reproducible Research Oxford. This current work by Sarah von Grebmer zu Wolfsthurn, Peter Edelsbrunner, Malika Ihle and Felix Schönbrodt is licensed under a Creative Commons Attribution 4.0 International SA License (CC-BY-SA-4.0). Code snippets are dedicated to the public domain and are licensed under a Creative Commons Universal License (CC0 1.0).\nPlease cite these materials as: Von Grebmer zu Wolfsthurn, S., Edelsbrunner, P., Ihle, M., & Schönbrodt, F. (2026). Introduction to version control with Git in RStudio [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git\n\n\nPresenter Notes: The Creative Commons Attribution 4.0 International SA License, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.\nCode snippets are dedicated to the public domain and licensed under a CC0 1.0 Creative Commons Universal License. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#prerequisites",
+    "href": "template-folder/example-topic/template-slides.html#prerequisites",
+    "title": "Template Quarto slides",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\n\n\n\nImportant\n\n\nBefore completing this session, please carefully read about the prerequisites.\n\n\n\n\n\n\n\nPrerequisite\nDescription\nLink/Where to find it\n\n\n\n\nTopic Name\nBasic intro to X\nOSC Website Link\n\n\nSoftware Name\nConfiguring the environment\nDownload Link\n\n\n\n\n\nAdd references in the footer.\n\n\nPresenter Notes: These are the presenter notes. You will a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.\nAdd the script for this slide.\nInstructor Notes: There are also instructor notes. For some slides, there will be pedagogical tips, suggestons for acitivities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the speaker notes.\nThese are the prerequisites for this topic. Before you get started on this topic with your audience, you need to ensure that the audience fulfills these criteria. Outline any essential prerequisites (software, tools, other sessions etc.) here in table format. If you prefer bullet points to list the prerequisites, delete the table and use bullet points instead.\nAccessibility Tips: Where applicable, this is a space to add any tips you may have to facilitate the accessibility of your slides and activities."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#questions-from-the-previous-session",
+    "href": "template-folder/example-topic/template-slides.html#questions-from-the-previous-session",
+    "title": "Template Quarto slides",
+    "section": "Questions from the previous session",
+    "text": "Questions from the previous session\n\nAre there any open questions regarding Topic?\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes: This first slide is dedicated to clarifying questions from the previous session and/or to discuss assignments.\n\nAdditional slides may need to be added depending on the nature of the homework assignments.\nCritical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop.\nNot applicable if this set of slides corresponds to the first session of a new module."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#before-we-start-survey-time",
+    "href": "template-folder/example-topic/template-slides.html#before-we-start-survey-time",
+    "title": "Template Quarto slides",
+    "section": "Before we start: Survey time!",
+    "text": "Before we start: Survey time!\n\nQuestion 1Question 2Question 3\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5\n\n\n\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes: This survey serves to examine learners’ prior knowledge about the topic. For an interactive delivery, use free tools such as for example Particify to create interactive surveys with QR codes before you deliver this lesson. The pre-session survey should serve to examine learners’ prior knowledge about version control and related concepts. Note that this survey cannot be completed in an asynchronous setting because the survey results cannot be displayed."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#discussion-of-survey-results",
+    "href": "template-folder/example-topic/template-slides.html#discussion-of-survey-results",
+    "title": "Template Quarto slides",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\nWhat do we see in the results?\n\nPresenter Notes: Let us have a look at these results.\nInstructor Notes:\n\nAim: Briefly examine the answers given to each question interactively with the group. Use visuals from the survey to highlight specific answers.\n\nAccessibility Tip: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#where-are-we-at",
+    "href": "template-folder/example-topic/template-slides.html#where-are-we-at",
+    "title": "Template Quarto slides",
+    "section": "Where are we at?",
+    "text": "Where are we at?\nPreviously:\n\nPoint 1\nPoint 2\n\nUp next:\n\nPoint 1\nPoint 2\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Place the topic of the current session within a broader context.\nRemind learners what you are working towards and what the bigger picture is."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#covered-in-this-session",
+    "href": "template-folder/example-topic/template-slides.html#covered-in-this-session",
+    "title": "Template Quarto slides",
+    "section": "Covered in this session",
+    "text": "Covered in this session\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPresenter Notes: This slides serves as an overview of the topics that are discussed, presented as bullet points."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#learning-objectives",
+    "href": "template-folder/example-topic/template-slides.html#learning-objectives",
+    "title": "Template Quarto slides",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nAt the end of this session, you will be able to…\n\nInstall and load ….\nImport external data …\nExplain key components of …\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom’s taxonomy (Anderson et al., 2001; Bloom et al., 1956)\nPlace an emphasis on the verbs of the learning goals and choose verbs that align with the skills you want to develop or assess.\nExamples:\n\nLearners will describe the process of photosynthesis or\nLearners will construct a diagram illustrating the process of photosynthesis"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#key-terms-and-definitions",
+    "href": "template-folder/example-topic/template-slides.html#key-terms-and-definitions",
+    "title": "Template Quarto slides",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nKey Term 1\nKey Term 2\nKey Term 3\n\n\nPresenter Notes: These are key terms we will revisit throughout the lesson. What comes to mind when you see each of them? Which ones are familiar, and which feel new? Take a moment to think about what they might mean.\nInstructor Notes: Base yourself on conceptual change theory and examine existing concepts in relation to some key terms. Re-examine the formation of new concepts at the end of the lesson. Use a think-pair-share approach. First, have learners reflect individually on their associations with each term for a few minutes, then discuss in pairs for a few minutes, and finally share with the group. Allow about 10 minutes for this activity."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#key-terms-and-definitions-1",
+    "href": "template-folder/example-topic/template-slides.html#key-terms-and-definitions-1",
+    "title": "Template Quarto slides",
+    "section": "Key terms and definitions",
+    "text": "Key terms and definitions\n\nKey Term 1: Definition\nKey Term 2: Definition\nKey Term 3: Definition\n\n\nPresenter Notes: Let’s go through what these key terms mean:\nInstructor Notes: Come back to this slide at the end of the lesson, no need to go through in detail at this point. Learners just need to know that this overview exists."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#introduction-to-topic",
+    "href": "template-folder/example-topic/template-slides.html#introduction-to-topic",
+    "title": "Template Quarto slides",
+    "section": "Introduction to topic",
+    "text": "Introduction to topic\n\nPresenter Notes: Add script for the slide here.\nInstructor Notes:\n\nAim: Core theoretical introduction of the topic.\nFor a 90-minute lesson, the instructor should try to “lecture” for only 20 minutes, learners should work in groups/pairs/on their own for at least 55 minutes of the lesson (+ a 15 minute break).\nPair theoretical aspects with practical exercises and group discussions according to the Think-Pair-Share style and according to Cognitive Load Theory (Sweller, 1980).\nUse multiple slides for this part."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#topic-content-slide",
+    "href": "template-folder/example-topic/template-slides.html#topic-content-slide",
+    "title": "Template Quarto slides",
+    "section": "Topic content slide",
+    "text": "Topic content slide\n\n\n\n\n\n\nImportant with Title\n\n\nThis is an example of a callout box to highlight particularly important information.\n\n\n\n\n\n\n\n\n\nTip with Title\n\n\nThis is an example of a callout box to give important tips.\n\n\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes: Aim: Present relevant content - Highlight particularly important aspects with Quarto call-out boxes, for example:"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#practical-exercise",
+    "href": "template-folder/example-topic/template-slides.html#practical-exercise",
+    "title": "Template Quarto slides",
+    "section": "Practical exercise",
+    "text": "Practical exercise\nTask Name\n\nStep 1\nStep 2\nStep 3\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Design more practical exercises for learners to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your learners need to be doing."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#recap",
+    "href": "template-folder/example-topic/template-slides.html#recap",
+    "title": "Template Quarto slides",
+    "section": "Recap",
+    "text": "Recap\n\nPresenter Notes: Script for the slide here.\nInstructor Notes: A summary with the most important achievements and concepts up until now. This serves to consolidate and integrate new concepts."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#pre-break-quiz",
+    "href": "template-folder/example-topic/template-slides.html#pre-break-quiz",
+    "title": "Template Quarto slides",
+    "section": "Pre-break quiz",
+    "text": "Pre-break quiz\n\nQuestion 1Question 2\n\n\nWhich species is the largest type of penguin?\n\nChinstrap Penguin\nEmperor Penguin ✅\nAdélie Penguin\nKing Penguin\n\n\n\nWhat is the key biological feature that helps penguins swim efficiently?\n\nHollow bones for buoyancy\nWebbed feet for paddling\nWaterproof feathers and flipper-like wings ✅\nGills to breathe underwater\n\n\n\n\n\nPresenter Notes: Interactive quiz to check understanding and retention of learners. Use free survey software such as Particify to establish the following questions (shown on separate slides).\nInstructor Notes: This pre-break survey serves to examine learners’ current understanding of key concepts of the session. Guidance on interpreting the results:\n\nIf more than 80% of the learners select the correct response option, show which one it is and move on.\nIf less than 80% of answers are correct, let them discuss with each other for 1-2 minutes which one they selected, and why, and afterwards let them re-take the question. If they`re above 80% correct the second time, move on, else show the correct response and explain why it is correct (plus maybe why the others are not).\nIf more than 30% select a specific distractor answer, discuss it in class."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#post-break-survey-discussion",
+    "href": "template-folder/example-topic/template-slides.html#post-break-survey-discussion",
+    "title": "Template Quarto slides",
+    "section": "Post-break survey discussion",
+    "text": "Post-break survey discussion\n\n\nWhat do we see in the results?\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: To clarify concepts and aspects that are not yet understood\nHighlight specific answers given during the survey"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#topic-content-slide-1",
+    "href": "template-folder/example-topic/template-slides.html#topic-content-slide-1",
+    "title": "Template Quarto slides",
+    "section": "Topic content slide",
+    "text": "Topic content slide\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#practical-exercise-1",
+    "href": "template-folder/example-topic/template-slides.html#practical-exercise-1",
+    "title": "Template Quarto slides",
+    "section": "Practical exercise",
+    "text": "Practical exercise\nTask Aim\n\nStep 1\nStep 2\nStep 3\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Design more practical exercises for learners to apply the new skills in practice.\nDepending on the topic, the exercises should be in accordance with the learning objective(s).\nAdd a description of the task, as well as a checklist as an overview of that your learners need to be doing."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#relevance-and-implications-if-applicable",
+    "href": "template-folder/example-topic/template-slides.html#relevance-and-implications-if-applicable",
+    "title": "Template Quarto slides",
+    "section": "Relevance and implications (if applicable)",
+    "text": "Relevance and implications (if applicable)\n\nAim: To work out the relevance of the topic to your learners.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles.\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: To work out the relevance of the topic to your learners.\nIn an interactive setting, discuss how the new skills could be applied in practise with specific examples.\nExamine downfalls and practical obstacles."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#assignment",
+    "href": "template-folder/example-topic/template-slides.html#assignment",
+    "title": "Template Quarto slides",
+    "section": "Assignment",
+    "text": "Assignment\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place learners in role of reviewer and author\n\n\nPresenter Notes: Script for the presentation here.\nInstructor Notes:\n\nAim: Explain the homework assignment and the rationale behind the homework.\nExamine whether/how it will be assessed\nMention scoring rubrics, if applicable\nDesign a peer-review system for assignments to place learners in role of reviewer and author"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#take-home-messages",
+    "href": "template-folder/example-topic/template-slides.html#take-home-messages",
+    "title": "Template Quarto slides",
+    "section": "Take-home message(s)",
+    "text": "Take-home message(s)\n\nTake-home message 1\nTake-home message 2\n\n \n\n\n\n\n\n\nTip with Title\n\n\nAdd one practical tip in this box.\n\n\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: End lesson on clear take-home message that are interactively compiled by learners."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#recap-what-have-we-done-so-far",
+    "href": "template-folder/example-topic/template-slides.html#recap-what-have-we-done-so-far",
+    "title": "Template Quarto slides",
+    "section": "Recap: What have we done so far?",
+    "text": "Recap: What have we done so far?\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: Provide overview of the topics covered today and remind learners of the bigger picture."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#learning-objectives-check-in",
+    "href": "template-folder/example-topic/template-slides.html#learning-objectives-check-in",
+    "title": "Template Quarto slides",
+    "section": "Learning objectives: Check-In",
+    "text": "Learning objectives: Check-In\nWhere are we at?\n\nExplain the importance …\nFamiliarize yourself with different …\n\n\nPresenter Notes: Let us pause for a quick check-in. Take a moment to look back at the learning objectives and reflect on how comfortable you feel with each one.\nIf you notice any gaps, this is the right moment to bring them up. Feel free to ask questions or start a discussion so we can address them before moving on.\nInstructor Notes: Use this slide to encourage self-reflection rather than evaluation. Emphasize that learners are not expected to feel equally confident about all objectives at this stage. Keep the discussion supportive and brief, focusing on clarifying concepts rather than introducing new material."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#to-conclude-survey-time",
+    "href": "template-folder/example-topic/template-slides.html#to-conclude-survey-time",
+    "title": "Template Quarto slides",
+    "section": "To conclude: Survey time!",
+    "text": "To conclude: Survey time!\n\nQuestion 1Question 2Question 3\n\n\nWhat is your level of familiarity with [Topic] (e.g., basic concepts, terminology, or tools)?\n\nI have never heard of it before.\nI have heard of it but have never worked with it.\nI have basic understanding and experience with it.\nI am very familiar and have worked with it extensively.\n\n\n\nWhich of the following concepts or skills do you feel most confident about in relation to [Topic]? (Select all that apply)\n\nConcept 1\nConcept 2\nConcept 3\nConcept 4\nI am not sure about any of these concepts.\n\n\n\nOn a scale of 1 to 5, how comfortable are you with using [specific tool/technology] related to [Topic]? (1 = Not comfortable at all, 5 = Very comfortable)\n\n1\n2\n3\n4\n5\n\n\n\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes:\n\nAim: This post-session survey serves to examine learners’ current knowledge about the sumodule’s topic.\nUse free survey software such as particify or formR to establish the following questions (shown on separate slides)\nUse identical questions as in the pre-session survey to be able to directly compare"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#discussion-of-survey-results-1",
+    "href": "template-folder/example-topic/template-slides.html#discussion-of-survey-results-1",
+    "title": "Template Quarto slides",
+    "section": "Discussion of survey results",
+    "text": "Discussion of survey results\n\n\nWhat do we see in the results?\n\n\nPresenter Notes: Script for the slide here.\nInstructer Notes:\n\nAim: Briefly examine the answers given to each question interactively with the group.\nCompare and highlight specific differences in answers between pre- and post-survey answers"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#references",
+    "href": "template-folder/example-topic/template-slides.html#references",
+    "title": "Template Quarto slides",
+    "section": "References",
+    "text": "References\n\n\nAbele-Brehm, A. E., & Bühner, M. (2016). Wer soll die Professur bekommen? Psychologische Rundschau, 67(4), 250–261. https://doi.org/10.1026/0033-3042/a000335\n\n\n\nPresenter Notes: Script for the slide here.\nInstructor Notes: Highlight particularly relevant reading for your learners in bold."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#additional-resources",
+    "href": "template-folder/example-topic/template-slides.html#additional-resources",
+    "title": "Template Quarto slides",
+    "section": "Additional resources",
+    "text": "Additional resources\n\nVideos\nUseful resources"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#contribution-statement",
+    "href": "template-folder/example-topic/template-slides.html#contribution-statement",
+    "title": "Template Quarto slides",
+    "section": "Contribution statement",
+    "text": "Contribution statement\nCreator: Von Grebmer Zu Wolfsthurn, Sarah ( 0000-0002-6413-3895)\nReviewer: Ihle, Malika ( 0000-0002-3242-5981)\nConsultant: Schönbrodt, Felix (0000-0002-8282-3910)"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#licence-and-citation-statement",
+    "href": "template-folder/example-topic/template-slides.html#licence-and-citation-statement",
+    "title": "Template Quarto slides",
+    "section": "Licence and citation statement",
+    "text": "Licence and citation statement\n\n\n\n\n\nThis work was originally created by FirstName Name under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 SA International License. It was subsequently adapted by FirstName Name. This current work by FirstName Name and FirstName Name is licensed under a CC-BY-SA 4.0 Creative Commons Attribution 4.0 International SA License. Code snippets are dedicated to the public domain and are licensed under a Creative Commons Universal License (CC0 1.0).\nPlease cite these materials as: Name, S., Name, M., & Name, F. (2026). Slidedeck Title [Quarto slides]. LMU Open Science Center. https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/topic\n\n\nPresenter Notes: The Creative Commons Attribution 4.0 International SA License, or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.\nCode snippets are dedicated to the public domain and licensed under a CC0 1.0 Creative Commons Universal License. You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#text-with-example-links",
+    "href": "template-folder/example-topic/template-slides.html#text-with-example-links",
+    "title": "Template Quarto slides",
+    "section": "Text with example links",
+    "text": "Text with example links\n\nQuarto Documentation\nReveal.js Documentation\nMarkdown Guide\nGitHub"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#basic-text-formatting",
+    "href": "template-folder/example-topic/template-slides.html#basic-text-formatting",
+    "title": "Template Quarto slides",
+    "section": "Basic text formatting",
+    "text": "Basic text formatting\n\nBold: **bold** → bold\nItalic: *italic* → italic\nStrikethrough: ~~text~~ → text\nInline code: `code` → code\n\nBlockquote: &gt; Quote →\n“This is a quote”"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#text-with-references",
+    "href": "template-folder/example-topic/template-slides.html#text-with-references",
+    "title": "Template Quarto slides",
+    "section": "Text with references",
+    "text": "Text with references\n\nSample text for adding a reference in brackets (Abele-Brehm & Bühner, 2016). Use square brackets in the qmd file.\nSample text for adding in text-citation: Abele-Brehm & Bühner (2016) argue that climate change is accelerating. No brackets used in the qmd file."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#call-out-boxes",
+    "href": "template-folder/example-topic/template-slides.html#call-out-boxes",
+    "title": "Template Quarto slides",
+    "section": "Call-out boxes",
+    "text": "Call-out boxes\n\n\n\n\n\n\nCaution\n\n\nInclude text here.\n\n\n\n\n\n\n\n\n\nWarning\n\n\nInclude text here.\n\n\n\n\n\n\n\n\n\nTip\n\n\nInclude text here.\n\n\n\n\n\n\n\n\n\nNote\n\n\nInclude text here."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#figure-centered-with-caption-and-alt-text",
+    "href": "template-folder/example-topic/template-slides.html#figure-centered-with-caption-and-alt-text",
+    "title": "Template Quarto slides",
+    "section": "Figure (centered) with caption and alt text",
+    "text": "Figure (centered) with caption and alt text\n\nA penguin standing on ice.\nNote for pptx template: Images are usually centered by default in PPTX output. However, the font size and the image size must be controlled in the PowerPoint template, not in Markdown. The text in quotes represents the alt text that is visible when hovering over the image in the slides. The alt text does not appear in the pptx and has to be added manually in PowerPoint."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#figure-with-bullet-points",
+    "href": "template-folder/example-topic/template-slides.html#figure-with-bullet-points",
+    "title": "Template Quarto slides",
+    "section": "Figure with bullet points",
+    "text": "Figure with bullet points\n\n\n\n\n\n\n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#side-by-side-figures",
+    "href": "template-folder/example-topic/template-slides.html#side-by-side-figures",
+    "title": "Template Quarto slides",
+    "section": "Side-by-side figures",
+    "text": "Side-by-side figures\n\n\n\n\n\nFigure 1: Penguin\n\n\n\n\n\n\nFigure 2: Seal"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#stacked-figures-with-text",
+    "href": "template-folder/example-topic/template-slides.html#stacked-figures-with-text",
+    "title": "Template Quarto slides",
+    "section": "Stacked figures with text",
+    "text": "Stacked figures with text\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst bullet point\nSecond bullet point\nThird bullet point\n\n\n\nNote for pptx template: Stacked figures cannot be resized in markdown but need to be resized afterwards in pptx directly."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#two-column-text-slide",
+    "href": "template-folder/example-topic/template-slides.html#two-column-text-slide",
+    "title": "Template Quarto slides",
+    "section": "Two-column text slide",
+    "text": "Two-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\nCras venenatis euismod malesuada.\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#three-column-text-slide",
+    "href": "template-folder/example-topic/template-slides.html#three-column-text-slide",
+    "title": "Template Quarto slides",
+    "section": "Three-column text slide",
+    "text": "Three-column text slide\n\n\nColumn 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nVivamus lacinia odio vitae vestibulum vestibulum.\n\nColumn 2\nSed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nColumn 3\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#simple-table",
+    "href": "template-folder/example-topic/template-slides.html#simple-table",
+    "title": "Template Quarto slides",
+    "section": "Simple table",
+    "text": "Simple table\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nRow 1 Cell\nRow 1 Cell\nRow 1 Cell\n\n\nRow 2 Cell\nRow 2 Cell\nRow 2 Cell\n\n\nRow 3 Cell\nRow 3 Cell\nRow 3 Cell\n\n\nRow 4 Cell\nRow 4 Cell\nRow 4 Cell"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#complex-table",
+    "href": "template-folder/example-topic/template-slides.html#complex-table",
+    "title": "Template Quarto slides",
+    "section": "Complex Table",
+    "text": "Complex Table\n\n\n\nCategory\nMetric\nQ1\nQ2\nQ3\nQ4\n\n\n\n\nSales\nRevenue\n12,000\n14,500\n15,200\n16,800\n\n\n\nUnits Sold\n1,200\n1,450\n1,520\n1,680\n\n\nCosts\nCOGS\n5,000\n5,200\n5,400\n5,600\n\n\n\nOperating Exp.\n2,300\n2,400\n2,450\n2,500\n\n\nProfit\nGross Profit\n7,000\n9,300\n9,800\n11,200\n\n\n\nNet Profit\n4,700\n6,500\n7,000\n8,100\n\n\n\n\nNote: Values are in USD thousands.\n\n\nNotes for the pptx template: Font size, padding or row and colour number cannot be coded in markdown and have to be changed manually in the pptx output."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#task-list",
+    "href": "template-folder/example-topic/template-slides.html#task-list",
+    "title": "Template Quarto slides",
+    "section": "Task list",
+    "text": "Task list\n\nCollect data\nEvaluate results\n✅ Done (for PowerPoint conversion)-\n⬜ To do pptx friendly\n\n\n\nTask one\nTask two\n\n\n\nNote: This slide converts to pptx, but will not be interactive with adding or eliminating a tick mark. This will convert into simple bullet points."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#linking-to-video-with-thumbnail",
+    "href": "template-folder/example-topic/template-slides.html#linking-to-video-with-thumbnail",
+    "title": "Template Quarto slides",
+    "section": "Linking to video with thumbnail",
+    "text": "Linking to video with thumbnail\n\n\n\nClick on the image to watch the video!"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#code-blocks",
+    "href": "template-folder/example-topic/template-slides.html#code-blocks",
+    "title": "Template Quarto slides",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n# A basic R code chunk\nx &lt;- 1:10\nmean(x)\n\n[1] 5.5\n\n# A simple plot\nhist(rnorm(100), main = \"Histogram of Random Normals\")\n\n\n\nNote: PowerPoint cannot run R code, therefore the code block this will appear as formatted code text, not executed output."
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx",
+    "href": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx",
+    "title": "Template Quarto slides",
+    "section": "Features supported in html but not in pptx",
+    "text": "Features supported in html but not in pptx\nHere is an overview of which features cannot be transferred to a pptx file from Quarto revealjs file (not exhaustive list):\n\nCustom HTML/CSS layout\n\nAbsolute positioning (position: absolute)\nFlexbox / Grid layout\nCustom margins, padding, alignment"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-1",
+    "href": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-1",
+    "title": "Template Quarto slides",
+    "section": "Features supported in html but not in pptx",
+    "text": "Features supported in html but not in pptx\n(continued)\n\nFragments / incremental reveal\n\nClick-to-reveal bullets or elements (.fragment)\nAnimations & transitions\nCSS animations ((keyframes?))\nReveal.js slide transitions (fade, zoom, etc.)"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-2",
+    "href": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-2",
+    "title": "Template Quarto slides",
+    "section": "Features supported in html but not in pptx",
+    "text": "Features supported in html but not in pptx\n(continued)\n\nInteractive JavaScript components\n\nPlotly, Shiny apps, interactive charts\nCustom JS widgets\nEmbedded iframes and external content\nYouTube embeds\nGoogle Maps\nEmbedded websites"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-3",
+    "href": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-3",
+    "title": "Template Quarto slides",
+    "section": "Features supported in html but not in pptx",
+    "text": "Features supported in html but not in pptx\n(continued)\n\nDynamic sizing / responsive behavior\n\nPercent-based sizing (width: 50%)\n\nText shadows, letter spacing\nCustom tables with HTML styling\nColored headers or rows\nCell borders and padding via CSS\nOverlapping or rotated elements"
+  },
+  {
+    "objectID": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-4",
+    "href": "template-folder/example-topic/template-slides.html#features-supported-in-html-but-not-in-pptx-4",
+    "title": "Template Quarto slides",
+    "section": "Features supported in html but not in pptx",
+    "text": "Features supported in html but not in pptx\n(continued)\n\nRotated images or text\nSpeech bubbles and callout shapes\nBubble-style layouts\nDecorative shapes using CSS\nEmbedded fonts and icon libraries\nInteractive quizzes or logic"
   },
   {
     "objectID": "open-research-principles/reproducibility-replicability/reproducibility-replicability-slides.html#prerequisites",
