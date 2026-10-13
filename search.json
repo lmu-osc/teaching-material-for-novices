@@ -32,7 +32,7 @@
     "href": "about.html#tutorial-template-quarto-extension",
     "title": "About",
     "section": "Tutorial Template Quarto Extension",
-    "text": "Tutorial Template Quarto Extension\nThis site was written using the lmu-osc/tutorial-template Quarto extension (Callahan 2026).\n\n\nCallahan, Patrick. 2026. LMU Open Science Center Tutorial Template: A Quarto Extension. https://doi.org/10.5281/zenodo.21263721."
+    "text": "Tutorial Template Quarto Extension\nThis site was written using the lmu-osc/tutorial-template Quarto extension (callahan2026?)."
   },
   {
     "objectID": "about.html#how-to-cite",
@@ -664,7 +664,7 @@
     "href": "index.html#list-of-current-contributors",
     "title": "Educational resources for teaching open research to novices",
     "section": "List of current contributors",
-    "text": "List of current contributors\n\nSarah von Grebmer zu Wolfsthurn ( 0000-0002-6413-3895), LMU Open Science Center\nSara Middleton ( 0000-0001-5307-8029), LMU Open Science Center\nMalika Ihle ( 0000-0002-3242-5981), LMU Open Science Center\nFelix Schönbrodt ( 0000-0002-8282-3910), LMU Open Science Center and Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy\nPeter Edelsbrunner ( 0000-0001-9102-1090), Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy\nElizabeth Waterfield ( 0009-0006-3725-6730), LMU Open Science Center\nDavid Rieger ( 0009-0004-3701-3101), LMU Open Science Center\nTejaswini Sharma ( 0009-0000-0305-9751), LMU Open Science Center\nCaterina Luz Sanchez Steinhagen ( 0009-0006-4783-1110), LMU Open Science Center",
+    "text": "List of current contributors\n\nSarah von Grebmer zu Wolfsthurn ( 0000-0002-6413-3895), LMU Open Science Center\nSara Middleton ( 0000-0001-5307-8029), LMU Open Science Center\nReema Gupta ( 0000-0003-4509-6969), LMU Open Science Center\nMalika Ihle ( 0000-0002-3242-5981), LMU Open Science Center\nFelix Schönbrodt ( 0000-0002-8282-3910), LMU Open Science Center and Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy\nPeter Edelsbrunner ( 0000-0001-9102-1090), Ludwig-Maximilians-Universität München, Faculty of Psychology and Pedagogy\nElizabeth Waterfield ( 0009-0006-3725-6730), LMU Open Science Center\nDavid Rieger ( 0009-0004-3701-3101), LMU Open Science Center\nTejaswini Sharma ( 0009-0000-0305-9751), LMU Open Science Center\nCaterina Luz Sanchez Steinhagen ( 0009-0006-4783-1110), LMU Open Science Center",
     "crumbs": [
       "Home",
       "Overview"
