@@ -1,0 +1,90 @@
+---
+title: "Moving towards credible and open research"
+author: "Malika Ihle and Sarah von Grebmer zu Wolfsthurn"
+date: "today"
+date-format: "DD/MM/YYYY"
+draft: true
+format: 
+  revealjs:
+    css: ../../assets/slides-custom.css # looks for css file in root
+    footer: LMU Open Science Center
+    slide-number: true
+    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+  pdf:
+    geometry: 
+      - top=30mm
+      - left=30mm
+  pptx: default 
+
+bibliography: ../../assets/references.bib
+csl: ../../assets/apa.csl
+
+execute:
+  echo: true
+  eval: true
+  engine: knitr
+
+filters: 
+  - timer
+---
+
+## Prerequisites - EDIT
+
+::: {.callout-important}
+Before completing this session, please carefully read about the prerequisites.
+:::
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| Introduction to reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability) |
+</div>
+
+::: {.notes}
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter. 
+
+For this session, it is important that you are familiar with key issues in current research, particularly around replicability and reproducibility, since this session is building up on that.
+
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
+
+These are the prerequisites for this session. Before you get started on this session with your audience, you need to ensure that the audience fulfills these criteria.
+:::
+
+---
+
+## References
+
+::: {#refs}
+:::
+
+---
+
+## Licence and citation statement
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by-sa.png" 
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and was subsequently adapted by Sarah von Grebmer zu Wolfsthurn. This current work by Sarah von Grebmer zu Wolfsthurn and Malika Ihle is licensed under a  [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).
+
+Please cite these materials as: Ihle, M., & Von Grebmer zu Wolfsthurn, S.  (2026). *Moving towards credible and open research* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/credible-research)
+</div>
+
+::: {.notes}
+**Presenter Notes**: The [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en), or CC BY-SA 4.0, allows others to copy, share, and adapt a work in any medium, including for commercial purposes. These permissions are broad and cannot be withdrawn as long as the license terms are followed. The main requirement is attribution: users must give appropriate credit to the original creator, provide a link to the license, and clearly indicate whether any changes were made, without implying endorsement by the original author. In addition, the ShareAlike condition means that if someone modifies or builds upon the work, the resulting material must be distributed under the same CC BY-SA 4.0 license, or a compatible one. Finally, users are not allowed to apply legal or technical restrictions, such as DRM, that would prevent others from exercising these same rights.
+
+Code snippets are dedicated to the public domain and licensed under a CC0 1.0 [Creative Commons Universal License](https://creativecommons.org/publicdomain/zero/1.0/). You may use, modify, distribute, and sell the code snippets for any purpose, without permission or attribution. The code snippets are provided “as is”, without warranty of any kind.
+:::
+
+---
+
+## Contribution statement
+
+**Creators**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981)), Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+[0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
