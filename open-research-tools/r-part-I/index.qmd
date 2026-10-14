@@ -45,6 +45,13 @@ At the end of this session, you or your learners will be able to ...
 - **Specify** arguments within functions to modify how the function produces its output.
 -**Index** dataframes to access and retrieve specific information.
 
+:::{.callout-note}
+## RStudio is now Posit
+RStudio's developer changed its company name to Posit in 2022 to reflect its broader focus on data science beyond R. The RStudio IDE keeps its name and remains supported. Positron is an alternative IDE for working with R and Python.
+
+Learn more: [RStudio is now Posit](https://posit.co/blog/rstudio-is-now-posit)
+:::
+
 ## Download materials
 
 ### Export slides
