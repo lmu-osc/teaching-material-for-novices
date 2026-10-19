@@ -30,9 +30,9 @@ Please cite these materials as: Waterfield, E., Ihle, M., & Von Grebmer Zu Wolfs
 | Prerequisite | Description | Where to find it |
 |---|---|---|
 | R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
-| Basic R skills | Introduction to R - Part I | [Access here]() |
-| Advanced R skills | Introduction to R - Part II | [Access here]() |
-| Basic Git skills | Introduction to version control with Git in RStudio | [Access here]() |
+| Basic R skills | Introduction to R - Part I | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/) |
+| Advanced R skills | Introduction to R - Part II | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/) |
+| Basic Git skills | Introduction to version control with Git in RStudio | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/git/) |
 | GitHub account | Your own GitHub account | [Join GitHub](https://github.com/join) |
 | Practice GitHub repo | Fork the [LMU OSC Collaborative-RStudio-GitHub repository](https://github.com/lmu-osc/Collaborative-RStudio-GitHub/tree/main) to set up a practice repository for the exercises in this lesson | |
 </div>
@@ -66,7 +66,7 @@ Download the activity sheet for this topic here:
 <a href="assets/github-activity-sheet.pdf"
    download="github-activity-sheet.pdf"
    class="btn btn-primary">
-  Download slides as PDF
+  Download activity sheet as PDF
 </a>
 
 

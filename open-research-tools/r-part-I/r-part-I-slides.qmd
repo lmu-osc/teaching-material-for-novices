@@ -1768,7 +1768,7 @@ Ensure the link is accessible through the course platform or slide deck.
 **Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/0009-0000-0305 9751))
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
 
 **Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 
@@ -1778,7 +1778,7 @@ Ensure the link is accessible through the course platform or slide deck.
 **Reviewer**: Von Grebmer zu Wolfsthurn, Sarah (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0002-6413-3895))
 
-**Reviewer**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
+**Consultant**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0000-0002-6413-3895](https://orcid.org/0000-0001-5307-8029))
 
 ---

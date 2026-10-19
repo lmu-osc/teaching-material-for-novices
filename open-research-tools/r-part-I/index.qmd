@@ -29,8 +29,7 @@ Please cite these materials as: Sanchez-Steinhagen, C. L., Sharma, T., Rieger, D
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Where to find it   |
 |------------|------------|------------|
-| RStudio installed | Version 2026.04.0+526 or higher | [Download](https://posit.co/download/rstudio-desktop/) |
-| R installed | Version 4.6.0 or higher | [Download](https://www.r-project.org/) |
+| R and RStudio installed | Latest versions of both R and RStudio | [Download RStudio](https://posit.co/download/rstudio-desktop/) |
 | Accessibility sheet for computers | Fundamentals of computer literacy | [Download here ](assets/Accessibility_sheet_for_computers_OSSS26.pdf) |
 </div>
 
@@ -43,7 +42,7 @@ At the end of this session, you or your learners will be able to ...
 - **Execute** operations in the Console and R Script using appropriate operators.
 - **Assign** and **re-assign** values, vectors, and lists to objects. 
 - **Specify** arguments within functions to modify how the function produces its output.
--**Index** dataframes to access and retrieve specific information.
+- **Index** dataframes to access and retrieve specific information.
 
 :::{.callout-note}
 ## RStudio is now Posit
@@ -79,7 +78,7 @@ Download the accessibility sheet for computers below:
 **Creator**: Sanchez Steinhagen, Caterina Luz (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"}
 [0009-0006-4783-1110](https://orcid.org/0009-0006-4783-1110))
 
-**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0000-0000-0000](https://orcid.org/my-orcid?orcid=0000-0000-0000-0000)) CHANGE
+**Creator**: Sharma, Tejaswini (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0000-0305-9751](https://orcid.org/0009-0000-0305-9751))
 
 **Creator**: Waterfield, Elizabeth (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0009-0006-3725-6730](https://orcid.org/0009-0006-3725-6730))
 

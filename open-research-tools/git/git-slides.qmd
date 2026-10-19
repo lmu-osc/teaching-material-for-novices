@@ -55,7 +55,7 @@ Before completing this session, please carefully read about the prerequisites.
 | Laptop/PC with internet access | Admin rights for download/install | - |
 | R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
 | Basic R skills | Introduction to R - Part I | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/) |
-| Advanced R skills | Introduction to R - Part II | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/)  |
+| Advanced R skills | Introduction to R - Part II | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/) |
 | GitHub account | Free account for GitHub | Join at [https://github.com/join](https://github.com/join) |
 </div>
 

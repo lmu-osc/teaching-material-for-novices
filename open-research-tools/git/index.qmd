@@ -34,10 +34,11 @@ In contrast to other materials, the estimate delivery time for these materials i
 <div style="font-size: 0.8em;">
 | Prerequisite   |  Description  | Link/Where to find it   |
 |------------|------------|------------|
-| Laptop/PC with internet access | Admin rights for downloading/installing software | - |
+| Basic computer literacy | Making a folder; creating, saving or renaming files | - |
+| Laptop/PC with internet access | Admin rights for download/install | - |
 | R and RStudio installed | Latest versions of both R and RStudio |  [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/) |
 | Basic R skills | Introduction to R - Part I | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-I/) |
-| Advanced R skills | Introduction to R - Part II | [Access here]([Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/))  |
+| Advanced R skills | Introduction to R - Part II | [Access here](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/r-part-II/) |
 | GitHub account | Your own GitHub account | Join at [https://github.com/join](https://github.com/join) |
 </div>
 
