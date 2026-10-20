@@ -9,7 +9,7 @@ format:
     css: ../../assets/slides-custom.css # looks for css file in root
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: ../../assets/logos/OSC_FORRT_logo.png  # Inserts logo in the bottom right corner (default)
   pdf:
     geometry: 
       - top=30mm
@@ -39,7 +39,7 @@ prerequisites.
 :::
 
 - Completion of preregistration training materials (preregistration part
-  I \[coming soon!\] 
+  I \[coming soon!\]
 
 - Access to Build up your preregistration toolkit! \[coming soon\]
 
@@ -112,7 +112,7 @@ Study preregistration is an open science practice that:
 
 - Preregistrations do not need to be made public immediately and can be
   embargoed for a period of years. For example OSF preregistration can
-  be embaroged for a period of up to 4 years.
+  be embargoed for a period of up to 4 years.
 
 **Instructor Notes**:
 
@@ -319,7 +319,7 @@ Builds your reputation
 - Transparently show to the wider research community your plans and
   tests
 - Signal that you have taken steps to **mitigate** against hindsight and
-  confirmation **bias** (Wagenmakers & Dutilh, 2026).
+  confirmation **bias** [@wagenmakers2016].
 
 ::: notes
 **Presenter Notes**: A key area that preregistration benefits
@@ -417,7 +417,7 @@ Check thinking
 
 - Other people reading your findings can **follow your thought process**
 - Gain a deeper understanding of a project and make an **informed
-  assessment** (Binney et al. 2025)
+  assessment** [@binney2025]
 
 ::: notes
 **Presenter Notes**: Thinking at the scale of academic disciplines and
@@ -463,7 +463,7 @@ any other benefits you can think of?
 
 More benefits about preregistration and registered reports from a
 student, author and journal editor perspective are outlined by
-@gya2023a.
+@gya2023b.
 :::
 
 ::: notes
@@ -579,7 +579,7 @@ analysis is the right one?"*
 
 [Training
 materials](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations/)
-for novices: Introduction to simulations and power analysis in R
+for novices: Introduction to simulations and power analysis in R.
 :::
 
 ::: notes
@@ -588,7 +588,7 @@ for novices: Introduction to simulations and power analysis in R
 Another common barrier is lack of confidence in choosing the right
 statistical test.
 
-The stategy would be to run simulations and power analysis. Simulate
+The strategy would be to run simulations and power analysis. Simulate
 random data with the distribution and sample size of expected real data
 and run the statistical test planned for the study. - Repeat the
 statistical test (e.g. 100 x) and check results are within the
@@ -608,7 +608,7 @@ your own time.
 
 - *Reframing:* Preregistrations are a "plan not a prison" as you can
   document any deviations from your plan when you write up the research
-  findings (DeHaven 2017).
+  findings [@dehaven2017].
 - Preregistrations can be tailored to the study type (e.g incremental -
   transparently documenting exploratory-confirmatory pathway or
   sequential - multi-stage contingent experiments).
@@ -616,9 +616,9 @@ your own time.
 ::: callout-note
 ## Find out more
 
-Binney et al. (2025) discuss practical guidance of balancing mitigating
-biases with flexibility in the research process. Lakens (2024) discusses
-when and how to deviate from a preregistration.
+@binney2025 discuss practical guidance of balancing mitigating biases
+with flexibility in the research process. @lakens2024 discusses when and
+how to deviate from a preregistration.
 :::
 
 ::: notes
@@ -713,7 +713,7 @@ https://datacolada.org/115.
 - *Counterargument:* templates and FAQ pages can guide you and if you
   are unable to officially register a study, adopting principles of
   study preregistration is a good step (e.g. Open Science Buffet
-  approach Bergma 2023)
+  approach [@bergmann2023].
 
 ::: callout-note
 ## Find out more
@@ -827,15 +827,13 @@ soon!\]
 :::
 
 ::: notes
-**Presenter Notes**: 
-Let us recap the challenges we have discussed. 
-- The lack of time and incentives, feelings of overwhelm and lack of
-  support are common barriers that often overlap when in it comes to
-  preregistration.
+**Presenter Notes**: Let us recap the challenges we have discussed. -
+The lack of time and incentives, feelings of overwhelm and lack of
+support are common barriers that often overlap when in it comes to
+preregistration.
 
 - There is lots of support available and you are not alone!
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -881,7 +879,7 @@ registered report?
 
 Although registered reports (and preregistrations) mitigate against
 questionable research practices, they do not prevent research misconduct
-or fraud (Yamada 2018).
+or fraud [@yamada2018].
 :::
 
 ::: notes
@@ -952,7 +950,7 @@ preregistration?**
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
 - [ ] Reading Frequently Asked Question pages
-- [ ] Trying an Open Science Buffet approach @bergma2023
+- [ ] Trying an Open Science Buffet approach [@bergmann2023]
 
 ::: notes
 **Presenter Notes**:
@@ -963,7 +961,7 @@ preregistration?\*\*
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
 - [ ] Reading Frequently Asked Question pages
-- [ ] Trying an Open Science Buffet approach @bergma2023
+- [ ] Trying an Open Science Buffet approach [\@bergmann2023]
 :::
 
 ------------------------------------------------------------------------
@@ -974,7 +972,7 @@ preregistration?**
 - [ ] Give up on trying out a preregistration
 - [x] Find a preregistration template
 - [x] Reading Frequently Asked Question pages
-- [x] Trying an Open Science Buffet approach [@bergma2023]
+- [x] Trying an Open Science Buffet approach [@bergmann2023]
 
 ::: callout-note
 ## Reflecting on answer
@@ -986,12 +984,9 @@ page on preregistrations and registered reports.
 :::
 
 ::: notes
-**Presenter Notes**:
-The answer is the bottom three answers:
-- Find a preregistration template
-- Reading Frequently Asked Question pages
-- Trying an Open Science Buffet approach 
-
+**Presenter Notes**: The answer is the bottom three answers: - Find a
+preregistration template - Reading Frequently Asked Question pages -
+Trying an Open Science Buffet approach
 :::
 
 ------------------------------------------------------------------------
@@ -1043,8 +1038,8 @@ Which benefit and barrier resonated with you most?
 Now that you’ve taken a look at some of the challenges and opportunities
 of preregistration let's practice improving elements of preregistration.
 
-In the spirit of an "Open Science buffet" (Bergma, 2023), let’s start to
-build up your study registration toolkit!
+In the spirit of an "Open Science buffet" (Bergmann, 2023), let’s start
+to build up your study registration toolkit!
 
 Starting small can help manage the feeling of overwhelm with trying out
 a practice for the first time!
@@ -1189,16 +1184,16 @@ interest and the target demographic (e.g. young-adult office workers).
 
 ## Now it is your turn!
 
-1.  **Access** worksheet
-    https://docs.google.com/document/d/1F65ZMpQxx8-V5Uy2q_Y1V54iKwfr_mrOrl24hN7YAL8/edit?tab=t.0#heading=h.pe80dgxbkmfr
+1.  **Access** worksheet \[LINK\]
 2.  **Read** instructions
 3.  **Work** through improving the snippets (40 minutes)
 
 ::: notes
 **Presenter Notes**: Now it is your turn!
 
-Access the worksheet here and follow the instructions. We will have a
-bout 40 minutes to do this before we wrap up.
+Access the "build up your preregistration toolkit! worksheet here and
+follow the instructions. We will have a bout 40 minutes to do this
+before we wrap up.
 
 **Instructor Notes**: Check learners have access to the worksheet. Pause
 to take questions.
@@ -1260,7 +1255,7 @@ of agency in the choices that are made in how research is carried out.
 
 ::: notes
 **Presenter Notes**: Before we wrap up with a final summary, let's
-revisit the survey questions from the begining.
+revisit the survey questions from the beginning.
 
 **Instructor Notes**:
 
