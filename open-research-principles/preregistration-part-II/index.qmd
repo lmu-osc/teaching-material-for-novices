@@ -1,20 +1,20 @@
 ---
-title: "Preregistration"
+title: "Preregistration part II"
 ---
 
-> Add something nice here
+> Preregistration part II: benefits, barriers and building up skills
 
-[Click here to see the materials in full screen](preregistration-slides.qmd)
+[Click here to see the materials in full screen](preregistration-part-II-slides.qmd)
 
 ```{=html}
-<iframe class="slide-deck" src="preregistration-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="preregistration-part-II-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Middleton, S., & Ihle, M. (2026). *Preregistration* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration)
+Middleton, L. S. & Ihle, M. (2026). Preregistration part II: benefits, barriers and building up skills [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/) and [FORRT](https://forrt.org/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration-part-II](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration-part-II)
 :::
 
 [EDIT TEXT] **Welcome!** This workshop is intended to provide learners with an **introduction to open research**, its core **values**, **principles** and **key open open research practices** with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through *a priori* study planning and tools such as **preregistration**, **registered reports** and **data simulation methods**, researchers can reduce their own biases and produce more reliable studies. Through data sharing and increasing **computational reproducibility**, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can ultimately produce more **credible and transparent research**. 
@@ -44,8 +44,8 @@ At the end of this session, you or your learners will be able to ...
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
 <!-- download as pdf button -->
-<a href="preregistration-slides.pdf"
-   download="preregistration-slides.pdf"
+<a href="preregistration-part-II-slides.pdf"
+   download="preregistration-part-II-slides.pdf"
    class="btn btn-primary">
   Download slides as PDF
 </a>
