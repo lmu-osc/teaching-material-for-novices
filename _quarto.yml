@@ -35,6 +35,7 @@ website:
         contents:
           - href: open-research-principles/reproducibility-replicability/index.qmd
           - href: open-research-principles/credible-research/index.qmd
+          - href: open-research-principles/preregistration-part-II/index.qmd
       - section: "Open Research Tools"
         contents:
           - href: open-research-tools/r-part-I/index.qmd

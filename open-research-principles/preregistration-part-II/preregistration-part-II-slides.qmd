@@ -38,28 +38,18 @@ Before completing this session, please carefully read about the
 prerequisites.
 :::
 
-- Completion of preregistration training materials (preregistration part
-  I \[coming soon!\]
+- Completion of preregistration training materials (preregistration part I \[coming soon!\]
 
 - Access to Build up your preregistration toolkit! \[coming soon\]
 
 ::: notes
-**Presenter Notes**: These are the **presenter notes**. You will find a
-script for the presenter for every slide. In presentation mode, your
-audience will not be able to see these presenter notes, they are only
-visible to the presenter.
+**Presenter Notes**: These are the **presenter notes**. You will find a script for the presenter for every slide. In presentation mode, your audience will not be able to see these presenter notes, they are only visible to the presenter.
 
-For this session, it is important that you are familiar with what a
-preregistration is, since this session is building up on that.
+For this session, it is important that you are familiar with what a preregistration is, since this session is building up on that.
 
-**Instructor Notes**: There are also **instructor notes**. For some
-slides, there will be pedagogical tips, suggestions for activities and
-troubleshooting tips for issues your audience might run into. You can
-find these notes underneath the presenter notes.
+**Instructor Notes**: There are also **instructor notes**. For some slides, there will be pedagogical tips, suggestions for activities and troubleshooting tips for issues your audience might run into. You can find these notes underneath the presenter notes.
 
-These are the prerequisites for this session. Before you get started on
-this session with your audience, you need to ensure that the audience
-fulfills these criteria.
+These are the prerequisites for this session. Before you get started on this session with your audience, you need to ensure that the audience fulfills these criteria.
 :::
 
 ------------------------------------------------------------------------
@@ -73,12 +63,7 @@ preregistration and identify which part of a preregistration I can
 improve on"*
 
 ::: notes
-**Presenter Notes**: In part 2 of this preregistration workshop I hope
-you will go from not being sure of the opportunities and challenges of
-doing a preregistration to being able to discuss benefits and barriers
-and identify an area of the preregistration process you can improve on.
-
-**Instructor Notes**:
+**Presenter Notes**: In part 2 of this preregistration workshop I hope you will go from not being sure of the opportunities and challenges of doing a preregistration to being able to discuss benefits and barriers and identify an area of the preregistration process you can improve on.
 :::
 
 ------------------------------------------------------------------------
@@ -87,38 +72,22 @@ and identify an area of the preregistration process you can improve on.
 
 Study preregistration is an open science practice that:
 
-- **safe guards** researchers from **questionable research practices**
-  and **biases** by making decision-making processes more explicit.
+- **safe guards** researchers from **questionable research practices** and **biases** by making decision-making processes more explicit.
 
-- involves uploading a time-stamped, publicly-available\* **record** of
-  a research study plan onto a register, which is given a unique and
-  permanent study identifier.
+- involves uploading a time-stamped, publicly-available\* **record** of a research study plan onto a register, which is given a unique and permanent study identifier.
 
-- \*Preregistrations do not need to be made public immediately and can
-  be embargoed for a period of years (e.g. [Open Science Framework
-  preregistrations](https://help.osf.io/article/634-addressing-fear-of-scooping-on-osf-preregistrations)
-  can be embargoed for 4 years from first submission)
+- \*Preregistrations do not need to be made public immediately and can be embargoed for a period of years (e.g. [Open Science Framework preregistrations](https://help.osf.io/article/634-addressing-fear-of-scooping-on-osf-preregistrations) can be embargoed for 4 years from first submission)
 
 ::: notes
 **Presenter Notes**:
 
-- Study preregistration is an open science practice that safe guard
-  researchers from questionable research practices and biases by making
-  decision-making processes more explicit.
+- Study preregistration is an open science practice that safe guard researchers from questionable research practices and biases by making decision-making processes more explicit.
 
-- It involves uploading a time-stamped, publicly-available record of a
-  research study plan onto a register, which is given a unique and
-  permanent study identifier.
+- It involves uploading a time-stamped, publicly-available record of a research study plan onto a register, which is given a unique and permanent study identifier.
 
-- Preregistrations do not need to be made public immediately and can be
-  embargoed for a period of years. For example OSF preregistration can
-  be embargoed for a period of up to 4 years.
+- Preregistrations do not need to be made public immediately and can be embargoed for a period of years. For example OSF preregistration can be embargoed for a period of up to 4 years.
 
-**Instructor Notes**:
-
-A quick recap from preregistration part 1 helps learners situate
-themselves in the preregistration learning journey and before a short
-questions session (next slide).
+**Instructor Notes**: A quick recap from preregistration part 1 helps learners situate themselves in the preregistration learning journey and before a short questions session (next slide).
 :::
 
 ------------------------------------------------------------------------
@@ -126,18 +95,13 @@ questions session (next slide).
 ## Questions from preregistration part I
 
 ::: notes
-**Presenter Notes**: Before we get started with preregistration part II,
-now is a good time to clarify questions from part I.
+**Presenter Notes**: Before we get started with preregistration part II, now is a good time to clarify questions from part I.
 
 **Instructor Notes**:
 
-- This slide is dedicated to clarifying questions from the previous
-  submodule and/or to discuss assignments.
-- Additional slides may need to be added depending on the nature of the
-  homework assignments.
-- Critical for the learning process to ensure that learners are on the
-  same page and have been able to achieve the learning goals of the
-  previous workshop.
+- This slide is dedicated to clarifying questions from the previous submodule and/or to discuss assignments.
+- Additional slides may need to be added depending on the nature of the homework assignments.
+- Critical for the learning process to ensure that learners are on the same page and have been able to achieve the learning goals of the previous workshop.
 - Not applicable if this set of slides corresponds to the first
   submodule of a new module.
 :::
@@ -146,29 +110,11 @@ now is a good time to clarify questions from part I.
 
 ## Before we start: Survey time!
 
-::: notes
-**Presenter Notes**: Before we get started, survey time!
+::: {.panel-tabset}
 
-**Instructor Notes**:
+### Question 1
 
-- **Aim**: The pre-submodule survey serves to examine learners' prior
-  knowledge about the submodule's topic.
-
-- Use free survey software such as particify or formR to establish the
-  following questions (shown on separate slides).
-
-For a more interactive delivery, use free tools such as for example
-[Particify](https://www.particify.de/en/) to create interactive surveys
-with QR codes before you deliver this lesson. The pre-submodule survey
-should serve to examine learners' prior knowledge about version control
-and related concepts. Note that this survey cannot be completed in an
-asynchronous setting because the survey results cannot be displayed.
-:::
-
-------------------------------------------------------------------------
-
-**1. What is your level of familiarity with the key components of a
-preregistration (e.g., elements found in a preregistration document )?**
+**What is your level of familiarity with the key components of a preregistration (e.g., elements found in a preregistration document )?**
 
 - [ ] 1. I don't know
 
@@ -178,12 +124,10 @@ preregistration (e.g., elements found in a preregistration document )?**
 
 - [ ] 4. I am very familiar/have done a preregistration before
 
-------------------------------------------------------------------------
+### Question 2
 
-**2. How would you rate your confidence to carry out a preregistration
-for your study?** <br> <br> (1 to 5 scale: **1** = Not confident at all,
-**2** = Slightly confident, **3** = Somewhat confident, **4** = Very
-confident, **5** = Completely confident)
+**How would you rate your confidence to carry out a preregistration for your study?** 
+<br> <br> (1 to 5 scale: **1** = Not confident at all, **2** = Slightly confident, **3** = Somewhat confident, **4** = Very confident, **5** = Completely confident)
 
 - [ ] 1. Not confident at all
 
@@ -194,6 +138,8 @@ confident, **5** = Completely confident)
 - [ ] 4. Very confident
 
 - [ ] 5. Completely confident
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -210,18 +156,14 @@ What do we see in the results?
   interactively with the group. Use visuals from the survey to highlight
   specific answers.
 
-**Accessibility Tip**: Have people work in pairs if someone did not
-bring their phone/does not have a phone. This survey also cannot be
-completed in an asynchronous setting.
+**Accessibility Tip**: Have people work in pairs if someone did not bring their phone/does not have a phone. This survey also cannot be completed in an asynchronous setting.
 :::
 
 ------------------------------------------------------------------------
 
 ## Learning goals
 
-**Aim**: Examine the benefits of preregistration to researchers and
-wider research ecosystem, and discuss common challenges and how to
-address them. <br> <br>
+**Aim**: Examine the benefits of preregistration to researchers and wider research ecosystem, and discuss common challenges and how to address them. <br> <br>
 
 There are **two** sections to this submodule:
 
@@ -230,17 +172,11 @@ There are **two** sections to this submodule:
 - **Section 2:** Building up skills in preregistration
 
 ::: notes
-**Presenter Notes**: The overall aim of this submodule is to examine the
-benefits of preregistration to researchers and wider research ecosystem,
-and discuss common challenges and how to address them.
+**Presenter Notes**: The overall aim of this submodule is to examine the benefits of preregistration to researchers and wider research ecosystem, and discuss common challenges and how to address them.
 
-There are 2 sections: first we will discuss the benefits and barriers of
-doing a preregistration and then in the second section we will look at
-practicing improving our preregistration skills.
+There are 2 sections: first we will discuss the benefits and barriers of doing a preregistration and then in the second section we will look at practicing improving our preregistration skills.
 
-**Instructor Notes**: Giving the whole overview at the start of the
-session provides learners with structure and clarity about what to
-expect.
+**Instructor Notes**: Giving the whole overview at the start of the session provides learners with structure and clarity about what to expect.
 :::
 
 ------------------------------------------------------------------------
@@ -258,9 +194,7 @@ After completing section 1 you should be able to:
 - **Identify** key benefits of preregistration
 
 ::: notes
-**Presenter Notes**: We will begin by outlining the common benefits and
-barriers of preregistration for researchers and wider research
-ecosystem.
+**Presenter Notes**: We will begin by outlining the common benefits and barriers of preregistration for researchers and wider research ecosystem.
 
 There will be a quiz at the end and along the way several
 self-reflection exercises.
@@ -286,10 +220,7 @@ After completing section 2 you should be able to:
 - **Practice** improving elements of a preregistration
 
 ::: notes
-**Presenter Notes**:
-
-In section 2 we turn our attention to building up our registration
-toolkit, by practicing improving a component of a study preregistration.
+**Presenter Notes**: In section 2 we turn our attention to building up our registration toolkit, by practicing improving a component of a study preregistration.
 :::
 
 ------------------------------------------------------------------------
@@ -309,31 +240,20 @@ the way to the wider research ecosystem.
 
 Improved planning and project management
 
-- The process of filling out preregistration document helps **identify
-  key information** needed at study design stage
-- Outlining data collection methods and analysis plans which **reduces
-  ambiguity** and **errors** during data analysis stage
+- The process of filling out preregistration document helps **identify key information** needed at study design stage
+- Outlining data collection methods and analysis plans which **reduces ambiguity** and **errors** during data analysis stage
 
 Builds your reputation
 
-- Transparently show to the wider research community your plans and
-  tests
-- Signal that you have taken steps to **mitigate** against hindsight and
-  confirmation **bias** [@wagenmakers2016].
+- Transparently show to the wider research community your plans and tests
+- Signal that you have taken steps to **mitigate** against hindsight and confirmation **bias** [@wagenmakersSevenSelfishReasons2016].
 
 ::: notes
 **Presenter Notes**: A key area that preregistration benefits
-researchers is by improving the planning and project management as time
-is spent outlining data collection methods and analysis plans which
-reduces ambiguity and errors during data analysis stage. The process of
-filling out preregistration document helps identify key information
-needed at study design stage, which is particularly helpful for early
-career researchers.
+researchers is by improving the planning and project management as time is spent outlining data collection methods and analysis plans which reduces ambiguity and errors during data analysis stage. The process of filling out preregistration document helps identify key information needed at study design stage, which is particularly helpful for early career researchers.
 
 Preregistrations also allow you to build your reputation by -
-Transparently showing to the wider research community your plans and
-tests and - signalling that you have taken steps to mitigate against
-hindsight and confirmation bias.
+Transparently showing to the wider research community your plans and tests and - signalling that you have taken steps to mitigate against hindsight and confirmation bias.
 :::
 
 ------------------------------------------------------------------------
@@ -342,37 +262,24 @@ hindsight and confirmation bias.
 
 Easier to write up and publish findings
 
-- Front loading the thinking and planning makes **writing up** results
-  and discussion a smoother process
+- Front loading the thinking and planning makes **writing up** results and discussion a smoother process
 
-- If you preregister your analytic **code** on **simulated data** the
-  results of your confirmatory analyses will be **generated quicker**
-  once you have collected and cleaned data
+- If you preregister your analytic **code** on **simulated data** the results of your confirmatory analyses will be **generated quicker** once you have collected and cleaned data
 
-- If preregistration is approved as a registered report during stage 1
-  journal peer review, you have **"in-principle acceptance"**
+- If preregistration is approved as a registered report during stage 1 journal peer review, you have **"in-principle acceptance"**
 
 Visible productivity
 
-- Publicly sharing outputs that others can **evaluate** beyond a journal
-  article (as evaluation of outputs can be influenced by journal
-  prestige)
+- Publicly sharing outputs that others can **evaluate** beyond a journal article (as evaluation of outputs can be influenced by journal prestige)
 
 ::: notes
-**Presenter Notes**: Preregistration makes it easier to write up and
-publish findings by front loading the thinking and planning. This makes
-writing up results and discussion a smoother process!
+**Presenter Notes**: Preregistration makes it easier to write up and publish findings by front loading the thinking and planning. This makes writing up results and discussion a smoother process!
 
-If you preregister your analytic **code** on **simulated data** the
-results of your confirmatory analyses will be **generated quicker** once
-you have collected and cleaned data
+If you preregister your analytic **code** on **simulated data** the results of your confirmatory analyses will be **generated quicker** once you have collected and cleaned data
 
-And, if preregistration is approved as a registered report during stage
-1 journal peer review, you have "in-principle acceptance"
+And, if preregistration is approved as a registered report during stage 1 journal peer review, you have "in-principle acceptance"
 
-Closely linked, is the benefit of more visibility of your work beyond
-journal articles (as evaluation of outputs can be influenced by journal
-prestige).
+Closely linked, is the benefit of more visibility of your work beyond journal articles (as evaluation of outputs can be influenced by journal prestige).
 :::
 
 ------------------------------------------------------------------------
@@ -381,24 +288,17 @@ prestige).
 
 Clearer involvement of collaborators/project partners
 
-- Provides opportunities for project partners to discuss and **refine
-  plans** before data collection
-- Detailed research plans provide **clarity** for project partners,
-  which is increasingly important in the era of **large-scale
+- Provides opportunities for project partners to discuss and **refine plans** before data collection
+- Detailed research plans provide **clarity** for project partners, which is increasingly important in the era of **large-scale
   collaborations**
 
 ::: notes
 **Presenter Notes**: Clearer involvement of collaborators/project
-partners is another important benefit of preregistration at the level of
-teams.
+partners is another important benefit of preregistration at the level of teams.
 
-Preregistration provides opportunities for project partners to discuss
-and refine plans before data collection - a chance to catch any
-potential errors early!
+Preregistration provides opportunities for project partners to discuss and refine plans before data collection - a chance to catch any potential errors early!
 
-Detailed research plans provide clarity for project partners, which is
-increasingly important in the era of large-scale collaborations (also
-known as Big Team Science).
+Detailed research plans provide clarity for project partners, which is increasingly important in the era of large-scale collaborations (also known as Big Team Science).
 :::
 
 ------------------------------------------------------------------------
@@ -408,79 +308,54 @@ known as Big Team Science).
 Increase research credibility and bias
 
 - **Mitigates** against questionable research practices
-- Offers more complete reporting and **transparency** of research
-  project
-- **Reduces publication bias**, as preregistration/registered report is
-  available to read (if not embargoed)
+- Offers more complete reporting and **transparency** of research project
+- **Reduces publication bias**, as preregistration/registered report is available to read (if not embargoed)
 
 Check thinking
 
 - Other people reading your findings can **follow your thought process**
 - Gain a deeper understanding of a project and make an **informed
-  assessment** [@binney2025]
+  assessment** [@binneyPracticalRoutesPreregistration2025]
 
 ::: notes
-**Presenter Notes**: Thinking at the scale of academic disciplines and
-wider academia, preregistration helps in two main ways:
+**Presenter Notes**: Thinking at the scale of academic disciplines and wider academia, preregistration helps in two main ways:
 
 firstly by increasing research credibility by - Mitigating against
-questionable research practices and - Offering more complete reporting
-and transparency of research project. - by mitigating against the
-publication bias or file drawer effect as the project plans are
-available and accessible on a repository or published as a registered
-report even if there are no statistically significant results. This is
-especially valuable when it comes to meta-analyses.
+questionable research practices and - Offering more complete reporting and transparency of research project. - by mitigating against the publication bias or file drawer effect as the project plans are available and accessible on a repository or published as a registered report even if there are no statistically significant results. This is especially valuable when it comes to meta-analyses.
 
-Secondly, it allows other people to check thinking by - Allowing other
-people to read your findings and follow your thought process enabling
-them to - gain a deeper understanding of a project.
+Secondly, it allows other people to check thinking by - Allowing other people to read your findings and follow your thought process enabling them to - gain a deeper understanding of a project.
 
-**Instructor Notes**: Note about research credibility in slide at the
-end of section 1 about PARKing ("Preregistrating after the results are
-known").
+**Instructor Notes**: Note about research credibility in slide at the end of section 1 about PARKing ("Preregistrating after the results are known").
 :::
 
 ------------------------------------------------------------------------
 
 ## Benefits recap
 
-- There are many benefits to doing a preregistration for individual
-  researchers, teams and the wider research ecosystem.
+- There are many benefits to doing a preregistration for individual researchers, teams and the wider research ecosystem.
 
-- Overall, by taking the time to carefully plan your study design, data
-  collection and approach to analysis, research becomes more rigorous,
-  transparent and credible.
+- Overall, by taking the time to carefully plan your study design, data collection and approach to analysis, research becomes more rigorous, transparent and credible.
 
 ::: callout-note
 ## Reflection point
 
-Do you relate to the benefits of preregistration mentioned? Are there
-any other benefits you can think of?
+Do you relate to the benefits of preregistration mentioned? Are there any other benefits you can think of?
 :::
 
 ::: callout-tip
 ## Find out more
-
 More benefits about preregistration and registered reports from a
 student, author and journal editor perspective are outlined by
-@gya2023b.
+@gyaRegisteredReportsNew2023.
 :::
 
 ::: notes
 **Presenter Notes**: Before we move on the considering some of the
-barriers of preregistration, The take home message is that by taking the
-time to carefully plan your study design, data collection and approach
-to analysis research becomes more rigorous, transparent and credible.
+barriers of preregistration, The take home message is that by taking the time to carefully plan your study design, data collection and approach to analysis research becomes more rigorous, transparent and credible.
 
-You can explore this topic more, you can read additional benefits of
-preregistration from multiple perspectives in the field of ecology and
-evolution by Gya and colleagues.
+You can explore this topic more, you can read additional benefits of preregistration from multiple perspectives in the field of ecology and evolution by Gya and colleagues.
 
-**Instructor Notes**: Reflection point can be a time for learners to
-quietly consolidate the points (1-2 minutes) covered on benefits of
-preregistration and consider their own contexts. This reflection
-exercise can be expanded so learners can share their reflections in
-class.
+**Instructor Notes**: Reflection point can be a time for learners to quietly consolidate the points (1-2 minutes) covered on benefits of preregistration and consider their own contexts. This reflection exercise can be expanded so learners can share their reflections in class.
 :::
 
 ------------------------------------------------------------------------
@@ -489,28 +364,18 @@ class.
 
 Wider context:
 
-- There are significant challenges present in the current **research**
-  and **assessment** **culture** (e.g. "publish or perish") which
-  influences the uptake of preregistration.
+- There are significant challenges present in the current **research** and **assessment** **culture** (e.g. "publish or perish") which influences the uptake of preregistration.
 
-- Researchers have **different knowledge** and **experience** levels
-  with Open Science practices that reflect in **attitudes** and
-  **adoption** of preregistration.
+- Researchers have **different knowledge** and **experience** levels with Open Science practices that reflect in **attitudes** and **adoption** of preregistration.
 
 ::: notes
-**Presenter Notes**: In the final part of section 1 we will outline some
-common challenges researchers new to the practice of preregistration can
-encounter.
+**Presenter Notes**: In the final part of section 1 we will outline some common challenges researchers new to the practice of preregistration can encounter.
 
 Some context to keep in mind:
 
-- There are significant challenges present in the current research and
-  assessment culture (e.g. "publish or perish") which influences the
-  uptake of preregistration.
+- There are significant challenges present in the current research and assessment culture (e.g. "publish or perish") which influences the uptake of preregistration.
 
-- Researchers have different knowledge and experience levels with Open
-  Science practices that reflect in attitudes and adoption of
-  preregistration.
+- Researchers have different knowledge and experience levels with Open Science practices that reflect in attitudes and adoption of preregistration.
 :::
 
 ------------------------------------------------------------------------
@@ -519,21 +384,14 @@ Some context to keep in mind:
 
 **Time**: *"I haven't got time to do a preregistration"*
 
-- *Reframing:* front-loaded effort during the planning stage can help
-  later on during write up and during peer review (remember the benefits
-  to researchers slide earlier)
+- *Reframing:* front-loaded effort during the planning stage can help later on during write up and during peer review (remember the benefits to researchers slide earlier)
 
 ::: callout-note
 ## Did you know?
 
-[Peer Community in Registered
-Reports](https://rr.peercommunityin.org/PCIRegisteredReports/) is an
-initiative where the research community reviews and recommends
-registered reports. There is the option to speed up the Stage 1 peer
-review of a registered report with the 'scheduled review'
-[track](https://rr.peercommunityin.org/help/guide_for_reviewers#h_61998243643551613309672490).
-Authors initially submit a one-page “snapshot” instead of a full stage 1
-report.
+[Peer Community in Registered Reports](https://rr.peercommunityin.org/PCIRegisteredReports/) is an initiative where the research community reviews and recommends
+registered reports. There is the option to speed up the Stage 1 peer review of a registered report with the 'scheduled review'
+[track](https://rr.peercommunityin.org/help/guide_for_reviewers#h_61998243643551613309672490). Authors initially submit a one-page “snapshot” instead of a full stage 1 report.
 :::
 
 ::: notes
@@ -541,21 +399,12 @@ report.
 preregistration is
 
 "I haven't got time to do a study registration" to which a
-counterargument would be: front-loaded effort during the planning stage
-can help later on during write up and during peer review.
+counterargument would be: front-loaded effort during the planning stage can help later on during write up and during peer review.
 
 To make you aware there is an initiative called "Peer Community in
-Registered Reports", where the research community reviews and recommends
-registered reports. There is the option to speed up the Stage 1 peer
-review of a registered report with the 'scheduled review' track Authors
-initially submit a one-page “snapshot” instead of a full stage 1 report.
+Registered Reports", where the research community reviews and recommends registered reports. There is the option to speed up the Stage 1 peer review of a registered report with the 'scheduled review' track Authors initially submit a one-page “snapshot” instead of a full stage 1 report.
 
-**Instructor Notes**: It is important for instructors to acknowledge the
-wider 'publish or perish' research culture. There is a some truth to the
-statement, as study planning should take time. It can be helpful to
-reframe preregistrations as an upfront time investment that will pay off
-later (link also to benefits of preregistration e.g. easier to write up
-findings).
+**Instructor Notes**: It is important for instructors to acknowledge the wider 'publish or perish' research culture. There is a some truth to the statement, as study planning should take time. It can be helpful to reframe preregistrations as an upfront time investment that will pay off later (link also to benefits of preregistration e.g. easier to write up findings).
 :::
 
 ------------------------------------------------------------------------
@@ -565,39 +414,21 @@ findings).
 **Statistical confidence**: *"How do I know my planned statistical
 analysis is the right one?"*
 
-- *Strategy:* Simulate random data with the distribution and sample size
-  of expected real data and run the statistical test planned for the
-  study.
-- Repeat the statistical test (e.g. 100 x) and check results are within
-  the false-positive finding rate of 5%
-- Run a power analysis by simulating data with the expected effect size
-  for the study and check model registers effect at least 80% of the
-  time
+- *Strategy:* Simulate random data with the distribution and sample size of expected real data and run the statistical test planned for the study.
+- Repeat the statistical test (e.g. 100 x) and check results are within the false-positive finding rate of 5%
+- Run a power analysis by simulating data with the expected effect size for the study and check model registers effect at least 80% of the time
 
 ::: callout-note
 ## Additional resource
-
-[Training
-materials](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations/)
-for novices: Introduction to simulations and power analysis in R.
+[Training materials](https://lmu-osc.github.io/teaching-material-for-novices/open-research-tools/simulations/) for novices: Introduction to simulations and power analysis in R.
 :::
 
 ::: notes
 **Presenter Notes**:
-
 Another common barrier is lack of confidence in choosing the right
-statistical test.
+statistical test. The strategy would be to run simulations and power analysis. Simulate random data with the distribution and sample size of expected real data and run the statistical test planned for the study. - Repeat the statistical test (e.g. 100 x) and check results are within the false-positive finding rate of 5% - Run a power analysis by simulating data with the expected effect size for the study and check model registers effect at least 80% of the time
 
-The strategy would be to run simulations and power analysis. Simulate
-random data with the distribution and sample size of expected real data
-and run the statistical test planned for the study. - Repeat the
-statistical test (e.g. 100 x) and check results are within the
-false-positive finding rate of 5% - Run a power analysis by simulating
-data with the expected effect size for the study and check model
-registers effect at least 80% of the time
-
-There are introductory guides on this topic which you can look at in
-your own time.
+There are introductory guides on this topic which you can look at in your own time.
 :::
 
 ------------------------------------------------------------------------
@@ -606,31 +437,21 @@ your own time.
 
 **Lack of flexibility:** *"Preregistration keeps you in a box"*
 
-- *Reframing:* Preregistrations are a "plan not a prison" as you can
-  document any deviations from your plan when you write up the research
-  findings [@dehaven2017].
-- Preregistrations can be tailored to the study type (e.g incremental -
-  transparently documenting exploratory-confirmatory pathway or
-  sequential - multi-stage contingent experiments).
+- *Reframing:* Preregistrations are a "plan not a prison" as you can document any deviations from your plan when you write up the research findings [@dehavenPreregistrationPlanNot2017].
+- Preregistrations can be tailored to the study type (e.g incremental
+- transparently documenting exploratory-confirmatory pathway or sequential - multi-stage contingent experiments).
 
 ::: callout-note
 ## Find out more
-
-@binney2025 discuss practical guidance of balancing mitigating biases
-with flexibility in the research process. @lakens2024 discusses when and
+@binneyPracticalRoutesPreregistration2025 discuss practical guidance of balancing mitigating biases with flexibility in the research process. @lakensWhenHowDeviate2024 discusses when and
 how to deviate from a preregistration.
 :::
 
 ::: notes
-**Presenter Notes**: "Preregistration keeps you in a box" is another
-common perceived barrier. There is different degrees of flexibility in
-preregistations as you can document any deviations from your plan when
-you write up the research findings. It is important to describe changes
-to the design, sampling or analysis plans clearly.
+**Presenter Notes**: "Preregistration keeps you in a box" is another common perceived barrier. There is different degrees of flexibility in preregistations as you can document any deviations from your plan when you write up the research findings. It is important to describe changes to the design, sampling or analysis plans clearly.
 
 Preregistration can be tailored to the study type. They can be
-incremental (e.g. transparently documenting exploratory-confirmatory
-pathway) or sequential (e.g. multi-stage contingent experiments).
+incremental (e.g. transparently documenting exploratory-confirmatory pathway) or sequential (e.g. multi-stage contingent experiments).
 :::
 
 ------------------------------------------------------------------------
@@ -640,30 +461,16 @@ pathway) or sequential (e.g. multi-stage contingent experiments).
 **Fear of scooping**: *"What if someone steals my ideas before they are
 published?"*
 
-- *Counterargument:* Preregistrations do not need to be made public
-  right away and can be embargoed for a period of years (e.g. [Open
-  Science Framework
-  preregistrations](https://help.osf.io/article/634-addressing-fear-of-scooping-on-osf-preregistrations)
-  can be embargoed for 4 years from first submission)
+- *Counterargument:* Preregistrations do not need to be made public right away and can be embargoed for a period of years (e.g. [Open Science Framework preregistrations](https://help.osf.io/article/634-addressing-fear-of-scooping-on-osf-preregistrations) can be embargoed for 4 years from first submission)
 
-- The embargo period allows researchers time after preregistering their
-  study to conduct the research, analyse, write up and publish their
-  findings.
+- The embargo period allows researchers time after preregistering their study to conduct the research, analyse, write up and publish their findings.
 
 ::: notes
-**Presenter Notes**: A commonly cited barrier to preregistration is tied
-to intellectual property with the fear of being scooped. The pressure to
-publish contributes to the fear of having research ideas "stolen" before
-they are published, as preregistrations are publically available.
+**Presenter Notes**: A commonly cited barrier to preregistration is tied to intellectual property with the fear of being scooped. The pressure to publish contributes to the fear of having research ideas "stolen" before they are published, as preregistrations are publically available.
 
-To counteract this barrier, preregistered studies can be uploaded onto
-preregistration platforms and made private for a period of time. The
-Open Science Framework allows an embargo period of 4 years from first
-submission before the preregistration is made public.
+To counteract this barrier, preregistered studies can be uploaded onto preregistration platforms and made private for a period of time. The Open Science Framework allows an embargo period of 4 years from first submission before the preregistration is made public.
 
-The embargo period allows researchers time after preregistering their
-study to conduct the research, analyse, write up and publish their
-findings.
+The embargo period allows researchers time after preregistering their study to conduct the research, analyse, write up and publish their findings.
 :::
 
 ------------------------------------------------------------------------
@@ -679,29 +486,15 @@ findings.
 
 ::: callout-note
 ## Find out more
-
-Next time you read a journal article in your field, take a look at the
-journal's webpage and see if they accept preregistered studies and if
-there are guidelines for publishing registered reports. This information
-is usually in the author resources/guidelines section.
+Next time you read a journal article in your field, take a look at the journal's webpage and see if they accept preregistered studies and if there are guidelines for publishing registered reports. This information is usually in the author resources/guidelines section.
 :::
 
 ::: notes
-**Presenter Notes**: The counterargument to "I don't see the point" that
-aside from individual researcher benefits (increased reflection, better
-planning, reduced likelihood of systematic errors), journals are
-increasingly prioritizing study registrations.
+**Presenter Notes**: The counterargument to "I don't see the point" that aside from individual researcher benefits (increased reflection, better planning, reduced likelihood of systematic errors), journals are increasingly prioritizing study registrations.
 
-A nice little exercise to do next time you read a journal article is to
-see if they accept preregistered studies and if there are guidelines for
-publishing registered reports. This information is usually in the author
-resources/guidelines section.
+A nice little exercise to do next time you read a journal article is to see if they accept preregistered studies and if there are guidelines for publishing registered reports. This information is usually in the author resources/guidelines section.
 
-**Instructor Notes**: This additional exercise is optional and can be
-set as a homework. It is designed for learners to see that prevalence
-and acceptance of preregistration is growing. Psychology journals are
-likely have higher prevalance see: Simonsohn (2023)
-https://datacolada.org/115.
+**Instructor Notes**: This additional exercise is optional and can be set as a homework. It is designed for learners to see that prevalence and acceptance of preregistration is growing. Psychology journals are likely have higher prevalance see: Simonsohn (2023) https://datacolada.org/115.
 :::
 
 ------------------------------------------------------------------------
@@ -710,24 +503,16 @@ https://datacolada.org/115.
 
 **Overwhelm**: *"There is so much that goes into a preregistration"*
 
-- *Counterargument:* templates and FAQ pages can guide you and if you
-  are unable to officially register a study, adopting principles of
-  study preregistration is a good step (e.g. Open Science Buffet
-  approach [@bergmann2023].
+- *Counterargument:* templates and FAQ pages can guide you and if you are unable to officially register a study, adopting principles of study preregistration is a good step (e.g. Open Science Buffet approach [@bergmannBuffetApproachOpen2023].
 
 ::: callout-note
 ## Find out more
 
-The Open Science Framework (OSF) has a [frequently asked
-questions](https://help.osf.io/article/330-welcome-to-registrations#FAQs-GG_d_)
-page on preregistrations and registered reports.
+The Open Science Framework (OSF) has a [frequently asked questions](https://help.osf.io/article/330-welcome-to-registrations#FAQs-GG_d_) page on preregistrations and registered reports.
 :::
 
 ::: notes
-**Presenter Notes**: When something is new it can be hard to wrap your
-head around the concept or practice and it can feel overwhelming. With
-preregistration, there are lots of templates that guide you through the
-process and support pages.
+**Presenter Notes**: When something is new it can be hard to wrap your head around the concept or practice and it can feel overwhelming. With preregistration, there are lots of templates that guide you through the process and support pages.
 
 We will revisit how to address this challenge in section 2!
 :::
@@ -739,11 +524,9 @@ We will revisit how to address this challenge in section 2!
 **Lack of support**: *"No one in my team knows or cares about
 preregistration"*
 
-- *Strategy:* Often a reluctance to try out preregistration comes from a
-  place of lack of familiarity with the process.
+- *Strategy:* Often a reluctance to try out preregistration comes from a place of lack of familiarity with the process.
 
-- Sharing resources, and suggest a group meeting to discuss/learn more
-  about preregistration to increase familiarity.
+- Sharing resources, and suggest a group meeting to discuss/learn more about preregistration to increase familiarity.
 
 - Reframe preregistration as a creative opportunity to plan great
   science! Planning is where the science is, as other research
@@ -751,28 +534,15 @@ preregistration"*
 
 ::: callout-note
 ## Additional resource
-
-Relate to this challenge? See the preregistration [case
-study](https://zenodo.org/records/22307709) which provides strategies.
+Relate to this challenge? See the preregistration [case study](https://zenodo.org/records/22307709) which provides strategies.
 :::
 
 ::: notes
-**Presenter Notes**: A challenge which can be a bit more complex to
-resolve, is when there is a lack of support from supervisors or group
-members. This can come from a place of lack of familiarity. It is
-important to understand where this resistance is coming from. Opening up
-a discussion with the wider group can be beneficial place to start.
+**Presenter Notes**: A challenge which can be a bit more complex to resolve, is when there is a lack of support from supervisors or group members. This can come from a place of lack of familiarity. It is important to understand where this resistance is coming from. Opening up a discussion with the wider group can be beneficial place to start.
 
-**Instructor Notes**: You can expand on student-supervisor reframing of
-preregistration: planning is where the science really happens, a lot of
-other tasks can be delegated (data collection, statistical analyses,
-writing up), but not the thinking /creative and smart planning. Students
-can make a plan and then have their supervisors check the robustness of
-their plans.
+**Instructor Notes**: You can expand on student-supervisor reframing of preregistration: planning is where the science really happens, a lot of other tasks can be delegated (data collection, statistical analyses, writing up), but not the thinking /creative and smart planning. Students can make a plan and then have their supervisors check the robustness of their plans.
 
-Additional resource with case study can be set as an in class exercise
-or homework (time allocation 15-60 minutes, depending on how in-depth
-you wish to go).
+Additional resource with case study can be set as an in class exercise or homework (time allocation 15-60 minutes, depending on how in-depth you wish to go).
 :::
 
 ------------------------------------------------------------------------
@@ -790,7 +560,7 @@ PARKing), but it does make it harder.
 **PARKing**: "Preregistrating after the results are known" is considered
 research misconduct where researchers complete an experiment before
 preregistering which invalidates the purpose of preregistration
-[@parsons2022].
+[@parsonsCommunitysourcedGlossaryOpen2022].
 :::
 
 ::: notes
@@ -844,9 +614,11 @@ preregistration.
 questions where the answers will appear after each question.
 :::
 
-------------------------------------------------------------------------
+::: {.panel-tabset}
 
-**Q1. Which options below are benefits of registered reports**
+### Question 1
+
+**Which options below are benefits of registered reports**
 
 - [ ] In-principle acceptance (IPA) of manuscripts
 - [ ] Prevents fraud
@@ -865,9 +637,9 @@ registered report?
 - Opportunity for community feedback on project plans
 :::
 
-------------------------------------------------------------------------
+### Question 2
 
-**A1. Which option(s) below are benefits of registered reports**
+**Which option(s) below are benefits of registered reports**
 
 - [x] In-principle acceptance (IPA) of manuscripts
 - [ ] Prevents fraud
@@ -877,9 +649,7 @@ registered report?
 ::: callout-note
 ## Reflecting on answer
 
-Although registered reports (and preregistrations) mitigate against
-questionable research practices, they do not prevent research misconduct
-or fraud [@yamada2018].
+Although registered reports (and preregistrations) mitigate against questionable research practices, they do not prevent research misconduct or fraud [@yamadaHowCrackPreregistration2018].
 :::
 
 ::: notes
@@ -894,10 +664,17 @@ questionable research practices, they do not prevent research misconduct
 or fraud.
 :::
 
-------------------------------------------------------------------------
+:::
 
-**Q2. Which from the options below is an example of how preregistrations
-benefit the wider research ecosystem level?**
+---
+
+## Quiz
+
+::: {.panel-tabset}
+
+### Question 1
+
+**Which from the options below is an example of how preregistrations benefit the wider research ecosystem level?**
 
 - [ ] Mitigates publication bias
 - [ ] Improves planning and project management
@@ -916,10 +693,9 @@ registered report?
 - Visible productivity
 :::
 
-------------------------------------------------------------------------
+### Question 3
 
-**A2. Which from the options below is an example of how preregistrations
-benefit the wider research ecosystem level?**
+**Which from the options below is an example of how preregistrations benefit the wider research ecosystem level?**
 
 - [x] Mitigates publication bias
 - [ ] Improves planning and project management
@@ -928,10 +704,7 @@ benefit the wider research ecosystem level?**
 
 ::: callout-note
 ## Reflecting on answer
-
-Improves planning and project management, building up reputation and
-visible productivity are examples of benefits at the individual
-researcher level.
+Improves planning and project management, building up reputation and visible productivity are examples of benefits at the individual researcher level.
 :::
 
 ::: notes
@@ -942,15 +715,16 @@ benefit of preregistration at the wider research ecosystem level,
 particularly when it comes to meta-research.
 :::
 
-------------------------------------------------------------------------
+### Question 3
 
-**Q3. What can I do if I feel overwhelmed or lack time to do a
-preregistration?**
+**What can I do if I feel overwhelmed or lack time to do a preregistration?**
 
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
 - [ ] Reading Frequently Asked Question pages
-- [ ] Trying an Open Science Buffet approach [@bergmann2023]
+- [ ] Trying an Open Science Buffet approach [@bergmannBuffetApproachOpen2023]
+
+:::
 
 ::: notes
 **Presenter Notes**:
@@ -961,7 +735,7 @@ preregistration?\*\*
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
 - [ ] Reading Frequently Asked Question pages
-- [ ] Trying an Open Science Buffet approach [\@bergmann2023]
+- [ ] Trying an Open Science Buffet approach [\@bergmannBuffetApproachOpen2023]
 :::
 
 ------------------------------------------------------------------------
@@ -972,7 +746,7 @@ preregistration?**
 - [ ] Give up on trying out a preregistration
 - [x] Find a preregistration template
 - [x] Reading Frequently Asked Question pages
-- [x] Trying an Open Science Buffet approach [@bergmann2023]
+- [x] Trying an Open Science Buffet approach [@bergmannBuffetApproachOpen2023]
 
 ::: callout-note
 ## Reflecting on answer
