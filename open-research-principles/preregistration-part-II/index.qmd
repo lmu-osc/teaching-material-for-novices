@@ -14,54 +14,70 @@ title: "Preregistration part II"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Middleton, L. S. & Ihle, M. (2026). Preregistration part II: benefits, barriers and building up skills [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/) and [FORRT](https://forrt.org/). [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration-part-II](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration-part-II)
+
+Middleton, L. S. & Ihle, M. (2026). Preregistration part II: benefits, barriers and building up skills \[Quarto slides\]. [LMU Open Science Center](https://www.osc.lmu.de/) and [FORRT](https://forrt.org/). <https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/preregistration-part-II>
 :::
 
-[EDIT TEXT] **Welcome!** This workshop is intended to provide learners with an **introduction to open research**, its core **values**, **principles** and **key open open research practices** with the ultimate goal to boost replicability of research outputs. More specifically, it explores how replicability can be increased by fostering reliability on the one hand, and reproducibility on the other hand. Through *a priori* study planning and tools such as **preregistration**, **registered reports** and **data simulation methods**, researchers can reduce their own biases and produce more reliable studies. Through data sharing and increasing **computational reproducibility**, for example through RStudio projects, living Quarto documents and meticulous documentation of code and all research steps involved, researchers can ultimately produce more **credible and transparent research**. 
+**Welcome!** This workshop is intended to provide learners with an overview of the key benefits and barriers of preregistration. The session first considers how benefits and opportunities of preregistration exist from individual researchers all the way to the wider research ecosystem. The session then provides opportunties for learners to practice improving elements of preregistration to build up familiarity and confidence in the process.
 
 ### Who are these materials for?
 
 - **Educators** in higher education with or without familiarity with open research planning to **teach open research** to **novices**
 - **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
 
-### Prerequisites - EDIT
+### Prerequisites 
 
-<div style="font-size: 0.8em;">
-| Prerequisite   |  Description  | Link/Where to find it   |
-|------------|------------|------------|
-| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
-| Introduction to reproducibility and replicability | Basic familiarity with current challenges in research and the effects on research quality | [https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability](https://lmu-osc.github.io/teaching-material-for-novices/open-research-principles/reproducibility-replicability) |
-</div>
+::: {style="font-size: 0.8em;"}
+| Prerequisite | Description | Link/Where to find it |
+|------------------------|------------------------|------------------------|
+| Preregistration part 1 | Training materials that introduce the context of preregistration | *link coming soon* |
+| Build up your preregistration toolkit! | A worksheet needed for the exercises in this session | *link coming soon* |
+:::
 
-### Learning objectives - EDIT
+### Learning objectives:
 
-At the end of this session, you or your learners will be able to ...
+This session aims to take learners from:
 
-- *Unfinished section - work in progress*
+*“I am not sure what some of the opportunities are or how to overcome some of the challenges of doing a preregistration"*
+
+to: *“I feel able discuss the benefits and barriers of preregistration and identify which part of a preregistration I can improve on”*
+
+At the end of this session, you or your learners will be able to:
+
+- **Explain** the perceived barriers to doing a preregistration
+
+- **Identify** key benefits of preregistration
+
+- **Self-reflect** on challenging parts of the preregistration process
+
+- **Practice** improving elements of a preregistration
+
+*Unfinished section - work in progress*
 
 ### Export slides
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
 <!-- download as pdf button -->
+
 <a href="preregistration-part-II-slides.pdf"
    download="preregistration-part-II-slides.pdf"
-   class="btn btn-primary">
-  Download slides as PDF
-</a>
- 
+   class="btn btn-primary"> Download slides as PDF </a>
+
 ## Contributors and licence details
 
-**Creators**: Middleton, Sara (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029)) and Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
+**Creator**: Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029)) 
+
+**Reviewer**: Ihle, Malika (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-3242-5981](https://orcid.org/0000-0002-3242-5981))
 
 <br>
 
 <p style="text-align:center;">
-  <img src="images/cc-by-sa.png" 
-  alt="Creative Commons Attribution 4.0 SA"
-  style="width:160px;" />
+
+<img src="images/cc-by-sa.png" alt="Creative Commons Attribution 4.0 SA" style="width:160px;"/>
+
 </p>
 
-<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
-This work was originally created by [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) and was subsequently adapted by Sara Middleton. This current work by Sara Middleton and Malika Ihle is licensed under a  [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0). 
-</div>
+::: {style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;"}
+This work by [Sara Lil Middleton](https://www.osc.lmu.de/people/people/sara-lil-middleton.html) and  [Malika Ihle](https://www.osc.lmu.de/people/people/malika-ihle.html) is licensed under a [Creative Commons Attribution 4.0 International SA License](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC-BY-SA 4.0).
+:::
