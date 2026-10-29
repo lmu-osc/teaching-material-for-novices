@@ -1,0 +1,72 @@
+---
+title: "FAIR Research Data Management"
+---
+
+> From *"I know I should share data, but..."* to *"I feel confident to manage and share my research data"*
+
+[Click here to see the materials in full screen](fair-data-slides.qmd)
+
+```{=html}
+<iframe class="slide-deck" src="fair-data-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Gupta, R., Meier, L., & Middleton, L. S. (2026). *FAIR Research Data Management: A hands-on, actionable workshop for researchers* [Quarto slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/fair-data](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/fair-data)
+:::
+
+**Welcome!** This workshop is intended to help learners **bridge the gap** between knowing they *should* share their research data and feeling confident to actually do it. Learners will see which parts of the **FAIR principles** (Findable, Accessible, Interoperable, Reusable) are **their responsibility** and which are handled by repositories and tools. The session then turns these principles into **practical skills** for **organizing**, **documenting**, and **sharing** research data, from folder structures, file naming and file formats to data dictionaries, READMEs and metadata. Through short hands-on activities, learners **discover the standards** their field already uses, **pick a repository** and **choose a license** for their own data. The session takes about **105 minutes** and includes polls, a quiz and two worksheet activities.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research** to **novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+| Laptop with internet access | Needed for the toolkit and repository activities | |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Distinguish** the parts of FAIR you should and should *not* worry about
+- **Apply** practical skills for organizing, documenting, and sharing research data
+- **Find and adopt** the standards your field already uses
+- **Commit** to one concrete next step to take within the next month
+
+## Download materials
+
+### Export slides
+
+You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
+
+<!-- download as pdf button -->
+<a href="fair-data-slides.pdf"
+   download="fair-data-slides.pdf"
+   class="btn btn-primary">
+  Download slides as PDF
+</a>
+
+## Contributors and licence details
+
+**Creators**: Gupta, Reema (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0003-4509-6969](https://orcid.org/0000-0003-4509-6969)); Meier, Laura (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0003-1368-2306](https://orcid.org/0000-0003-1368-2306)); Middleton, Sara Lil (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0001-5307-8029](https://orcid.org/0000-0001-5307-8029))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by.png"
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+These slides build on the [FAIR Research Data Management Tutorial](https://lmu-osc.github.io/FAIR-Data-Management/) by Maike Kleemeyer, Larissa Leiminger, Laura Meier & David Walter (2025), course materials from the Research Data Management in Neuroscience course at LMU Munich by Thomas Wachtler, and [So, Why Go FAIR?](https://osf.io/2jbps) (2023). This work by Reema Gupta, Laura Meier and Sara Lil Middleton is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0). Third-party images retain their original licences as stated on each slide.
+</div>
