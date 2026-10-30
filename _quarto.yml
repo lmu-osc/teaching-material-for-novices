@@ -48,6 +48,7 @@ website:
       - section: "Open Materials"
         contents:
           - href: open-materials/open-access/index.qmd
+          - href: open-materials/open-data/index.qmd
       - section: "Wrapping up - what now?"
         contents:
           - href: wrap-up/where-to-next/index.qmd

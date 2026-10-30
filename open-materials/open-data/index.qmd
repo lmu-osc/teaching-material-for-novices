@@ -1,0 +1,87 @@
+---
+title: "Open Research Data"
+---
+
+> Why should we share data? (And do I get a co-authorship?)
+
+[Click to view the slides in full screen](open-data.pdf)
+
+```{=html}
+<iframe
+  class="slide-deck"
+  src="open-data.pdf"
+  height="420"
+  width="747"
+  style="border: 1px solid #2e3846;">
+</iframe>
+```
+
+## About these materials
+
+::: {.callout-warning collapse="true"}
+## Citation statement
+Please cite these materials as: Schönbrodt, F., & Gupta, R. (2026). *Introduction to open research data: Why should we share data?* [Slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data)
+:::
+
+**Welcome!** These slides are intended to provide learners with an **introduction to open research data**. They cover **five reasons** to share data, from verifiability and self-correction to funder and journal requirements, and show how rarely data "available upon request" is actually shared. Learners then explore **what counts as research data** in their field, how to make data **"FAIR enough"**, and the **three fields of tension** that come with data sharing: privacy, the right of first usage (and the question of co-authorship), and protecting original authors. The session closes with how research assessment is starting to **reward open data**.
+
+### Who are these materials for?
+
+- **Educators** in higher education with or without familiarity with open research planning to **teach open research** to **novices**
+- **Self-learners** with no or limited familiarity with open research planning to **develop and build** up on their open research skills
+
+### Prerequisites
+
+<div style="font-size: 0.8em;">
+| Prerequisite   |  Description  | Link/Where to find it   |
+|------------|------------|------------|
+| UNESCO Recommendations on Open Science | For a first overview of Open Research, particularly pp 6-19 | [Download here](https://unesdoc.unesco.org/ark:/48223/pf0000379949) |
+</div>
+
+### Learning objectives
+
+At the end of this session, you or your learners will be able to ...
+
+- **Explain** why open data matters for verifiability, efficiency, public value, data persistence, and funder and journal requirements
+- **Identify** what counts as research data in your own field
+- **Apply** a "FAIR enough" approach to sharing your own data
+- **Weigh** openness against privacy, the right of first usage, and the protection of original authors
+- **Recognize** how research assessment is starting to value open data
+
+### Export slides
+
+You can export these slides as MS PowerPoint or pdf by clicking the button below.
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+
+  <a href="open-data.pptx"
+     download="open-data.pptx"
+     class="btn btn-primary"
+     style="min-width: 180px;">
+    Download slides as pptx
+  </a>
+
+  <a href="open-data.pdf"
+     download="open-data.pdf"
+     class="btn btn-primary"
+     style="min-width: 180px;">
+    Download slides as pdf
+  </a>
+
+</div>
+
+## Contributors and licence details
+
+**Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910)); Gupta, Reema (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0003-4509-6969](https://orcid.org/0000-0003-4509-6969))
+
+<br>
+
+<p style="text-align:center;">
+  <img src="images/cc-by.png"
+  alt="Creative Commons Attribution 4.0"
+  style="width:160px;" />
+</p>
+
+<div style="background-color: #f0f0f0; padding: 0.05em; border-radius: 2px; font-size: 0.6em;">
+These slides were adapted from previous work by [Felix Schönbrodt](https://orcid.org/0000-0002-8282-3910). They were subsequently modified by [Reema Gupta](https://orcid.org/0000-0003-4509-6969) and are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en) (CC-BY 4.0). Third-party images retain their original licences as stated on each slide.
+</div>
