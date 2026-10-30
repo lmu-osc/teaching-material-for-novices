@@ -20,7 +20,7 @@ title: "Open Research Data"
 
 ::: {.callout-warning collapse="true"}
 ## Citation statement
-Please cite these materials as: Gupta, R., & Schönbrodt, F. (2026). *Introduction to open research data: Why should we share data?* [Slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data)
+Please cite these materials as: Schönbrodt, F., & Gupta, R. (2026). *Introduction to open research data: Why should we share data?* [Slides]. [LMU Open Science Center](https://www.osc.lmu.de/). [https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data](https://lmu-osc.github.io/teaching-material-for-novices/open-materials/open-data)
 :::
 
 **Welcome!** These slides are intended to provide learners with an **introduction to open research data**. They cover **five reasons** to share data, from verifiability and self-correction to funder and journal requirements, and show how rarely data "available upon request" is actually shared. Learners then explore **what counts as research data** in their field, how to make data **"FAIR enough"**, and the **three fields of tension** that come with data sharing: privacy, the right of first usage (and the question of co-authorship), and protecting original authors. The session closes with how research assessment is starting to **reward open data**.
@@ -72,7 +72,7 @@ You can export these slides as MS PowerPoint or pdf by clicking the button below
 
 ## Contributors and licence details
 
-**Creator**: Gupta, Reema (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0003-4509-6969](https://orcid.org/0000-0003-4509-6969)); Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910))
+**Creator**: Schönbrodt, Felix (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0002-8282-3910](https://orcid.org/0000-0002-8282-3910)); Gupta, Reema (![](images/ORCID-iD_icon_16x16.png){fig-alt="orcid logo"} [0000-0003-4509-6969](https://orcid.org/0000-0003-4509-6969))
 
 <br>
 
