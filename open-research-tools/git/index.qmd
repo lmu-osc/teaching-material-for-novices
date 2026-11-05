@@ -4,10 +4,10 @@ title: "Introduction to version control with Git in RStudio"
 
 > Git it together.
 
-[Click here to see the materials in full screen](git-slides.qmd)
+[Click here to see the materials in full screen](https://lmu-osc.github.io/slides-git/slides-git-revealjs.html)
 
 ```{=html}
-<iframe class="slide-deck" src="git-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://lmu-osc.github.io/slides-git/slides-git-revealjs.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
@@ -71,11 +71,17 @@ At the end of this session, you or your learners will be able to ...
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
-<!-- download as pdf button -->
-<a href="git-slides.pdf"
-   download="git-slides.pdf"
+<!-- download buttons -->
+<a href="https://lmu-osc.github.io/slides-git/slides-git.pdf"
+   download="slides-git.pdf"
    class="btn btn-primary">
   Download slides as PDF
+</a>
+
+<a href="https://lmu-osc.github.io/slides-git/slides-git.pptx"
+   download="slides-git.pptx"
+   class="btn btn-primary">
+  Download slides as PowerPoint
 </a>
 
 ## Contributors and licence details

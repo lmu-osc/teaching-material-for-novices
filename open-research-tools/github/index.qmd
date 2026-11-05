@@ -4,10 +4,10 @@ title: "Introduction to collaborative coding with GitHub"
 
 > Building reproducible research projects.
 
-[Click here to see the materials in full screen](github-slides.qmd)
+[Click here to see the materials in full screen](https://lmu-osc.github.io/slides-github/slides-github-revealjs.html)
 
 ```{=html}
-<iframe class="slide-deck" src="github-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://lmu-osc.github.io/slides-github/slides-github-revealjs.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
@@ -52,11 +52,17 @@ At the end of this session, you or your learners will be able to ...
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
-<!-- download as pdf button -->
-<a href="github-slides.pdf"
-   download="github-slides.pdf"
+<!-- download buttons -->
+<a href="https://lmu-osc.github.io/slides-github/slides-github.pdf"
+   download="slides-github.pdf"
    class="btn btn-primary">
   Download slides as PDF
+</a>
+
+<a href="https://lmu-osc.github.io/slides-github/slides-github.pptx"
+   download="slides-github.pptx"
+   class="btn btn-primary">
+  Download slides as PowerPoint
 </a>
 
 ### Activity sheet

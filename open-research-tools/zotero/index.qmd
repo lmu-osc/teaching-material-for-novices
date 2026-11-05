@@ -4,10 +4,10 @@ title: "Introduction to Zotero"
 
 > Citing like a pro and more time for your writing.
 
-[Click here to see the materials in full screen](zotero-slides.qmd)
+[Click here to see the materials in full screen](https://lmu-osc.github.io/slides-zotero/slides-zotero-revealjs.html)
 
 ```{=html}
-<iframe class="slide-deck" src="zotero-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://lmu-osc.github.io/slides-zotero/slides-zotero-revealjs.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
@@ -51,11 +51,17 @@ You can access the self-paced tutorial via this link: [https://lmu-osc.github.io
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
-<!-- download as pdf button -->
-<a href="zotero-slides.pdf"
-   download="zotero-slides.pdf"
+<!-- download buttons -->
+<a href="https://lmu-osc.github.io/slides-zotero/slides-zotero.pdf"
+   download="slides-zotero.pdf"
    class="btn btn-primary">
   Download slides as PDF
+</a>
+
+<a href="https://lmu-osc.github.io/slides-zotero/slides-zotero.pptx"
+   download="slides-zotero.pptx"
+   class="btn btn-primary">
+  Download slides as PowerPoint
 </a>
 
 ## Contributors and licence details
