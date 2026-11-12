@@ -176,11 +176,16 @@ What do we see in the results?
 
 ---
 
-## Covered in this session
+## Learning goals
 
-- Topic 1
-- Topic 2
-- Topic 3
+**Aim**: Examine study preregistration as an open science practice, its
+links to addressing questionable research practices and what components make up a preregistration. <br> <br>
+
+There are **two** sections to this submodule:
+
+-   **Section 1**: Introduction to study preregistration
+
+-   **Section 2:** How to do a study preregistration
 
 ::: {.notes}
 **Presenter Notes**: This slides serves as an overview of the topics that are discussed, presented as bullet points.
@@ -188,32 +193,115 @@ What do we see in the results?
 
 ---
 
-## Learning objectives
+## Section 1: Learning goals and overview
 
-At the end of this session, you will be able to...
+Section 1 is all about learning the key terms and definitions and to get
+you thinking about the *what* and the *why* of study registration. <br>
+<br>
 
-::: incremental
-- **Install** and **load** ....
-- **Import** external data ...
-- **Explain** key components of ...
-:::
+Activity: Reflection question and quiz <br> <br>
 
-::: {.notes}
-**Presenter Notes**: Script for the slide here.
+After completing section 1 you should be able to:
 
-**Instructor Notes**:  
+-   **Recognize** the context of why registration exists as an open
+    science practice
 
-- **Aim**: Formulate specific, action-oriented goals learning goals which are measurable and observable in line with Bloom's taxonomy (Anderson et al., 2001; Bloom et al., 1956)
+::: notes
+*Speaker Notes:*
 
-- Place an emphasis on the **verbs** of the learning goals and choose verbs that align with the skills you want to develop or assess.
+After completing section 1 you should be able to:
 
-- Examples: 
-  - Learners will **describe** the process of photosynthesis or
-  - Learners will **construct** a diagram illustrating the process of photosynthesis
-  
+-   **Recognize** the context of why registration exists as an open
+    science practice
+
+The main activity is a self reflection exercise
 :::
 
 ---
+
+## Section 2: Learning goals and overview
+
+Section 2 is all about learning about the steps involved in a study
+preregistration <br> <br>
+
+
+After completing section 2 you should be able to:
+
+-   **Identify** the key components of a study preregistration
+-   **Describe** the differences between study preregistration and
+    registered reports
+
+::: notes
+*Speaker Notes:*
+
+After completing section 2 you should be able to:
+
+-   **Identify** the key components of a study registration
+-   **Describe** the differences between study registration and
+    registered reports
+
+:::
+
+---
+
+## Section 1: Introduction to preregistration
+
+::: notes
+*Speaker notes:*
+
+Let's start get started with section 1 where will look at the context of
+why study registrations exist.
+:::
+
+---
+
+## Warm up question to get us started!
+
+In your research project, when do you typically *think about* the type
+of *analysis* you use?
+
+-   [ ] A. As you collect your data
+-   [ ] B. After you have collected all your data
+-   [ ] C. As you plan your study
+
+1.  *Reflect* on the question on your own
+2.  We will *share* our answers in class
+
+::: notes
+*Speaker Notes:*
+
+To get us to think about our current ways of working, I would like us
+think about our current or past research project and reflect on this
+question: In your research project, when do you typically think about
+the type of analysis you use?
+
+A. As you collect your data B. After you have collected all your data C.
+As you plan your study
+
+We will then share our some of our thoughts as a class.
+
+*Instructor Notes:*
+
+*Activity delivery mode:* Suitable for in person, online and hybrid
+teaching formats: Provide learners with a minute to think and then
+submit their answers anonymously on a pre-prepared Particify poll.
+Project the results of the question on the board/share screen (if
+online). Remark on the most popular answer and invite 1 or 2 learners to
+share their experiences related to the question if they feel comfortable
+sharing.
+
+*Pedagogical add on:* This self reflection question invites learners to
+reflect on their own workflows. It also primes them for the practice of
+registration being about reframing or front loading research planning in
+advance of collecting data.
+:::
+
+---
+
+
+
+
+
 
 ## Key terms and definitions
 
