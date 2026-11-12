@@ -98,9 +98,9 @@ Study preregistration is an open science practice that:
   can be embargoed for 4 years from first submission)
 
 ::: notes
-**Presenter Notes**: Study preregistration is an open science practice that safe guard
-  researchers from questionable research practices and biases by making
-  decision-making processes more explicit.
+**Presenter Notes**: Study preregistration is an open science practice
+that safe guard researchers from questionable research practices and
+biases by making decision-making processes more explicit.
 
 - It involves uploading a time-stamped, publicly-available record of a
   research study plan onto a register, which is given a unique and
@@ -123,15 +123,13 @@ before a short questions session (next slide).
 **Presenter Notes**: Before we get started with preregistration part II,
 now is a good time to clarify questions from part I.
 
-**Instructor Notes**: This slide is dedicated to clarifying questions from the previous
-  submodule and/or to discuss assignments.
-- Additional slides may need to be added depending on the nature of the
-  homework assignments.
-- Critical for the learning process to ensure that learners are on the
-  same page and have been able to achieve the learning goals of the
-  previous workshop.
-- Not applicable if this set of slides corresponds to the first
-  submodule of a new module.
+**Instructor Notes**: This slide is dedicated to clarifying questions
+from the previous submodule and/or to discuss assignments. - Additional
+slides may need to be added depending on the nature of the homework
+assignments. - Critical for the learning process to ensure that learners
+are on the same page and have been able to achieve the learning goals of
+the previous workshop. - Not applicable if this set of slides
+corresponds to the first submodule of a new module.
 :::
 
 ------------------------------------------------------------------------
@@ -179,9 +177,9 @@ What do we see in the results?
 ::: notes
 **Presenter Notes**: Let us have a look at these results.
 
-**Instructor Notes**:**Aim**: Briefly examine the answers given to each question
-  interactively with the group. Use visuals from the survey to highlight
-  specific answers.
+**Instructor Notes**:**Aim**: Briefly examine the answers given to each
+question interactively with the group. Use visuals from the survey to
+highlight specific answers.
 
 **Accessibility Tip**: Have people work in pairs if someone did not
 bring their phone/does not have a phone. This survey also cannot be
@@ -764,7 +762,8 @@ preregistering which invalidates the purpose of preregistration
 :::
 
 ::: notes
-**Presenter Notes**: It is important to clarify what preregistrations don't do.
+**Presenter Notes**: It is important to clarify what preregistrations
+don't do.
 
 They do not prevent fraud or research misconduct (e.g. PARKing).
 
@@ -822,8 +821,8 @@ questions where the answers will appear after each question.
 - [ ] Opportunity for community feedback on project plans
 
 ::: notes
-**Presenter Notes**: Out of the following four options, which ones are benefits of doing a
-registered report?
+**Presenter Notes**: Out of the following four options, which ones are
+benefits of doing a registered report?
 
 - In-principle acceptance (IPA) of manuscripts
 - Prevents fraud
@@ -849,10 +848,9 @@ or fraud [@yamadaHowCrackPreregistration2018].
 :::
 
 ::: notes
-**Presenter Notes**: The answers are:
-- In-principle acceptance (IPA) of manuscripts
-- Mitigates publication bias
-- Opportunity for community feedback on project plans
+**Presenter Notes**: The answers are: - In-principle acceptance (IPA) of
+manuscripts - Mitigates publication bias - Opportunity for community
+feedback on project plans
 
 Although registered reports (and preregistrations) mitigate against
 questionable research practices, they do not prevent research misconduct
@@ -870,8 +868,8 @@ benefit the wider research ecosystem level?**
 - [ ] Visible productivity
 
 ::: notes
-**Presenter Notes**: Out of the following four options, which ones are benefits of doing a
-registered report?
+**Presenter Notes**: Out of the following four options, which ones are
+benefits of doing a registered report?
 
 - Mitigates publication bias
 - Improves planning and project management
@@ -898,9 +896,9 @@ researcher level.
 :::
 
 ::: notes
-**Presenter Notes**: The answer is mitigating against publication, which is an example of a
-benefit of preregistration at the wider research ecosystem level,
-particularly when it comes to meta-research.
+**Presenter Notes**: The answer is mitigating against publication, which
+is an example of a benefit of preregistration at the wider research
+ecosystem level, particularly when it comes to meta-research.
 :::
 
 ------------------------------------------------------------------------
@@ -911,11 +909,12 @@ preregistration?**
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
 - [ ] Reading Frequently Asked Question pages
-- [ ] Trying an Open Science Buffet approach [@bergmannBuffetApproachOpen2023]
+- [ ] Trying an Open Science Buffet approach
+  [@bergmannBuffetApproachOpen2023]
 
 ::: notes
-**Presenter Notes**: What can I do if I feel overwhelmed or lack time to do a
-preregistration?\*\*
+**Presenter Notes**: What can I do if I feel overwhelmed or lack time to
+do a preregistration?\*\*
 
 - [ ] Give up on trying out a preregistration
 - [ ] Find a preregistration template
@@ -931,7 +930,8 @@ preregistration?**
 - [ ] Give up on trying out a preregistration
 - [x] Find a preregistration template
 - [x] Reading Frequently Asked Question pages
-- [x] Trying an Open Science Buffet approach [@bergmannBuffetApproachOpen2023]
+- [x] Trying an Open Science Buffet approach
+  [@bergmannBuffetApproachOpen2023]
 
 ::: callout-note
 ## Reflecting on answer
@@ -992,8 +992,9 @@ Which benefit and barrier resonated with you most?
 ## Section 2: Build up your preregistration toolkit!
 
 ::: notes
-**Presenter Notes**: Now that you’ve taken a look at some of the challenges and opportunities
-of preregistration let's practice improving elements of preregistration.
+**Presenter Notes**: Now that you’ve taken a look at some of the
+challenges and opportunities of preregistration let's practice improving
+elements of preregistration.
 
 In the spirit of an "Open Science buffet" (Bergmann, 2023), let’s start
 to build up your study registration toolkit!
@@ -1097,9 +1098,9 @@ How would you study the interaction between plants and people?
 :::
 
 ::: notes
-**Presenter Notes:** Let's have a go at improving this answer: A research
-team wants to do a study on the topic of how indoor plants impact a
-person’s mood.
+**Presenter Notes:** Let's have a go at improving this answer: A
+research team wants to do a study on the topic of how indoor plants
+impact a person’s mood.
 
 First think about it on your own, then discuss answer with neighbor.
 Then after a couple of minutes we will share some answers as a whole
@@ -1277,9 +1278,9 @@ confident, **5** = Completely confident)
   Framework community pages).
 
 ::: notes
-**Presenter Notes**: Preregistration and registered reports offer many benefits to
-  researchers, teams and the wider community (e.g. building reputation
-  and more rigorous, transparent and credible research).
+**Presenter Notes**: Preregistration and registered reports offer many
+benefits to researchers, teams and the wider community (e.g. building
+reputation and more rigorous, transparent and credible research).
 
 - A number of challenges exist to the wider uptake of preregistration
   (e.g. perceived inflexibility, time commitment, overwhelm).
@@ -1291,7 +1292,8 @@ confident, **5** = Completely confident)
 - There are lots of places to get support (e.g. Open Science Framework
   community pages).
 
-**Instructor Notes**: Allow time for questions and remind learners of their assignment.
+**Instructor Notes**: Allow time for questions and remind learners of
+their assignment.
 :::
 
 ------------------------------------------------------------------------
