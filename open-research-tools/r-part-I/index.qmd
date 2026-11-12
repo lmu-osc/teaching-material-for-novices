@@ -4,10 +4,10 @@ title: "Introduction to R - Part I"
 
 > Welcome to the R side.
 
-[Click here to see the materials in full screen](r-part-I-slides.qmd)
+[Click here to see the materials in full screen](https://lmu-osc.github.io/slides-r-part-I/slides-r-part-I-revealjs.html)
 
 ```{=html}
-<iframe class="slide-deck" src="r-part-I-slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://lmu-osc.github.io/slides-r-part-I/slides-r-part-I-revealjs.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 
 ## About these materials
@@ -57,11 +57,17 @@ Learn more: [RStudio is now Posit](https://posit.co/blog/rstudio-is-now-posit)
 
 You can export these slides as MS PowerPoint (.pptx - *in progress*) or pdf by clicking below. Note that basic formatting will be applied to the PowerPoint file.
 
-<!-- download as pdf button -->
-<a href="r-part-I-slides.pdf"
-   download="r-part-I-slides.pdf"
+<!-- download buttons -->
+<a href="https://lmu-osc.github.io/slides-r-part-I/slides-r-part-I.pdf"
+   download="slides-r-part-I.pdf"
    class="btn btn-primary">
   Download slides as PDF
+</a>
+
+<a href="https://lmu-osc.github.io/slides-r-part-I/slides-r-part-I.pptx"
+   download="slides-r-part-I.pptx"
+   class="btn btn-primary">
+  Download slides as PowerPoint
 </a>
 
 ### Accessibility sheet
