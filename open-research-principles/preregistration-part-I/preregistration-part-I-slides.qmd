@@ -400,21 +400,18 @@ https://doi.org/10.1371/journal.pbio.3000690
 
 [Essential:]{style="background-color: #30a347; color: #fcfcfd; padding: 3px 6px; border-radius: 4px;"}
 
-  - *State* your research questions clearly
-  - *Describe* the (numbered) hypotheses in the context of your
-    variables
-  - For interaction effects, *describe* the expected shape of the
-    interactions.
-  - If you are manipulating a variable, *make predictions* for
-    successful check variables or explain why no manipulation check is
-    included.
+- *State* your research questions clearly
+- *Describe* the (numbered) hypotheses in the context of your variables
+- For interaction effects, *describe* the expected shape of the
+  interactions.
+- If you are manipulating a variable, *make predictions* for successful
+  check variables or explain why no manipulation check is included.
 
 [Recommendations:]{style="background-color: #2b66ff; color: #FAF9F6; padding: 3px 6px; border-radius: 4px;"}
 
 - Adding a table/figure to describe complex interaction
 - For studies testing hypotheses, link stated hypotheses to theoretical
   frameworks
-
 
 ::: notes
 *Speaker Notes:*
@@ -435,11 +432,11 @@ included.
 
 [Essential:]{style="background-color: #30a347; color: #fcfcfd; padding: 3px 6px; border-radius: 4px;"}
 
-  - *List* of variables based on your hypotheses:
-  - Independent variables (including levels, within or between
-    participants, relationship between them (e.g. nested))
-  - dependent variables or variables in a correlational design
-  - third variables (e.g. covariates, moderators, control variables)
+- *List* of variables based on your hypotheses:
+- Independent variables (including levels, within or between
+  participants, relationship between them (e.g. nested))
+- dependent variables or variables in a correlational design
+- third variables (e.g. covariates, moderators, control variables)
 
 ::: notes
 *Speaker Notes:*
@@ -461,10 +458,10 @@ participants, relationship between them (e.g. nested))
 
 [Essential:]{style="background-color: #30a347; color: #fcfcfd; padding: 3px 6px; border-radius: 4px;"}
 
-  - If applicable, *state* any pre-selection rules (e.g. age limits)
-  - *Indicate* where, from whom and how the data will be collected
-  - *Justify* planned sample size (e.g. power analysis)
-  - *Describe* data collection termination rule
+- If applicable, *state* any pre-selection rules (e.g. age limits)
+- *Indicate* where, from whom and how the data will be collected
+- *Justify* planned sample size (e.g. power analysis)
+- *Describe* data collection termination rule
 
 ::: notes
 *Speaker Notes:*
@@ -483,18 +480,17 @@ termination rule described.
 
 [Essential:]{style="background-color: #30a347; color: #fcfcfd; padding: 3px 6px; border-radius: 4px;"}
 
-  - *Describe* anticipated specific data exclusion criteria such as:
-  - missing, erroneous, or overly consistent responses
-  - failing check-tests or suspicion probes
-  - demographic exclusions
-  - data-based outlier criteria (e.g expected variable ranges)
-  - method-based outlier criteria (e.g. too short or long response
-    times)
-    
+- *Describe* anticipated specific data exclusion criteria such as:
+- missing, erroneous, or overly consistent responses
+- failing check-tests or suspicion probes
+- demographic exclusions
+- data-based outlier criteria (e.g expected variable ranges)
+- method-based outlier criteria (e.g. too short or long response times)
+
 [Recommendations:]{style="background-color: #2b66ff; color: #FAF9F6; padding: 3px 6px; border-radius: 4px;"}
 
-  - *Set* fail-safe levels of exclusion at which the whole study needs
-    to be stopped, altered, and restarted.
+- *Set* fail-safe levels of exclusion at which the whole study needs to
+  be stopped, altered, and restarted.
 
 ::: notes
 *Speaker Notes:*
@@ -521,16 +517,16 @@ whole study needs to be stopped, altered, and restarted.
 
 [Essential:]{style="background-color: #30a347; color: #fcfcfd; padding: 3px 6px; border-radius: 4px;"}
 
-  - *Describe* the analyses that will test each main prediction from the
-    hypotheses section. For each one, include:
-  - relevant variables and how they are calculated
-  - statistical technique
-  - each variable’s role in the technique (e.g., independent variable,
-    dependent variable and covariates)
-  - rationale for each covariate used, if any
-  - if using techniques other than null hypothesis testing (e.g.
-    Bayesian statistics), describe your criteria calculation of prior
-    values or distributions
+- *Describe* the analyses that will test each main prediction from the
+  hypotheses section. For each one, include:
+- relevant variables and how they are calculated
+- statistical technique
+- each variable’s role in the technique (e.g., independent variable,
+  dependent variable and covariates)
+- rationale for each covariate used, if any
+- if using techniques other than null hypothesis testing (e.g. Bayesian
+  statistics), describe your criteria calculation of prior values or
+  distributions
 
 ::: notes
 *Speaker Notes:*
@@ -565,10 +561,10 @@ changed based on learning about analysis plans?).
 
 [Recommendations:]{style="background-color: #2b66ff; color: #FAF9F6; padding: 3px 6px; border-radius: 4px;"}
 
-  - *Specify* contingencies and assumptions (e.g. method of correcting
-    for multiple testing, missing data handling, data transformations,
-    assumptions and assumption checks for analyses and alternative plans
-    for data analysis if assumptions are not met).
+- *Specify* contingencies and assumptions (e.g. method of correcting for
+  multiple testing, missing data handling, data transformations,
+  assumptions and assumption checks for analyses and alternative plans
+  for data analysis if assumptions are not met).
 
 ::: notes
 *Speaker Notes:*
@@ -600,48 +596,352 @@ place under embargo) or if ethical approval is needed.
 
 ------------------------------------------------------------------------
 
+## Preregistration templates
 
+::: {style="font-size: 0.6em; margin-top: 0.5em;"}
+<em>Adapted from @pennington; @stewart </em>
+:::
 
-------------------------------------------------------------------------
+:::::: {style="display: flex; gap: 0.5em;"}
+::: {style="flex: 0.75;"}
+**Template**
 
+- [AsPredicted](https://aspredicted.org/)
+- Open Science Framework
+  [(OSF)](https://help.osf.io/article/330-welcome-to-registrations)
+- [PROSPERO](https://www.crd.york.ac.uk/prospero/)
+- [Preregistration in social psychology](https://osf.io/k5wns/overview)
+- [Bio-protocol](https://bio-protocol.org/exchange)
+- [preregRS](https://onlinelibrary.wiley.com/doi/10.1002/jrsm.1540)
+:::
 
+::: {style="flex: 1;"}
+**Description**
 
-## Key terms and definitions
+- Standardized template
+- Multiple templates for many study types
+- Study protocols for systematic reviews
+- Guidelines
+- Online peer-reviewed protocol journal
+- Guidelines
+:::
 
-- **Key Term 1**
-- **Key Term 2**
-- **Key Term 3**
+::: {style="flex: 1.1;"}
+**Discipline/study type**
+
+- Quantitative/experimental studies
+- Wide-ranging
+- Health related
+- Quantitative/experimental social psychology studies
+- Biological sciences
+- Research syntheses
+:::
+::::::
 
 ::: notes
-**Presenter Notes**: These are key terms we will revisit throughout the
-lesson. What comes to mind when you see each of them? Which ones are
-familiar, and which feel new? Take a moment to think about what they
-might mean.
+*Speaker Notes:*
 
-**Instructor Notes**: Base yourself on conceptual change theory and
-examine existing concepts in relation to some key terms. Re-examine the
-formation of new concepts at the end of the lesson. Use a
-think-pair-share approach. First, have learners reflect individually on
-their associations with each term for a few minutes, then discuss in
-pairs for a few minutes, and finally share with the group. Allow about
-10 minutes for this activity.
+Now that you have an overview of what things are needed in a study
+preregistration, we can look at this table which displays a non
+exhaustive list of templates.
+
+The template you need will depend on the type of research study,
+institutional policies or any community standards.
 :::
 
 ------------------------------------------------------------------------
 
-## Key terms and definitions
+## Registered reports
 
-- **Key Term 1**: Definition
-- **Key Term 2**: Definition
-- **Key Term 3**: Definition
+- An extension of preregistration where a study undergoes two stages of
+  peer review [@chambers2013]:
+
+:::::: incremental
+::::: columns
+::: column
+**Stage 1**
+
+- Authors submit a manuscript detailing the study background, design,
+  data collection and analysis plan.
+
+- Following peer review, a manuscript is either rejected or
+  "in-principle accepted"
+
+- Authors then conduct the study, analyse and write up their findings
+  according to their plan.
+:::
+
+::: column
+**Stage 2**
+
+- Authors are assessed on whether they have adequately followed their
+  study plan and reported deviations where appropriate.
+
+- The manuscript will then be published independent from the statistical
+  significance (or lack of) of the findings.
+:::
+:::::
+::::::
 
 ::: notes
-**Presenter Notes**: Let’s go through what these key terms mean:
+*Speaker Notes:* So far we have focused on preregistration, but there is
+another related Open Science practice known as a registered report.
+Registered reports are a publishing format where a study undergoes two
+stages of peer review: stage 1: introduction and methods in advance of
+data collection/analysis and stage 2: which includes the full study
+findings including results/discussion.
 
-**Instructor Notes**: Come back to this slide at the end of the lesson,
-no need to go through in detail at this point. Learners just need to
-know that this overview exists.
+At stage 1, authors submit a manuscript detailing the study background,
+research design, data collection strategy, analysis plan. Following peer
+review a manuscript will either be rejected and or accepted - where a
+manuscript will have “in-principle acceptance” status. Authors then
+proceed to conduct the study, analyse and write up their findings
+according to their study plan.
+
+During stage 2, authors are assessed on whether they have adequately
+followed their study plan and reported deviations where appropriate. The
+manuscript will then be published independent from the statistical
+significance (or lack of) of the findings.
 :::
+
+------------------------------------------------------------------------
+
+## Registered reports
+
+The benefits of registered reports:
+
+- allows for potential errors to be detected early before data
+  collection
+
+- mitigates against publication bias
+
+::: callout-note
+Registered reports have been described in the literature as "Two-stage
+review with in-principle acceptance" [@mayo-wilson2025].
+:::
+
+::: notes
+*Speaker Notes:* This process allows for potential errors to be detected
+early before data collection and mitigates against publication bias.
+:::
+
+------------------------------------------------------------------------
+
+## Post preregistration
+
+- When it comes to write up your research findings for publication:
+
+::: {style="font-size: 0.6em; margin-bottom: 0.5em;"}
+<em> Study preregistration statement from @wise2019 </em>
+:::
+
+```{=html}
+
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+
+  <!-- Left side: single image -->
+  <div style="flex: 1; text-align: center;">
+
+    <img src="images/study-reg-statement.png" style="width: 115%;" />
+  
+  </div>
+  
+```
+
+<!-- Right side: bullet points -->
+
+::: {style="flex: 1;"}
+- *check* which journals accept study registrations (see "guide for
+  authors" on journal sites)
+- *include* a statement to say which aspect of the work was registered
+- *state* if any additional (e.g. exploratory) analyses not already
+  reported were conducted
+- *provide* a link to the registry used (e.g. OSF)
+:::
+
+</div>
+
+::: notes
+*Speaker Notes:*
+
+If you are not going down the registered report publishing pathway, when
+it comes to publishing the researching findings after submitting a study
+registration, first check the journal you are submitting to, accepts
+study registrations. Acceptance of study registrations is increasing!
+
+Remember to add a statement on your manuscript about which elements of
+your study has been registered. Note, you may have to check a box on the
+journal submission page declaring you have registered your study.
+
+See the example study registration statement here.
+:::
+
+------------------------------------------------------------------------
+
+## Quiz time!
+
+Time to test your knowledge on preregistration
+
+------------------------------------------------------------------------
+
+## Question 1
+
+**True or false? When describing your design plan you *only* need to
+describe your independent and dependent variables.**
+
+-   [ ] True
+-   [ ] False
+
+::: notes
+*Speaker Notes:*
+
+Question number 1: True or false? When describing your design plan you
+only need to describe your independent and dependent variables
+:::
+
+------------------------------------------------------------------------
+
+## Question 1 answer
+
+**True or false? When describing your design plan you *only* need to
+describe your independent and dependent variables.**
+
+-   [ ] True
+-   [x] False
+
+::: callout-note
+If your study has any covariates, these should be listed too!
+:::
+
+::: notes
+*Speaker Notes:*
+
+The answer is false, as covariates should be listed too.
+:::
+
+------------------------------------------------------------------------
+
+## Question 2
+
+**True or false? Study registration involves stating *how* you will
+handle missing data**
+
+-   [ ] True
+-   [ ] False
+
+::: notes
+*Speaker Notes:*
+
+Question number 2: True or false? Study registration involves stating
+how you will handle missing data
+:::
+
+------------------------------------------------------------------------
+
+## Question 2 answer
+
+**True or false? Study registration involves stating *how* you will
+handle missing data**
+
+-   [x] True
+-   [ ] False
+
+::: notes
+*Speaker Notes:*
+
+The answer is true.
+:::
+
+------------------------------------------------------------------------
+
+## Question 3 
+
+**Which repository has a more *generalist* study registration
+template?**
+
+-   [ ] A. PROSPERO
+-   [ ] B. OSF
+-   [ ] C. Bio-protocol
+
+::: notes
+*Speaker Notes:*
+
+Question 3:
+
+Which repository has a more generalist Study registration template?
+
+A. PROSPERO B. Open Science Framework (OSF) C. Bio-protocol
+:::
+
+------------------------------------------------------------------------
+
+## Question 3 answer
+
+**Which repository has a more *generalist* Study registration
+template?**
+
+-   [ ] A. PROSPERO
+-   [x] B. Open Science Framework (OSF)
+-   [ ] C. Bio-protocol
+
+::: callout-note
+OSF contains multiple templates for different study types including for
+qualitative, quantitative and systematic review studies, which can be
+adapted. See OSF help page
+[here](https://help.osf.io/article/330-welcome-to-registrations#Select-a-Registration-Template-1g4YO).
+::: 
+
+::: notes
+*Speaker Notes:*
+
+The answer is OSF, which contains multiple templates for different study
+types including for qualitative, quantitative and systematic review
+studies, which can be adapted.
+
+If you follow the hyper link it will take you to the OSF help page which
+breaks down the different templates with example use cases.
+:::
+
+------------------------------------------------------------------------
+
+## Question 4
+
+**Registered reports have two peer review stages that occur:**
+
+-   [ ] A. *After* developing an idea and *after* writing up study
+    findings
+-   [ ] B. *After* study plan and *after* collecting and analyzing data
+-   [ ] C. *After* study plan and *after* writing up study findings
+
+::: notes
+*Speaker Notes:*
+
+The final question: Registered reports have two peer review stages that
+occur:
+
+A. *After* developing an idea and *after* writing up study findings B.
+*After* study plan and *after* collecting and analyzing data C. *After*
+study plan and *after* writing up study findings
+:::
+
+------------------------------------------------------------------------
+
+## Question 4 answer
+
+**Registered reports have two peer review stages that occur:**
+
+-   [ ] A. *After* developing an idea and *after* writing up study
+    findings
+-   [ ] B. *After* study plan and *after* collecting and analyzing data
+-   [x] C. *After* study plan and *after* writing up study findings
+
+::: notes
+*Speaker Notes:*
+
+The answer is C to when peer review occurs in registered reports
+(*after* study plan and *after* writing up study findings)
+:::
+
 
 ------------------------------------------------------------------------
 
