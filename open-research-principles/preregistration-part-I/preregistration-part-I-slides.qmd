@@ -231,8 +231,8 @@ that are discussed, presented as bullet points.
 ## Section 1: Learning goals and overview
 
 Section 1 is all about learning the key terms and definitions and to get
-you thinking about the *what* and the *why* of study registration. <br>
-<br>
+you thinking about the *what* and the *why* of study preregistration.
+<br> <br>
 
 Activity: Reflection question and quiz <br> <br>
 
@@ -283,7 +283,7 @@ After completing section 2 you should be able to:
 *Speaker notes:*
 
 Let's start get started with section 1 where will look at the context of
-why study registrations exist.
+why study preregistrations exist.
 :::
 
 ------------------------------------------------------------------------
@@ -328,6 +328,126 @@ reflect on their own workflows. It also primes them for the practice of
 registration being about reframing or front loading research planning in
 advance of collecting data.
 :::
+
+------------------------------------------------------------------------
+
+## A researcher’s freedom to decide
+
+- Researchers make lots of decisions throughout the life cycle of a
+  project like:
+
+  - Which hypotheses to test?
+
+  - How big a sample size is needed?
+
+  - How long should the data collection period be?
+
+  - Which statistical test(s) is most appropriate?
+
+<br>
+
+- Because of the great flexibility in how research can be conducted
+  (known as **researcher degrees of freedom**), *how* and *when* we make
+  these decisions matters for the credibility of science.
+
+::: notes
+*Speaker Notes:*
+
+As researchers we make lots of decisions throughout the life cycle of a
+research project: Which hypotheses to test? How big a sample size is
+needed? How long should the data collection period be? Which statistical
+test(s) is most appropriate?
+
+Because of the great flexibility in how research can be conducted (known
+as researcher degrees of freedom), how and when we make these decisions
+matters for the credibility of science.
+:::
+
+------------------------------------------------------------------------
+
+## Researcher degrees of freedom
+
+- Generally researchers accept a **5% false-positive** rate (p ≤ .05)
+  when testing a hypothesis.
+
+- When researchers make decisions on analyses **after** seeing the data,
+  this **increases** the **false positive rate.**
+
+- Possible researcher decisions that inflate false-positive rate:
+
+  - **Increasing** our sample size N after failure
+  - **Removing** outliers after seeing their effect
+  - **Post-hoc** categorizing or transforming predictors
+  - **Removing** a treatment category
+  - **Adding** baseline measures as covariate
+  - **Controlling** for covariates or interaction terms
+
+::: notes
+*Speaker Notes:* Generally in quantitative research, we accept a 5%
+  false-positive rate (p ≤ .05) when testing a hypothesis. In other
+  words, 20 attempts to investigate a false hypothesis will result in
+  one statistical result. In practical terms, the more statistical tests
+  we do the more likely we are to falsely find a statistically
+  significant result.
+
+
+The following examples of researcher decisions which increase the rate
+of false positives: **Increasing** our sample size N after failure,
+**removing** outliers after seeing their effect, **Post-hoc**
+categorizing or transforming predictors, **removing** a treatment
+category, **adding** baseline measures as covariate, **controlling**
+for covariates or interaction terms
+
+*Instructor Notes:*
+
+It can be helpful to provide a worked example highlighting how
+researcher degrees of freedom inflate false positive rate.
+
+This example has been adapted from Forstmeier et al. (2017):
+
+Say you are trying to test whether female bird species X prefer males
+with larger feathers. You are unsure of the effect size or how big a
+sample size to collect, so you begin with collecting data on 10 females.
+With the sample size of 10 you run a simple regression to test whether
+feather length predicts female response Y. The regression reveals a
+trend showing females have a slight preference for larger feathers, but
+this result is not statistically significant. You are drawn to the
+result and think that a significant result can be reached by increasing
+the statistical power. You decide to collect more data on 10 more
+females, as a way to improve the statistical power, and rerun your
+regression with the 20 females.
+
+In pursuit of the significant result, you have inadvertently increased
+your false positive rate from 5% to \~7.7% (based on Simmons et al.
+(2011) false positive simulation study). This occurred because the two
+datasets were combined in the analysis and therefore are not independent
+resulting in an increased chance of reaching a significant result. The
+risk of reaching a false positive finding increases the more times you
+cycle through data collection and significance testing then collecting
+more data and so on. This is why a data collection stopping rule decided
+in advance during the study design stage!
+
+:::
+
+------------------------------------------------------------------------
+
+## Questionable research practices
+
+------------------------------------------------------------------------
+
+## Impact 
+
+------------------------------------------------------------------------
+
+## Preregistration 
+
+------------------------------------------------------------------------
+
+## Summary of section 1
+
+------------------------------------------------------------------------
+
+## Quiz
 
 ------------------------------------------------------------------------
 
@@ -789,8 +909,8 @@ Time to test your knowledge on preregistration
 **True or false? When describing your design plan you *only* need to
 describe your independent and dependent variables.**
 
--   [ ] True
--   [ ] False
+- [ ] True
+- [ ] False
 
 ::: notes
 *Speaker Notes:*
@@ -806,8 +926,8 @@ only need to describe your independent and dependent variables
 **True or false? When describing your design plan you *only* need to
 describe your independent and dependent variables.**
 
--   [ ] True
--   [x] False
+- [ ] True
+- [x] False
 
 ::: callout-note
 If your study has any covariates, these should be listed too!
@@ -826,8 +946,8 @@ The answer is false, as covariates should be listed too.
 **True or false? Study registration involves stating *how* you will
 handle missing data**
 
--   [ ] True
--   [ ] False
+- [ ] True
+- [ ] False
 
 ::: notes
 *Speaker Notes:*
@@ -843,8 +963,8 @@ how you will handle missing data
 **True or false? Study registration involves stating *how* you will
 handle missing data**
 
--   [x] True
--   [ ] False
+- [x] True
+- [ ] False
 
 ::: notes
 *Speaker Notes:*
@@ -854,14 +974,14 @@ The answer is true.
 
 ------------------------------------------------------------------------
 
-## Question 3 
+## Question 3
 
 **Which repository has a more *generalist* study registration
 template?**
 
--   [ ] A. PROSPERO
--   [ ] B. OSF
--   [ ] C. Bio-protocol
+- [ ] A. PROSPERO
+- [ ] B. OSF
+- [ ] C. Bio-protocol
 
 ::: notes
 *Speaker Notes:*
@@ -880,16 +1000,16 @@ A. PROSPERO B. Open Science Framework (OSF) C. Bio-protocol
 **Which repository has a more *generalist* Study registration
 template?**
 
--   [ ] A. PROSPERO
--   [x] B. Open Science Framework (OSF)
--   [ ] C. Bio-protocol
+- [ ] A. PROSPERO
+- [x] B. Open Science Framework (OSF)
+- [ ] C. Bio-protocol
 
 ::: callout-note
 OSF contains multiple templates for different study types including for
 qualitative, quantitative and systematic review studies, which can be
 adapted. See OSF help page
 [here](https://help.osf.io/article/330-welcome-to-registrations#Select-a-Registration-Template-1g4YO).
-::: 
+:::
 
 ::: notes
 *Speaker Notes:*
@@ -908,10 +1028,10 @@ breaks down the different templates with example use cases.
 
 **Registered reports have two peer review stages that occur:**
 
--   [ ] A. *After* developing an idea and *after* writing up study
-    findings
--   [ ] B. *After* study plan and *after* collecting and analyzing data
--   [ ] C. *After* study plan and *after* writing up study findings
+- [ ] A. *After* developing an idea and *after* writing up study
+  findings
+- [ ] B. *After* study plan and *after* collecting and analyzing data
+- [ ] C. *After* study plan and *after* writing up study findings
 
 ::: notes
 *Speaker Notes:*
@@ -930,10 +1050,10 @@ study plan and *after* writing up study findings
 
 **Registered reports have two peer review stages that occur:**
 
--   [ ] A. *After* developing an idea and *after* writing up study
-    findings
--   [ ] B. *After* study plan and *after* collecting and analyzing data
--   [x] C. *After* study plan and *after* writing up study findings
+- [ ] A. *After* developing an idea and *after* writing up study
+  findings
+- [ ] B. *After* study plan and *after* collecting and analyzing data
+- [x] C. *After* study plan and *after* writing up study findings
 
 ::: notes
 *Speaker Notes:*
@@ -941,7 +1061,6 @@ study plan and *after* writing up study findings
 The answer is C to when peer review occurs in registered reports
 (*after* study plan and *after* writing up study findings)
 :::
-
 
 ------------------------------------------------------------------------
 
