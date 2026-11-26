@@ -16,6 +16,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: https://www.osc.lmu.de/training/educator-toolkit.html
+        text: Educator Toolkit
     tools:
       - icon: github
         menu:
