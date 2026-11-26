@@ -4,7 +4,7 @@ project:
 repo-url: https://github.com/lmu-osc/teaching-material-for-novices
 
 website:
-  title: "Educational resources for teaching Open Research to novices"
+  title: "Open Research for Novices"
   page-footer:
     border: false
     center: © 2026 Sarah von Grebmer zu Wolfsthurn, Sara Middleton, Malika Ihle, Felix Schönbrodt. Published by LMU Open Science Center. Licensed under CC BY-SA 4.0.
